@@ -1,0 +1,6 @@
+framework module Pods_TaskPayBackApp_TaskPayBackAppUITests {
+  umbrella header "Pods-TaskPayBackApp-TaskPayBackAppUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

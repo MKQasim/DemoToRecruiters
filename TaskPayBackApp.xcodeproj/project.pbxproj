@@ -1,0 +1,2120 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2B7DE7ACE5373F9B9A8F2CD3 /* Pods_TaskPayBackApp_TaskPayBackAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB6213BEAFDC9EB92B31692E /* Pods_TaskPayBackApp_TaskPayBackAppUITests.framework */; };
+		5D745CF82983DDFD00B85B23 /* TransactionPostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D745CF62983DDFD00B85B23 /* TransactionPostCell.swift */; };
+		5D745CF92983DDFD00B85B23 /* TransactionPostCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D745CF72983DDFD00B85B23 /* TransactionPostCell.xib */; };
+		5D9A53A82982D8FF000495C8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9A53A72982D8FF000495C8 /* AppDelegate.swift */; };
+		5D9A53AA2982D8FF000495C8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9A53A92982D8FF000495C8 /* SceneDelegate.swift */; };
+		5D9A53B12982D901000495C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D9A53B02982D901000495C8 /* Assets.xcassets */; };
+		5D9A53B42982D901000495C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D9A53B22982D901000495C8 /* LaunchScreen.storyboard */; };
+		5D9A53BF2982D901000495C8 /* TaskPayBackAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9A53BE2982D901000495C8 /* TaskPayBackAppTests.swift */; };
+		5D9A53C92982D901000495C8 /* TaskPayBackAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9A53C82982D901000495C8 /* TaskPayBackAppUITests.swift */; };
+		5D9A53CB2982D901000495C8 /* TaskPayBackAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9A53CA2982D901000495C8 /* TaskPayBackAppUITestsLaunchTests.swift */; };
+		5D9A53F82982DFDB000495C8 /* AppConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9A53F72982DFDB000495C8 /* AppConfig.swift */; };
+		5D9A53FF29830315000495C8 /* AppSuperVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9A53FD29830315000495C8 /* AppSuperVC.swift */; };
+		5D9A542429830896000495C8 /* TransactionListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9A541E29830896000495C8 /* TransactionListPresenter.swift */; };
+		5D9A542529830896000495C8 /* TransactionListWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9A541F29830896000495C8 /* TransactionListWorker.swift */; };
+		5D9A542629830896000495C8 /* TransactionListRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9A542029830896000495C8 /* TransactionListRouter.swift */; };
+		5D9A542729830896000495C8 /* TransactionListModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9A542129830896000495C8 /* TransactionListModels.swift */; };
+		5D9A542829830896000495C8 /* TransactionListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9A542229830896000495C8 /* TransactionListVC.swift */; };
+		5D9A542929830896000495C8 /* TransactionListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9A542329830896000495C8 /* TransactionListInteractor.swift */; };
+		5D9A542E29830A47000495C8 /* TransactionListViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9A542A29830A47000495C8 /* TransactionListViewControllerTests.swift */; };
+		5D9A542F29830A47000495C8 /* TransactionListInteractorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9A542B29830A47000495C8 /* TransactionListInteractorTests.swift */; };
+		5D9A543029830A47000495C8 /* TransactionListWorkerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9A542C29830A47000495C8 /* TransactionListWorkerTests.swift */; };
+		5D9A543129830A47000495C8 /* TransactionListPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9A542D29830A47000495C8 /* TransactionListPresenterTests.swift */; };
+		5D9A543329830E3B000495C8 /* AppTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9A543229830E3B000495C8 /* AppTheme.swift */; };
+		5D9A5435298310F7000495C8 /* AppColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9A5434298310F7000495C8 /* AppColor.swift */; };
+		5D9A543829831581000495C8 /* UIExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9A543729831581000495C8 /* UIExtensions.swift */; };
+		5D9A543C29832411000495C8 /* TransactionListVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D9A543A29832411000495C8 /* TransactionListVC.xib */; };
+		5D9A544029832528000495C8 /* NavBar.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D9A543E29832528000495C8 /* NavBar.xib */; };
+		5D9A544129832528000495C8 /* NavBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9A543F29832528000495C8 /* NavBar.swift */; };
+		5D9A544329832E03000495C8 /* ImageFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9A544229832E03000495C8 /* ImageFactory.swift */; };
+		5D9A544929835E10000495C8 /* PBTransactions.json in Resources */ = {isa = PBXBuildFile; fileRef = 5D9A544829835E10000495C8 /* PBTransactions.json */; };
+		5D9A544C29836083000495C8 /* TransactionsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9A544B29836082000495C8 /* TransactionsList.swift */; };
+		5D9A544E298360D2000495C8 /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9A544D298360D2000495C8 /* Transaction.swift */; };
+		5D9A545029836178000495C8 /* Alias.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9A544F29836178000495C8 /* Alias.swift */; };
+		5D9A54522983619F000495C8 /* TransactionDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9A54512983619F000495C8 /* TransactionDetails.swift */; };
+		5D9A545629836228000495C8 /* Value.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9A545529836228000495C8 /* Value.swift */; };
+		5D9A545929837190000495C8 /* TransactionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9A545829837190000495C8 /* TransactionService.swift */; };
+		5D9A54632983978D000495C8 /* TransactionServicesHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9A54622983978D000495C8 /* TransactionServicesHandler.swift */; };
+		5D9A54682983A21C000495C8 /* TransactionBusiness.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9A54672983A21C000495C8 /* TransactionBusiness.swift */; };
+		5DF4ABF32983E90000B58896 /* TypeAlias.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF4ABF22983E90000B58896 /* TypeAlias.swift */; };
+		5DF4ABF52983F47D00B58896 /* TableViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF4ABF42983F47D00B58896 /* TableViewExtension.swift */; };
+		5DF4ABF72983F4D000B58896 /* NibExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF4ABF62983F4D000B58896 /* NibExtension.swift */; };
+		9675CCB8B8CBAC81EF6A2CF9 /* Pods_TaskPayBackApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43AAB1BBB9114F88133FC7D2 /* Pods_TaskPayBackApp.framework */; };
+		D51E3EB22070947CC36E7D7D /* Pods_TaskPayBackAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF8EF181E7B50D6208CACB0E /* Pods_TaskPayBackAppTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5D9A53BB2982D901000495C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5D9A539C2982D8FF000495C8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5D9A53A32982D8FF000495C8;
+			remoteInfo = TaskPayBackApp;
+		};
+		5D9A53C52982D901000495C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5D9A539C2982D8FF000495C8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5D9A53A32982D8FF000495C8;
+			remoteInfo = TaskPayBackApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00BB583C1627152D4FCE0714 /* Pods-TaskPayBackApp.debugqa.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaskPayBackApp.debugqa.xcconfig"; path = "Target Support Files/Pods-TaskPayBackApp/Pods-TaskPayBackApp.debugqa.xcconfig"; sourceTree = "<group>"; };
+		0134F08A04042792B8DC2ACF /* Pods-TaskPayBackAppTests.debugprod.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaskPayBackAppTests.debugprod.xcconfig"; path = "Target Support Files/Pods-TaskPayBackAppTests/Pods-TaskPayBackAppTests.debugprod.xcconfig"; sourceTree = "<group>"; };
+		01E62A4EC1E534FBEC4BC0ED /* Pods-TaskPayBackAppTests.debugqa.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaskPayBackAppTests.debugqa.xcconfig"; path = "Target Support Files/Pods-TaskPayBackAppTests/Pods-TaskPayBackAppTests.debugqa.xcconfig"; sourceTree = "<group>"; };
+		0C64C677D24D9376A7C79110 /* Pods-TaskPayBackApp.releaseprod.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaskPayBackApp.releaseprod.xcconfig"; path = "Target Support Files/Pods-TaskPayBackApp/Pods-TaskPayBackApp.releaseprod.xcconfig"; sourceTree = "<group>"; };
+		13F3D110C4BAFF31E0B7655C /* Pods-TaskPayBackAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaskPayBackAppTests.debug.xcconfig"; path = "Target Support Files/Pods-TaskPayBackAppTests/Pods-TaskPayBackAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		199901EFB19CDA5F320CD598 /* Pods-TaskPayBackApp-TaskPayBackAppUITests.releaseqa.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaskPayBackApp-TaskPayBackAppUITests.releaseqa.xcconfig"; path = "Target Support Files/Pods-TaskPayBackApp-TaskPayBackAppUITests/Pods-TaskPayBackApp-TaskPayBackAppUITests.releaseqa.xcconfig"; sourceTree = "<group>"; };
+		231316B1C6DBDFD74EFD8C2F /* Pods-TaskPayBackAppTests.debugdev.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaskPayBackAppTests.debugdev.xcconfig"; path = "Target Support Files/Pods-TaskPayBackAppTests/Pods-TaskPayBackAppTests.debugdev.xcconfig"; sourceTree = "<group>"; };
+		35351C25636AEB9B37BC431D /* Pods-TaskPayBackApp-TaskPayBackAppUITests.debugqa.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaskPayBackApp-TaskPayBackAppUITests.debugqa.xcconfig"; path = "Target Support Files/Pods-TaskPayBackApp-TaskPayBackAppUITests/Pods-TaskPayBackApp-TaskPayBackAppUITests.debugqa.xcconfig"; sourceTree = "<group>"; };
+		36187EB44E2A7E7CCE1FCFF0 /* Pods-TaskPayBackApp-TaskPayBackAppUITests.releasestaging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaskPayBackApp-TaskPayBackAppUITests.releasestaging.xcconfig"; path = "Target Support Files/Pods-TaskPayBackApp-TaskPayBackAppUITests/Pods-TaskPayBackApp-TaskPayBackAppUITests.releasestaging.xcconfig"; sourceTree = "<group>"; };
+		38E966F16336440C98D4F0C7 /* Pods-TaskPayBackAppTests.debugstaging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaskPayBackAppTests.debugstaging.xcconfig"; path = "Target Support Files/Pods-TaskPayBackAppTests/Pods-TaskPayBackAppTests.debugstaging.xcconfig"; sourceTree = "<group>"; };
+		406D7A1499E5C9DA00EC6F04 /* Pods-TaskPayBackApp.releasedev.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaskPayBackApp.releasedev.xcconfig"; path = "Target Support Files/Pods-TaskPayBackApp/Pods-TaskPayBackApp.releasedev.xcconfig"; sourceTree = "<group>"; };
+		43AAB1BBB9114F88133FC7D2 /* Pods_TaskPayBackApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TaskPayBackApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		43F2AE79309CCC3F6691B832 /* Pods-TaskPayBackAppTests.releaseprod.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaskPayBackAppTests.releaseprod.xcconfig"; path = "Target Support Files/Pods-TaskPayBackAppTests/Pods-TaskPayBackAppTests.releaseprod.xcconfig"; sourceTree = "<group>"; };
+		55A435718CBCC7FDE90A1360 /* Pods-TaskPayBackAppTests.releasedev.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaskPayBackAppTests.releasedev.xcconfig"; path = "Target Support Files/Pods-TaskPayBackAppTests/Pods-TaskPayBackAppTests.releasedev.xcconfig"; sourceTree = "<group>"; };
+		58A2C66FFA837A868EF7D5B6 /* Pods-TaskPayBackAppTests.releaseqa.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaskPayBackAppTests.releaseqa.xcconfig"; path = "Target Support Files/Pods-TaskPayBackAppTests/Pods-TaskPayBackAppTests.releaseqa.xcconfig"; sourceTree = "<group>"; };
+		5D745CF62983DDFD00B85B23 /* TransactionPostCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransactionPostCell.swift; sourceTree = "<group>"; };
+		5D745CF72983DDFD00B85B23 /* TransactionPostCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TransactionPostCell.xib; sourceTree = "<group>"; };
+		5D9A53A42982D8FF000495C8 /* TaskPayBackApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaskPayBackApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D9A53A72982D8FF000495C8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5D9A53A92982D8FF000495C8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		5D9A53B02982D901000495C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5D9A53B32982D901000495C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5D9A53B52982D901000495C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D9A53BA2982D901000495C8 /* TaskPayBackAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaskPayBackAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D9A53BE2982D901000495C8 /* TaskPayBackAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskPayBackAppTests.swift; sourceTree = "<group>"; };
+		5D9A53C42982D901000495C8 /* TaskPayBackAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaskPayBackAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D9A53C82982D901000495C8 /* TaskPayBackAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskPayBackAppUITests.swift; sourceTree = "<group>"; };
+		5D9A53CA2982D901000495C8 /* TaskPayBackAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskPayBackAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5D9A53F72982DFDB000495C8 /* AppConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConfig.swift; sourceTree = "<group>"; };
+		5D9A53FD29830315000495C8 /* AppSuperVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSuperVC.swift; sourceTree = "<group>"; };
+		5D9A541E29830896000495C8 /* TransactionListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionListPresenter.swift; sourceTree = "<group>"; };
+		5D9A541F29830896000495C8 /* TransactionListWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionListWorker.swift; sourceTree = "<group>"; };
+		5D9A542029830896000495C8 /* TransactionListRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionListRouter.swift; sourceTree = "<group>"; };
+		5D9A542129830896000495C8 /* TransactionListModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionListModels.swift; sourceTree = "<group>"; };
+		5D9A542229830896000495C8 /* TransactionListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionListVC.swift; sourceTree = "<group>"; };
+		5D9A542329830896000495C8 /* TransactionListInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionListInteractor.swift; sourceTree = "<group>"; };
+		5D9A542A29830A47000495C8 /* TransactionListViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionListViewControllerTests.swift; sourceTree = "<group>"; };
+		5D9A542B29830A47000495C8 /* TransactionListInteractorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionListInteractorTests.swift; sourceTree = "<group>"; };
+		5D9A542C29830A47000495C8 /* TransactionListWorkerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionListWorkerTests.swift; sourceTree = "<group>"; };
+		5D9A542D29830A47000495C8 /* TransactionListPresenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionListPresenterTests.swift; sourceTree = "<group>"; };
+		5D9A543229830E3B000495C8 /* AppTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTheme.swift; sourceTree = "<group>"; };
+		5D9A5434298310F7000495C8 /* AppColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColor.swift; sourceTree = "<group>"; };
+		5D9A543729831581000495C8 /* UIExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIExtensions.swift; sourceTree = "<group>"; };
+		5D9A543A29832411000495C8 /* TransactionListVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TransactionListVC.xib; sourceTree = "<group>"; };
+		5D9A543E29832528000495C8 /* NavBar.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NavBar.xib; sourceTree = "<group>"; };
+		5D9A543F29832528000495C8 /* NavBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavBar.swift; sourceTree = "<group>"; };
+		5D9A544229832E03000495C8 /* ImageFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageFactory.swift; sourceTree = "<group>"; };
+		5D9A544829835E10000495C8 /* PBTransactions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = PBTransactions.json; sourceTree = "<group>"; };
+		5D9A544B29836082000495C8 /* TransactionsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionsList.swift; sourceTree = "<group>"; };
+		5D9A544D298360D2000495C8 /* Transaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
+		5D9A544F29836178000495C8 /* Alias.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alias.swift; sourceTree = "<group>"; };
+		5D9A54512983619F000495C8 /* TransactionDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionDetails.swift; sourceTree = "<group>"; };
+		5D9A545529836228000495C8 /* Value.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Value.swift; sourceTree = "<group>"; };
+		5D9A545829837190000495C8 /* TransactionService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionService.swift; sourceTree = "<group>"; };
+		5D9A54622983978D000495C8 /* TransactionServicesHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionServicesHandler.swift; sourceTree = "<group>"; };
+		5D9A54672983A21C000495C8 /* TransactionBusiness.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionBusiness.swift; sourceTree = "<group>"; };
+		5DF4ABF22983E90000B58896 /* TypeAlias.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeAlias.swift; sourceTree = "<group>"; };
+		5DF4ABF42983F47D00B58896 /* TableViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewExtension.swift; sourceTree = "<group>"; };
+		5DF4ABF62983F4D000B58896 /* NibExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NibExtension.swift; sourceTree = "<group>"; };
+		669D8E95864F0C8E643767E2 /* Pods-TaskPayBackAppTests.releasestaging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaskPayBackAppTests.releasestaging.xcconfig"; path = "Target Support Files/Pods-TaskPayBackAppTests/Pods-TaskPayBackAppTests.releasestaging.xcconfig"; sourceTree = "<group>"; };
+		6AEF2E395F94E83DD4D77FEC /* Pods-TaskPayBackApp.releasestaging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaskPayBackApp.releasestaging.xcconfig"; path = "Target Support Files/Pods-TaskPayBackApp/Pods-TaskPayBackApp.releasestaging.xcconfig"; sourceTree = "<group>"; };
+		726BEB194D4500BF3192C61F /* Pods-TaskPayBackApp-TaskPayBackAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaskPayBackApp-TaskPayBackAppUITests.release.xcconfig"; path = "Target Support Files/Pods-TaskPayBackApp-TaskPayBackAppUITests/Pods-TaskPayBackApp-TaskPayBackAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		855CEA5C1382C76F14801939 /* Pods-TaskPayBackApp.debugprod.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaskPayBackApp.debugprod.xcconfig"; path = "Target Support Files/Pods-TaskPayBackApp/Pods-TaskPayBackApp.debugprod.xcconfig"; sourceTree = "<group>"; };
+		91AE789D452E7DB86C7C4E65 /* Pods-TaskPayBackApp-TaskPayBackAppUITests.releaseprod.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaskPayBackApp-TaskPayBackAppUITests.releaseprod.xcconfig"; path = "Target Support Files/Pods-TaskPayBackApp-TaskPayBackAppUITests/Pods-TaskPayBackApp-TaskPayBackAppUITests.releaseprod.xcconfig"; sourceTree = "<group>"; };
+		958F6DC4912A9596EEAF9696 /* Pods-TaskPayBackApp-TaskPayBackAppUITests.releasedev.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaskPayBackApp-TaskPayBackAppUITests.releasedev.xcconfig"; path = "Target Support Files/Pods-TaskPayBackApp-TaskPayBackAppUITests/Pods-TaskPayBackApp-TaskPayBackAppUITests.releasedev.xcconfig"; sourceTree = "<group>"; };
+		A0E74FF9AAE4F3CFC36908F9 /* Pods-TaskPayBackApp.releaseqa.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaskPayBackApp.releaseqa.xcconfig"; path = "Target Support Files/Pods-TaskPayBackApp/Pods-TaskPayBackApp.releaseqa.xcconfig"; sourceTree = "<group>"; };
+		A80F8EE11D109DA0DC474E6C /* Pods-TaskPayBackApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaskPayBackApp.release.xcconfig"; path = "Target Support Files/Pods-TaskPayBackApp/Pods-TaskPayBackApp.release.xcconfig"; sourceTree = "<group>"; };
+		B8F1FD16E0B759636803FA51 /* Pods-TaskPayBackApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaskPayBackApp.debug.xcconfig"; path = "Target Support Files/Pods-TaskPayBackApp/Pods-TaskPayBackApp.debug.xcconfig"; sourceTree = "<group>"; };
+		BF7741F5C9C8B4F35197F41B /* Pods-TaskPayBackAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaskPayBackAppTests.release.xcconfig"; path = "Target Support Files/Pods-TaskPayBackAppTests/Pods-TaskPayBackAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		BF8EF181E7B50D6208CACB0E /* Pods_TaskPayBackAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TaskPayBackAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2C5C2C62D20D8E82B7B936C /* Pods-TaskPayBackApp.debugdev.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaskPayBackApp.debugdev.xcconfig"; path = "Target Support Files/Pods-TaskPayBackApp/Pods-TaskPayBackApp.debugdev.xcconfig"; sourceTree = "<group>"; };
+		E31D24F9FA5DEDFD5973B141 /* Pods-TaskPayBackApp-TaskPayBackAppUITests.debugdev.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaskPayBackApp-TaskPayBackAppUITests.debugdev.xcconfig"; path = "Target Support Files/Pods-TaskPayBackApp-TaskPayBackAppUITests/Pods-TaskPayBackApp-TaskPayBackAppUITests.debugdev.xcconfig"; sourceTree = "<group>"; };
+		E6F08E4EA2ACC68A06E35AFA /* Pods-TaskPayBackApp-TaskPayBackAppUITests.debugstaging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaskPayBackApp-TaskPayBackAppUITests.debugstaging.xcconfig"; path = "Target Support Files/Pods-TaskPayBackApp-TaskPayBackAppUITests/Pods-TaskPayBackApp-TaskPayBackAppUITests.debugstaging.xcconfig"; sourceTree = "<group>"; };
+		E9A9E40EBB280B1EA1F41511 /* Pods-TaskPayBackApp-TaskPayBackAppUITests.debugprod.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaskPayBackApp-TaskPayBackAppUITests.debugprod.xcconfig"; path = "Target Support Files/Pods-TaskPayBackApp-TaskPayBackAppUITests/Pods-TaskPayBackApp-TaskPayBackAppUITests.debugprod.xcconfig"; sourceTree = "<group>"; };
+		EBD55075542A08031599A70A /* Pods-TaskPayBackApp-TaskPayBackAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaskPayBackApp-TaskPayBackAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-TaskPayBackApp-TaskPayBackAppUITests/Pods-TaskPayBackApp-TaskPayBackAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		ECC0DB1D2B0CB6D8B8643411 /* Pods-TaskPayBackApp.debugstaging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaskPayBackApp.debugstaging.xcconfig"; path = "Target Support Files/Pods-TaskPayBackApp/Pods-TaskPayBackApp.debugstaging.xcconfig"; sourceTree = "<group>"; };
+		FB6213BEAFDC9EB92B31692E /* Pods_TaskPayBackApp_TaskPayBackAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TaskPayBackApp_TaskPayBackAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5D9A53A12982D8FF000495C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9675CCB8B8CBAC81EF6A2CF9 /* Pods_TaskPayBackApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D9A53B72982D901000495C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D51E3EB22070947CC36E7D7D /* Pods_TaskPayBackAppTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D9A53C12982D901000495C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B7DE7ACE5373F9B9A8F2CD3 /* Pods_TaskPayBackApp_TaskPayBackAppUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		092A66D4BACE2E568C8D44E8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				43AAB1BBB9114F88133FC7D2 /* Pods_TaskPayBackApp.framework */,
+				FB6213BEAFDC9EB92B31692E /* Pods_TaskPayBackApp_TaskPayBackAppUITests.framework */,
+				BF8EF181E7B50D6208CACB0E /* Pods_TaskPayBackAppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		36605122F7F1F3BB41734BDA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B8F1FD16E0B759636803FA51 /* Pods-TaskPayBackApp.debug.xcconfig */,
+				D2C5C2C62D20D8E82B7B936C /* Pods-TaskPayBackApp.debugdev.xcconfig */,
+				855CEA5C1382C76F14801939 /* Pods-TaskPayBackApp.debugprod.xcconfig */,
+				ECC0DB1D2B0CB6D8B8643411 /* Pods-TaskPayBackApp.debugstaging.xcconfig */,
+				00BB583C1627152D4FCE0714 /* Pods-TaskPayBackApp.debugqa.xcconfig */,
+				A80F8EE11D109DA0DC474E6C /* Pods-TaskPayBackApp.release.xcconfig */,
+				406D7A1499E5C9DA00EC6F04 /* Pods-TaskPayBackApp.releasedev.xcconfig */,
+				0C64C677D24D9376A7C79110 /* Pods-TaskPayBackApp.releaseprod.xcconfig */,
+				6AEF2E395F94E83DD4D77FEC /* Pods-TaskPayBackApp.releasestaging.xcconfig */,
+				A0E74FF9AAE4F3CFC36908F9 /* Pods-TaskPayBackApp.releaseqa.xcconfig */,
+				EBD55075542A08031599A70A /* Pods-TaskPayBackApp-TaskPayBackAppUITests.debug.xcconfig */,
+				E31D24F9FA5DEDFD5973B141 /* Pods-TaskPayBackApp-TaskPayBackAppUITests.debugdev.xcconfig */,
+				E9A9E40EBB280B1EA1F41511 /* Pods-TaskPayBackApp-TaskPayBackAppUITests.debugprod.xcconfig */,
+				E6F08E4EA2ACC68A06E35AFA /* Pods-TaskPayBackApp-TaskPayBackAppUITests.debugstaging.xcconfig */,
+				35351C25636AEB9B37BC431D /* Pods-TaskPayBackApp-TaskPayBackAppUITests.debugqa.xcconfig */,
+				726BEB194D4500BF3192C61F /* Pods-TaskPayBackApp-TaskPayBackAppUITests.release.xcconfig */,
+				958F6DC4912A9596EEAF9696 /* Pods-TaskPayBackApp-TaskPayBackAppUITests.releasedev.xcconfig */,
+				91AE789D452E7DB86C7C4E65 /* Pods-TaskPayBackApp-TaskPayBackAppUITests.releaseprod.xcconfig */,
+				36187EB44E2A7E7CCE1FCFF0 /* Pods-TaskPayBackApp-TaskPayBackAppUITests.releasestaging.xcconfig */,
+				199901EFB19CDA5F320CD598 /* Pods-TaskPayBackApp-TaskPayBackAppUITests.releaseqa.xcconfig */,
+				13F3D110C4BAFF31E0B7655C /* Pods-TaskPayBackAppTests.debug.xcconfig */,
+				231316B1C6DBDFD74EFD8C2F /* Pods-TaskPayBackAppTests.debugdev.xcconfig */,
+				0134F08A04042792B8DC2ACF /* Pods-TaskPayBackAppTests.debugprod.xcconfig */,
+				38E966F16336440C98D4F0C7 /* Pods-TaskPayBackAppTests.debugstaging.xcconfig */,
+				01E62A4EC1E534FBEC4BC0ED /* Pods-TaskPayBackAppTests.debugqa.xcconfig */,
+				BF7741F5C9C8B4F35197F41B /* Pods-TaskPayBackAppTests.release.xcconfig */,
+				55A435718CBCC7FDE90A1360 /* Pods-TaskPayBackAppTests.releasedev.xcconfig */,
+				43F2AE79309CCC3F6691B832 /* Pods-TaskPayBackAppTests.releaseprod.xcconfig */,
+				669D8E95864F0C8E643767E2 /* Pods-TaskPayBackAppTests.releasestaging.xcconfig */,
+				58A2C66FFA837A868EF7D5B6 /* Pods-TaskPayBackAppTests.releaseqa.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		5D745CF52983DDFD00B85B23 /* TransactionCell */ = {
+			isa = PBXGroup;
+			children = (
+				5D745CF62983DDFD00B85B23 /* TransactionPostCell.swift */,
+				5D745CF72983DDFD00B85B23 /* TransactionPostCell.xib */,
+			);
+			path = TransactionCell;
+			sourceTree = "<group>";
+		};
+		5D9A539B2982D8FF000495C8 = {
+			isa = PBXGroup;
+			children = (
+				5D9A53A62982D8FF000495C8 /* TaskPayBackApp */,
+				5D9A53BD2982D901000495C8 /* TaskPayBackAppTests */,
+				5D9A53C72982D901000495C8 /* TaskPayBackAppUITests */,
+				5D9A53A52982D8FF000495C8 /* Products */,
+				36605122F7F1F3BB41734BDA /* Pods */,
+				092A66D4BACE2E568C8D44E8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5D9A53A52982D8FF000495C8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5D9A53A42982D8FF000495C8 /* TaskPayBackApp.app */,
+				5D9A53BA2982D901000495C8 /* TaskPayBackAppTests.xctest */,
+				5D9A53C42982D901000495C8 /* TaskPayBackAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5D9A53A62982D8FF000495C8 /* TaskPayBackApp */ = {
+			isa = PBXGroup;
+			children = (
+				5D9A54662983A1F9000495C8 /* AppBusiness */,
+				5D9A545729837179000495C8 /* AppServices */,
+				5D9A544A29836065000495C8 /* AppModels */,
+				5D9A540529830546000495C8 /* Modules */,
+				5D9A5403298303DE000495C8 /* AppCommon */,
+				5D9A5402298303BB000495C8 /* Assets */,
+				5D9A54012983039B000495C8 /* SupportingFiles */,
+				5D9A53B22982D901000495C8 /* LaunchScreen.storyboard */,
+				5D9A53B52982D901000495C8 /* Info.plist */,
+			);
+			path = TaskPayBackApp;
+			sourceTree = "<group>";
+		};
+		5D9A53BD2982D901000495C8 /* TaskPayBackAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				5D9A5415298307D6000495C8 /* TransectionsListVCTest */,
+				5D9A53BE2982D901000495C8 /* TaskPayBackAppTests.swift */,
+			);
+			path = TaskPayBackAppTests;
+			sourceTree = "<group>";
+		};
+		5D9A53C72982D901000495C8 /* TaskPayBackAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5D9A53C82982D901000495C8 /* TaskPayBackAppUITests.swift */,
+				5D9A53CA2982D901000495C8 /* TaskPayBackAppUITestsLaunchTests.swift */,
+			);
+			path = TaskPayBackAppUITests;
+			sourceTree = "<group>";
+		};
+		5D9A54012983039B000495C8 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				5D9A544829835E10000495C8 /* PBTransactions.json */,
+				5D9A53A72982D8FF000495C8 /* AppDelegate.swift */,
+				5D9A53A92982D8FF000495C8 /* SceneDelegate.swift */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		5D9A5402298303BB000495C8 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				5D9A53B02982D901000495C8 /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		5D9A5403298303DE000495C8 /* AppCommon */ = {
+			isa = PBXGroup;
+			children = (
+				5D9A543D298324DF000495C8 /* NavBar */,
+				5D9A54362983154F000495C8 /* Extensions */,
+				5D9A544429835275000495C8 /* AppConfig */,
+				5D9A544529835286000495C8 /* AppTheme */,
+				5D9A54462983528E000495C8 /* AppColor */,
+				5D9A5447298352A0000495C8 /* ImageFactory */,
+				5DF4ABF22983E90000B58896 /* TypeAlias.swift */,
+			);
+			path = AppCommon;
+			sourceTree = "<group>";
+		};
+		5D9A5404298303F6000495C8 /* AppSuperVC */ = {
+			isa = PBXGroup;
+			children = (
+				5D9A53FD29830315000495C8 /* AppSuperVC.swift */,
+			);
+			path = AppSuperVC;
+			sourceTree = "<group>";
+		};
+		5D9A540529830546000495C8 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				5D745CF52983DDFD00B85B23 /* TransactionCell */,
+				5D9A5404298303F6000495C8 /* AppSuperVC */,
+				5D9A540629830560000495C8 /* TransactionList */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		5D9A540629830560000495C8 /* TransactionList */ = {
+			isa = PBXGroup;
+			children = (
+				5D9A541E29830896000495C8 /* TransactionListPresenter.swift */,
+				5D9A541F29830896000495C8 /* TransactionListWorker.swift */,
+				5D9A542029830896000495C8 /* TransactionListRouter.swift */,
+				5D9A542129830896000495C8 /* TransactionListModels.swift */,
+				5D9A542229830896000495C8 /* TransactionListVC.swift */,
+				5D9A542329830896000495C8 /* TransactionListInteractor.swift */,
+				5D9A543A29832411000495C8 /* TransactionListVC.xib */,
+			);
+			path = TransactionList;
+			sourceTree = "<group>";
+		};
+		5D9A5415298307D6000495C8 /* TransectionsListVCTest */ = {
+			isa = PBXGroup;
+			children = (
+				5D9A542A29830A47000495C8 /* TransactionListViewControllerTests.swift */,
+				5D9A542B29830A47000495C8 /* TransactionListInteractorTests.swift */,
+				5D9A542C29830A47000495C8 /* TransactionListWorkerTests.swift */,
+				5D9A542D29830A47000495C8 /* TransactionListPresenterTests.swift */,
+			);
+			path = TransectionsListVCTest;
+			sourceTree = "<group>";
+		};
+		5D9A54362983154F000495C8 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				5D9A543729831581000495C8 /* UIExtensions.swift */,
+				5DF4ABF42983F47D00B58896 /* TableViewExtension.swift */,
+				5DF4ABF62983F4D000B58896 /* NibExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		5D9A543D298324DF000495C8 /* NavBar */ = {
+			isa = PBXGroup;
+			children = (
+				5D9A543F29832528000495C8 /* NavBar.swift */,
+				5D9A543E29832528000495C8 /* NavBar.xib */,
+			);
+			path = NavBar;
+			sourceTree = "<group>";
+		};
+		5D9A544429835275000495C8 /* AppConfig */ = {
+			isa = PBXGroup;
+			children = (
+				5D9A53F72982DFDB000495C8 /* AppConfig.swift */,
+			);
+			path = AppConfig;
+			sourceTree = "<group>";
+		};
+		5D9A544529835286000495C8 /* AppTheme */ = {
+			isa = PBXGroup;
+			children = (
+				5D9A543229830E3B000495C8 /* AppTheme.swift */,
+			);
+			path = AppTheme;
+			sourceTree = "<group>";
+		};
+		5D9A54462983528E000495C8 /* AppColor */ = {
+			isa = PBXGroup;
+			children = (
+				5D9A5434298310F7000495C8 /* AppColor.swift */,
+			);
+			path = AppColor;
+			sourceTree = "<group>";
+		};
+		5D9A5447298352A0000495C8 /* ImageFactory */ = {
+			isa = PBXGroup;
+			children = (
+				5D9A544229832E03000495C8 /* ImageFactory.swift */,
+			);
+			path = ImageFactory;
+			sourceTree = "<group>";
+		};
+		5D9A544A29836065000495C8 /* AppModels */ = {
+			isa = PBXGroup;
+			children = (
+				5D9A544B29836082000495C8 /* TransactionsList.swift */,
+				5D9A544D298360D2000495C8 /* Transaction.swift */,
+				5D9A544F29836178000495C8 /* Alias.swift */,
+				5D9A54512983619F000495C8 /* TransactionDetails.swift */,
+				5D9A545529836228000495C8 /* Value.swift */,
+			);
+			path = AppModels;
+			sourceTree = "<group>";
+		};
+		5D9A545729837179000495C8 /* AppServices */ = {
+			isa = PBXGroup;
+			children = (
+				5D9A54652983A1D8000495C8 /* TransactionServiceHandler */,
+				5D9A54642983A1C5000495C8 /* TransactionService */,
+			);
+			path = AppServices;
+			sourceTree = "<group>";
+		};
+		5D9A54642983A1C5000495C8 /* TransactionService */ = {
+			isa = PBXGroup;
+			children = (
+				5D9A545829837190000495C8 /* TransactionService.swift */,
+			);
+			path = TransactionService;
+			sourceTree = "<group>";
+		};
+		5D9A54652983A1D8000495C8 /* TransactionServiceHandler */ = {
+			isa = PBXGroup;
+			children = (
+				5D9A54622983978D000495C8 /* TransactionServicesHandler.swift */,
+			);
+			path = TransactionServiceHandler;
+			sourceTree = "<group>";
+		};
+		5D9A54662983A1F9000495C8 /* AppBusiness */ = {
+			isa = PBXGroup;
+			children = (
+				5D9A54672983A21C000495C8 /* TransactionBusiness.swift */,
+			);
+			path = AppBusiness;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5D9A53A32982D8FF000495C8 /* TaskPayBackApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D9A53CE2982D901000495C8 /* Build configuration list for PBXNativeTarget "TaskPayBackApp" */;
+			buildPhases = (
+				4B2E43BAD49E6062903C42CC /* [CP] Check Pods Manifest.lock */,
+				5D9A53A02982D8FF000495C8 /* Sources */,
+				5D9A53A12982D8FF000495C8 /* Frameworks */,
+				5D9A53A22982D8FF000495C8 /* Resources */,
+				A79D1A907F4A0B8D5D806544 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TaskPayBackApp;
+			productName = TaskPayBackApp;
+			productReference = 5D9A53A42982D8FF000495C8 /* TaskPayBackApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5D9A53B92982D901000495C8 /* TaskPayBackAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D9A53D12982D901000495C8 /* Build configuration list for PBXNativeTarget "TaskPayBackAppTests" */;
+			buildPhases = (
+				3F64B7EB51B6F7816EFE5135 /* [CP] Check Pods Manifest.lock */,
+				5D9A53B62982D901000495C8 /* Sources */,
+				5D9A53B72982D901000495C8 /* Frameworks */,
+				5D9A53B82982D901000495C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5D9A53BC2982D901000495C8 /* PBXTargetDependency */,
+			);
+			name = TaskPayBackAppTests;
+			productName = TaskPayBackAppTests;
+			productReference = 5D9A53BA2982D901000495C8 /* TaskPayBackAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5D9A53C32982D901000495C8 /* TaskPayBackAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D9A53D42982D901000495C8 /* Build configuration list for PBXNativeTarget "TaskPayBackAppUITests" */;
+			buildPhases = (
+				709320F7B0F67E1033438742 /* [CP] Check Pods Manifest.lock */,
+				5D9A53C02982D901000495C8 /* Sources */,
+				5D9A53C12982D901000495C8 /* Frameworks */,
+				5D9A53C22982D901000495C8 /* Resources */,
+				F60C0D05118D2D2E6FAFC195 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5D9A53C62982D901000495C8 /* PBXTargetDependency */,
+			);
+			name = TaskPayBackAppUITests;
+			productName = TaskPayBackAppUITests;
+			productReference = 5D9A53C42982D901000495C8 /* TaskPayBackAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5D9A539C2982D8FF000495C8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					5D9A53A32982D8FF000495C8 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					5D9A53B92982D901000495C8 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 5D9A53A32982D8FF000495C8;
+					};
+					5D9A53C32982D901000495C8 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 5D9A53A32982D8FF000495C8;
+					};
+				};
+			};
+			buildConfigurationList = 5D9A539F2982D8FF000495C8 /* Build configuration list for PBXProject "TaskPayBackApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5D9A539B2982D8FF000495C8;
+			productRefGroup = 5D9A53A52982D8FF000495C8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5D9A53A32982D8FF000495C8 /* TaskPayBackApp */,
+				5D9A53B92982D901000495C8 /* TaskPayBackAppTests */,
+				5D9A53C32982D901000495C8 /* TaskPayBackAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5D9A53A22982D8FF000495C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D9A544929835E10000495C8 /* PBTransactions.json in Resources */,
+				5D745CF92983DDFD00B85B23 /* TransactionPostCell.xib in Resources */,
+				5D9A53B42982D901000495C8 /* LaunchScreen.storyboard in Resources */,
+				5D9A543C29832411000495C8 /* TransactionListVC.xib in Resources */,
+				5D9A544029832528000495C8 /* NavBar.xib in Resources */,
+				5D9A53B12982D901000495C8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D9A53B82982D901000495C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D9A53C22982D901000495C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3F64B7EB51B6F7816EFE5135 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TaskPayBackAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4B2E43BAD49E6062903C42CC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TaskPayBackApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		709320F7B0F67E1033438742 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TaskPayBackApp-TaskPayBackAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A79D1A907F4A0B8D5D806544 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TaskPayBackApp/Pods-TaskPayBackApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TaskPayBackApp/Pods-TaskPayBackApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TaskPayBackApp/Pods-TaskPayBackApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F60C0D05118D2D2E6FAFC195 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TaskPayBackApp-TaskPayBackAppUITests/Pods-TaskPayBackApp-TaskPayBackAppUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TaskPayBackApp-TaskPayBackAppUITests/Pods-TaskPayBackApp-TaskPayBackAppUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TaskPayBackApp-TaskPayBackAppUITests/Pods-TaskPayBackApp-TaskPayBackAppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5D9A53A02982D8FF000495C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D9A53F82982DFDB000495C8 /* AppConfig.swift in Sources */,
+				5D9A543829831581000495C8 /* UIExtensions.swift in Sources */,
+				5D9A545629836228000495C8 /* Value.swift in Sources */,
+				5D9A54682983A21C000495C8 /* TransactionBusiness.swift in Sources */,
+				5D9A542829830896000495C8 /* TransactionListVC.swift in Sources */,
+				5D9A542629830896000495C8 /* TransactionListRouter.swift in Sources */,
+				5D9A53A82982D8FF000495C8 /* AppDelegate.swift in Sources */,
+				5D9A544129832528000495C8 /* NavBar.swift in Sources */,
+				5D9A54632983978D000495C8 /* TransactionServicesHandler.swift in Sources */,
+				5DF4ABF32983E90000B58896 /* TypeAlias.swift in Sources */,
+				5D9A544C29836083000495C8 /* TransactionsList.swift in Sources */,
+				5D9A542729830896000495C8 /* TransactionListModels.swift in Sources */,
+				5DF4ABF52983F47D00B58896 /* TableViewExtension.swift in Sources */,
+				5D9A545929837190000495C8 /* TransactionService.swift in Sources */,
+				5D9A5435298310F7000495C8 /* AppColor.swift in Sources */,
+				5D9A54522983619F000495C8 /* TransactionDetails.swift in Sources */,
+				5D9A544329832E03000495C8 /* ImageFactory.swift in Sources */,
+				5D9A542529830896000495C8 /* TransactionListWorker.swift in Sources */,
+				5D9A53FF29830315000495C8 /* AppSuperVC.swift in Sources */,
+				5D9A542429830896000495C8 /* TransactionListPresenter.swift in Sources */,
+				5D9A543329830E3B000495C8 /* AppTheme.swift in Sources */,
+				5D9A544E298360D2000495C8 /* Transaction.swift in Sources */,
+				5D9A542929830896000495C8 /* TransactionListInteractor.swift in Sources */,
+				5DF4ABF72983F4D000B58896 /* NibExtension.swift in Sources */,
+				5D9A545029836178000495C8 /* Alias.swift in Sources */,
+				5D9A53AA2982D8FF000495C8 /* SceneDelegate.swift in Sources */,
+				5D745CF82983DDFD00B85B23 /* TransactionPostCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D9A53B62982D901000495C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D9A543129830A47000495C8 /* TransactionListPresenterTests.swift in Sources */,
+				5D9A543029830A47000495C8 /* TransactionListWorkerTests.swift in Sources */,
+				5D9A53BF2982D901000495C8 /* TaskPayBackAppTests.swift in Sources */,
+				5D9A542F29830A47000495C8 /* TransactionListInteractorTests.swift in Sources */,
+				5D9A542E29830A47000495C8 /* TransactionListViewControllerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D9A53C02982D901000495C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D9A53C92982D901000495C8 /* TaskPayBackAppUITests.swift in Sources */,
+				5D9A53CB2982D901000495C8 /* TaskPayBackAppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5D9A53BC2982D901000495C8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5D9A53A32982D8FF000495C8 /* TaskPayBackApp */;
+			targetProxy = 5D9A53BB2982D901000495C8 /* PBXContainerItemProxy */;
+		};
+		5D9A53C62982D901000495C8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5D9A53A32982D8FF000495C8 /* TaskPayBackApp */;
+			targetProxy = 5D9A53C52982D901000495C8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5D9A53B22982D901000495C8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5D9A53B32982D901000495C8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5D9A53CC2982D901000495C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG Local";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5D9A53CD2982D901000495C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = Local;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5D9A53CF2982D901000495C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8F1FD16E0B759636803FA51 /* Pods-TaskPayBackApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CT7H96YF74;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TaskPayBackApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kamsque.TaskPayBackApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5D9A53D02982D901000495C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A80F8EE11D109DA0DC474E6C /* Pods-TaskPayBackApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CT7H96YF74;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TaskPayBackApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kamsque.TaskPayBackApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5D9A53D22982D901000495C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13F3D110C4BAFF31E0B7655C /* Pods-TaskPayBackAppTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K8BTGQVAR5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kamsque.TaskPayBackAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TaskPayBackApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TaskPayBackApp";
+			};
+			name = Debug;
+		};
+		5D9A53D32982D901000495C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF7741F5C9C8B4F35197F41B /* Pods-TaskPayBackAppTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K8BTGQVAR5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kamsque.TaskPayBackAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TaskPayBackApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TaskPayBackApp";
+			};
+			name = Release;
+		};
+		5D9A53D52982D901000495C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EBD55075542A08031599A70A /* Pods-TaskPayBackApp-TaskPayBackAppUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K8BTGQVAR5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kamsque.TaskPayBackAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TaskPayBackApp;
+			};
+			name = Debug;
+		};
+		5D9A53D62982D901000495C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 726BEB194D4500BF3192C61F /* Pods-TaskPayBackApp-TaskPayBackAppUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K8BTGQVAR5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kamsque.TaskPayBackAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TaskPayBackApp;
+			};
+			name = Release;
+		};
+		5D9A53D72982DEFA000495C8 /* DebugQA */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG Qa";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = DebugQA;
+		};
+		5D9A53D82982DEFA000495C8 /* DebugQA */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00BB583C1627152D4FCE0714 /* Pods-TaskPayBackApp.debugqa.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CT7H96YF74;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TaskPayBackApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kamsque.TaskPayBackApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "Debug Qa";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = DebugQA;
+		};
+		5D9A53D92982DEFA000495C8 /* DebugQA */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01E62A4EC1E534FBEC4BC0ED /* Pods-TaskPayBackAppTests.debugqa.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K8BTGQVAR5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kamsque.TaskPayBackAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TaskPayBackApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TaskPayBackApp";
+			};
+			name = DebugQA;
+		};
+		5D9A53DA2982DEFA000495C8 /* DebugQA */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35351C25636AEB9B37BC431D /* Pods-TaskPayBackApp-TaskPayBackAppUITests.debugqa.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K8BTGQVAR5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kamsque.TaskPayBackAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TaskPayBackApp;
+			};
+			name = DebugQA;
+		};
+		5D9A53DB2982DF0E000495C8 /* ReleaseQA */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = Qa;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = ReleaseQA;
+		};
+		5D9A53DC2982DF0E000495C8 /* ReleaseQA */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0E74FF9AAE4F3CFC36908F9 /* Pods-TaskPayBackApp.releaseqa.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CT7H96YF74;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TaskPayBackApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kamsque.TaskPayBackApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = Qa;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = ReleaseQA;
+		};
+		5D9A53DD2982DF0E000495C8 /* ReleaseQA */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58A2C66FFA837A868EF7D5B6 /* Pods-TaskPayBackAppTests.releaseqa.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K8BTGQVAR5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kamsque.TaskPayBackAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TaskPayBackApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TaskPayBackApp";
+			};
+			name = ReleaseQA;
+		};
+		5D9A53DE2982DF0E000495C8 /* ReleaseQA */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 199901EFB19CDA5F320CD598 /* Pods-TaskPayBackApp-TaskPayBackAppUITests.releaseqa.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K8BTGQVAR5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kamsque.TaskPayBackAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TaskPayBackApp;
+			};
+			name = ReleaseQA;
+		};
+		5D9A53DF2982DF2E000495C8 /* DebugStaging */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG Stag";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = DebugStaging;
+		};
+		5D9A53E02982DF2E000495C8 /* DebugStaging */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ECC0DB1D2B0CB6D8B8643411 /* Pods-TaskPayBackApp.debugstaging.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CT7H96YF74;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TaskPayBackApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kamsque.TaskPayBackApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "Debug Staging";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = DebugStaging;
+		};
+		5D9A53E12982DF2E000495C8 /* DebugStaging */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38E966F16336440C98D4F0C7 /* Pods-TaskPayBackAppTests.debugstaging.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K8BTGQVAR5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kamsque.TaskPayBackAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TaskPayBackApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TaskPayBackApp";
+			};
+			name = DebugStaging;
+		};
+		5D9A53E22982DF2E000495C8 /* DebugStaging */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6F08E4EA2ACC68A06E35AFA /* Pods-TaskPayBackApp-TaskPayBackAppUITests.debugstaging.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K8BTGQVAR5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kamsque.TaskPayBackAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TaskPayBackApp;
+			};
+			name = DebugStaging;
+		};
+		5D9A53E32982DF3B000495C8 /* ReleaseStaging */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = Stag;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = ReleaseStaging;
+		};
+		5D9A53E42982DF3B000495C8 /* ReleaseStaging */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6AEF2E395F94E83DD4D77FEC /* Pods-TaskPayBackApp.releasestaging.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CT7H96YF74;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TaskPayBackApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kamsque.TaskPayBackApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = Staging;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = ReleaseStaging;
+		};
+		5D9A53E52982DF3B000495C8 /* ReleaseStaging */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 669D8E95864F0C8E643767E2 /* Pods-TaskPayBackAppTests.releasestaging.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K8BTGQVAR5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kamsque.TaskPayBackAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TaskPayBackApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TaskPayBackApp";
+			};
+			name = ReleaseStaging;
+		};
+		5D9A53E62982DF3B000495C8 /* ReleaseStaging */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36187EB44E2A7E7CCE1FCFF0 /* Pods-TaskPayBackApp-TaskPayBackAppUITests.releasestaging.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K8BTGQVAR5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kamsque.TaskPayBackAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TaskPayBackApp;
+			};
+			name = ReleaseStaging;
+		};
+		5D9A53E72982DF5A000495C8 /* ReleaseProd */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = Prod;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = ReleaseProd;
+		};
+		5D9A53E82982DF5A000495C8 /* ReleaseProd */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C64C677D24D9376A7C79110 /* Pods-TaskPayBackApp.releaseprod.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CT7H96YF74;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TaskPayBackApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kamsque.TaskPayBackApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = Prod;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = ReleaseProd;
+		};
+		5D9A53E92982DF5A000495C8 /* ReleaseProd */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43F2AE79309CCC3F6691B832 /* Pods-TaskPayBackAppTests.releaseprod.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K8BTGQVAR5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kamsque.TaskPayBackAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TaskPayBackApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TaskPayBackApp";
+			};
+			name = ReleaseProd;
+		};
+		5D9A53EA2982DF5A000495C8 /* ReleaseProd */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91AE789D452E7DB86C7C4E65 /* Pods-TaskPayBackApp-TaskPayBackAppUITests.releaseprod.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K8BTGQVAR5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kamsque.TaskPayBackAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TaskPayBackApp;
+			};
+			name = ReleaseProd;
+		};
+		5D9A53EB2982DF74000495C8 /* DebugProd */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG Prod";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = DebugProd;
+		};
+		5D9A53EC2982DF74000495C8 /* DebugProd */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 855CEA5C1382C76F14801939 /* Pods-TaskPayBackApp.debugprod.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CT7H96YF74;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TaskPayBackApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kamsque.TaskPayBackApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "Debug Prod";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = DebugProd;
+		};
+		5D9A53ED2982DF74000495C8 /* DebugProd */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0134F08A04042792B8DC2ACF /* Pods-TaskPayBackAppTests.debugprod.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K8BTGQVAR5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kamsque.TaskPayBackAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TaskPayBackApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TaskPayBackApp";
+			};
+			name = DebugProd;
+		};
+		5D9A53EE2982DF74000495C8 /* DebugProd */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9A9E40EBB280B1EA1F41511 /* Pods-TaskPayBackApp-TaskPayBackAppUITests.debugprod.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K8BTGQVAR5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kamsque.TaskPayBackAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TaskPayBackApp;
+			};
+			name = DebugProd;
+		};
+		5D9A53EF2982DF94000495C8 /* DebugDev */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG Dev";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = DebugDev;
+		};
+		5D9A53F02982DF94000495C8 /* DebugDev */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2C5C2C62D20D8E82B7B936C /* Pods-TaskPayBackApp.debugdev.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CT7H96YF74;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TaskPayBackApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kamsque.TaskPayBackApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "Debug Dev";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = DebugDev;
+		};
+		5D9A53F12982DF94000495C8 /* DebugDev */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 231316B1C6DBDFD74EFD8C2F /* Pods-TaskPayBackAppTests.debugdev.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K8BTGQVAR5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kamsque.TaskPayBackAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TaskPayBackApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TaskPayBackApp";
+			};
+			name = DebugDev;
+		};
+		5D9A53F22982DF94000495C8 /* DebugDev */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E31D24F9FA5DEDFD5973B141 /* Pods-TaskPayBackApp-TaskPayBackAppUITests.debugdev.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K8BTGQVAR5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kamsque.TaskPayBackAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TaskPayBackApp;
+			};
+			name = DebugDev;
+		};
+		5D9A53F32982DFA0000495C8 /* ReleaseDev */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = Dev;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = ReleaseDev;
+		};
+		5D9A53F42982DFA0000495C8 /* ReleaseDev */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 406D7A1499E5C9DA00EC6F04 /* Pods-TaskPayBackApp.releasedev.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CT7H96YF74;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TaskPayBackApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kamsque.TaskPayBackApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = Dev;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = ReleaseDev;
+		};
+		5D9A53F52982DFA0000495C8 /* ReleaseDev */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55A435718CBCC7FDE90A1360 /* Pods-TaskPayBackAppTests.releasedev.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K8BTGQVAR5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kamsque.TaskPayBackAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TaskPayBackApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TaskPayBackApp";
+			};
+			name = ReleaseDev;
+		};
+		5D9A53F62982DFA0000495C8 /* ReleaseDev */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 958F6DC4912A9596EEAF9696 /* Pods-TaskPayBackApp-TaskPayBackAppUITests.releasedev.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K8BTGQVAR5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kamsque.TaskPayBackAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TaskPayBackApp;
+			};
+			name = ReleaseDev;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5D9A539F2982D8FF000495C8 /* Build configuration list for PBXProject "TaskPayBackApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D9A53CC2982D901000495C8 /* Debug */,
+				5D9A53EF2982DF94000495C8 /* DebugDev */,
+				5D9A53EB2982DF74000495C8 /* DebugProd */,
+				5D9A53DF2982DF2E000495C8 /* DebugStaging */,
+				5D9A53D72982DEFA000495C8 /* DebugQA */,
+				5D9A53CD2982D901000495C8 /* Release */,
+				5D9A53F32982DFA0000495C8 /* ReleaseDev */,
+				5D9A53E72982DF5A000495C8 /* ReleaseProd */,
+				5D9A53E32982DF3B000495C8 /* ReleaseStaging */,
+				5D9A53DB2982DF0E000495C8 /* ReleaseQA */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5D9A53CE2982D901000495C8 /* Build configuration list for PBXNativeTarget "TaskPayBackApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D9A53CF2982D901000495C8 /* Debug */,
+				5D9A53F02982DF94000495C8 /* DebugDev */,
+				5D9A53EC2982DF74000495C8 /* DebugProd */,
+				5D9A53E02982DF2E000495C8 /* DebugStaging */,
+				5D9A53D82982DEFA000495C8 /* DebugQA */,
+				5D9A53D02982D901000495C8 /* Release */,
+				5D9A53F42982DFA0000495C8 /* ReleaseDev */,
+				5D9A53E82982DF5A000495C8 /* ReleaseProd */,
+				5D9A53E42982DF3B000495C8 /* ReleaseStaging */,
+				5D9A53DC2982DF0E000495C8 /* ReleaseQA */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5D9A53D12982D901000495C8 /* Build configuration list for PBXNativeTarget "TaskPayBackAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D9A53D22982D901000495C8 /* Debug */,
+				5D9A53F12982DF94000495C8 /* DebugDev */,
+				5D9A53ED2982DF74000495C8 /* DebugProd */,
+				5D9A53E12982DF2E000495C8 /* DebugStaging */,
+				5D9A53D92982DEFA000495C8 /* DebugQA */,
+				5D9A53D32982D901000495C8 /* Release */,
+				5D9A53F52982DFA0000495C8 /* ReleaseDev */,
+				5D9A53E92982DF5A000495C8 /* ReleaseProd */,
+				5D9A53E52982DF3B000495C8 /* ReleaseStaging */,
+				5D9A53DD2982DF0E000495C8 /* ReleaseQA */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5D9A53D42982D901000495C8 /* Build configuration list for PBXNativeTarget "TaskPayBackAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D9A53D52982D901000495C8 /* Debug */,
+				5D9A53F22982DF94000495C8 /* DebugDev */,
+				5D9A53EE2982DF74000495C8 /* DebugProd */,
+				5D9A53E22982DF2E000495C8 /* DebugStaging */,
+				5D9A53DA2982DEFA000495C8 /* DebugQA */,
+				5D9A53D62982D901000495C8 /* Release */,
+				5D9A53F62982DFA0000495C8 /* ReleaseDev */,
+				5D9A53EA2982DF5A000495C8 /* ReleaseProd */,
+				5D9A53E62982DF3B000495C8 /* ReleaseStaging */,
+				5D9A53DE2982DF0E000495C8 /* ReleaseQA */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5D9A539C2982D8FF000495C8 /* Project object */;
+}

@@ -1,0 +1,2972 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0298C03620836281F625D4C38D66D82A /* ApiLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869176A09F0A77FD46AF0FDA5BF8A3D8 /* ApiLoader.swift */; };
+		0C2B7AFBD49AAA1EEE76C9664E2C9CCA /* Pods-TaskPayBackApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ADFAEF950B537178EE21CEBE1628ABF8 /* Pods-TaskPayBackApp-dummy.m */; };
+		268883941FB616EBD79E0712D85C4A0B /* KQTaskNetworkManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E41E27DB649CDB08152C78D4C41B97A /* KQTaskNetworkManager-dummy.m */; };
+		3B99494954CC6C0E3D79EA65357DD500 /* Pods-TaskPayBackAppTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C442475550B55AE3DFE442E7278C8247 /* Pods-TaskPayBackAppTests-dummy.m */; };
+		452EA97BCE32EF0CD5D78E8E230D26AC /* Pods-TaskPayBackAppTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2859135341122C259CA59D8299EB3D84 /* Pods-TaskPayBackAppTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4E79734A985203ACCF2AFEFBAD7B310E /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22CFDA76B88810FF2F44BC714B591E61 /* ReplaceMe.swift */; };
+		4E8F23E912ADB8EAA9D40F6643FE0E86 /* Pods-TaskPayBackApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A556D24FAE17AA27E3744EB02626873A /* Pods-TaskPayBackApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		507BF6DF172331843935EC619F2683A3 /* TaskVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7789B5A7E9310A7F3A3B117E7024F123 /* TaskVC.swift */; };
+		53E1276E935F5F15A78F7E1B0480D9A7 /* Pods-TaskPayBackApp-TaskPayBackAppUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E5DBB2B420AA40D7CCFACC199C461C9 /* Pods-TaskPayBackApp-TaskPayBackAppUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5606D43DEB798B69A183739AFBC8CE30 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		5A96E2FDC6DC3075B9881E96414E077E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		5D15E9E0F15E9A70E8456C4717923A36 /* TaskVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 39031AF01B803F56263F9AA39FEB4630 /* TaskVC.xib */; };
+		64713230E18E3E552EBEECB71266A841 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		752BA964DFD72AE2682D32E8E7B5247B /* Enviroment.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9EC2C48B454C052F59E92837FE849B /* Enviroment.swift */; };
+		77396417BE5EF5CDBE19DD5F8E370A3E /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A106554B6199343958D989BEA5F6F5 /* Reachability.swift */; };
+		775B6000FD9861F0BC385860D6F03B32 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9139D8DBE1A4CC073FC01FA604A03040 /* Request.swift */; };
+		7F1423F70D2282EE6DBA450026F2E655 /* DefaultRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EA1F7DA78A7AA76EBB6C5FBF1FA8DE6 /* DefaultRequest.swift */; };
+		810C6A763DA7FC239042EBFFF6103B19 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B1E4052D0FE03E52D272D85EF6CE875 /* Media.xcassets */; };
+		8C94B076BC866C65AF48C21F6028B278 /* DefaultResponseParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE3123F92500FA586B0B60919DC16BE3 /* DefaultResponseParser.swift */; };
+		B638C0227F5984F22E794B98668E52E3 /* Pods-TaskPayBackApp-TaskPayBackAppUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 690B918629D5D4BAF6F0130F64E0C719 /* Pods-TaskPayBackApp-TaskPayBackAppUITests-dummy.m */; };
+		B70C1487942AEE20981B4FC5B7259006 /* RequestBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20322125F98AFA72B2D51AC57BCB340D /* RequestBuilder.swift */; };
+		BB10F174E9D0C4C38AB07E4566DE486A /* ServiceError.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8716F2F6628342F198277D6AB823FA5 /* ServiceError.swift */; };
+		CC8278F6CB9647809E9349F0CA5AA0DB /* TaskStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D2B69B90DBAC3BE671A28B5229D6581 /* TaskStoryboard.storyboard */; };
+		CDBBF42FD8AF47A797D6B2E90CF67E43 /* ApiRequestHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = A858420C354D37447FEA61ECDA061633 /* ApiRequestHandler.swift */; };
+		D36FFAECFFFCAD99E9BCE2074166B0DB /* KQTaskNetworkManager-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 69693DC951D63436026B9CFF30AF98D6 /* KQTaskNetworkManager-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB2E4C7BC2091976F8810901457F56F1 /* ApiHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43247A049F3F5DABF530CDF7C9074E02 /* ApiHandler.swift */; };
+		EB2614DFDE8AF99AADA1831A3383229A /* AuthRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D704FE4A3FBF520309331E832AC14BE /* AuthRequest.swift */; };
+		F55B35F0653B3D1AAC667B30C24BDE1D /* ApiResponseHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7917745EF57F9529A068E657E12568EB /* ApiResponseHandler.swift */; };
+		F5CB362BFA220EB9E71FB068B0814EC9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		405A8839A4FCFE7EEA7444DC0AC1B06B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA6B2FD90CEE509C82B893BE87CA757C;
+			remoteInfo = KQTaskNetworkManager;
+		};
+		86ED64BBE5070545C9188785399E9493 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EDFC17451C04AEEF00946947B660D0FC;
+			remoteInfo = "Pods-TaskPayBackApp";
+		};
+		98C504032778180479D3297D4439825B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA6B2FD90CEE509C82B893BE87CA757C;
+			remoteInfo = KQTaskNetworkManager;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0AC30EAAD586CEBF28C757A45EDDBF9D /* Pods-TaskPayBackApp.releaseprod.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TaskPayBackApp.releaseprod.xcconfig"; sourceTree = "<group>"; };
+		0B1E4052D0FE03E52D272D85EF6CE875 /* Media.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
+		0B5E04B5228E7BACEA4C5527EB4EF4D7 /* Pods-TaskPayBackAppTests.debugprod.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TaskPayBackAppTests.debugprod.xcconfig"; sourceTree = "<group>"; };
+		0DF0096D03701522B24171282B1E3716 /* KQTaskNetworkManager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = KQTaskNetworkManager.modulemap; sourceTree = "<group>"; };
+		1228DB9C70ACE571A1BF4EAF3B44EAF2 /* Pods-TaskPayBackApp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TaskPayBackApp.modulemap"; sourceTree = "<group>"; };
+		180286E34CEB41B081561A1DE7198837 /* Pods-TaskPayBackApp-TaskPayBackAppUITests.debugqa.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TaskPayBackApp-TaskPayBackAppUITests.debugqa.xcconfig"; sourceTree = "<group>"; };
+		20322125F98AFA72B2D51AC57BCB340D /* RequestBuilder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RequestBuilder.swift; sourceTree = "<group>"; };
+		22CFDA76B88810FF2F44BC714B591E61 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = KQTaskNetworkManager/Recources/ReplaceMe.swift; sourceTree = "<group>"; };
+		23AE6A0F5BDC7CA72E9B2E109698E21F /* Pods-TaskPayBackApp-TaskPayBackAppUITests.releasestaging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TaskPayBackApp-TaskPayBackAppUITests.releasestaging.xcconfig"; sourceTree = "<group>"; };
+		2859135341122C259CA59D8299EB3D84 /* Pods-TaskPayBackAppTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TaskPayBackAppTests-umbrella.h"; sourceTree = "<group>"; };
+		28966DA1F93210DEC4CDD8BC3509278E /* Pods-TaskPayBackAppTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TaskPayBackAppTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		28BC9F571943DF83482FED6A9DA3C83B /* Pods-TaskPayBackAppTests.debugqa.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TaskPayBackAppTests.debugqa.xcconfig"; sourceTree = "<group>"; };
+		2987A8CF82B5FE57FB266913B485BFDD /* Pods-TaskPayBackAppTests.releasedev.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TaskPayBackAppTests.releasedev.xcconfig"; sourceTree = "<group>"; };
+		2E5DBB2B420AA40D7CCFACC199C461C9 /* Pods-TaskPayBackApp-TaskPayBackAppUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TaskPayBackApp-TaskPayBackAppUITests-umbrella.h"; sourceTree = "<group>"; };
+		2EA1F7DA78A7AA76EBB6C5FBF1FA8DE6 /* DefaultRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DefaultRequest.swift; sourceTree = "<group>"; };
+		2EBCA8B0C6DA8067102851549391695D /* Pods-TaskPayBackAppTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-TaskPayBackAppTests"; path = Pods_TaskPayBackAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		315243A1B8F0CF70DCA42DF29BEDC6A3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		36AFAA029FACF830EE7656F7DD907731 /* Pods-TaskPayBackAppTests.releaseqa.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TaskPayBackAppTests.releaseqa.xcconfig"; sourceTree = "<group>"; };
+		39031AF01B803F56263F9AA39FEB4630 /* TaskVC.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = TaskVC.xib; sourceTree = "<group>"; };
+		3A337CFD80B62831355383E17EB49E7F /* Pods-TaskPayBackAppTests.debugdev.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TaskPayBackAppTests.debugdev.xcconfig"; sourceTree = "<group>"; };
+		3B159BC7FA09AE8C8B644A59EBBFEA7A /* KQTaskNetworkManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KQTaskNetworkManager-prefix.pch"; sourceTree = "<group>"; };
+		3D2B69B90DBAC3BE671A28B5229D6581 /* TaskStoryboard.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; path = TaskStoryboard.storyboard; sourceTree = "<group>"; };
+		3E41E27DB649CDB08152C78D4C41B97A /* KQTaskNetworkManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KQTaskNetworkManager-dummy.m"; sourceTree = "<group>"; };
+		41E6D8CF8A1AABF55C14C3F4038FD889 /* Pods-TaskPayBackApp-TaskPayBackAppUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-TaskPayBackApp-TaskPayBackAppUITests"; path = Pods_TaskPayBackApp_TaskPayBackAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		43247A049F3F5DABF530CDF7C9074E02 /* ApiHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ApiHandler.swift; sourceTree = "<group>"; };
+		43C94E8B18F83552A4A52ED8653E4EDA /* Pods-TaskPayBackApp-TaskPayBackAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TaskPayBackApp-TaskPayBackAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		48A39F3ACFF0AF0EE6F9104537E2B57B /* Pods-TaskPayBackApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TaskPayBackApp.debug.xcconfig"; sourceTree = "<group>"; };
+		4FCB7C888587716358C597B8CB1A0844 /* Pods-TaskPayBackApp-TaskPayBackAppUITests.releaseprod.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TaskPayBackApp-TaskPayBackAppUITests.releaseprod.xcconfig"; sourceTree = "<group>"; };
+		523262D5DDC47001C0F4177DA917C107 /* KQTaskNetworkManager */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KQTaskNetworkManager; path = KQTaskNetworkManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5521DF27DC7DC64095E81CD3781337E5 /* Pods-TaskPayBackApp.debugdev.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TaskPayBackApp.debugdev.xcconfig"; sourceTree = "<group>"; };
+		5682C94081DBCE753A16AEAE2D4789A2 /* Pods-TaskPayBackApp-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TaskPayBackApp-Info.plist"; sourceTree = "<group>"; };
+		5AF23A8E25E08088E4831BBA0FFC17CC /* Pods-TaskPayBackAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TaskPayBackAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		66A106554B6199343958D989BEA5F6F5 /* Reachability.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		690B918629D5D4BAF6F0130F64E0C719 /* Pods-TaskPayBackApp-TaskPayBackAppUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TaskPayBackApp-TaskPayBackAppUITests-dummy.m"; sourceTree = "<group>"; };
+		69693DC951D63436026B9CFF30AF98D6 /* KQTaskNetworkManager-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KQTaskNetworkManager-umbrella.h"; sourceTree = "<group>"; };
+		700B0116661FFA370F803595B3B271B9 /* Pods-TaskPayBackAppTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TaskPayBackAppTests-Info.plist"; sourceTree = "<group>"; };
+		7236B67A4269D7DB2369153176858B5E /* Pods-TaskPayBackApp.releaseqa.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TaskPayBackApp.releaseqa.xcconfig"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		765893C1538E3E1147D03F60122FDFE3 /* Pods-TaskPayBackAppTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TaskPayBackAppTests.modulemap"; sourceTree = "<group>"; };
+		7789B5A7E9310A7F3A3B117E7024F123 /* TaskVC.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TaskVC.swift; sourceTree = "<group>"; };
+		7917745EF57F9529A068E657E12568EB /* ApiResponseHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ApiResponseHandler.swift; sourceTree = "<group>"; };
+		7B8B6A0E5B6C5776C602268A1FD31248 /* Pods-TaskPayBackAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TaskPayBackAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7BF09D8D9081112D2085ED1039042827 /* KQTaskNetworkManager.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = KQTaskNetworkManager.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		7C1DA25F9FEF2BA01CC3662064255A6A /* Pods-TaskPayBackApp-TaskPayBackAppUITests.debugprod.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TaskPayBackApp-TaskPayBackAppUITests.debugprod.xcconfig"; sourceTree = "<group>"; };
+		858CE6E4B328341F3B981AB6DD7A56F7 /* KQTaskNetworkManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KQTaskNetworkManager.debug.xcconfig; sourceTree = "<group>"; };
+		869176A09F0A77FD46AF0FDA5BF8A3D8 /* ApiLoader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ApiLoader.swift; sourceTree = "<group>"; };
+		87F61EE43816667F862FB9A0C1383D49 /* Pods-TaskPayBackApp */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-TaskPayBackApp"; path = Pods_TaskPayBackApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B2CFE1BE61499F413FEE0E098DB5BA3 /* Pods-TaskPayBackApp-TaskPayBackAppUITests.debugstaging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TaskPayBackApp-TaskPayBackAppUITests.debugstaging.xcconfig"; sourceTree = "<group>"; };
+		8D704FE4A3FBF520309331E832AC14BE /* AuthRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AuthRequest.swift; sourceTree = "<group>"; };
+		8E378027E756A2B884890A7759E94D9F /* Pods-TaskPayBackAppTests.releasestaging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TaskPayBackAppTests.releasestaging.xcconfig"; sourceTree = "<group>"; };
+		8EDF7D28DF1FE10C97A0EBA1CC978AD2 /* KQTaskNetworkManager-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "KQTaskNetworkManager-Info.plist"; sourceTree = "<group>"; };
+		9139D8DBE1A4CC073FC01FA604A03040 /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
+		93A5634F79610B8B5D6CD7BC36511F2E /* Pods-TaskPayBackApp-TaskPayBackAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TaskPayBackApp-TaskPayBackAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		94E350F180A1DB6804E6C01A73A056A6 /* Pods-TaskPayBackAppTests.debugstaging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TaskPayBackAppTests.debugstaging.xcconfig"; sourceTree = "<group>"; };
+		98FE9498F00354309CC7F220806C7ADB /* Pods-TaskPayBackApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TaskPayBackApp-acknowledgements.plist"; sourceTree = "<group>"; };
+		9CBBD1E598D3E9DE6C1F8897411A3567 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A22515A5CC0CBB72515718B095BC3B8B /* Pods-TaskPayBackApp-TaskPayBackAppUITests.debugdev.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TaskPayBackApp-TaskPayBackAppUITests.debugdev.xcconfig"; sourceTree = "<group>"; };
+		A556D24FAE17AA27E3744EB02626873A /* Pods-TaskPayBackApp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TaskPayBackApp-umbrella.h"; sourceTree = "<group>"; };
+		A7FB7AABFA79BCD8ECAC7C620614E62B /* Pods-TaskPayBackApp-TaskPayBackAppUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TaskPayBackApp-TaskPayBackAppUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		A858420C354D37447FEA61ECDA061633 /* ApiRequestHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ApiRequestHandler.swift; sourceTree = "<group>"; };
+		AB03A3E8C8BFE0EAD7F9CEF5E351A5B2 /* Pods-TaskPayBackApp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TaskPayBackApp-frameworks.sh"; sourceTree = "<group>"; };
+		ADFAEF950B537178EE21CEBE1628ABF8 /* Pods-TaskPayBackApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TaskPayBackApp-dummy.m"; sourceTree = "<group>"; };
+		B1C10C0E7C2D8008BBD2B465C89D3437 /* Pods-TaskPayBackApp.debugqa.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TaskPayBackApp.debugqa.xcconfig"; sourceTree = "<group>"; };
+		B6DC0B8BC2C45A303D4F3DCE1581B532 /* Pods-TaskPayBackApp.releasedev.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TaskPayBackApp.releasedev.xcconfig"; sourceTree = "<group>"; };
+		BE3123F92500FA586B0B60919DC16BE3 /* DefaultResponseParser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DefaultResponseParser.swift; sourceTree = "<group>"; };
+		C442475550B55AE3DFE442E7278C8247 /* Pods-TaskPayBackAppTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TaskPayBackAppTests-dummy.m"; sourceTree = "<group>"; };
+		C722CCDC2AB135DF66D82E6DACC32917 /* Pods-TaskPayBackAppTests.releaseprod.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TaskPayBackAppTests.releaseprod.xcconfig"; sourceTree = "<group>"; };
+		CB424D596488D970BD06A9F87A1AFC38 /* Pods-TaskPayBackAppTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TaskPayBackAppTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CE866F71662BC0ECB2AA47993CD7102D /* Pods-TaskPayBackApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TaskPayBackApp-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CEF6D80061F76C5041CE5591A20E748A /* Pods-TaskPayBackApp-TaskPayBackAppUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TaskPayBackApp-TaskPayBackAppUITests-Info.plist"; sourceTree = "<group>"; };
+		D31A5CABE415A104BAE9747A938C456C /* KQTaskNetworkManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KQTaskNetworkManager.release.xcconfig; sourceTree = "<group>"; };
+		D6A9A12AAB496645327605158CEEBB16 /* Pods-TaskPayBackApp-TaskPayBackAppUITests.releaseqa.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TaskPayBackApp-TaskPayBackAppUITests.releaseqa.xcconfig"; sourceTree = "<group>"; };
+		D876AAA9A0F7146C28855641E87D7432 /* Pods-TaskPayBackApp.debugprod.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TaskPayBackApp.debugprod.xcconfig"; sourceTree = "<group>"; };
+		DB40460FFD36B9EAA45B8320AF5FCD78 /* Pods-TaskPayBackApp.debugstaging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TaskPayBackApp.debugstaging.xcconfig"; sourceTree = "<group>"; };
+		DBD3A722CB0EFB21413DAA26588DBBB7 /* Pods-TaskPayBackApp.releasestaging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TaskPayBackApp.releasestaging.xcconfig"; sourceTree = "<group>"; };
+		DD9EC2C48B454C052F59E92837FE849B /* Enviroment.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Enviroment.swift; sourceTree = "<group>"; };
+		E196276146407A60CD0CFE0A39DE1C95 /* Pods-TaskPayBackApp-TaskPayBackAppUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TaskPayBackApp-TaskPayBackAppUITests-frameworks.sh"; sourceTree = "<group>"; };
+		E624809323676F6DD6CBE583C147A6FD /* Pods-TaskPayBackApp-TaskPayBackAppUITests.releasedev.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TaskPayBackApp-TaskPayBackAppUITests.releasedev.xcconfig"; sourceTree = "<group>"; };
+		F6F0C065491B13472255C6ABAE614FC2 /* Pods-TaskPayBackApp-TaskPayBackAppUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TaskPayBackApp-TaskPayBackAppUITests.modulemap"; sourceTree = "<group>"; };
+		F78D4374253D01E9DDAA53E923082EC6 /* Pods-TaskPayBackApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TaskPayBackApp.release.xcconfig"; sourceTree = "<group>"; };
+		F8716F2F6628342F198277D6AB823FA5 /* ServiceError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ServiceError.swift; sourceTree = "<group>"; };
+		FBDC9E753795637D07B78379161998AC /* Pods-TaskPayBackApp-TaskPayBackAppUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TaskPayBackApp-TaskPayBackAppUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		10CD027579FF25C6AA222BC42C2F4B4D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A96E2FDC6DC3075B9881E96414E077E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30DFF5A5E5CDC1773D5B79814D9FC979 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5606D43DEB798B69A183739AFBC8CE30 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45DBE502C286B029A54FBCB15EC3B2C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64713230E18E3E552EBEECB71266A841 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F55631D4D392FDF9C0B89072D274224E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5CB362BFA220EB9E71FB068B0814EC9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F1399280CB8B83288B47B2784A28582 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				C86FF1285A174A0DE489120CEE597EC8 /* Storyboards */,
+				49DE359820C950C1925EFADF2A5A7212 /* VC_Xib's */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		113032D06095835FEF21340C09AB9151 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				9313BA0B06EA9C82D1D47D39A6495804 /* AppNetworkManager */,
+				92438512C29816452B4CE043EC0AC68E /* VC_Xib's */,
+			);
+			name = Classes;
+			path = KQTaskNetworkManager/Recources/Classes;
+			sourceTree = "<group>";
+		};
+		13A37FC7D4080A110D56D1DED8B88C48 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0DF0096D03701522B24171282B1E3716 /* KQTaskNetworkManager.modulemap */,
+				3E41E27DB649CDB08152C78D4C41B97A /* KQTaskNetworkManager-dummy.m */,
+				8EDF7D28DF1FE10C97A0EBA1CC978AD2 /* KQTaskNetworkManager-Info.plist */,
+				3B159BC7FA09AE8C8B644A59EBBFEA7A /* KQTaskNetworkManager-prefix.pch */,
+				69693DC951D63436026B9CFF30AF98D6 /* KQTaskNetworkManager-umbrella.h */,
+				858CE6E4B328341F3B981AB6DD7A56F7 /* KQTaskNetworkManager.debug.xcconfig */,
+				D31A5CABE415A104BAE9747A938C456C /* KQTaskNetworkManager.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../../TaskPayBackApp/Pods/Target Support Files/KQTaskNetworkManager";
+			sourceTree = "<group>";
+		};
+		1540A52E7B53FA389496D5F39A3085D6 /* CreateRequests */ = {
+			isa = PBXGroup;
+			children = (
+				8D704FE4A3FBF520309331E832AC14BE /* AuthRequest.swift */,
+				2EA1F7DA78A7AA76EBB6C5FBF1FA8DE6 /* DefaultRequest.swift */,
+				9139D8DBE1A4CC073FC01FA604A03040 /* Request.swift */,
+				20322125F98AFA72B2D51AC57BCB340D /* RequestBuilder.swift */,
+			);
+			name = CreateRequests;
+			path = CreateRequests;
+			sourceTree = "<group>";
+		};
+		1788634F72829923FCA251D758BB3A20 /* ApiHandler */ = {
+			isa = PBXGroup;
+			children = (
+				43247A049F3F5DABF530CDF7C9074E02 /* ApiHandler.swift */,
+				F8745E98AADBD45D1634FB0001F6B8FF /* ApiLoader */,
+				70B1F82A5F7E5524F9BBB085CFC9CB00 /* ApiRequestHandler */,
+				F291CDE2BA87B9CEEEF5B2F16E4A59E1 /* ApiResponseHandler */,
+				1540A52E7B53FA389496D5F39A3085D6 /* CreateRequests */,
+			);
+			name = ApiHandler;
+			path = ApiHandler;
+			sourceTree = "<group>";
+		};
+		2012D24F623B6942178D95962F9234CC /* Enviroment */ = {
+			isa = PBXGroup;
+			children = (
+				DD9EC2C48B454C052F59E92837FE849B /* Enviroment.swift */,
+			);
+			name = Enviroment;
+			path = Enviroment;
+			sourceTree = "<group>";
+		};
+		49DE359820C950C1925EFADF2A5A7212 /* VC_Xib's */ = {
+			isa = PBXGroup;
+			children = (
+				39031AF01B803F56263F9AA39FEB4630 /* TaskVC.xib */,
+			);
+			name = "VC_Xib's";
+			path = "VC_Xib's";
+			sourceTree = "<group>";
+		};
+		4BEFB9511F6411D9431870178200C3AB /* Pods-TaskPayBackApp */ = {
+			isa = PBXGroup;
+			children = (
+				1228DB9C70ACE571A1BF4EAF3B44EAF2 /* Pods-TaskPayBackApp.modulemap */,
+				CE866F71662BC0ECB2AA47993CD7102D /* Pods-TaskPayBackApp-acknowledgements.markdown */,
+				98FE9498F00354309CC7F220806C7ADB /* Pods-TaskPayBackApp-acknowledgements.plist */,
+				ADFAEF950B537178EE21CEBE1628ABF8 /* Pods-TaskPayBackApp-dummy.m */,
+				AB03A3E8C8BFE0EAD7F9CEF5E351A5B2 /* Pods-TaskPayBackApp-frameworks.sh */,
+				5682C94081DBCE753A16AEAE2D4789A2 /* Pods-TaskPayBackApp-Info.plist */,
+				A556D24FAE17AA27E3744EB02626873A /* Pods-TaskPayBackApp-umbrella.h */,
+				48A39F3ACFF0AF0EE6F9104537E2B57B /* Pods-TaskPayBackApp.debug.xcconfig */,
+				5521DF27DC7DC64095E81CD3781337E5 /* Pods-TaskPayBackApp.debugdev.xcconfig */,
+				D876AAA9A0F7146C28855641E87D7432 /* Pods-TaskPayBackApp.debugprod.xcconfig */,
+				B1C10C0E7C2D8008BBD2B465C89D3437 /* Pods-TaskPayBackApp.debugqa.xcconfig */,
+				DB40460FFD36B9EAA45B8320AF5FCD78 /* Pods-TaskPayBackApp.debugstaging.xcconfig */,
+				F78D4374253D01E9DDAA53E923082EC6 /* Pods-TaskPayBackApp.release.xcconfig */,
+				B6DC0B8BC2C45A303D4F3DCE1581B532 /* Pods-TaskPayBackApp.releasedev.xcconfig */,
+				0AC30EAAD586CEBF28C757A45EDDBF9D /* Pods-TaskPayBackApp.releaseprod.xcconfig */,
+				7236B67A4269D7DB2369153176858B5E /* Pods-TaskPayBackApp.releaseqa.xcconfig */,
+				DBD3A722CB0EFB21413DAA26588DBBB7 /* Pods-TaskPayBackApp.releasestaging.xcconfig */,
+			);
+			name = "Pods-TaskPayBackApp";
+			path = "Target Support Files/Pods-TaskPayBackApp";
+			sourceTree = "<group>";
+		};
+		5758C61B0BBCE1A9446642CFB1DEFC4D /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				7BF09D8D9081112D2085ED1039042827 /* KQTaskNetworkManager.podspec */,
+				9CBBD1E598D3E9DE6C1F8897411A3567 /* LICENSE */,
+				315243A1B8F0CF70DCA42DF29BEDC6A3 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		6554CD6FE0C2DD2C86787EE4096DA21E /* Pods-TaskPayBackAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				765893C1538E3E1147D03F60122FDFE3 /* Pods-TaskPayBackAppTests.modulemap */,
+				CB424D596488D970BD06A9F87A1AFC38 /* Pods-TaskPayBackAppTests-acknowledgements.markdown */,
+				28966DA1F93210DEC4CDD8BC3509278E /* Pods-TaskPayBackAppTests-acknowledgements.plist */,
+				C442475550B55AE3DFE442E7278C8247 /* Pods-TaskPayBackAppTests-dummy.m */,
+				700B0116661FFA370F803595B3B271B9 /* Pods-TaskPayBackAppTests-Info.plist */,
+				2859135341122C259CA59D8299EB3D84 /* Pods-TaskPayBackAppTests-umbrella.h */,
+				7B8B6A0E5B6C5776C602268A1FD31248 /* Pods-TaskPayBackAppTests.debug.xcconfig */,
+				3A337CFD80B62831355383E17EB49E7F /* Pods-TaskPayBackAppTests.debugdev.xcconfig */,
+				0B5E04B5228E7BACEA4C5527EB4EF4D7 /* Pods-TaskPayBackAppTests.debugprod.xcconfig */,
+				28BC9F571943DF83482FED6A9DA3C83B /* Pods-TaskPayBackAppTests.debugqa.xcconfig */,
+				94E350F180A1DB6804E6C01A73A056A6 /* Pods-TaskPayBackAppTests.debugstaging.xcconfig */,
+				5AF23A8E25E08088E4831BBA0FFC17CC /* Pods-TaskPayBackAppTests.release.xcconfig */,
+				2987A8CF82B5FE57FB266913B485BFDD /* Pods-TaskPayBackAppTests.releasedev.xcconfig */,
+				C722CCDC2AB135DF66D82E6DACC32917 /* Pods-TaskPayBackAppTests.releaseprod.xcconfig */,
+				36AFAA029FACF830EE7656F7DD907731 /* Pods-TaskPayBackAppTests.releaseqa.xcconfig */,
+				8E378027E756A2B884890A7759E94D9F /* Pods-TaskPayBackAppTests.releasestaging.xcconfig */,
+			);
+			name = "Pods-TaskPayBackAppTests";
+			path = "Target Support Files/Pods-TaskPayBackAppTests";
+			sourceTree = "<group>";
+		};
+		6E61D959ACD3E1F3B54D85EF24042646 /* Recources */ = {
+			isa = PBXGroup;
+			children = (
+				0F1399280CB8B83288B47B2784A28582 /* Classes */,
+			);
+			name = Recources;
+			path = KQTaskNetworkManager/Recources;
+			sourceTree = "<group>";
+		};
+		70B1F82A5F7E5524F9BBB085CFC9CB00 /* ApiRequestHandler */ = {
+			isa = PBXGroup;
+			children = (
+				A858420C354D37447FEA61ECDA061633 /* ApiRequestHandler.swift */,
+			);
+			name = ApiRequestHandler;
+			path = ApiRequestHandler;
+			sourceTree = "<group>";
+		};
+		735F7F154028BBE5668632FB0FB34407 /* KQTaskNetworkManager */ = {
+			isa = PBXGroup;
+			children = (
+				22CFDA76B88810FF2F44BC714B591E61 /* ReplaceMe.swift */,
+				113032D06095835FEF21340C09AB9151 /* Classes */,
+				E6B8EE75B898187A833CA5778FC64D3E /* Images */,
+				5758C61B0BBCE1A9446642CFB1DEFC4D /* Pod */,
+				6E61D959ACD3E1F3B54D85EF24042646 /* Recources */,
+				13A37FC7D4080A110D56D1DED8B88C48 /* Support Files */,
+			);
+			name = KQTaskNetworkManager;
+			path = /Users/pse/Documents/KamQasim/Development/KQTaskNetworkManager/KQTaskNetworkManager;
+			sourceTree = "<absolute>";
+		};
+		78BF8CDB83C2EE46E57E4F6186993A38 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4BEFB9511F6411D9431870178200C3AB /* Pods-TaskPayBackApp */,
+				899518C43116391A9BCE88799946C00D /* Pods-TaskPayBackApp-TaskPayBackAppUITests */,
+				6554CD6FE0C2DD2C86787EE4096DA21E /* Pods-TaskPayBackAppTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7D825D3AE8249F7C035AAB06A0662F68 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				735F7F154028BBE5668632FB0FB34407 /* KQTaskNetworkManager */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		899518C43116391A9BCE88799946C00D /* Pods-TaskPayBackApp-TaskPayBackAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F6F0C065491B13472255C6ABAE614FC2 /* Pods-TaskPayBackApp-TaskPayBackAppUITests.modulemap */,
+				FBDC9E753795637D07B78379161998AC /* Pods-TaskPayBackApp-TaskPayBackAppUITests-acknowledgements.markdown */,
+				A7FB7AABFA79BCD8ECAC7C620614E62B /* Pods-TaskPayBackApp-TaskPayBackAppUITests-acknowledgements.plist */,
+				690B918629D5D4BAF6F0130F64E0C719 /* Pods-TaskPayBackApp-TaskPayBackAppUITests-dummy.m */,
+				E196276146407A60CD0CFE0A39DE1C95 /* Pods-TaskPayBackApp-TaskPayBackAppUITests-frameworks.sh */,
+				CEF6D80061F76C5041CE5591A20E748A /* Pods-TaskPayBackApp-TaskPayBackAppUITests-Info.plist */,
+				2E5DBB2B420AA40D7CCFACC199C461C9 /* Pods-TaskPayBackApp-TaskPayBackAppUITests-umbrella.h */,
+				43C94E8B18F83552A4A52ED8653E4EDA /* Pods-TaskPayBackApp-TaskPayBackAppUITests.debug.xcconfig */,
+				A22515A5CC0CBB72515718B095BC3B8B /* Pods-TaskPayBackApp-TaskPayBackAppUITests.debugdev.xcconfig */,
+				7C1DA25F9FEF2BA01CC3662064255A6A /* Pods-TaskPayBackApp-TaskPayBackAppUITests.debugprod.xcconfig */,
+				180286E34CEB41B081561A1DE7198837 /* Pods-TaskPayBackApp-TaskPayBackAppUITests.debugqa.xcconfig */,
+				8B2CFE1BE61499F413FEE0E098DB5BA3 /* Pods-TaskPayBackApp-TaskPayBackAppUITests.debugstaging.xcconfig */,
+				93A5634F79610B8B5D6CD7BC36511F2E /* Pods-TaskPayBackApp-TaskPayBackAppUITests.release.xcconfig */,
+				E624809323676F6DD6CBE583C147A6FD /* Pods-TaskPayBackApp-TaskPayBackAppUITests.releasedev.xcconfig */,
+				4FCB7C888587716358C597B8CB1A0844 /* Pods-TaskPayBackApp-TaskPayBackAppUITests.releaseprod.xcconfig */,
+				D6A9A12AAB496645327605158CEEBB16 /* Pods-TaskPayBackApp-TaskPayBackAppUITests.releaseqa.xcconfig */,
+				23AE6A0F5BDC7CA72E9B2E109698E21F /* Pods-TaskPayBackApp-TaskPayBackAppUITests.releasestaging.xcconfig */,
+			);
+			name = "Pods-TaskPayBackApp-TaskPayBackAppUITests";
+			path = "Target Support Files/Pods-TaskPayBackApp-TaskPayBackAppUITests";
+			sourceTree = "<group>";
+		};
+		92438512C29816452B4CE043EC0AC68E /* VC_Xib's */ = {
+			isa = PBXGroup;
+			children = (
+				7789B5A7E9310A7F3A3B117E7024F123 /* TaskVC.swift */,
+			);
+			name = "VC_Xib's";
+			path = "VC_Xib's";
+			sourceTree = "<group>";
+		};
+		9313BA0B06EA9C82D1D47D39A6495804 /* AppNetworkManager */ = {
+			isa = PBXGroup;
+			children = (
+				1788634F72829923FCA251D758BB3A20 /* ApiHandler */,
+				2012D24F623B6942178D95962F9234CC /* Enviroment */,
+				941ED419C110B7B991AFCF27504E6E32 /* Reachability */,
+				D89A74A0C6EFDE5200FAC228610B7CBE /* ServiceError */,
+			);
+			name = AppNetworkManager;
+			path = AppNetworkManager;
+			sourceTree = "<group>";
+		};
+		941ED419C110B7B991AFCF27504E6E32 /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				66A106554B6199343958D989BEA5F6F5 /* Reachability.swift */,
+			);
+			name = Reachability;
+			path = Reachability;
+			sourceTree = "<group>";
+		};
+		C86FF1285A174A0DE489120CEE597EC8 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				3D2B69B90DBAC3BE671A28B5229D6581 /* TaskStoryboard.storyboard */,
+			);
+			name = Storyboards;
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		CED9249D2C7B7D8939B096382A7B9535 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				523262D5DDC47001C0F4177DA917C107 /* KQTaskNetworkManager */,
+				87F61EE43816667F862FB9A0C1383D49 /* Pods-TaskPayBackApp */,
+				41E6D8CF8A1AABF55C14C3F4038FD889 /* Pods-TaskPayBackApp-TaskPayBackAppUITests */,
+				2EBCA8B0C6DA8067102851549391695D /* Pods-TaskPayBackAppTests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				7D825D3AE8249F7C035AAB06A0662F68 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				CED9249D2C7B7D8939B096382A7B9535 /* Products */,
+				78BF8CDB83C2EE46E57E4F6186993A38 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D89A74A0C6EFDE5200FAC228610B7CBE /* ServiceError */ = {
+			isa = PBXGroup;
+			children = (
+				F8716F2F6628342F198277D6AB823FA5 /* ServiceError.swift */,
+			);
+			name = ServiceError;
+			path = ServiceError;
+			sourceTree = "<group>";
+		};
+		E6B8EE75B898187A833CA5778FC64D3E /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				0B1E4052D0FE03E52D272D85EF6CE875 /* Media.xcassets */,
+			);
+			name = Images;
+			path = KQTaskNetworkManager/Images;
+			sourceTree = "<group>";
+		};
+		F291CDE2BA87B9CEEEF5B2F16E4A59E1 /* ApiResponseHandler */ = {
+			isa = PBXGroup;
+			children = (
+				7917745EF57F9529A068E657E12568EB /* ApiResponseHandler.swift */,
+				BE3123F92500FA586B0B60919DC16BE3 /* DefaultResponseParser.swift */,
+			);
+			name = ApiResponseHandler;
+			path = ApiResponseHandler;
+			sourceTree = "<group>";
+		};
+		F8745E98AADBD45D1634FB0001F6B8FF /* ApiLoader */ = {
+			isa = PBXGroup;
+			children = (
+				869176A09F0A77FD46AF0FDA5BF8A3D8 /* ApiLoader.swift */,
+			);
+			name = ApiLoader;
+			path = ApiLoader;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		04764BB2BD9F64F001ABF7779DA7F88D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E8F23E912ADB8EAA9D40F6643FE0E86 /* Pods-TaskPayBackApp-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C329CA04E50205887B2DCCC1A12023B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53E1276E935F5F15A78F7E1B0480D9A7 /* Pods-TaskPayBackApp-TaskPayBackAppUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8403A9BA54F22B5B3FA51805E363BC2B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				452EA97BCE32EF0CD5D78E8E230D26AC /* Pods-TaskPayBackAppTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9D6020EAD96651BDBD9F38F8661A5C3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D36FFAECFFFCAD99E9BCE2074166B0DB /* KQTaskNetworkManager-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2C37A800C48649943CEEE435C90D7030 /* Pods-TaskPayBackApp-TaskPayBackAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 030E97E8CFA138435A5940625B2ACD28 /* Build configuration list for PBXNativeTarget "Pods-TaskPayBackApp-TaskPayBackAppUITests" */;
+			buildPhases = (
+				3C329CA04E50205887B2DCCC1A12023B /* Headers */,
+				22FE12AE945694180F6F5180B59A5B5A /* Sources */,
+				45DBE502C286B029A54FBCB15EC3B2C1 /* Frameworks */,
+				1527B5C32389C1E04BBCA594130DB89B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D47D4900EEE46E29E6E8BF2EFA91F3F7 /* PBXTargetDependency */,
+			);
+			name = "Pods-TaskPayBackApp-TaskPayBackAppUITests";
+			productName = Pods_TaskPayBackApp_TaskPayBackAppUITests;
+			productReference = 41E6D8CF8A1AABF55C14C3F4038FD889 /* Pods-TaskPayBackApp-TaskPayBackAppUITests */;
+			productType = "com.apple.product-type.framework";
+		};
+		39B0DFCDA6409EB9710D361A8381686F /* Pods-TaskPayBackAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E59C521D58E55E8EF37E5FDEADBD032 /* Build configuration list for PBXNativeTarget "Pods-TaskPayBackAppTests" */;
+			buildPhases = (
+				8403A9BA54F22B5B3FA51805E363BC2B /* Headers */,
+				65F44D98318B137D6A84CECDE124342E /* Sources */,
+				30DFF5A5E5CDC1773D5B79814D9FC979 /* Frameworks */,
+				2D28D7A61B90190FC8B59799C24C8985 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				94345938794460F735011354D8576383 /* PBXTargetDependency */,
+			);
+			name = "Pods-TaskPayBackAppTests";
+			productName = Pods_TaskPayBackAppTests;
+			productReference = 2EBCA8B0C6DA8067102851549391695D /* Pods-TaskPayBackAppTests */;
+			productType = "com.apple.product-type.framework";
+		};
+		EA6B2FD90CEE509C82B893BE87CA757C /* KQTaskNetworkManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C496EEEABE61636B93742E830B3920B4 /* Build configuration list for PBXNativeTarget "KQTaskNetworkManager" */;
+			buildPhases = (
+				D9D6020EAD96651BDBD9F38F8661A5C3 /* Headers */,
+				68414359AB61C73927D2F57FBFFEB9F2 /* Sources */,
+				10CD027579FF25C6AA222BC42C2F4B4D /* Frameworks */,
+				0E62A5200584490BCB9277C88032B732 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KQTaskNetworkManager;
+			productName = KQTaskNetworkManager;
+			productReference = 523262D5DDC47001C0F4177DA917C107 /* KQTaskNetworkManager */;
+			productType = "com.apple.product-type.framework";
+		};
+		EDFC17451C04AEEF00946947B660D0FC /* Pods-TaskPayBackApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30C52DEC0D3C9DFBFA6B03354602DCF2 /* Build configuration list for PBXNativeTarget "Pods-TaskPayBackApp" */;
+			buildPhases = (
+				04764BB2BD9F64F001ABF7779DA7F88D /* Headers */,
+				33BF8664D7AE5AD8BD3C53F3D7E43D4F /* Sources */,
+				F55631D4D392FDF9C0B89072D274224E /* Frameworks */,
+				9D0B75EAE5B53AF37F488E77102D0CC5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6157954E3D8859AC174232703A77E684 /* PBXTargetDependency */,
+			);
+			name = "Pods-TaskPayBackApp";
+			productName = Pods_TaskPayBackApp;
+			productReference = 87F61EE43816667F862FB9A0C1383D49 /* Pods-TaskPayBackApp */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = CED9249D2C7B7D8939B096382A7B9535 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA6B2FD90CEE509C82B893BE87CA757C /* KQTaskNetworkManager */,
+				EDFC17451C04AEEF00946947B660D0FC /* Pods-TaskPayBackApp */,
+				2C37A800C48649943CEEE435C90D7030 /* Pods-TaskPayBackApp-TaskPayBackAppUITests */,
+				39B0DFCDA6409EB9710D361A8381686F /* Pods-TaskPayBackAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0E62A5200584490BCB9277C88032B732 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				810C6A763DA7FC239042EBFFF6103B19 /* Media.xcassets in Resources */,
+				CC8278F6CB9647809E9349F0CA5AA0DB /* TaskStoryboard.storyboard in Resources */,
+				5D15E9E0F15E9A70E8456C4717923A36 /* TaskVC.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1527B5C32389C1E04BBCA594130DB89B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D28D7A61B90190FC8B59799C24C8985 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D0B75EAE5B53AF37F488E77102D0CC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		22FE12AE945694180F6F5180B59A5B5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B638C0227F5984F22E794B98668E52E3 /* Pods-TaskPayBackApp-TaskPayBackAppUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33BF8664D7AE5AD8BD3C53F3D7E43D4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C2B7AFBD49AAA1EEE76C9664E2C9CCA /* Pods-TaskPayBackApp-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65F44D98318B137D6A84CECDE124342E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B99494954CC6C0E3D79EA65357DD500 /* Pods-TaskPayBackAppTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68414359AB61C73927D2F57FBFFEB9F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB2E4C7BC2091976F8810901457F56F1 /* ApiHandler.swift in Sources */,
+				0298C03620836281F625D4C38D66D82A /* ApiLoader.swift in Sources */,
+				CDBBF42FD8AF47A797D6B2E90CF67E43 /* ApiRequestHandler.swift in Sources */,
+				F55B35F0653B3D1AAC667B30C24BDE1D /* ApiResponseHandler.swift in Sources */,
+				EB2614DFDE8AF99AADA1831A3383229A /* AuthRequest.swift in Sources */,
+				7F1423F70D2282EE6DBA450026F2E655 /* DefaultRequest.swift in Sources */,
+				8C94B076BC866C65AF48C21F6028B278 /* DefaultResponseParser.swift in Sources */,
+				752BA964DFD72AE2682D32E8E7B5247B /* Enviroment.swift in Sources */,
+				268883941FB616EBD79E0712D85C4A0B /* KQTaskNetworkManager-dummy.m in Sources */,
+				77396417BE5EF5CDBE19DD5F8E370A3E /* Reachability.swift in Sources */,
+				4E79734A985203ACCF2AFEFBAD7B310E /* ReplaceMe.swift in Sources */,
+				775B6000FD9861F0BC385860D6F03B32 /* Request.swift in Sources */,
+				B70C1487942AEE20981B4FC5B7259006 /* RequestBuilder.swift in Sources */,
+				BB10F174E9D0C4C38AB07E4566DE486A /* ServiceError.swift in Sources */,
+				507BF6DF172331843935EC619F2683A3 /* TaskVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6157954E3D8859AC174232703A77E684 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KQTaskNetworkManager;
+			target = EA6B2FD90CEE509C82B893BE87CA757C /* KQTaskNetworkManager */;
+			targetProxy = 405A8839A4FCFE7EEA7444DC0AC1B06B /* PBXContainerItemProxy */;
+		};
+		94345938794460F735011354D8576383 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-TaskPayBackApp";
+			target = EDFC17451C04AEEF00946947B660D0FC /* Pods-TaskPayBackApp */;
+			targetProxy = 86ED64BBE5070545C9188785399E9493 /* PBXContainerItemProxy */;
+		};
+		D47D4900EEE46E29E6E8BF2EFA91F3F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KQTaskNetworkManager;
+			target = EA6B2FD90CEE509C82B893BE87CA757C /* KQTaskNetworkManager */;
+			targetProxy = 98C504032778180479D3297D4439825B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		015889BE35E2056FC985F9E5BDD5EE05 /* DebugQA */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 180286E34CEB41B081561A1DE7198837 /* Pods-TaskPayBackApp-TaskPayBackAppUITests.debugqa.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TaskPayBackApp-TaskPayBackAppUITests/Pods-TaskPayBackApp-TaskPayBackAppUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TaskPayBackApp-TaskPayBackAppUITests/Pods-TaskPayBackApp-TaskPayBackAppUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = DebugQA;
+		};
+		01D6BA387061B53065DB81CE3784899C /* DebugDev */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A337CFD80B62831355383E17EB49E7F /* Pods-TaskPayBackAppTests.debugdev.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TaskPayBackAppTests/Pods-TaskPayBackAppTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TaskPayBackAppTests/Pods-TaskPayBackAppTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = DebugDev;
+		};
+		069BE4E24A91820FF6C3FAEA65431625 /* ReleaseQA */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D31A5CABE415A104BAE9747A938C456C /* KQTaskNetworkManager.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KQTaskNetworkManager/KQTaskNetworkManager-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KQTaskNetworkManager/KQTaskNetworkManager-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/KQTaskNetworkManager/KQTaskNetworkManager.modulemap";
+				PRODUCT_MODULE_NAME = KQTaskNetworkManager;
+				PRODUCT_NAME = KQTaskNetworkManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = ReleaseQA;
+		};
+		0920039D1625D5F65921321914656F48 /* DebugStaging */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94E350F180A1DB6804E6C01A73A056A6 /* Pods-TaskPayBackAppTests.debugstaging.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TaskPayBackAppTests/Pods-TaskPayBackAppTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TaskPayBackAppTests/Pods-TaskPayBackAppTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = DebugStaging;
+		};
+		0E566072F6FE747E95D1A7E3A76A8EF2 /* ReleaseProd */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4FCB7C888587716358C597B8CB1A0844 /* Pods-TaskPayBackApp-TaskPayBackAppUITests.releaseprod.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TaskPayBackApp-TaskPayBackAppUITests/Pods-TaskPayBackApp-TaskPayBackAppUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TaskPayBackApp-TaskPayBackAppUITests/Pods-TaskPayBackApp-TaskPayBackAppUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = ReleaseProd;
+		};
+		15A082FAA1DB16E13E8D87CA195130CF /* ReleaseQA */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36AFAA029FACF830EE7656F7DD907731 /* Pods-TaskPayBackAppTests.releaseqa.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TaskPayBackAppTests/Pods-TaskPayBackAppTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TaskPayBackAppTests/Pods-TaskPayBackAppTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = ReleaseQA;
+		};
+		16063976CA3FC419B587C4F909EDA3F2 /* ReleaseProd */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D31A5CABE415A104BAE9747A938C456C /* KQTaskNetworkManager.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KQTaskNetworkManager/KQTaskNetworkManager-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KQTaskNetworkManager/KQTaskNetworkManager-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/KQTaskNetworkManager/KQTaskNetworkManager.modulemap";
+				PRODUCT_MODULE_NAME = KQTaskNetworkManager;
+				PRODUCT_NAME = KQTaskNetworkManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = ReleaseProd;
+		};
+		173C5BFCC1DBA95D639AFC021945B6A5 /* DebugStaging */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG_STAGING=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = DebugStaging;
+		};
+		192723A33ABBE652AFDCC6F09CA99379 /* DebugProd */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG_PROD=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = DebugProd;
+		};
+		2339E80A93C3856CD7967E728C5B9989 /* DebugProd */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B5E04B5228E7BACEA4C5527EB4EF4D7 /* Pods-TaskPayBackAppTests.debugprod.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TaskPayBackAppTests/Pods-TaskPayBackAppTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TaskPayBackAppTests/Pods-TaskPayBackAppTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = DebugProd;
+		};
+		2B853A92A22F69148A207CAF9EE29F1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5AF23A8E25E08088E4831BBA0FFC17CC /* Pods-TaskPayBackAppTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TaskPayBackAppTests/Pods-TaskPayBackAppTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TaskPayBackAppTests/Pods-TaskPayBackAppTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2D1ACEA777B74CDBD32B0B092B6E22E2 /* ReleaseStaging */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23AE6A0F5BDC7CA72E9B2E109698E21F /* Pods-TaskPayBackApp-TaskPayBackAppUITests.releasestaging.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TaskPayBackApp-TaskPayBackAppUITests/Pods-TaskPayBackApp-TaskPayBackAppUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TaskPayBackApp-TaskPayBackAppUITests/Pods-TaskPayBackApp-TaskPayBackAppUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = ReleaseStaging;
+		};
+		32F7E559813650053BF73C0E83A8E658 /* DebugProd */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D31A5CABE415A104BAE9747A938C456C /* KQTaskNetworkManager.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KQTaskNetworkManager/KQTaskNetworkManager-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KQTaskNetworkManager/KQTaskNetworkManager-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/KQTaskNetworkManager/KQTaskNetworkManager.modulemap";
+				PRODUCT_MODULE_NAME = KQTaskNetworkManager;
+				PRODUCT_NAME = KQTaskNetworkManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = DebugProd;
+		};
+		3553E366B4EA28CC2BF4C5AAF7104607 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F78D4374253D01E9DDAA53E923082EC6 /* Pods-TaskPayBackApp.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TaskPayBackApp/Pods-TaskPayBackApp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TaskPayBackApp/Pods-TaskPayBackApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3851C0CACF2F2E4C122C93D5A6DDF209 /* DebugStaging */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B2CFE1BE61499F413FEE0E098DB5BA3 /* Pods-TaskPayBackApp-TaskPayBackAppUITests.debugstaging.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TaskPayBackApp-TaskPayBackAppUITests/Pods-TaskPayBackApp-TaskPayBackAppUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TaskPayBackApp-TaskPayBackAppUITests/Pods-TaskPayBackApp-TaskPayBackAppUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = DebugStaging;
+		};
+		3A2AE4E5D2907F739E5FD6CCFA98F419 /* DebugQA */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1C10C0E7C2D8008BBD2B465C89D3437 /* Pods-TaskPayBackApp.debugqa.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TaskPayBackApp/Pods-TaskPayBackApp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TaskPayBackApp/Pods-TaskPayBackApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = DebugQA;
+		};
+		4675F25BD2B500DBB77B71698FDD6F87 /* DebugDev */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A22515A5CC0CBB72515718B095BC3B8B /* Pods-TaskPayBackApp-TaskPayBackAppUITests.debugdev.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TaskPayBackApp-TaskPayBackAppUITests/Pods-TaskPayBackApp-TaskPayBackAppUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TaskPayBackApp-TaskPayBackAppUITests/Pods-TaskPayBackApp-TaskPayBackAppUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = DebugDev;
+		};
+		5386F54405EE44E12E5A64B6765C005F /* DebugProd */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D876AAA9A0F7146C28855641E87D7432 /* Pods-TaskPayBackApp.debugprod.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TaskPayBackApp/Pods-TaskPayBackApp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TaskPayBackApp/Pods-TaskPayBackApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = DebugProd;
+		};
+		580156BB9E28C15764B1DC7C44C5BE1A /* DebugDev */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG_DEV=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = DebugDev;
+		};
+		59CBDDB574CBA52657A1638581D4F389 /* ReleaseDev */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6DC0B8BC2C45A303D4F3DCE1581B532 /* Pods-TaskPayBackApp.releasedev.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TaskPayBackApp/Pods-TaskPayBackApp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TaskPayBackApp/Pods-TaskPayBackApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = ReleaseDev;
+		};
+		606FE4658151549EA8B31ED94EB6DCCC /* ReleaseQA */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6A9A12AAB496645327605158CEEBB16 /* Pods-TaskPayBackApp-TaskPayBackAppUITests.releaseqa.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TaskPayBackApp-TaskPayBackAppUITests/Pods-TaskPayBackApp-TaskPayBackAppUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TaskPayBackApp-TaskPayBackAppUITests/Pods-TaskPayBackApp-TaskPayBackAppUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = ReleaseQA;
+		};
+		6345C333DE2FEDB991F31B8AA7D71B59 /* ReleaseProd */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0AC30EAAD586CEBF28C757A45EDDBF9D /* Pods-TaskPayBackApp.releaseprod.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TaskPayBackApp/Pods-TaskPayBackApp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TaskPayBackApp/Pods-TaskPayBackApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = ReleaseProd;
+		};
+		73A1B0783107784D1E13235DEA515D4F /* ReleaseDev */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE_DEV=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = ReleaseDev;
+		};
+		78AF7F2D41BCC2A5081235B0397D1068 /* ReleaseStaging */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D31A5CABE415A104BAE9747A938C456C /* KQTaskNetworkManager.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KQTaskNetworkManager/KQTaskNetworkManager-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KQTaskNetworkManager/KQTaskNetworkManager-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/KQTaskNetworkManager/KQTaskNetworkManager.modulemap";
+				PRODUCT_MODULE_NAME = KQTaskNetworkManager;
+				PRODUCT_NAME = KQTaskNetworkManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = ReleaseStaging;
+		};
+		85B63E46CD1991E6D5DD6CB382B2E0D7 /* ReleaseDev */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2987A8CF82B5FE57FB266913B485BFDD /* Pods-TaskPayBackAppTests.releasedev.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TaskPayBackAppTests/Pods-TaskPayBackAppTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TaskPayBackAppTests/Pods-TaskPayBackAppTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = ReleaseDev;
+		};
+		8C5D6F3BBEEEC82245A86B6E5D72F8EE /* DebugStaging */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB40460FFD36B9EAA45B8320AF5FCD78 /* Pods-TaskPayBackApp.debugstaging.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TaskPayBackApp/Pods-TaskPayBackApp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TaskPayBackApp/Pods-TaskPayBackApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = DebugStaging;
+		};
+		8DE5143C03248BB6CD542DE3963D6F3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		8F140C8375436210812881864F39733C /* ReleaseProd */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C722CCDC2AB135DF66D82E6DACC32917 /* Pods-TaskPayBackAppTests.releaseprod.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TaskPayBackAppTests/Pods-TaskPayBackAppTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TaskPayBackAppTests/Pods-TaskPayBackAppTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = ReleaseProd;
+		};
+		936BFDB5A50E4C3EA35A39B6453AB39F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93A5634F79610B8B5D6CD7BC36511F2E /* Pods-TaskPayBackApp-TaskPayBackAppUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TaskPayBackApp-TaskPayBackAppUITests/Pods-TaskPayBackApp-TaskPayBackAppUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TaskPayBackApp-TaskPayBackAppUITests/Pods-TaskPayBackApp-TaskPayBackAppUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9647BB8F820C7B03E52DFB346BA6CBE2 /* ReleaseStaging */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E378027E756A2B884890A7759E94D9F /* Pods-TaskPayBackAppTests.releasestaging.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TaskPayBackAppTests/Pods-TaskPayBackAppTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TaskPayBackAppTests/Pods-TaskPayBackAppTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = ReleaseStaging;
+		};
+		9E406C6AAF85E580207CD97B0044DEAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		9E63D9424B2B67F9DE424367C91866FC /* ReleaseStaging */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE_STAGING=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = ReleaseStaging;
+		};
+		AD049D1F6370049CFAA202016A77D5CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 858CE6E4B328341F3B981AB6DD7A56F7 /* KQTaskNetworkManager.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KQTaskNetworkManager/KQTaskNetworkManager-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KQTaskNetworkManager/KQTaskNetworkManager-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/KQTaskNetworkManager/KQTaskNetworkManager.modulemap";
+				PRODUCT_MODULE_NAME = KQTaskNetworkManager;
+				PRODUCT_NAME = KQTaskNetworkManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B05C5887D10149AF3DD8A454C3B5E996 /* ReleaseQA */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7236B67A4269D7DB2369153176858B5E /* Pods-TaskPayBackApp.releaseqa.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TaskPayBackApp/Pods-TaskPayBackApp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TaskPayBackApp/Pods-TaskPayBackApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = ReleaseQA;
+		};
+		B3D93AC726C07E55F3532F6359E29FD8 /* DebugDev */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5521DF27DC7DC64095E81CD3781337E5 /* Pods-TaskPayBackApp.debugdev.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TaskPayBackApp/Pods-TaskPayBackApp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TaskPayBackApp/Pods-TaskPayBackApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = DebugDev;
+		};
+		BFD4C07E6DB3F28E404D31ABACCB9677 /* DebugStaging */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D31A5CABE415A104BAE9747A938C456C /* KQTaskNetworkManager.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KQTaskNetworkManager/KQTaskNetworkManager-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KQTaskNetworkManager/KQTaskNetworkManager-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/KQTaskNetworkManager/KQTaskNetworkManager.modulemap";
+				PRODUCT_MODULE_NAME = KQTaskNetworkManager;
+				PRODUCT_NAME = KQTaskNetworkManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = DebugStaging;
+		};
+		C42588149C117552A822F7F2499C7967 /* ReleaseQA */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE_QA=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = ReleaseQA;
+		};
+		CB6C975C0733AF7D8CD7A003B37BB494 /* DebugQA */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28BC9F571943DF83482FED6A9DA3C83B /* Pods-TaskPayBackAppTests.debugqa.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TaskPayBackAppTests/Pods-TaskPayBackAppTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TaskPayBackAppTests/Pods-TaskPayBackAppTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = DebugQA;
+		};
+		D7C71F9FE80FC519F3FE42B346D04E8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D31A5CABE415A104BAE9747A938C456C /* KQTaskNetworkManager.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KQTaskNetworkManager/KQTaskNetworkManager-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KQTaskNetworkManager/KQTaskNetworkManager-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/KQTaskNetworkManager/KQTaskNetworkManager.modulemap";
+				PRODUCT_MODULE_NAME = KQTaskNetworkManager;
+				PRODUCT_NAME = KQTaskNetworkManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E1650B66EC2E13E59A13CAC438BDA403 /* DebugDev */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D31A5CABE415A104BAE9747A938C456C /* KQTaskNetworkManager.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KQTaskNetworkManager/KQTaskNetworkManager-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KQTaskNetworkManager/KQTaskNetworkManager-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/KQTaskNetworkManager/KQTaskNetworkManager.modulemap";
+				PRODUCT_MODULE_NAME = KQTaskNetworkManager;
+				PRODUCT_NAME = KQTaskNetworkManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = DebugDev;
+		};
+		E2539E0CD2F4C4E9AD1CDF1B22D1F4B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43C94E8B18F83552A4A52ED8653E4EDA /* Pods-TaskPayBackApp-TaskPayBackAppUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TaskPayBackApp-TaskPayBackAppUITests/Pods-TaskPayBackApp-TaskPayBackAppUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TaskPayBackApp-TaskPayBackAppUITests/Pods-TaskPayBackApp-TaskPayBackAppUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E2BDDE7666D82A8E3A9973E77A861287 /* DebugQA */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D31A5CABE415A104BAE9747A938C456C /* KQTaskNetworkManager.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KQTaskNetworkManager/KQTaskNetworkManager-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KQTaskNetworkManager/KQTaskNetworkManager-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/KQTaskNetworkManager/KQTaskNetworkManager.modulemap";
+				PRODUCT_MODULE_NAME = KQTaskNetworkManager;
+				PRODUCT_NAME = KQTaskNetworkManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = DebugQA;
+		};
+		E4BBBFB917A4165397BF6238739D7E96 /* ReleaseProd */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE_PROD=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = ReleaseProd;
+		};
+		EC75D931B80975492E3CE0F79006349D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48A39F3ACFF0AF0EE6F9104537E2B57B /* Pods-TaskPayBackApp.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TaskPayBackApp/Pods-TaskPayBackApp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TaskPayBackApp/Pods-TaskPayBackApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EFE3D813DC057D675A6E31D570A1F465 /* DebugProd */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C1DA25F9FEF2BA01CC3662064255A6A /* Pods-TaskPayBackApp-TaskPayBackAppUITests.debugprod.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TaskPayBackApp-TaskPayBackAppUITests/Pods-TaskPayBackApp-TaskPayBackAppUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TaskPayBackApp-TaskPayBackAppUITests/Pods-TaskPayBackApp-TaskPayBackAppUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = DebugProd;
+		};
+		F29B63CFB2809D8D7C8C448F7F4D4E76 /* ReleaseDev */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D31A5CABE415A104BAE9747A938C456C /* KQTaskNetworkManager.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KQTaskNetworkManager/KQTaskNetworkManager-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KQTaskNetworkManager/KQTaskNetworkManager-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/KQTaskNetworkManager/KQTaskNetworkManager.modulemap";
+				PRODUCT_MODULE_NAME = KQTaskNetworkManager;
+				PRODUCT_NAME = KQTaskNetworkManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = ReleaseDev;
+		};
+		F6B97C2228A61E8F0C6E29FB9E6F9B8D /* ReleaseDev */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E624809323676F6DD6CBE583C147A6FD /* Pods-TaskPayBackApp-TaskPayBackAppUITests.releasedev.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TaskPayBackApp-TaskPayBackAppUITests/Pods-TaskPayBackApp-TaskPayBackAppUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TaskPayBackApp-TaskPayBackAppUITests/Pods-TaskPayBackApp-TaskPayBackAppUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = ReleaseDev;
+		};
+		FA93A340E35670716462D7F2D5E3B7CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B8B6A0E5B6C5776C602268A1FD31248 /* Pods-TaskPayBackAppTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TaskPayBackAppTests/Pods-TaskPayBackAppTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TaskPayBackAppTests/Pods-TaskPayBackAppTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FB00BA7C470EE0F0F1AA28A0358BCF82 /* ReleaseStaging */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DBD3A722CB0EFB21413DAA26588DBBB7 /* Pods-TaskPayBackApp.releasestaging.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TaskPayBackApp/Pods-TaskPayBackApp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TaskPayBackApp/Pods-TaskPayBackApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = ReleaseStaging;
+		};
+		FFC8642D9D654FA2C6333B9003FEA4C8 /* DebugQA */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG_QA=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = DebugQA;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		030E97E8CFA138435A5940625B2ACD28 /* Build configuration list for PBXNativeTarget "Pods-TaskPayBackApp-TaskPayBackAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2539E0CD2F4C4E9AD1CDF1B22D1F4B4 /* Debug */,
+				4675F25BD2B500DBB77B71698FDD6F87 /* DebugDev */,
+				EFE3D813DC057D675A6E31D570A1F465 /* DebugProd */,
+				015889BE35E2056FC985F9E5BDD5EE05 /* DebugQA */,
+				3851C0CACF2F2E4C122C93D5A6DDF209 /* DebugStaging */,
+				936BFDB5A50E4C3EA35A39B6453AB39F /* Release */,
+				F6B97C2228A61E8F0C6E29FB9E6F9B8D /* ReleaseDev */,
+				0E566072F6FE747E95D1A7E3A76A8EF2 /* ReleaseProd */,
+				606FE4658151549EA8B31ED94EB6DCCC /* ReleaseQA */,
+				2D1ACEA777B74CDBD32B0B092B6E22E2 /* ReleaseStaging */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30C52DEC0D3C9DFBFA6B03354602DCF2 /* Build configuration list for PBXNativeTarget "Pods-TaskPayBackApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC75D931B80975492E3CE0F79006349D /* Debug */,
+				B3D93AC726C07E55F3532F6359E29FD8 /* DebugDev */,
+				5386F54405EE44E12E5A64B6765C005F /* DebugProd */,
+				3A2AE4E5D2907F739E5FD6CCFA98F419 /* DebugQA */,
+				8C5D6F3BBEEEC82245A86B6E5D72F8EE /* DebugStaging */,
+				3553E366B4EA28CC2BF4C5AAF7104607 /* Release */,
+				59CBDDB574CBA52657A1638581D4F389 /* ReleaseDev */,
+				6345C333DE2FEDB991F31B8AA7D71B59 /* ReleaseProd */,
+				B05C5887D10149AF3DD8A454C3B5E996 /* ReleaseQA */,
+				FB00BA7C470EE0F0F1AA28A0358BCF82 /* ReleaseStaging */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3E59C521D58E55E8EF37E5FDEADBD032 /* Build configuration list for PBXNativeTarget "Pods-TaskPayBackAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA93A340E35670716462D7F2D5E3B7CC /* Debug */,
+				01D6BA387061B53065DB81CE3784899C /* DebugDev */,
+				2339E80A93C3856CD7967E728C5B9989 /* DebugProd */,
+				CB6C975C0733AF7D8CD7A003B37BB494 /* DebugQA */,
+				0920039D1625D5F65921321914656F48 /* DebugStaging */,
+				2B853A92A22F69148A207CAF9EE29F1D /* Release */,
+				85B63E46CD1991E6D5DD6CB382B2E0D7 /* ReleaseDev */,
+				8F140C8375436210812881864F39733C /* ReleaseProd */,
+				15A082FAA1DB16E13E8D87CA195130CF /* ReleaseQA */,
+				9647BB8F820C7B03E52DFB346BA6CBE2 /* ReleaseStaging */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DE5143C03248BB6CD542DE3963D6F3A /* Debug */,
+				580156BB9E28C15764B1DC7C44C5BE1A /* DebugDev */,
+				192723A33ABBE652AFDCC6F09CA99379 /* DebugProd */,
+				FFC8642D9D654FA2C6333B9003FEA4C8 /* DebugQA */,
+				173C5BFCC1DBA95D639AFC021945B6A5 /* DebugStaging */,
+				9E406C6AAF85E580207CD97B0044DEAB /* Release */,
+				73A1B0783107784D1E13235DEA515D4F /* ReleaseDev */,
+				E4BBBFB917A4165397BF6238739D7E96 /* ReleaseProd */,
+				C42588149C117552A822F7F2499C7967 /* ReleaseQA */,
+				9E63D9424B2B67F9DE424367C91866FC /* ReleaseStaging */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C496EEEABE61636B93742E830B3920B4 /* Build configuration list for PBXNativeTarget "KQTaskNetworkManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD049D1F6370049CFAA202016A77D5CA /* Debug */,
+				E1650B66EC2E13E59A13CAC438BDA403 /* DebugDev */,
+				32F7E559813650053BF73C0E83A8E658 /* DebugProd */,
+				E2BDDE7666D82A8E3A9973E77A861287 /* DebugQA */,
+				BFD4C07E6DB3F28E404D31ABACCB9677 /* DebugStaging */,
+				D7C71F9FE80FC519F3FE42B346D04E8D /* Release */,
+				F29B63CFB2809D8D7C8C448F7F4D4E76 /* ReleaseDev */,
+				16063976CA3FC419B587C4F909EDA3F2 /* ReleaseProd */,
+				069BE4E24A91820FF6C3FAEA65431625 /* ReleaseQA */,
+				78AF7F2D41BCC2A5081235B0397D1068 /* ReleaseStaging */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
