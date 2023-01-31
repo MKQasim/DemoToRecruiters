@@ -47,9 +47,11 @@ class TransactionPostCell: UITableViewCell , NibInstantiatable {
     guard let name = transaction.partnerDisplayName else { return  }
     lblName.text = name
     lblReferance.text = transaction.alias?.reference
-    lblCategory.text = " \(transaction.transactionDetail?.bookingDate ?? Date())"
+    lblCategory.text = "\(transaction.transactionDetail?.bookingDate ?? Date())"
     lblAmount.text = transaction.transactionDetail?.description?.rawValue
+    
     lblCurrency.text = "\(transaction.category ?? 0)"
+    
     lblCurrency.text = "\(String(describing: transaction.transactionDetail?.value?.amount ?? 0))  : \(transaction.transactionDetail?.value?.currency?.rawValue ?? "")"
     
   }

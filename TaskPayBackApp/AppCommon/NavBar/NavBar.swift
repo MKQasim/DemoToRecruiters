@@ -65,14 +65,10 @@ class NavBar: UIView {
   
   func setupView()
   {
-    self.titleLabel.textColor = AppTheme.shared.navTitleTextColor
-//    backgroundView.backgroundColor = AppTheme.shared.navBackgroundColor
     setGradientBackground()
     self.leftFirstButton.setImage(UIImage(named: ImageFactory.NavBar.navBarMenu), for: .normal)
     self.leftSecondButton.setBackgroundImage(UIImage(named: ImageFactory.NavBar.navBarUserPlaceholeder), for: .normal)
     self.rightFirstButton.setImage(UIImage(named: ImageFactory.NavBar.navBarMessage), for: .normal)
-//    self.rightSecondButton.setImage(UIImage(named: ImageFactory.NavBar.navBarNotification), for: .normal)
-//    self.rightSecondButton.setImage(UIImage(named: ImageFactory.NavBar.navBarSettings), for: .normal)
   }
   
   @IBAction func menuAction(_ sender: UIButton)

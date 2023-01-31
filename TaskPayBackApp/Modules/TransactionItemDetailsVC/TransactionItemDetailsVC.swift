@@ -1,9 +1,9 @@
-//
-//  TransactionItemDetailsViewController.swift
-//  TaskPayBackApp
-//
-//  Created by KamsQue on 29/01/2023.
-//
+  //
+  //  TransactionItemDetailsViewController.swift
+  //  TaskPayBackApp
+  //
+  //  Created by KamsQue on 29/01/2023.
+  //
 
 import UIKit
 import SwiftUI
@@ -22,16 +22,19 @@ class TransactionItemDetailsVC: UIHostingController<TransactionDetailsView> {
   var interactor: TransactionItemDetailsBusinessLogic?
   var router: (NSObjectProtocol & TransactionItemDetailsRoutingLogic & TransactionItemDetailsDataPassing)?
   
-  required init?(coder aDecoder: NSCoder) {
-    super.init(coder: aDecoder)
-  }
   
-  init(model: DefaultTransactionDetailsViewModel,navigationController :  UINavigationController) {
+  
+  init(model: DefaultTransactionDetailsViewModel,navigationController :  UINavigationController)
+  {
     self.viewModel = model
-   
     let detailsView = TransactionDetailsView(viewModel: model, navigationController :  navigationController)
     super.init(rootView: detailsView)
     self.setup()
+  }
+  
+  required init?(coder aDecoder: NSCoder)
+  {
+    super.init(coder: aDecoder)
   }
   
     // MARK: Setup
@@ -48,12 +51,14 @@ class TransactionItemDetailsVC: UIHostingController<TransactionDetailsView> {
     router.viewController = viewController
     router.dataStore = interactor
     self.viewModel?.delegate = self
-
+    
   }
 }
 
-extension TransactionItemDetailsVC : TransactionListDisplayLogic {
-  func displayFetchedTransactions(viewModel: TransactionList.Transactions.ViewModel) {
+extension TransactionItemDetailsVC : TransactionListDisplayLogic
+{
+  func displayFetchedTransactions(viewModel: TransactionList.Transactions.ViewModel)
+  {
     print(viewModel.transactionsList)
   }
 }
