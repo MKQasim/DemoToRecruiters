@@ -17,13 +17,14 @@ class TransactionListVC: AppSuperVC, TransactionListDisplayLogic , NibInstantiat
 {
   var interactor: TransactionListBusinessLogic?
   var router: (NSObjectProtocol & TransactionListRoutingLogic & TransactionListDataPassing)?
-  
+
     // MARK: Do something
   
   @IBOutlet weak var tableView: UITableView!
-  
+  let transparentView = UIView()
+  var selectedButton = UIButton()
+  var dataSource = [String]()
   var transactionList : [Items]?
-  
     // MARK: Object lifecycle
   
   override init(nibName nibNameOrNil: String?, bundle nibBundleOrNil: Bundle?)
@@ -86,14 +87,35 @@ class TransactionListVC: AppSuperVC, TransactionListDisplayLogic , NibInstantiat
     setGradientBackground()
   }
   
+  override func viewDidAppear(_ animated: Bool) {
+    super.viewDidAppear(animated)
+    setGradientBackground()
+  }
+  
   func displayFetchedTransactions(viewModel: TransactionList.Transactions.ViewModel)
   {
     transactionList = viewModel.transactionsList?.items
-    let sum = transactionList?.reduce(0) {$1.transactionDetail?.value?.amount ?? 0 }
+    setCalculateSum(selectedCategory: "All Categories")
+    if var route = self.router as? TransactionListRouter{
+      route.dataStore?.itemList = viewModel.transactionsList?.items
+      route.didTap = { [weak self] ( selectedCategory,filteredList, isTap) in
+        if isTap {
+          self?.transactionList = filteredList
+        }else{
+          self?.transactionList = filteredList
+        }
+          self?.setCalculateSum(selectedCategory: selectedCategory)
+      }
+    }
+  }
+  
+  func setCalculateSum(selectedCategory: String){
+    let totalAmount = transactionList?.reduce(0.0) { $0 + Double(($1.transactionDetail?.value?.amount  ?? 0)) }
+    print(totalAmount)
     DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + 0.1, execute: { [weak self] in
       self?.tableView.reloadData()
-      self?.navbarView?.setNavDoneButtonTitle(title: "\(sum ?? 0)")
-      self?.navbarView?.rightSecondButton(image: "", title: "Total Amount")
+      self?.navbarView?.setNavDoneButtonTitle(title: "\(totalAmount ?? 0)")
+      self?.navbarView?.rightSecondButton(image: "", title: "\(selectedCategory) \nTotal Amount")
     })
   }
 }
@@ -118,9 +140,18 @@ extension TransactionListVC {
   func moveToItemDetails(item:Items?) {
     DispatchQueue.main.asyncAfter(deadline: .now()) {  [weak self] in
       guard let self = self else{ return}
-      if var rout = self.router , let item = item {
-        rout.dataStore?.item = item
-        rout.routeToDetails()
+      if var route = self.router , let item = item {
+        route.dataStore?.item = item
+        route.routeToDetails()
+      }
+    }
+  }
+  
+  func openFilterCategory() {
+    DispatchQueue.main.asyncAfter(deadline: .now()) {  [weak self] in
+      if let strSelf = self , let route = strSelf.router as? TransactionListRouter {
+        route.routeToSearchFilter()
+        print("as? TransactionListRouter")
       }
     }
   }
@@ -172,14 +203,16 @@ extension TransactionListVC {
   func navAction()
   {
     navTitle = "Transections List"
-    self.navbarView?.setNavBackAction(leftFirst: true, leftSecond: false, leftThird: true, title: false, rightFirst: true, rightSecond: false, rightThird: false , navTitle : navTitle)
-    navbarView?.navBarAction = { actiontype in
+    self.navbarView?.setNavBackAction(isPushed:false, leftFirst: false, leftSecond: false, leftThird: true, title: false, rightFirst: true, rightSecond: false, rightThird: false , navTitle : navTitle)
+    navbarView?.navBarAction = { [weak self] actiontype in
+      guard let strSelf = self else { return }
       switch  ActionType(rawValue: actiontype.rawValue) {
+      case .leftFirstButtonAction : print("profile leftFirstButtonAction")
+        strSelf.openFilterCategory()
       case .leftSecondButtonAction:print("profile secondLeftButtonAction")
       case .rightThirdButtonAction:print("filter rightThirdButtonAction");
       default:print("No One")
       }
-      return self
     }
   }
 }

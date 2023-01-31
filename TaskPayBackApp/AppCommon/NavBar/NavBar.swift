@@ -26,7 +26,7 @@ class NavBar: UIView {
   @IBOutlet public weak var rightFirstButton: UIButton!
   @IBOutlet public weak var rightSecondButton: UIButton!
   @IBOutlet public weak var rightThirdButton: UIButton!
-  var navBarAction : ((_ actionType:ActionType)->(UIViewController)) = { _ in UIViewController()}
+  var navBarAction : ((_ actionType:ActionType)->(Void)) = { _ in}
   var onCompletion : ((_ success: Bool) -> ())?
   var navBar = UIView()
   var navBarNameIdentifire  = "NavBar"
@@ -107,7 +107,8 @@ extension NavBar {
   
   func setNavBackAction(isPushed: Bool =  false , leftFirst:Bool = false ,leftSecond:Bool = false,leftThird:Bool = false,title:Bool = false,rightFirst:Bool = false ,rightSecond:Bool = false,rightThird:Bool = false ,  navTitle : String  = "" )
   {
-    leftFirstButton.setImage(UIImage(named: ImageFactory.NavBar.navBarBack), for: .normal)
+    
+    leftFirstButton.setImage(UIImage(named:  isPushed == true ? ImageFactory.NavBar.navBarBack :  ImageFactory.NavBar.navBarMenu), for: .normal)
     leftFirstButton.isHidden = isPushed == true ? false : leftFirst
     leftSecondButton.isHidden = leftSecond
     titleLabel.isHidden = title
@@ -152,7 +153,7 @@ extension NavBar {
       self.rightSecondButton.setTitle(title, for: .normal)
       self.rightSecondButton?.titleLabel?.lineBreakMode = NSLineBreakMode.byWordWrapping
       self.rightSecondButton?.titleLabel?.textAlignment = .right
-      self.rightSecondButton.titleLabel?.font = self.rightSecondButton.titleLabel?.font.withSize(12)
+      self.rightSecondButton.titleLabel?.font = self.rightSecondButton.titleLabel?.font.withSize(10)
      
     }else{
       self.rightSecondButton.setBackgroundImage(UIImage(named: image), for: .normal)

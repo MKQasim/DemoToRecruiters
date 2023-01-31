@@ -8,21 +8,23 @@
 import UIKit
 import SwiftUI
 
- @objc protocol TransactionListRoutingLogic
+@objc protocol TransactionListRoutingLogic
 {
-   func routeToDetails()
+  func routeToDetails()
+  func routeToSearchFilter()
 }
 
 protocol TransactionListDataPassing
 {
-   var dataStore: TransactionListDataStore? { get set}
+  var dataStore: TransactionListDataStore? { get set}
 }
 
 class TransactionListRouter: NSObject, TransactionListRoutingLogic, TransactionListDataPassing
 {
+  
   weak var viewController: TransactionListVC?
   var dataStore: TransactionListDataStore?
-  
+  var didTap:DismissCallbackWithString = {_,_,_  in }
     // MARK: Routing
   
   func routeToDetails()
@@ -33,9 +35,32 @@ class TransactionListRouter: NSObject, TransactionListRoutingLogic, TransactionL
       guard let destinationRouter = destinationVC.router else {return}
       guard var destinationDS = destinationRouter.dataStore else {return}
       guard let sourceDS = dataStore else {return}
-      passDataToSomewhere(source: sourceDS , destination: &destinationDS)
+      passDataToTransactionDetails(source: sourceDS , destination: &destinationDS)
       navigateToItemDetails(source: viewController, destination: destinationVC)
     }
+  }
+  
+  func routeToSearchFilter() {
+    let destinationVC = CategorFilterVC()
+    guard let viewController = self.viewController else{return}
+    guard let destinationRouter = destinationVC.router else {return}
+    guard let dest = destinationRouter as? CategorFilterRouter else { return  }
+    dest.didTap = { [weak self] (selectedCategory,item, isTap) in
+      print(selectedCategory,item?.count,isTap)
+      self?.didTap(selectedCategory, item,  isTap)
+    }
+    guard var destinationDS = destinationRouter.dataStore else {return}
+    guard let sourceDS = dataStore else {return}
+    passDataToCategoryFilter(source: sourceDS , destination: &destinationDS)
+    navigateToItemDetails(source: viewController, destination: destinationVC)
+  }
+  
+    // MARK: Navigation
+  
+  func navigateToCategoryFilter(source: TransactionListVC, destination: UIViewController)
+  {
+    source.navigationController?.isNavigationBarHidden = true
+    source.show(destination, sender: self)
   }
   
     // MARK: Navigation
@@ -43,14 +68,18 @@ class TransactionListRouter: NSObject, TransactionListRoutingLogic, TransactionL
   func navigateToItemDetails(source: TransactionListVC, destination: UIViewController)
   {
     source.navigationController?.isNavigationBarHidden = true
-    source.show(destination, sender: self)
+    source.showDetailViewController(destination, sender: self)
   }
   
     // MARK: Passing data
-  
-  func passDataToSomewhere(source: TransactionListDataStore, destination: inout TransactionItemDetailsDataStore)
-  {guard let viewController = self.viewController else {return}
+  func passDataToTransactionDetails(source: TransactionListDataStore, destination: inout TransactionItemDetailsDataStore)
+  {
     destination.item = source.item
-//    destination.navigation = viewController.navigationController
+  }
+    // MARK: Passing data
+  func passDataToCategoryFilter(source: TransactionListDataStore, destination: inout CategorFilterDataStore)
+  {
+    destination.itemList = source.itemList
   }
 }
+

@@ -54,6 +54,15 @@
 		5D9A54682983A21C000495C8 /* TransactionBusiness.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9A54672983A21C000495C8 /* TransactionBusiness.swift */; };
 		5D9E3C232988643F00662EBE /* CircleBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9E3C222988643E00662EBE /* CircleBackground.swift */; };
 		5D9E3C2529886B6D00662EBE /* CircleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9E3C2429886B6D00662EBE /* CircleButton.swift */; };
+		5D9E3C302988B2D900662EBE /* CategorFilterPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9E3C2A2988B2D800662EBE /* CategorFilterPresenter.swift */; };
+		5D9E3C312988B2D900662EBE /* CategorFilterWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9E3C2B2988B2D800662EBE /* CategorFilterWorker.swift */; };
+		5D9E3C322988B2D900662EBE /* CategorFilterRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9E3C2C2988B2D900662EBE /* CategorFilterRouter.swift */; };
+		5D9E3C332988B2D900662EBE /* CategorFilterModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9E3C2D2988B2D900662EBE /* CategorFilterModels.swift */; };
+		5D9E3C352988B2D900662EBE /* CategorFilterInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9E3C2F2988B2D900662EBE /* CategorFilterInteractor.swift */; };
+		5D9E3C382988C6EC00662EBE /* CategorFilterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9E3C362988C6EC00662EBE /* CategorFilterVC.swift */; };
+		5D9E3C392988C6EC00662EBE /* CategorFilterVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D9E3C372988C6EC00662EBE /* CategorFilterVC.xib */; };
+		5D9E3C3C2988C88300662EBE /* SeclectFilterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9E3C3A2988C88300662EBE /* SeclectFilterCell.swift */; };
+		5D9E3C3D2988C88300662EBE /* SeclectFilterCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D9E3C3B2988C88300662EBE /* SeclectFilterCell.xib */; };
 		5DAB4B9F298654CF0081B502 /* ScenesFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4B9E298654CF0081B502 /* ScenesFactory.swift */; };
 		5DAB4BA32986555D0081B502 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4BA22986555D0081B502 /* ViewModel.swift */; };
 		5DAB4BAB29865D840081B502 /* TransactionDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4BAA29865D840081B502 /* TransactionDetailsView.swift */; };
@@ -147,6 +156,15 @@
 		5D9A54672983A21C000495C8 /* TransactionBusiness.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionBusiness.swift; sourceTree = "<group>"; };
 		5D9E3C222988643E00662EBE /* CircleBackground.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleBackground.swift; sourceTree = "<group>"; };
 		5D9E3C2429886B6D00662EBE /* CircleButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleButton.swift; sourceTree = "<group>"; };
+		5D9E3C2A2988B2D800662EBE /* CategorFilterPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategorFilterPresenter.swift; sourceTree = "<group>"; };
+		5D9E3C2B2988B2D800662EBE /* CategorFilterWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategorFilterWorker.swift; sourceTree = "<group>"; };
+		5D9E3C2C2988B2D900662EBE /* CategorFilterRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategorFilterRouter.swift; sourceTree = "<group>"; };
+		5D9E3C2D2988B2D900662EBE /* CategorFilterModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategorFilterModels.swift; sourceTree = "<group>"; };
+		5D9E3C2F2988B2D900662EBE /* CategorFilterInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategorFilterInteractor.swift; sourceTree = "<group>"; };
+		5D9E3C362988C6EC00662EBE /* CategorFilterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategorFilterVC.swift; sourceTree = "<group>"; };
+		5D9E3C372988C6EC00662EBE /* CategorFilterVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CategorFilterVC.xib; sourceTree = "<group>"; };
+		5D9E3C3A2988C88300662EBE /* SeclectFilterCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeclectFilterCell.swift; sourceTree = "<group>"; };
+		5D9E3C3B2988C88300662EBE /* SeclectFilterCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SeclectFilterCell.xib; sourceTree = "<group>"; };
 		5DAB4B9E298654CF0081B502 /* ScenesFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScenesFactory.swift; sourceTree = "<group>"; };
 		5DAB4BA22986555D0081B502 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 		5DAB4BAA29865D840081B502 /* TransactionDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionDetailsView.swift; sourceTree = "<group>"; };
@@ -375,8 +393,8 @@
 			isa = PBXGroup;
 			children = (
 				5DAB4B9E298654CF0081B502 /* ScenesFactory.swift */,
+				5D9E3C282988B26D00662EBE /* FilterVC */,
 				5D858E98298675DC00913B32 /* TransactionItemDetailsVC */,
-				5D745CF52983DDFD00B85B23 /* TransactionCell */,
 				5D9A5404298303F6000495C8 /* AppSuperVC */,
 				5D9A540629830560000495C8 /* TransactionList */,
 			);
@@ -386,6 +404,7 @@
 		5D9A540629830560000495C8 /* TransactionList */ = {
 			isa = PBXGroup;
 			children = (
+				5D745CF52983DDFD00B85B23 /* TransactionCell */,
 				5D9A541E29830896000495C8 /* TransactionListPresenter.swift */,
 				5D9A541F29830896000495C8 /* TransactionListWorker.swift */,
 				5D9A542029830896000495C8 /* TransactionListRouter.swift */,
@@ -520,6 +539,30 @@
 			path = SwiftUi_UI;
 			sourceTree = "<group>";
 		};
+		5D9E3C282988B26D00662EBE /* FilterVC */ = {
+			isa = PBXGroup;
+			children = (
+				5D9E3C292988B27B00662EBE /* FilterCell */,
+				5D9E3C2A2988B2D800662EBE /* CategorFilterPresenter.swift */,
+				5D9E3C2B2988B2D800662EBE /* CategorFilterWorker.swift */,
+				5D9E3C2C2988B2D900662EBE /* CategorFilterRouter.swift */,
+				5D9E3C2D2988B2D900662EBE /* CategorFilterModels.swift */,
+				5D9E3C2F2988B2D900662EBE /* CategorFilterInteractor.swift */,
+				5D9E3C362988C6EC00662EBE /* CategorFilterVC.swift */,
+				5D9E3C372988C6EC00662EBE /* CategorFilterVC.xib */,
+			);
+			path = FilterVC;
+			sourceTree = "<group>";
+		};
+		5D9E3C292988B27B00662EBE /* FilterCell */ = {
+			isa = PBXGroup;
+			children = (
+				5D9E3C3A2988C88300662EBE /* SeclectFilterCell.swift */,
+				5D9E3C3B2988C88300662EBE /* SeclectFilterCell.xib */,
+			);
+			path = FilterCell;
+			sourceTree = "<group>";
+		};
 		5DAB4BA1298655450081B502 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
@@ -641,8 +684,10 @@
 				5D745CF92983DDFD00B85B23 /* TransactionPostCell.xib in Resources */,
 				5D9A53B42982D901000495C8 /* LaunchScreen.storyboard in Resources */,
 				5D9A543C29832411000495C8 /* TransactionListVC.xib in Resources */,
+				5D9E3C392988C6EC00662EBE /* CategorFilterVC.xib in Resources */,
 				5D9A544029832528000495C8 /* NavBar.xib in Resources */,
 				5D9A53B12982D901000495C8 /* Assets.xcassets in Resources */,
+				5D9E3C3D2988C88300662EBE /* SeclectFilterCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -771,6 +816,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5D9A53F82982DFDB000495C8 /* AppConfig.swift in Sources */,
+				5D9E3C332988B2D900662EBE /* CategorFilterModels.swift in Sources */,
 				5D9A543829831581000495C8 /* UIExtensions.swift in Sources */,
 				5DAB4B9F298654CF0081B502 /* ScenesFactory.swift in Sources */,
 				5D9E3C232988643F00662EBE /* CircleBackground.swift in Sources */,
@@ -780,6 +826,7 @@
 				5D9A542829830896000495C8 /* TransactionListVC.swift in Sources */,
 				5D9A542629830896000495C8 /* TransactionListRouter.swift in Sources */,
 				5D9A53A82982D8FF000495C8 /* AppDelegate.swift in Sources */,
+				5D9E3C3C2988C88300662EBE /* SeclectFilterCell.swift in Sources */,
 				5D9A544129832528000495C8 /* NavBar.swift in Sources */,
 				5D858E9F2986763D00913B32 /* TransactionItemDetailsPresenter.swift in Sources */,
 				5D9A54632983978D000495C8 /* TransactionServicesHandler.swift in Sources */,
@@ -788,6 +835,7 @@
 				5D9A544C29836083000495C8 /* TransactionsList.swift in Sources */,
 				5D9A542729830896000495C8 /* TransactionListModels.swift in Sources */,
 				5DF4ABF52983F47D00B58896 /* TableViewExtension.swift in Sources */,
+				5D9E3C302988B2D900662EBE /* CategorFilterPresenter.swift in Sources */,
 				5D9A545929837190000495C8 /* TransactionService.swift in Sources */,
 				5D858EA12986763D00913B32 /* TransactionItemDetailsRouter.swift in Sources */,
 				5D9A5435298310F7000495C8 /* AppColor.swift in Sources */,
@@ -804,11 +852,15 @@
 				5D9A542929830896000495C8 /* TransactionListInteractor.swift in Sources */,
 				5D858EA62986769D00913B32 /* TransactionItemDetailsConfigurator.swift in Sources */,
 				5DF4ABF72983F4D000B58896 /* NibExtension.swift in Sources */,
+				5D9E3C382988C6EC00662EBE /* CategorFilterVC.swift in Sources */,
 				5D9E3C2529886B6D00662EBE /* CircleButton.swift in Sources */,
 				5D9A545029836178000495C8 /* Alias.swift in Sources */,
+				5D9E3C352988B2D900662EBE /* CategorFilterInteractor.swift in Sources */,
 				5D9A53AA2982D8FF000495C8 /* SceneDelegate.swift in Sources */,
 				5D745CF82983DDFD00B85B23 /* TransactionPostCell.swift in Sources */,
 				5D858EA22986763D00913B32 /* TransactionItemDetailsModels.swift in Sources */,
+				5D9E3C322988B2D900662EBE /* CategorFilterRouter.swift in Sources */,
+				5D9E3C312988B2D900662EBE /* CategorFilterWorker.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

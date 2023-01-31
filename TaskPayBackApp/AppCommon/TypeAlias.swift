@@ -9,3 +9,4 @@ import Foundation
 
 typealias VoidCallback = () -> Void
 typealias TransactionCallback = (Items) -> Void
+typealias DismissCallbackWithString = (String,[Items]?,Bool) -> Void
