@@ -54,17 +54,25 @@ class NavBar: UIView {
     viewFromXib.frame = self.bounds
     addSubview(viewFromXib)
     setupView()
+   
+  }
+  
+  func setGradientBackground() {
+    self.backgroundView.layer.cornerRadius = 25
+    self.backgroundView.layer.masksToBounds = true
+    self.backgroundView.layerGradient(startPoint: .centerRight, endPoint: .centerLeft, colorArray: [UIColor(AppColor.TransactionDetailsScreenColors.TransactionDetailsBackGroundView().backgroundGradiantColor.first!).cgColor, UIColor(AppColor.TransactionDetailsScreenColors.TransactionDetailsBackGroundView().backgroundGradiantColor.last!).cgColor], type: .axial)
   }
   
   func setupView()
   {
     self.titleLabel.textColor = AppTheme.shared.navTitleTextColor
-    backgroundView.backgroundColor = AppTheme.shared.navBackgroundColor
+//    backgroundView.backgroundColor = AppTheme.shared.navBackgroundColor
+    setGradientBackground()
     self.leftFirstButton.setImage(UIImage(named: ImageFactory.NavBar.navBarMenu), for: .normal)
     self.leftSecondButton.setBackgroundImage(UIImage(named: ImageFactory.NavBar.navBarUserPlaceholeder), for: .normal)
     self.rightFirstButton.setImage(UIImage(named: ImageFactory.NavBar.navBarMessage), for: .normal)
-    self.rightSecondButton.setImage(UIImage(named: ImageFactory.NavBar.navBarNotification), for: .normal)
-    self.rightSecondButton.setImage(UIImage(named: ImageFactory.NavBar.navBarSettings), for: .normal)
+//    self.rightSecondButton.setImage(UIImage(named: ImageFactory.NavBar.navBarNotification), for: .normal)
+//    self.rightSecondButton.setImage(UIImage(named: ImageFactory.NavBar.navBarSettings), for: .normal)
   }
   
   @IBAction func menuAction(_ sender: UIButton)
@@ -115,19 +123,24 @@ extension NavBar {
 }
 extension NavBar {
   
-  func setNavDoneButtonTitle()
+  func setNavDoneButtonTitle(title:String)
   {
     self.rightThirdButton.setImage(nil, for: .normal)
-    self.rightThirdButton.setTitle("Done", for: .normal)
+    self.rightThirdButton.setTitle(title, for: .normal)
   }
   
-  func firstLeftButtonAction(image : String)
+  func firstLeftButtonAction(image : String,title:String)
   {
-    self.leftFirstButton.setImage(UIImage(named: image), for: .normal)
+    self.rightThirdButton.setTitle(title, for: .normal)
   }
   
-  func secondLeftButton(image : String){
-    self.leftSecondButton.setBackgroundImage(UIImage(named: image), for: .normal)
+  func secondLeftButton(image : String,title:String){
+    if image == "" {
+      self.leftSecondButton.setImage(nil, for: .normal)
+      self.leftSecondButton.setTitle("Qasim", for: .normal)
+    }else{
+      self.leftSecondButton.setBackgroundImage(UIImage(named: image), for: .normal)
+    }
   }
   
   func rightFirstButton(image : String)
@@ -136,10 +149,18 @@ extension NavBar {
     
   }
   
-  func rightSecondButton(image : String)
+  func rightSecondButton(image : String,title:String)
   {
-    self.rightSecondButton.setImage(UIImage(named: image), for: .normal)
-    
+    if image == "" {
+      self.rightSecondButton.setImage(nil, for: .normal)
+      self.rightSecondButton.setTitle(title, for: .normal)
+      self.rightSecondButton?.titleLabel?.lineBreakMode = NSLineBreakMode.byWordWrapping
+      self.rightSecondButton?.titleLabel?.textAlignment = .right
+      self.rightSecondButton.titleLabel?.font = self.rightSecondButton.titleLabel?.font.withSize(12)
+     
+    }else{
+      self.rightSecondButton.setBackgroundImage(UIImage(named: image), for: .normal)
+    }
   }
   
   func rightThirdButton(image : String){

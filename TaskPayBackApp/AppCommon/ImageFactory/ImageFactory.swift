@@ -17,5 +17,7 @@ struct ImageFactory {
     static let navBarUserPlaceholeder = "profileimage"
     static let navBarSettings = "settings"
     static let navBarMenu = "menu"
+    static let arrowLeft = "arrow.left"
+    static let ellipsis = "ellipsis"
   }
 }

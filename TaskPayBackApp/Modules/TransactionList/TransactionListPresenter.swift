@@ -10,10 +10,12 @@ import UIKit
 protocol TransactionListPresentationLogic
 {
   func presentFetchedTransactions(response: TransactionList.Transactions.Response)
+  func openTrasactionDetails(selectedTransactionItem : Items)
 }
 
 class TransactionListPresenter: TransactionListPresentationLogic
 {
+  let router = TransactionListRouter()
   weak var viewController: TransactionListDisplayLogic?
   
   // MARK: Do something
@@ -24,4 +26,11 @@ class TransactionListPresenter: TransactionListPresentationLogic
     let viewModel = TransactionList.Transactions.ViewModel(transactionsList: transactionsList)
     viewController?.displayFetchedTransactions(viewModel: viewModel)
   }
+  
+  func openTrasactionDetails(selectedTransactionItem: Items)
+  {
+//    router.dataStore?.transactionDetailsItem = selectedTransactionItem
+//    router.openSwiftUIScreenTransactionDetails(selectedTransactionItem: selectedTransactionItem)
+  }
+  
 }

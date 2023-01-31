@@ -51,7 +51,7 @@ class TransactionListPresenterTests: XCTestCase
     // Given
     let spy = TransactionListDisplayLogicSpy()
     sut.viewController = spy
-    let response = TransactionList.Transactions.Response()
+    let response = TransactionList.Transactions.Response(transactionsList: <#AppTransactionsList?#>)
     
     // When
     sut.presentFetchedTransactions(response: response)

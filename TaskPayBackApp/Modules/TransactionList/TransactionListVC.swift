@@ -13,14 +13,14 @@ protocol TransactionListDisplayLogic: AnyObject
   func displayFetchedTransactions(viewModel: TransactionList.Transactions.ViewModel)
 }
 
-class TransactionListVC: AppSuperVC, TransactionListDisplayLogic
+class TransactionListVC: AppSuperVC, TransactionListDisplayLogic , NibInstantiatable
 {
   var interactor: TransactionListBusinessLogic?
   var router: (NSObjectProtocol & TransactionListRoutingLogic & TransactionListDataPassing)?
   
     // MARK: Do something
   
-    @IBOutlet weak var tableView: UITableView!
+  @IBOutlet weak var tableView: UITableView!
   
   var transactionList : [Items]?
   
@@ -52,18 +52,11 @@ class TransactionListVC: AppSuperVC, TransactionListDisplayLogic
     presenter.viewController = viewController
     router.viewController = viewController
     router.dataStore = interactor
-    
-    
-//    let viewController = self
-//    let presenter = KQHomePresenter()
-//    let interactor = KQHomeInteractor(presenter: presenter)
-//    let router = KQHomeRouter()
     viewController.interactor = interactor
     viewController.router = router
     presenter.viewController = viewController
     router.viewController = viewController
     router.dataStore = interactor
-    
   }
   
     // MARK: Routing
@@ -83,18 +76,33 @@ class TransactionListVC: AppSuperVC, TransactionListDisplayLogic
   override func viewDidLoad()
   {
     super.viewDidLoad()
-    self.view.backgroundColor = AppColor.TransactionListScreen.TransactionListBackGroundView().backGroundColor
     navAction()
     tableViewinit()
     fetchUsers()
   }
   
+  override func viewWillAppear(_ animated: Bool) {
+    super.viewWillAppear(animated)
+    setGradientBackground()
+  }
+  
   func displayFetchedTransactions(viewModel: TransactionList.Transactions.ViewModel)
   {
     transactionList = viewModel.transactionsList?.items
-    DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + 0.5, execute: {
-      self.tableView.reloadData()
+    let sum = transactionList?.reduce(0) {$1.transactionDetail?.value?.amount ?? 0 }
+    DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + 0.1, execute: { [weak self] in
+      self?.tableView.reloadData()
+      self?.navbarView?.setNavDoneButtonTitle(title: "\(sum ?? 0)")
+      self?.navbarView?.rightSecondButton(image: "", title: "Total Amount")
     })
+  }
+}
+
+extension TransactionListVC {
+  func setGradientBackground() {
+    self.view.layer.cornerRadius = 25
+    self.view.layer.masksToBounds = true
+    self.view.layerGradient(startPoint: .centerRight, endPoint: .centerLeft, colorArray: [UIColor(AppColor.TransactionDetailsScreenColors.TransactionDetailsBackGroundView().backgroundGradiantColor.first!).cgColor, UIColor(AppColor.TransactionDetailsScreenColors.TransactionDetailsBackGroundView().backgroundGradiantColor.last!).cgColor], type: .axial)
   }
 }
 
@@ -106,25 +114,48 @@ extension TransactionListVC : UITableViewDelegate{
   }
 }
 
-extension TransactionListVC : UITableViewDataSource{
-    
-    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-      return transactionList?.count ?? 0
-    }
-    
-    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-      let cell = tableView.dequeueReusableCell(withIdentifier: TransactionPostCell.Identifier) as! TransactionPostCell
-      let transaction = transactionList?[indexPath.row]
-      cell.configureCell(transaction:transaction)
-      cell.didTapOpen = { [weak self] selectedUser in
-//        self?.openUpdateProfileVC(user: selectedUser)
+extension TransactionListVC {
+  func moveToItemDetails(item:Items?) {
+    DispatchQueue.main.asyncAfter(deadline: .now()) {  [weak self] in
+      guard let self = self else{ return}
+      if var rout = self.router , let item = item {
+        rout.dataStore?.item = item
+        rout.routeToDetails()
       }
-      return cell
     }
+  }
+}
+
+extension TransactionListVC : UITableViewDataSource{
+  
+  func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+    return transactionList?.count ?? 0
+  }
+  
+  func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+    let cell = tableView.dequeueReusableCell(withIdentifier: TransactionPostCell.Identifier) as! TransactionPostCell
+    let transaction = transactionList?[indexPath.row]
+    cell.configureCell(transaction:transaction)
+    cell.contentView.backgroundColor = .clear
+    cell.selectionStyle = .none
+    cell.didTapOpen = { [weak self] selectedTransactionItem in
+      guard let router = self?.router , var dataStore = router.dataStore else { return }
+      dataStore.item = selectedTransactionItem
+      self?.moveToItemDetails(item:selectedTransactionItem)
+    }
+    return cell
+  }
+  
+  func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath)
+  {
+    guard let item = transactionList?[indexPath.row] else { return }
+    moveToItemDetails(item: item)
+  }
+  
   func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
     250.0
   }
-  }
+}
 
 extension TransactionListVC{
   
@@ -141,7 +172,7 @@ extension TransactionListVC {
   func navAction()
   {
     navTitle = "Transections List"
-    self.navbarView?.setNavBackAction(leftFirst: true, leftSecond: false, leftThird: true, title: false, rightFirst: true, rightSecond: true, rightThird: false , navTitle : navTitle)
+    self.navbarView?.setNavBackAction(leftFirst: true, leftSecond: false, leftThird: true, title: false, rightFirst: true, rightSecond: false, rightThird: false , navTitle : navTitle)
     navbarView?.navBarAction = { actiontype in
       switch  ActionType(rawValue: actiontype.rawValue) {
       case .leftSecondButtonAction:print("profile secondLeftButtonAction")

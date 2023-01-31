@@ -4,7 +4,6 @@
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
-        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
@@ -25,7 +24,7 @@
                     <subviews>
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4cW-Bg-pk0" customClass="NavBar" customModule="TaskPayBackApp" customModuleProvider="target">
                             <rect key="frame" x="0.0" y="0.0" width="393" height="128"/>
-                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <constraints>
                                 <constraint firstAttribute="height" constant="128" id="GSz-SY-OW2"/>
                             </constraints>
@@ -48,7 +47,7 @@
                             </constraints>
                         </view>
                     </subviews>
-                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <constraints>
                         <constraint firstAttribute="trailing" secondItem="Ufu-Oc-Zh7" secondAttribute="trailing" id="2gg-U1-Cna"/>
                         <constraint firstItem="4cW-Bg-pk0" firstAttribute="centerX" secondItem="CPT-hO-uya" secondAttribute="centerX" id="316-F1-Ffg"/>
@@ -62,7 +61,7 @@
                 </view>
             </subviews>
             <viewLayoutGuide key="safeArea" id="jx3-7Y-FxQ"/>
-            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
             <constraints>
                 <constraint firstItem="CPT-hO-uya" firstAttribute="height" secondItem="zt0-gl-UdZ" secondAttribute="height" id="GHa-xl-ma4"/>
                 <constraint firstItem="CPT-hO-uya" firstAttribute="top" secondItem="zt0-gl-UdZ" secondAttribute="top" id="asF-j1-uV3"/>
@@ -73,9 +72,4 @@
             <point key="canvasLocation" x="49.618320610687022" y="-627.46478873239437"/>
         </view>
     </objects>
-    <resources>
-        <systemColor name="systemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
-    </resources>
 </document>

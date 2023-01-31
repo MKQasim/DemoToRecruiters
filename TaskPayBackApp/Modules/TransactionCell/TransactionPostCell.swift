@@ -23,7 +23,7 @@ class TransactionPostCell: UITableViewCell , NibInstantiatable {
   @IBOutlet weak var callBtn: UIButton!
   @IBOutlet weak var profileBtn: UIButton!
   
-  var transactionItem : TransactionList?
+  var transactionItem : Items?
   var didTap : ((_ success: Bool) -> ())?
   var didTapOpen: TransactionCallback = {_ in }
   
@@ -42,6 +42,7 @@ class TransactionPostCell: UITableViewCell , NibInstantiatable {
   
   func configureCell(transaction:Items?)
   {
+    transactionItem = transaction
     guard let transaction = transaction else { return  }
     guard let name = transaction.partnerDisplayName else { return  }
     lblName.text = name

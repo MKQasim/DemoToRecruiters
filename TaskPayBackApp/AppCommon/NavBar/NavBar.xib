@@ -128,10 +128,10 @@
                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nOC-Kd-ahl">
                                             <rect key="frame" x="321.5" y="0.0" width="64" height="151"/>
                                             <subviews>
-                                                <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xec-tr-Q3p">
+                                                <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="right" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xec-tr-Q3p">
                                                     <rect key="frame" x="0.0" y="75.5" width="64" height="75.5"/>
+                                                    <inset key="titleEdgeInsets" minX="0.0" minY="20" maxX="0.0" maxY="0.0"/>
                                                     <inset key="imageEdgeInsets" minX="10" minY="15" maxX="0.0" maxY="0.0"/>
-                                                    <state key="normal" image="notification"/>
                                                     <connections>
                                                         <action selector="notificationAction:" destination="-1" eventType="touchUpInside" id="nEi-cx-xGA"/>
                                                     </connections>
@@ -150,6 +150,7 @@
                                             <subviews>
                                                 <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T89-T6-VhO">
                                                     <rect key="frame" x="0.0" y="75.5" width="64.5" height="75.5"/>
+                                                    <inset key="titleEdgeInsets" minX="0.0" minY="20" maxX="0.0" maxY="0.0"/>
                                                     <inset key="imageEdgeInsets" minX="0.0" minY="15" maxX="0.0" maxY="0.0"/>
                                                     <state key="normal" image="settings"/>
                                                     <connections>
@@ -224,7 +225,6 @@
         <image name="menu" width="32" height="30"/>
         <image name="message" width="32" height="30"/>
         <image name="navLogo" width="93" height="50"/>
-        <image name="notification" width="32" height="30"/>
         <image name="profileimage" width="26" height="26"/>
         <image name="settings" width="26" height="26"/>
     </resources>

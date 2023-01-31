@@ -8,4 +8,4 @@
 import Foundation
 
 typealias VoidCallback = () -> Void
-typealias TransactionCallback = (TransactionList) -> Void
+typealias TransactionCallback = (Items) -> Void

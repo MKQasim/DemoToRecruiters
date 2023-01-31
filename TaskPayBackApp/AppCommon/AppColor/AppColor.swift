@@ -7,6 +7,7 @@
 
 import Foundation
 import UIKit
+import SwiftUI
 
 class AppColor {
     // MARK: - TransactionListScreen UI
@@ -128,10 +129,10 @@ class AppColor {
     
     struct TransactionListBackGroundView
     {
-      var backGroundColor:UIColor{
+      var backGroundColor:Color{
         get
         {
-          return UIColor.init(hexString: "#F2F5F8")
+          return Color("pinkCircle")
         }
       }
       
@@ -140,6 +141,33 @@ class AppColor {
         get
         {
           return UIColor.init(hexString: "#5E6E8138")
+        }
+      }
+    }
+  }
+  
+  struct TransactionDetailsScreenColors {
+    
+    struct TransactionDetailsBackGroundView
+    {
+      var firstCircleColor:Color{
+        get
+        {
+          return Color("greenCircle")
+        }
+      }
+      
+      var secondCircleColor:Color{
+        get
+        {
+          return Color("pinkCircle")
+        }
+      }
+      
+      var backgroundGradiantColor:[Color]{
+        get
+        {
+          return [Color("backgroundColor"),Color("backgroundColor2")]
         }
       }
     }
