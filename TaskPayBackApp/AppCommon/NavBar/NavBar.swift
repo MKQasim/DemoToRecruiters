@@ -134,7 +134,7 @@ extension NavBar {
   func secondLeftButton(image : String,title:String){
     if image == "" {
       self.leftSecondButton.setImage(nil, for: .normal)
-      self.leftSecondButton.setTitle("Qasim", for: .normal)
+      self.leftSecondButton.setTitle(title, for: .normal)
     }else{
       self.leftSecondButton.setBackgroundImage(UIImage(named: image), for: .normal)
     }
@@ -152,7 +152,7 @@ extension NavBar {
       self.rightSecondButton.setImage(nil, for: .normal)
       self.rightSecondButton.setTitle(title, for: .normal)
       self.rightSecondButton?.titleLabel?.lineBreakMode = NSLineBreakMode.byWordWrapping
-      self.rightSecondButton?.titleLabel?.textAlignment = .right
+      self.rightSecondButton?.titleLabel?.textAlignment = .center
       self.rightSecondButton.titleLabel?.font = self.rightSecondButton.titleLabel?.font.withSize(10)
      
     }else{

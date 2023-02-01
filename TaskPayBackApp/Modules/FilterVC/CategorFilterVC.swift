@@ -129,7 +129,7 @@ extension CategorFilterVC: UITableViewDelegate, UITableViewDataSource
           $0.category == dataSource[indexPath.row];
         })
       isTap = true
-      route.dataStore?.selectedCategory = "Category :\(dataSource[indexPath.row] ?? 0)"
+      route.dataStore?.selectedCategory = "Category   \(dataSource[indexPath.row] ?? 0)"
       route.routeToTransactionList()
     }
   }

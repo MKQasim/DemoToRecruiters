@@ -40,7 +40,6 @@
                                                 <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qsf-rm-vum">
                                                     <rect key="frame" x="0.0" y="75.5" width="64.5" height="75.5"/>
                                                     <inset key="imageEdgeInsets" minX="0.0" minY="15" maxX="0.0" maxY="0.0"/>
-                                                    <state key="normal" image="menu"/>
                                                     <connections>
                                                         <action selector="menuAction:" destination="-1" eventType="touchUpInside" id="Vku-uy-v0E"/>
                                                     </connections>
@@ -111,7 +110,6 @@
                                                 <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QJC-yz-UC8">
                                                     <rect key="frame" x="10" y="75.5" width="64.5" height="75.5"/>
                                                     <inset key="imageEdgeInsets" minX="10" minY="15" maxX="0.0" maxY="0.0"/>
-                                                    <state key="normal" image="message"/>
                                                     <connections>
                                                         <action selector="messageAction:" destination="-1" eventType="touchUpInside" id="kXS-dC-Ovi"/>
                                                     </connections>
@@ -152,7 +150,6 @@
                                                     <rect key="frame" x="0.0" y="75.5" width="64.5" height="75.5"/>
                                                     <inset key="titleEdgeInsets" minX="0.0" minY="20" maxX="0.0" maxY="0.0"/>
                                                     <inset key="imageEdgeInsets" minX="0.0" minY="15" maxX="0.0" maxY="0.0"/>
-                                                    <state key="normal" image="settings"/>
                                                     <connections>
                                                         <action selector="searchAction:" destination="-1" eventType="touchUpInside" id="LTU-Rt-Wtb"/>
                                                     </connections>
@@ -222,10 +219,7 @@
         </view>
     </objects>
     <resources>
-        <image name="menu" width="32" height="30"/>
-        <image name="message" width="32" height="30"/>
         <image name="navLogo" width="93" height="50"/>
         <image name="profileimage" width="26" height="26"/>
-        <image name="settings" width="26" height="26"/>
     </resources>
 </document>

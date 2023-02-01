@@ -50,10 +50,6 @@ class TransactionPostCell: UITableViewCell , NibInstantiatable {
     lblCategory.text = "\(transaction.transactionDetail?.bookingDate ?? Date())"
     lblAmount.text = transaction.transactionDetail?.description?.rawValue
     lblCurrency.text = "\(String(describing: transaction.transactionDetail?.value?.amount ?? 0))  : \(transaction.transactionDetail?.value?.currency?.rawValue ?? "")"
-    
-    
-    
- 
   }
   
   

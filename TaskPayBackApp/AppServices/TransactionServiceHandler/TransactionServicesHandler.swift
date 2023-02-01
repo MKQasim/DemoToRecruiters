@@ -17,6 +17,7 @@ struct TransactionApiHandler: APIHandler , TransactionApiHandlerProtocol {
   
   func makeRequest(from parameters: [String: Any]) -> Request {
       // prepare url
+    let app = AppConfig.shared.setupConfig()
     let url = URL(string:Path.Transactions(environment: AppConfig.shared.enviroment).getTransactionsList(""))
     var urlRequest = URLRequest(url: url!)
       // set http method type

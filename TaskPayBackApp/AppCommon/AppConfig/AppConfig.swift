@@ -10,7 +10,9 @@ import KQTaskNetworkManager
 
 class AppConfig {
   static let shared : AppConfig = AppConfig()
-  private init(){}
+  private init(){
+    self.setupConfig()
+  }
  
   var enviroment : Environment =  Environment.Local
   

@@ -10,7 +10,7 @@ import UIKit
 protocol TransactionListBusinessLogic
 {
   func fetchTransactions(request: TransactionList.Transactions.Request)
-  func openTrasactionDetails(selectedTransactionItem : Items)
+  func checkApiUrlSerssion()
   
 }
 
@@ -58,15 +58,26 @@ class TransactionListInteractor: TransactionListBusinessLogic, TransactionListDa
         let response = TransactionList.Transactions.Response(transactionsList: transactionsList)
         self.presenter?.presentFetchedTransactions(response: response)
       }else{
-        print(error.debugDescription)
+        if let err = error as? Error {
+          if err._code == -1003 {
+            self.presenter?.presenApiNetworkError(message: error?.localizedDescription)
+          }else{
+            self.presenter?.presentNoIterneConnection(message: "\(err)".description)
+          }
+        } else {
+          self.presenter?.presenApiNetworkError(message: error?.localizedDescription)
+        }
       }
     })
   }
   
-  func openTrasactionDetails(selectedTransactionItem: Items) {
-//    self.item = selectedTransactionItem
-//    print(self.item)
-//    presenter?.openTrasactionDetails(selectedTransactionItem: selectedTransactionItem)
-    
+  func checkApiUrlSerssion(){
+    self.transactionBusiness?.transactionStopApiCallStart(completion: { isCanceled in
+      self.presenter?.checkApiUrlSerssion(isCanceled: isCanceled)
+    })
   }
+}
+
+extension Error {
+  
 }

@@ -20,11 +20,13 @@ class TransactionServices {
     urlSession = APILoader(apiRequest: api).urlSession
     let apiTaskLoader = APILoader(apiRequest: api)
     apiTaskLoader.loadAPIRequest(requestData: parameters) { (result) in
-      
       switch result{
       case  .success(let transactionsList):
         completion(transactionsList,nil)
       case .failure(let error):
+//        guard let error = error as? NetworkError else { return  }
+//        print(error.localizedDescription)
+        
         completion(nil,error)
       }
     }

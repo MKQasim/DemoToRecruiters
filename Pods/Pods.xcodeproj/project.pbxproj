@@ -79,7 +79,7 @@
 		2E5DBB2B420AA40D7CCFACC199C461C9 /* Pods-TaskPayBackApp-TaskPayBackAppUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TaskPayBackApp-TaskPayBackAppUITests-umbrella.h"; sourceTree = "<group>"; };
 		2EA1F7DA78A7AA76EBB6C5FBF1FA8DE6 /* DefaultRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DefaultRequest.swift; sourceTree = "<group>"; };
 		2EBCA8B0C6DA8067102851549391695D /* Pods-TaskPayBackAppTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-TaskPayBackAppTests"; path = Pods_TaskPayBackAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		315243A1B8F0CF70DCA42DF29BEDC6A3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		315243A1B8F0CF70DCA42DF29BEDC6A3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		36AFAA029FACF830EE7656F7DD907731 /* Pods-TaskPayBackAppTests.releaseqa.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TaskPayBackAppTests.releaseqa.xcconfig"; sourceTree = "<group>"; };
 		39031AF01B803F56263F9AA39FEB4630 /* TaskVC.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = TaskVC.xib; sourceTree = "<group>"; };
 		3A337CFD80B62831355383E17EB49E7F /* Pods-TaskPayBackAppTests.debugdev.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TaskPayBackAppTests.debugdev.xcconfig"; sourceTree = "<group>"; };
@@ -105,7 +105,7 @@
 		7789B5A7E9310A7F3A3B117E7024F123 /* TaskVC.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TaskVC.swift; sourceTree = "<group>"; };
 		7917745EF57F9529A068E657E12568EB /* ApiResponseHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ApiResponseHandler.swift; sourceTree = "<group>"; };
 		7B8B6A0E5B6C5776C602268A1FD31248 /* Pods-TaskPayBackAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TaskPayBackAppTests.debug.xcconfig"; sourceTree = "<group>"; };
-		7BF09D8D9081112D2085ED1039042827 /* KQTaskNetworkManager.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = KQTaskNetworkManager.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		7BF09D8D9081112D2085ED1039042827 /* KQTaskNetworkManager.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = KQTaskNetworkManager.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		7C1DA25F9FEF2BA01CC3662064255A6A /* Pods-TaskPayBackApp-TaskPayBackAppUITests.debugprod.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TaskPayBackApp-TaskPayBackAppUITests.debugprod.xcconfig"; sourceTree = "<group>"; };
 		858CE6E4B328341F3B981AB6DD7A56F7 /* KQTaskNetworkManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KQTaskNetworkManager.debug.xcconfig; sourceTree = "<group>"; };
 		869176A09F0A77FD46AF0FDA5BF8A3D8 /* ApiLoader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ApiLoader.swift; sourceTree = "<group>"; };
@@ -118,8 +118,8 @@
 		93A5634F79610B8B5D6CD7BC36511F2E /* Pods-TaskPayBackApp-TaskPayBackAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TaskPayBackApp-TaskPayBackAppUITests.release.xcconfig"; sourceTree = "<group>"; };
 		94E350F180A1DB6804E6C01A73A056A6 /* Pods-TaskPayBackAppTests.debugstaging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TaskPayBackAppTests.debugstaging.xcconfig"; sourceTree = "<group>"; };
 		98FE9498F00354309CC7F220806C7ADB /* Pods-TaskPayBackApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TaskPayBackApp-acknowledgements.plist"; sourceTree = "<group>"; };
-		9CBBD1E598D3E9DE6C1F8897411A3567 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9CBBD1E598D3E9DE6C1F8897411A3567 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A22515A5CC0CBB72515718B095BC3B8B /* Pods-TaskPayBackApp-TaskPayBackAppUITests.debugdev.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TaskPayBackApp-TaskPayBackAppUITests.debugdev.xcconfig"; sourceTree = "<group>"; };
 		A556D24FAE17AA27E3744EB02626873A /* Pods-TaskPayBackApp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TaskPayBackApp-umbrella.h"; sourceTree = "<group>"; };
 		A7FB7AABFA79BCD8ECAC7C620614E62B /* Pods-TaskPayBackApp-TaskPayBackAppUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TaskPayBackApp-TaskPayBackAppUITests-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -190,6 +190,7 @@
 				C86FF1285A174A0DE489120CEE597EC8 /* Storyboards */,
 				49DE359820C950C1925EFADF2A5A7212 /* VC_Xib's */,
 			);
+			name = Classes;
 			path = Classes;
 			sourceTree = "<group>";
 		};
@@ -226,6 +227,7 @@
 				9139D8DBE1A4CC073FC01FA604A03040 /* Request.swift */,
 				20322125F98AFA72B2D51AC57BCB340D /* RequestBuilder.swift */,
 			);
+			name = CreateRequests;
 			path = CreateRequests;
 			sourceTree = "<group>";
 		};
@@ -238,6 +240,7 @@
 				F291CDE2BA87B9CEEEF5B2F16E4A59E1 /* ApiResponseHandler */,
 				1540A52E7B53FA389496D5F39A3085D6 /* CreateRequests */,
 			);
+			name = ApiHandler;
 			path = ApiHandler;
 			sourceTree = "<group>";
 		};
@@ -246,6 +249,7 @@
 			children = (
 				DD9EC2C48B454C052F59E92837FE849B /* Enviroment.swift */,
 			);
+			name = Enviroment;
 			path = Enviroment;
 			sourceTree = "<group>";
 		};
@@ -254,6 +258,7 @@
 			children = (
 				39031AF01B803F56263F9AA39FEB4630 /* TaskVC.xib */,
 			);
+			name = "VC_Xib's";
 			path = "VC_Xib's";
 			sourceTree = "<group>";
 		};
@@ -338,6 +343,7 @@
 			children = (
 				A858420C354D37447FEA61ECDA061633 /* ApiRequestHandler.swift */,
 			);
+			name = ApiRequestHandler;
 			path = ApiRequestHandler;
 			sourceTree = "<group>";
 		};
@@ -345,10 +351,10 @@
 			isa = PBXGroup;
 			children = (
 				22CFDA76B88810FF2F44BC714B591E61 /* ReplaceMe.swift */,
-				6E61D959ACD3E1F3B54D85EF24042646 /* Recources */,
 				113032D06095835FEF21340C09AB9151 /* Classes */,
 				E6B8EE75B898187A833CA5778FC64D3E /* Images */,
 				5758C61B0BBCE1A9446642CFB1DEFC4D /* Pod */,
+				6E61D959ACD3E1F3B54D85EF24042646 /* Recources */,
 				13A37FC7D4080A110D56D1DED8B88C48 /* Support Files */,
 			);
 			name = KQTaskNetworkManager;
@@ -403,6 +409,7 @@
 			children = (
 				7789B5A7E9310A7F3A3B117E7024F123 /* TaskVC.swift */,
 			);
+			name = "VC_Xib's";
 			path = "VC_Xib's";
 			sourceTree = "<group>";
 		};
@@ -414,6 +421,7 @@
 				941ED419C110B7B991AFCF27504E6E32 /* Reachability */,
 				D89A74A0C6EFDE5200FAC228610B7CBE /* ServiceError */,
 			);
+			name = AppNetworkManager;
 			path = AppNetworkManager;
 			sourceTree = "<group>";
 		};
@@ -422,6 +430,7 @@
 			children = (
 				66A106554B6199343958D989BEA5F6F5 /* Reachability.swift */,
 			);
+			name = Reachability;
 			path = Reachability;
 			sourceTree = "<group>";
 		};
@@ -430,6 +439,7 @@
 			children = (
 				3D2B69B90DBAC3BE671A28B5229D6581 /* TaskStoryboard.storyboard */,
 			);
+			name = Storyboards;
 			path = Storyboards;
 			sourceTree = "<group>";
 		};
@@ -468,6 +478,7 @@
 			children = (
 				F8716F2F6628342F198277D6AB823FA5 /* ServiceError.swift */,
 			);
+			name = ServiceError;
 			path = ServiceError;
 			sourceTree = "<group>";
 		};
@@ -486,6 +497,7 @@
 				7917745EF57F9529A068E657E12568EB /* ApiResponseHandler.swift */,
 				BE3123F92500FA586B0B60919DC16BE3 /* DefaultResponseParser.swift */,
 			);
+			name = ApiResponseHandler;
 			path = ApiResponseHandler;
 			sourceTree = "<group>";
 		};
@@ -494,6 +506,7 @@
 			children = (
 				869176A09F0A77FD46AF0FDA5BF8A3D8 /* ApiLoader.swift */,
 			);
+			name = ApiLoader;
 			path = ApiLoader;
 			sourceTree = "<group>";
 		};

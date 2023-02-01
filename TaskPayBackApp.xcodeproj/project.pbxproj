@@ -66,6 +66,10 @@
 		5DAB4B9F298654CF0081B502 /* ScenesFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4B9E298654CF0081B502 /* ScenesFactory.swift */; };
 		5DAB4BA32986555D0081B502 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4BA22986555D0081B502 /* ViewModel.swift */; };
 		5DAB4BAB29865D840081B502 /* TransactionDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4BAA29865D840081B502 /* TransactionDetailsView.swift */; };
+		5DC5568D298945CB00A7D17B /* AlertHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC5568C298945CB00A7D17B /* AlertHelper.swift */; };
+		5DC5568F2989466F00A7D17B /* DispatchQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC5568E2989466F00A7D17B /* DispatchQueue.swift */; };
+		5DC55691298947B100A7D17B /* ProgressLoaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC55690298947B000A7D17B /* ProgressLoaderView.swift */; };
+		5DC5569329894AD000A7D17B /* TopMostController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC5569229894AD000A7D17B /* TopMostController.swift */; };
 		5DF4ABF32983E90000B58896 /* TypeAlias.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF4ABF22983E90000B58896 /* TypeAlias.swift */; };
 		5DF4ABF52983F47D00B58896 /* TableViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF4ABF42983F47D00B58896 /* TableViewExtension.swift */; };
 		5DF4ABF72983F4D000B58896 /* NibExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF4ABF62983F4D000B58896 /* NibExtension.swift */; };
@@ -168,6 +172,10 @@
 		5DAB4B9E298654CF0081B502 /* ScenesFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScenesFactory.swift; sourceTree = "<group>"; };
 		5DAB4BA22986555D0081B502 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 		5DAB4BAA29865D840081B502 /* TransactionDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionDetailsView.swift; sourceTree = "<group>"; };
+		5DC5568C298945CB00A7D17B /* AlertHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertHelper.swift; sourceTree = "<group>"; };
+		5DC5568E2989466F00A7D17B /* DispatchQueue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DispatchQueue.swift; sourceTree = "<group>"; };
+		5DC55690298947B000A7D17B /* ProgressLoaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressLoaderView.swift; sourceTree = "<group>"; };
+		5DC5569229894AD000A7D17B /* TopMostController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopMostController.swift; sourceTree = "<group>"; };
 		5DF4ABF22983E90000B58896 /* TypeAlias.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeAlias.swift; sourceTree = "<group>"; };
 		5DF4ABF42983F47D00B58896 /* TableViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewExtension.swift; sourceTree = "<group>"; };
 		5DF4ABF62983F4D000B58896 /* NibExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NibExtension.swift; sourceTree = "<group>"; };
@@ -433,6 +441,10 @@
 				5D9A543729831581000495C8 /* UIExtensions.swift */,
 				5DF4ABF42983F47D00B58896 /* TableViewExtension.swift */,
 				5DF4ABF62983F4D000B58896 /* NibExtension.swift */,
+				5DC5568C298945CB00A7D17B /* AlertHelper.swift */,
+				5DC5568E2989466F00A7D17B /* DispatchQueue.swift */,
+				5DC55690298947B000A7D17B /* ProgressLoaderView.swift */,
+				5DC5569229894AD000A7D17B /* TopMostController.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -837,6 +849,7 @@
 				5DF4ABF52983F47D00B58896 /* TableViewExtension.swift in Sources */,
 				5D9E3C302988B2D900662EBE /* CategorFilterPresenter.swift in Sources */,
 				5D9A545929837190000495C8 /* TransactionService.swift in Sources */,
+				5DC5568D298945CB00A7D17B /* AlertHelper.swift in Sources */,
 				5D858EA12986763D00913B32 /* TransactionItemDetailsRouter.swift in Sources */,
 				5D9A5435298310F7000495C8 /* AppColor.swift in Sources */,
 				5D858EA02986763D00913B32 /* TransactionItemDetailsWorker.swift in Sources */,
@@ -844,11 +857,14 @@
 				5D9A544329832E03000495C8 /* ImageFactory.swift in Sources */,
 				5D9A542529830896000495C8 /* TransactionListWorker.swift in Sources */,
 				5D9A53FF29830315000495C8 /* AppSuperVC.swift in Sources */,
+				5DC55691298947B100A7D17B /* ProgressLoaderView.swift in Sources */,
 				5D9A542429830896000495C8 /* TransactionListPresenter.swift in Sources */,
 				5D9A543329830E3B000495C8 /* AppTheme.swift in Sources */,
 				5D9A544E298360D2000495C8 /* Transaction.swift in Sources */,
+				5DC5569329894AD000A7D17B /* TopMostController.swift in Sources */,
 				5D858EA42986763D00913B32 /* TransactionItemDetailsInteractor.swift in Sources */,
 				5D858EA32986763D00913B32 /* TransactionItemDetailsVC.swift in Sources */,
+				5DC5568F2989466F00A7D17B /* DispatchQueue.swift in Sources */,
 				5D9A542929830896000495C8 /* TransactionListInteractor.swift in Sources */,
 				5D858EA62986769D00913B32 /* TransactionItemDetailsConfigurator.swift in Sources */,
 				5DF4ABF72983F4D000B58896 /* NibExtension.swift in Sources */,
@@ -1035,13 +1051,12 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = CT7H96YF74;
+				DEVELOPMENT_TEAM = K8BTGQVAR5;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TaskPayBackApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1064,13 +1079,12 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = CT7H96YF74;
+				DEVELOPMENT_TEAM = K8BTGQVAR5;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TaskPayBackApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1233,13 +1247,12 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = CT7H96YF74;
+				DEVELOPMENT_TEAM = K8BTGQVAR5;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TaskPayBackApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1358,13 +1371,12 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = CT7H96YF74;
+				DEVELOPMENT_TEAM = K8BTGQVAR5;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TaskPayBackApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1488,13 +1500,12 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = CT7H96YF74;
+				DEVELOPMENT_TEAM = K8BTGQVAR5;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TaskPayBackApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1613,13 +1624,12 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = CT7H96YF74;
+				DEVELOPMENT_TEAM = K8BTGQVAR5;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TaskPayBackApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1738,13 +1748,12 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = CT7H96YF74;
+				DEVELOPMENT_TEAM = K8BTGQVAR5;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TaskPayBackApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1868,13 +1877,12 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = CT7H96YF74;
+				DEVELOPMENT_TEAM = K8BTGQVAR5;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TaskPayBackApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1998,13 +2006,12 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = CT7H96YF74;
+				DEVELOPMENT_TEAM = K8BTGQVAR5;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TaskPayBackApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -2123,13 +2130,12 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = CT7H96YF74;
+				DEVELOPMENT_TEAM = K8BTGQVAR5;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TaskPayBackApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

@@ -23,7 +23,6 @@ class TransactionItemDetailsVC: UIHostingController<TransactionDetailsView> {
   var router: (NSObjectProtocol & TransactionItemDetailsRoutingLogic & TransactionItemDetailsDataPassing)?
   
   
-  
   init(model: DefaultTransactionDetailsViewModel,navigationController :  UINavigationController)
   {
     self.viewModel = model
@@ -36,7 +35,6 @@ class TransactionItemDetailsVC: UIHostingController<TransactionDetailsView> {
   {
     super.init(coder: aDecoder)
   }
-  
     // MARK: Setup
   
   private func setup()
@@ -51,15 +49,6 @@ class TransactionItemDetailsVC: UIHostingController<TransactionDetailsView> {
     router.viewController = viewController
     router.dataStore = interactor
     self.viewModel?.delegate = self
-    
-  }
-}
-
-extension TransactionItemDetailsVC : TransactionListDisplayLogic
-{
-  func displayFetchedTransactions(viewModel: TransactionList.Transactions.ViewModel)
-  {
-    print(viewModel.transactionsList)
   }
 }
 

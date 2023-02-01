@@ -11,10 +11,14 @@ import SwiftUI
 protocol TransactionListDisplayLogic: AnyObject
 {
   func displayFetchedTransactions(viewModel: TransactionList.Transactions.ViewModel)
+  func checkApiUrlSerssion(isCanceled:Bool)
+  func presenApiNetworkError(message: String?)
 }
 
 class TransactionListVC: AppSuperVC, TransactionListDisplayLogic , NibInstantiatable
 {
+
+  
   var interactor: TransactionListBusinessLogic?
   var router: (NSObjectProtocol & TransactionListRoutingLogic & TransactionListDataPassing)?
 
@@ -79,12 +83,13 @@ class TransactionListVC: AppSuperVC, TransactionListDisplayLogic , NibInstantiat
     super.viewDidLoad()
     navAction()
     tableViewinit()
-    fetchUsers()
+    
   }
   
   override func viewWillAppear(_ animated: Bool) {
     super.viewWillAppear(animated)
     setGradientBackground()
+    fetchUsers()
   }
   
   override func viewDidAppear(_ animated: Bool) {
@@ -117,6 +122,42 @@ class TransactionListVC: AppSuperVC, TransactionListDisplayLogic , NibInstantiat
       self?.navbarView?.setNavDoneButtonTitle(title: "\(totalAmount ?? 0)")
       self?.navbarView?.rightSecondButton(image: "", title: "\(selectedCategory) \nTotal Amount")
     })
+  }
+}
+
+extension TransactionListVC {
+  private func stopAnimating(){
+    if LoadingOverlay.shared.activityIndicator.isAnimating{
+      LoadingOverlay.shared.activityIndicator.stopAnimating()
+      LoadingOverlay.shared.hideOverlayView()
+    }
+    self.tableView.isHidden = false
+    self.tableView.isUserInteractionEnabled = true
+  }
+  
+  func checkApiUrlSerssion(){
+    self.tableView.isUserInteractionEnabled = true
+    interactor?.checkApiUrlSerssion()
+  }
+  
+  func checkApiUrlSerssion(isCanceled: Bool) {
+    self.tableView.isUserInteractionEnabled = false
+    stopAnimating()
+//    moveToItemDetails(selectedUser: selectedUser)
+  }
+  
+  func presenApiNetworkError(message: String?) {
+    DispatchQueue.main.async {
+      self.stopAnimating()
+      AlertHelper.showAlert("Alert",message: message!, style: .alert, actionTitles: ["FeedBack","Cancel"],autoDismiss : true ,  dismissDuration: 10 ,showCancel: false  ) { action in
+        if action.title  == "FeedBack"{
+          print(action.title)
+          AlertHelper.feedBackController()
+        }else{
+          
+        }
+      }
+    }
   }
 }
 

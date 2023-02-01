@@ -79,7 +79,7 @@ struct TransactionDetailsView: View {
 
 struct TransactionDetailsView_Previews: PreviewProvider {
     static var previews: some View {
-      let vm = DefaultTransactionDetailsViewModel(transactionDetailsModel: Items(partnerDisplayName: "Qasim",category: 1))
+      let vm = DefaultTransactionDetailsViewModel(transactionDetailsModel: Items(partnerDisplayName: "",category: 1))
       TransactionDetailsView(viewModel: vm, navigationController: UINavigationController())
     }
 }
