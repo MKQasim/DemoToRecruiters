@@ -77,7 +77,3 @@ class TransactionListInteractor: TransactionListBusinessLogic, TransactionListDa
     })
   }
 }
-
-extension Error {
-  
-}

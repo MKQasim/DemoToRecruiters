@@ -23,13 +23,15 @@ public class AlertHelper {
       alertController.addAction(action)
     }
     
-    if autoDismiss ?? false {
+    if autoDismiss ?? false
+    {
       DispatchQueue.delay(.seconds(dismissDuration ?? 1)) {
         alertController.dismiss(animated: true)
       }
     }
     
-    if showCancel {
+    if showCancel
+    {
       let cancelAction = UIAlertAction(title: "Cancel", style: .cancel, handler: nil)
       alertController.addAction(cancelAction)
     }

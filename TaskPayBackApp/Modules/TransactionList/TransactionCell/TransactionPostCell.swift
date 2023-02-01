@@ -7,7 +7,7 @@
 
 import UIKit
 
-class TransactionPostCell: UITableViewCell , NibInstantiatable {
+class TransactionPostCell: UITableViewCell  {
   
   @IBOutlet weak var postProfileImage: UIImageView!
   @IBOutlet weak var lblName: UILabel!

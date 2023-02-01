@@ -13,9 +13,9 @@ protocol TransactionBusinessProtocol {
 }
 
 class TransactionBusiness: TransactionBusinessProtocol {
-    // MARK: - HomeServices
+    // MARK: - Tansaction Services
   private lazy var transactionServices = TransactionServices()
-    // MARK: - Home Api Call
+    // MARK: - Transaction Api Call
   
   func fetchTransactions(parameters: [String : Any],completion:@escaping((_ transactionsList:AppTransactionsList?,_ error:Error?) -> ())){
     transactionServices.fetchTransactions(parameters:parameters) { transactionsList, error in
