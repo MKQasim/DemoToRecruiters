@@ -6,6 +6,7 @@
   //
 
 import UIKit
+import SwiftUI
 
 protocol CategorFilterDisplayLogic: AnyObject
 {
@@ -162,13 +163,29 @@ extension CategorFilterVC {
   func navAction()
   {
     navTitle = "Select Category"
-    self.navbarView?.setNavBackAction(isPushed:true, leftFirst: true, leftSecond: false, leftThird: true, title: false, rightFirst: true, rightSecond: true, rightThird: true , navTitle : navTitle)
+    self.navbarView?.setNavBackAction(isPushed:true, leftFirst: true, leftSecond: false, leftThird: true, title: false, rightFirst: true, rightSecond: false, rightThird: false , navTitle : navTitle)
+    self.navbarView?.rightThirdButton(image: ImageFactory.NavBar.navBarSettings)
+    self.navbarView?.rightSecondButton(image:ImageFactory.NavBar.cartCircle, title: "")
     navbarView?.navBarAction = { [weak self] actiontype in
       guard let strSelf = self else { return }
       switch  ActionType(rawValue: actiontype.rawValue) {
       case .leftFirstButtonAction : strSelf.dismissAction()
+      case .rightSecondButtonAction: strSelf.addCartAlert()
+      case .rightThirdButtonAction : strSelf.settingAlert()
       default:print("No One")
       }
+    }
+  }
+  
+  func settingAlert(){
+    AlertHelper.showAlert("Setting",message: "Comming Soon", style: .alert, actionTitles: ["Thanks"],autoDismiss : true ,  dismissDuration: 10 ,showCancel: false  ) { action in
+    
+    }
+  }
+  
+  func addCartAlert(){
+    AlertHelper.showAlert("Add Cart",message: "Comming Soon", style: .alert, actionTitles: ["Thanks"],autoDismiss : true ,  dismissDuration: 10 ,showCancel: false  ) { action in
+      
     }
   }
 }

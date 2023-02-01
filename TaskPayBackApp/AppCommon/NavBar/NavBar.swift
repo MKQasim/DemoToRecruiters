@@ -156,7 +156,7 @@ extension NavBar {
       self.rightSecondButton.titleLabel?.font = self.rightSecondButton.titleLabel?.font.withSize(10)
      
     }else{
-      self.rightSecondButton.setBackgroundImage(UIImage(named: image), for: .normal)
+      self.rightSecondButton.setImage(UIImage(named: image), for: .normal)
     }
   }
   

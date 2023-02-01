@@ -19,5 +19,6 @@ struct ImageFactory {
     static let navBarMenu = "menu"
     static let arrowLeft = "arrow.left"
     static let ellipsis = "ellipsis"
+    static let cartCircle = "cart"
   }
 }
