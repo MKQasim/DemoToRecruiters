@@ -11,7 +11,7 @@ struct TransactionDetailsView: View {
   
   let viewModel: DefaultTransactionDetailsViewModel
   weak var navigationController: UINavigationController?
-  @Environment(\.dismiss) var dismiss
+  @SwiftUI.Environment(\.dismiss) var dismiss
   @State var animate = false
   
   init(viewModel: DefaultTransactionDetailsViewModel , navigationController :  UINavigationController) {

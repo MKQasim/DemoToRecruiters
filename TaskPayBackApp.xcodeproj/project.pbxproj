@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2B7DE7ACE5373F9B9A8F2CD3 /* Pods_TaskPayBackApp_TaskPayBackAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB6213BEAFDC9EB92B31692E /* Pods_TaskPayBackApp_TaskPayBackAppUITests.framework */; };
+		5D2146FC298A1AD500AC5267 /* Enviroment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D2146FB298A1AD500AC5267 /* Enviroment.swift */; };
 		5D745CF82983DDFD00B85B23 /* TransactionPostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D745CF62983DDFD00B85B23 /* TransactionPostCell.swift */; };
 		5D745CF92983DDFD00B85B23 /* TransactionPostCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D745CF72983DDFD00B85B23 /* TransactionPostCell.xib */; };
 		5D858E9F2986763D00913B32 /* TransactionItemDetailsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D858E992986763D00913B32 /* TransactionItemDetailsPresenter.swift */; };
@@ -110,6 +111,7 @@
 		43F2AE79309CCC3F6691B832 /* Pods-TaskPayBackAppTests.releaseprod.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaskPayBackAppTests.releaseprod.xcconfig"; path = "Target Support Files/Pods-TaskPayBackAppTests/Pods-TaskPayBackAppTests.releaseprod.xcconfig"; sourceTree = "<group>"; };
 		55A435718CBCC7FDE90A1360 /* Pods-TaskPayBackAppTests.releasedev.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaskPayBackAppTests.releasedev.xcconfig"; path = "Target Support Files/Pods-TaskPayBackAppTests/Pods-TaskPayBackAppTests.releasedev.xcconfig"; sourceTree = "<group>"; };
 		58A2C66FFA837A868EF7D5B6 /* Pods-TaskPayBackAppTests.releaseqa.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaskPayBackAppTests.releaseqa.xcconfig"; path = "Target Support Files/Pods-TaskPayBackAppTests/Pods-TaskPayBackAppTests.releaseqa.xcconfig"; sourceTree = "<group>"; };
+		5D2146FB298A1AD500AC5267 /* Enviroment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Enviroment.swift; sourceTree = "<group>"; };
 		5D745CF62983DDFD00B85B23 /* TransactionPostCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransactionPostCell.swift; sourceTree = "<group>"; };
 		5D745CF72983DDFD00B85B23 /* TransactionPostCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TransactionPostCell.xib; sourceTree = "<group>"; };
 		5D858E992986763D00913B32 /* TransactionItemDetailsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionItemDetailsPresenter.swift; sourceTree = "<group>"; };
@@ -324,6 +326,7 @@
 		5D9A53A62982D8FF000495C8 /* TaskPayBackApp */ = {
 			isa = PBXGroup;
 			children = (
+				5D2146FB298A1AD500AC5267 /* Enviroment.swift */,
 				5D9A54662983A1F9000495C8 /* AppBusiness */,
 				5D9A545729837179000495C8 /* AppServices */,
 				5D9A544A29836065000495C8 /* AppModels */,
@@ -862,6 +865,7 @@
 				5D9A543329830E3B000495C8 /* AppTheme.swift in Sources */,
 				5D9A544E298360D2000495C8 /* Transaction.swift in Sources */,
 				5DC5569329894AD000A7D17B /* TopMostController.swift in Sources */,
+				5D2146FC298A1AD500AC5267 /* Enviroment.swift in Sources */,
 				5D858EA42986763D00913B32 /* TransactionItemDetailsInteractor.swift in Sources */,
 				5D858EA32986763D00913B32 /* TransactionItemDetailsVC.swift in Sources */,
 				5DC5568F2989466F00A7D17B /* DispatchQueue.swift in Sources */,

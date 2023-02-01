@@ -131,12 +131,14 @@ extension TransactionListVC{
   
   func setCalculateSum(selectedCategory: String)
   {
-    let totalAmount = transactionList?.reduce(0.0) { $0 + Double(($1.transactionDetail?.value?.amount  ?? 0)) }
-    print(totalAmount)
+    DispatchQueue.main.asyncAfter(deadline: .now()){
+      let totalAmount = self.transactionList?.reduce(0.0) { $0 + Double(($1.transactionDetail?.value?.amount  ?? 0)) }
+      print(totalAmount)
       self.tableView.reloadData()
       self.navbarView?.setNavDoneButtonTitle(title: "\(totalAmount ?? 0)")
       self.navbarView?.rightSecondButton(image: "", title: "\(selectedCategory) \nTotal Amount")
       self.stopAnimating()
+    }
   }
 }
 
