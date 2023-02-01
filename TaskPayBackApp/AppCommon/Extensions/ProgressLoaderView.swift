@@ -25,16 +25,23 @@ public class LoadingOverlay{
     
     overlayView.frame = CGRect(x: 0, y: 0, width: 200, height: 200)
     overlayView.center = view.center
-    overlayView.backgroundColor = AppTheme.shared.navBackgroundColor
+//    overlayView.backgroundColor = AppTheme.shared.navBackgroundColor
     overlayView.clipsToBounds = true
     overlayView.layer.cornerRadius = 10
     activityIndicator.frame = CGRect(x: 0, y: 0, width: 200, height: 200)
-    activityIndicator.color = .orange
+    activityIndicator.color = .white
     activityIndicator.style = .large
     activityIndicator.center = CGPoint(x: overlayView.bounds.width / 2, y: overlayView.bounds.height / 2)
+    setGradientBackground()
     overlayView.addSubview(activityIndicator)
     view.addSubview(overlayView)
     activityIndicator.startAnimating()
+  }
+  
+  func setGradientBackground() {
+    self.overlayView.layer.cornerRadius = 25
+    self.overlayView.layer.masksToBounds = true
+    self.overlayView.layerGradient(startPoint: .centerRight, endPoint: .centerLeft, colorArray: [UIColor(AppColor.TransactionDetailsScreenColors.TransactionDetailsBackGroundView().backgroundGradiantColor.first!).cgColor, UIColor(AppColor.TransactionDetailsScreenColors.TransactionDetailsBackGroundView().backgroundGradiantColor.last!).cgColor], type: .axial)
   }
   
   public func hideOverlayView() {
