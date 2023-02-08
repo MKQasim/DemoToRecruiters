@@ -2,15 +2,15 @@ PODS:
   - KQTaskNetworkManager (0.1.6)
 
 DEPENDENCIES:
-  - KQTaskNetworkManager (from `/Users/pse/Documents/KamQasim/Development/KQTaskNetworkManager/KQTaskNetworkManager`)
+  - KQTaskNetworkManager
 
-EXTERNAL SOURCES:
-  KQTaskNetworkManager:
-    :path: "/Users/pse/Documents/KamQasim/Development/KQTaskNetworkManager/KQTaskNetworkManager"
+SPEC REPOS:
+  trunk:
+    - KQTaskNetworkManager
 
 SPEC CHECKSUMS:
   KQTaskNetworkManager: 790a0134cec3f3390a636ab00107987dc0bd7b7f
 
-PODFILE CHECKSUM: 0edc0792a9325f82a87e64958d660d1ca266ad89
+PODFILE CHECKSUM: 1c0e26cc16d465c056f9214cd34aa79754de7a1f
 
 COCOAPODS: 1.11.3

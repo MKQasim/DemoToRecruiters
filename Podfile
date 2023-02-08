@@ -6,7 +6,8 @@ target 'TaskPayBackApp' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
 
-  pod 'KQTaskNetworkManager', :path => '/Users/pse/Documents/KamQasim/Development/KQTaskNetworkManager/KQTaskNetworkManager'
+  pod 'KQTaskNetworkManager'
+#  , :path => '/Users/pse/Documents/KamQasim/Development/KQTaskNetworkManager/KQTaskNetworkManager'
   
   target 'TaskPayBackAppTests' do
     inherit! :search_paths
