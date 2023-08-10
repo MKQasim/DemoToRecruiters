@@ -1,7 +1,7 @@
 # Demo to Recruiters
 
 
-Task Pay Back App for Analysis Coding skills.
+Demo App for Analysis Coding skills.
 
 
 1	* As a user of the App, I want to see a list of (mocked) transactions. 
