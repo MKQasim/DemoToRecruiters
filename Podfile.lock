@@ -1,5 +1,5 @@
 PODS:
-  - KQTaskNetworkManager (0.1.6)
+  - KQTaskNetworkManager (0.1.7)
 
 DEPENDENCIES:
   - KQTaskNetworkManager
@@ -9,8 +9,8 @@ SPEC REPOS:
     - KQTaskNetworkManager
 
 SPEC CHECKSUMS:
-  KQTaskNetworkManager: 790a0134cec3f3390a636ab00107987dc0bd7b7f
+  KQTaskNetworkManager: c3f206b8bebe18a9642803810b060d5356abff2e
 
-PODFILE CHECKSUM: 1c0e26cc16d465c056f9214cd34aa79754de7a1f
+PODFILE CHECKSUM: 6a6f115351484f6da1bcecdeac511959956aa721
 
-COCOAPODS: 1.11.3
+COCOAPODS: 1.12.1

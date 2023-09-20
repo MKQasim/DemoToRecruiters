@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2B7DE7ACE5373F9B9A8F2CD3 /* Pods_TaskPayBackApp_TaskPayBackAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB6213BEAFDC9EB92B31692E /* Pods_TaskPayBackApp_TaskPayBackAppUITests.framework */; };
 		5D2146FC298A1AD500AC5267 /* Enviroment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D2146FB298A1AD500AC5267 /* Enviroment.swift */; };
 		5D745CF82983DDFD00B85B23 /* TransactionPostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D745CF62983DDFD00B85B23 /* TransactionPostCell.swift */; };
 		5D745CF92983DDFD00B85B23 /* TransactionPostCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D745CF72983DDFD00B85B23 /* TransactionPostCell.xib */; };
@@ -22,9 +21,9 @@
 		5D9A53AA2982D8FF000495C8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9A53A92982D8FF000495C8 /* SceneDelegate.swift */; };
 		5D9A53B12982D901000495C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D9A53B02982D901000495C8 /* Assets.xcassets */; };
 		5D9A53B42982D901000495C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D9A53B22982D901000495C8 /* LaunchScreen.storyboard */; };
-		5D9A53BF2982D901000495C8 /* TaskPayBackAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9A53BE2982D901000495C8 /* TaskPayBackAppTests.swift */; };
-		5D9A53C92982D901000495C8 /* TaskPayBackAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9A53C82982D901000495C8 /* TaskPayBackAppUITests.swift */; };
-		5D9A53CB2982D901000495C8 /* TaskPayBackAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9A53CA2982D901000495C8 /* TaskPayBackAppUITestsLaunchTests.swift */; };
+		5D9A53BF2982D901000495C8 /* DemoToRecruitersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9A53BE2982D901000495C8 /* DemoToRecruitersTests.swift */; };
+		5D9A53C92982D901000495C8 /* DemoToRecruitersUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9A53C82982D901000495C8 /* DemoToRecruitersUITests.swift */; };
+		5D9A53CB2982D901000495C8 /* DemoToRecruitersUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9A53CA2982D901000495C8 /* DemoToRecruitersUITestsLaunchTests.swift */; };
 		5D9A53FF29830315000495C8 /* AppSuperVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9A53FD29830315000495C8 /* AppSuperVC.swift */; };
 		5D9A542429830896000495C8 /* TransactionListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9A541E29830896000495C8 /* TransactionListPresenter.swift */; };
 		5D9A542529830896000495C8 /* TransactionListWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9A541F29830896000495C8 /* TransactionListWorker.swift */; };
@@ -73,8 +72,9 @@
 		5DF4ABF32983E90000B58896 /* TypeAlias.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF4ABF22983E90000B58896 /* TypeAlias.swift */; };
 		5DF4ABF52983F47D00B58896 /* TableViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF4ABF42983F47D00B58896 /* TableViewExtension.swift */; };
 		5DF4ABF72983F4D000B58896 /* NibExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF4ABF62983F4D000B58896 /* NibExtension.swift */; };
-		9675CCB8B8CBAC81EF6A2CF9 /* Pods_TaskPayBackApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43AAB1BBB9114F88133FC7D2 /* Pods_TaskPayBackApp.framework */; };
-		D51E3EB22070947CC36E7D7D /* Pods_TaskPayBackAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF8EF181E7B50D6208CACB0E /* Pods_TaskPayBackAppTests.framework */; };
+		68FFEA856B4C97E724200C1D /* Pods_DemoToRecruiters_DemoToRecruitersUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 585AC6B6E391C8D0767BDE0D /* Pods_DemoToRecruiters_DemoToRecruitersUITests.framework */; };
+		78C4D0326D57ACE516FF8761 /* Pods_DemoToRecruiters.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC9BCB4853D127D7E8336189 /* Pods_DemoToRecruiters.framework */; };
+		D267A19CB71CD57A09D57F6E /* Pods_DemoToRecruitersTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7053A2D4A10F12C5BEC0F463 /* Pods_DemoToRecruitersTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -95,21 +95,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00BB583C1627152D4FCE0714 /* Pods-TaskPayBackApp.debugqa.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaskPayBackApp.debugqa.xcconfig"; path = "Target Support Files/Pods-TaskPayBackApp/Pods-TaskPayBackApp.debugqa.xcconfig"; sourceTree = "<group>"; };
-		0134F08A04042792B8DC2ACF /* Pods-TaskPayBackAppTests.debugprod.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaskPayBackAppTests.debugprod.xcconfig"; path = "Target Support Files/Pods-TaskPayBackAppTests/Pods-TaskPayBackAppTests.debugprod.xcconfig"; sourceTree = "<group>"; };
-		01E62A4EC1E534FBEC4BC0ED /* Pods-TaskPayBackAppTests.debugqa.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaskPayBackAppTests.debugqa.xcconfig"; path = "Target Support Files/Pods-TaskPayBackAppTests/Pods-TaskPayBackAppTests.debugqa.xcconfig"; sourceTree = "<group>"; };
-		0C64C677D24D9376A7C79110 /* Pods-TaskPayBackApp.releaseprod.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaskPayBackApp.releaseprod.xcconfig"; path = "Target Support Files/Pods-TaskPayBackApp/Pods-TaskPayBackApp.releaseprod.xcconfig"; sourceTree = "<group>"; };
-		13F3D110C4BAFF31E0B7655C /* Pods-TaskPayBackAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaskPayBackAppTests.debug.xcconfig"; path = "Target Support Files/Pods-TaskPayBackAppTests/Pods-TaskPayBackAppTests.debug.xcconfig"; sourceTree = "<group>"; };
-		199901EFB19CDA5F320CD598 /* Pods-TaskPayBackApp-TaskPayBackAppUITests.releaseqa.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaskPayBackApp-TaskPayBackAppUITests.releaseqa.xcconfig"; path = "Target Support Files/Pods-TaskPayBackApp-TaskPayBackAppUITests/Pods-TaskPayBackApp-TaskPayBackAppUITests.releaseqa.xcconfig"; sourceTree = "<group>"; };
-		231316B1C6DBDFD74EFD8C2F /* Pods-TaskPayBackAppTests.debugdev.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaskPayBackAppTests.debugdev.xcconfig"; path = "Target Support Files/Pods-TaskPayBackAppTests/Pods-TaskPayBackAppTests.debugdev.xcconfig"; sourceTree = "<group>"; };
-		35351C25636AEB9B37BC431D /* Pods-TaskPayBackApp-TaskPayBackAppUITests.debugqa.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaskPayBackApp-TaskPayBackAppUITests.debugqa.xcconfig"; path = "Target Support Files/Pods-TaskPayBackApp-TaskPayBackAppUITests/Pods-TaskPayBackApp-TaskPayBackAppUITests.debugqa.xcconfig"; sourceTree = "<group>"; };
-		36187EB44E2A7E7CCE1FCFF0 /* Pods-TaskPayBackApp-TaskPayBackAppUITests.releasestaging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaskPayBackApp-TaskPayBackAppUITests.releasestaging.xcconfig"; path = "Target Support Files/Pods-TaskPayBackApp-TaskPayBackAppUITests/Pods-TaskPayBackApp-TaskPayBackAppUITests.releasestaging.xcconfig"; sourceTree = "<group>"; };
-		38E966F16336440C98D4F0C7 /* Pods-TaskPayBackAppTests.debugstaging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaskPayBackAppTests.debugstaging.xcconfig"; path = "Target Support Files/Pods-TaskPayBackAppTests/Pods-TaskPayBackAppTests.debugstaging.xcconfig"; sourceTree = "<group>"; };
-		406D7A1499E5C9DA00EC6F04 /* Pods-TaskPayBackApp.releasedev.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaskPayBackApp.releasedev.xcconfig"; path = "Target Support Files/Pods-TaskPayBackApp/Pods-TaskPayBackApp.releasedev.xcconfig"; sourceTree = "<group>"; };
-		43AAB1BBB9114F88133FC7D2 /* Pods_TaskPayBackApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TaskPayBackApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		43F2AE79309CCC3F6691B832 /* Pods-TaskPayBackAppTests.releaseprod.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaskPayBackAppTests.releaseprod.xcconfig"; path = "Target Support Files/Pods-TaskPayBackAppTests/Pods-TaskPayBackAppTests.releaseprod.xcconfig"; sourceTree = "<group>"; };
-		55A435718CBCC7FDE90A1360 /* Pods-TaskPayBackAppTests.releasedev.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaskPayBackAppTests.releasedev.xcconfig"; path = "Target Support Files/Pods-TaskPayBackAppTests/Pods-TaskPayBackAppTests.releasedev.xcconfig"; sourceTree = "<group>"; };
-		58A2C66FFA837A868EF7D5B6 /* Pods-TaskPayBackAppTests.releaseqa.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaskPayBackAppTests.releaseqa.xcconfig"; path = "Target Support Files/Pods-TaskPayBackAppTests/Pods-TaskPayBackAppTests.releaseqa.xcconfig"; sourceTree = "<group>"; };
+		082F5BC6ABFB3C69A2EFC830 /* Pods-DemoToRecruitersTests.debugstaging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoToRecruitersTests.debugstaging.xcconfig"; path = "Target Support Files/Pods-DemoToRecruitersTests/Pods-DemoToRecruitersTests.debugstaging.xcconfig"; sourceTree = "<group>"; };
+		0A1CD41EF57817B308C3EBF8 /* Pods-DemoToRecruitersTests.debugqa.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoToRecruitersTests.debugqa.xcconfig"; path = "Target Support Files/Pods-DemoToRecruitersTests/Pods-DemoToRecruitersTests.debugqa.xcconfig"; sourceTree = "<group>"; };
+		0C68CB84CF3056CDB047496D /* Pods-DemoToRecruiters-DemoToRecruitersUITests.debugstaging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoToRecruiters-DemoToRecruitersUITests.debugstaging.xcconfig"; path = "Target Support Files/Pods-DemoToRecruiters-DemoToRecruitersUITests/Pods-DemoToRecruiters-DemoToRecruitersUITests.debugstaging.xcconfig"; sourceTree = "<group>"; };
+		0C7ADB63EF305E85902C48A1 /* Pods-DemoToRecruiters.releasestaging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoToRecruiters.releasestaging.xcconfig"; path = "Target Support Files/Pods-DemoToRecruiters/Pods-DemoToRecruiters.releasestaging.xcconfig"; sourceTree = "<group>"; };
+		12905CACDA506E970CFAE337 /* Pods-DemoToRecruiters-DemoToRecruitersUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoToRecruiters-DemoToRecruitersUITests.debug.xcconfig"; path = "Target Support Files/Pods-DemoToRecruiters-DemoToRecruitersUITests/Pods-DemoToRecruiters-DemoToRecruitersUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		15FBC10942DAF0A708D8767C /* Pods-DemoToRecruiters-DemoToRecruitersUITests.releasestaging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoToRecruiters-DemoToRecruitersUITests.releasestaging.xcconfig"; path = "Target Support Files/Pods-DemoToRecruiters-DemoToRecruitersUITests/Pods-DemoToRecruiters-DemoToRecruitersUITests.releasestaging.xcconfig"; sourceTree = "<group>"; };
+		1BC7A723633CA98727CF68B0 /* Pods-DemoToRecruiters.releaseqa.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoToRecruiters.releaseqa.xcconfig"; path = "Target Support Files/Pods-DemoToRecruiters/Pods-DemoToRecruiters.releaseqa.xcconfig"; sourceTree = "<group>"; };
+		1D490B5C6A7C44590C02E271 /* Pods-DemoToRecruiters-DemoToRecruitersUITests.debugdev.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoToRecruiters-DemoToRecruitersUITests.debugdev.xcconfig"; path = "Target Support Files/Pods-DemoToRecruiters-DemoToRecruitersUITests/Pods-DemoToRecruiters-DemoToRecruitersUITests.debugdev.xcconfig"; sourceTree = "<group>"; };
+		1E0CCDCE5091EAD41FA005CB /* Pods-DemoToRecruiters.releaseprod.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoToRecruiters.releaseprod.xcconfig"; path = "Target Support Files/Pods-DemoToRecruiters/Pods-DemoToRecruiters.releaseprod.xcconfig"; sourceTree = "<group>"; };
+		29161A7FAF7CAB70DC89F7FC /* Pods-DemoToRecruiters.debugstaging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoToRecruiters.debugstaging.xcconfig"; path = "Target Support Files/Pods-DemoToRecruiters/Pods-DemoToRecruiters.debugstaging.xcconfig"; sourceTree = "<group>"; };
+		2C9B3113257A8648425FFF2B /* Pods-DemoToRecruitersTests.debugprod.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoToRecruitersTests.debugprod.xcconfig"; path = "Target Support Files/Pods-DemoToRecruitersTests/Pods-DemoToRecruitersTests.debugprod.xcconfig"; sourceTree = "<group>"; };
+		2FAD5B5D7F0008324AC465B8 /* Pods-DemoToRecruiters.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoToRecruiters.debug.xcconfig"; path = "Target Support Files/Pods-DemoToRecruiters/Pods-DemoToRecruiters.debug.xcconfig"; sourceTree = "<group>"; };
+		37F97181454405FFC4CA1AFC /* Pods-DemoToRecruitersTests.debugdev.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoToRecruitersTests.debugdev.xcconfig"; path = "Target Support Files/Pods-DemoToRecruitersTests/Pods-DemoToRecruitersTests.debugdev.xcconfig"; sourceTree = "<group>"; };
+		3F3B3B86935450D0404BD1BF /* Pods-DemoToRecruiters.debugprod.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoToRecruiters.debugprod.xcconfig"; path = "Target Support Files/Pods-DemoToRecruiters/Pods-DemoToRecruiters.debugprod.xcconfig"; sourceTree = "<group>"; };
+		553FF9E61A204BEF6F920D53 /* Pods-DemoToRecruitersTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoToRecruitersTests.release.xcconfig"; path = "Target Support Files/Pods-DemoToRecruitersTests/Pods-DemoToRecruitersTests.release.xcconfig"; sourceTree = "<group>"; };
+		585AC6B6E391C8D0767BDE0D /* Pods_DemoToRecruiters_DemoToRecruitersUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DemoToRecruiters_DemoToRecruitersUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D2146FB298A1AD500AC5267 /* Enviroment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Enviroment.swift; sourceTree = "<group>"; };
 		5D745CF62983DDFD00B85B23 /* TransactionPostCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransactionPostCell.swift; sourceTree = "<group>"; };
 		5D745CF72983DDFD00B85B23 /* TransactionPostCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TransactionPostCell.xib; sourceTree = "<group>"; };
@@ -120,17 +121,17 @@
 		5D858E9D2986763D00913B32 /* TransactionItemDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionItemDetailsVC.swift; sourceTree = "<group>"; };
 		5D858E9E2986763D00913B32 /* TransactionItemDetailsInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionItemDetailsInteractor.swift; sourceTree = "<group>"; };
 		5D858EA52986769D00913B32 /* TransactionItemDetailsConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionItemDetailsConfigurator.swift; sourceTree = "<group>"; };
-		5D9A53A42982D8FF000495C8 /* TaskPayBackApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaskPayBackApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D9A53A42982D8FF000495C8 /* DemoToRecruiters.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoToRecruiters.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D9A53A72982D8FF000495C8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5D9A53A92982D8FF000495C8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		5D9A53B02982D901000495C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5D9A53B32982D901000495C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5D9A53B52982D901000495C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5D9A53BA2982D901000495C8 /* TaskPayBackAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaskPayBackAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		5D9A53BE2982D901000495C8 /* TaskPayBackAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskPayBackAppTests.swift; sourceTree = "<group>"; };
-		5D9A53C42982D901000495C8 /* TaskPayBackAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaskPayBackAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		5D9A53C82982D901000495C8 /* TaskPayBackAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskPayBackAppUITests.swift; sourceTree = "<group>"; };
-		5D9A53CA2982D901000495C8 /* TaskPayBackAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskPayBackAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5D9A53BA2982D901000495C8 /* DemoToRecruitersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoToRecruitersTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D9A53BE2982D901000495C8 /* DemoToRecruitersTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoToRecruitersTests.swift; sourceTree = "<group>"; };
+		5D9A53C42982D901000495C8 /* DemoToRecruitersUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoToRecruitersUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D9A53C82982D901000495C8 /* DemoToRecruitersUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoToRecruitersUITests.swift; sourceTree = "<group>"; };
+		5D9A53CA2982D901000495C8 /* DemoToRecruitersUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoToRecruitersUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		5D9A53FD29830315000495C8 /* AppSuperVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSuperVC.swift; sourceTree = "<group>"; };
 		5D9A541E29830896000495C8 /* TransactionListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionListPresenter.swift; sourceTree = "<group>"; };
 		5D9A541F29830896000495C8 /* TransactionListWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionListWorker.swift; sourceTree = "<group>"; };
@@ -179,24 +180,23 @@
 		5DF4ABF22983E90000B58896 /* TypeAlias.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeAlias.swift; sourceTree = "<group>"; };
 		5DF4ABF42983F47D00B58896 /* TableViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewExtension.swift; sourceTree = "<group>"; };
 		5DF4ABF62983F4D000B58896 /* NibExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NibExtension.swift; sourceTree = "<group>"; };
-		669D8E95864F0C8E643767E2 /* Pods-TaskPayBackAppTests.releasestaging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaskPayBackAppTests.releasestaging.xcconfig"; path = "Target Support Files/Pods-TaskPayBackAppTests/Pods-TaskPayBackAppTests.releasestaging.xcconfig"; sourceTree = "<group>"; };
-		6AEF2E395F94E83DD4D77FEC /* Pods-TaskPayBackApp.releasestaging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaskPayBackApp.releasestaging.xcconfig"; path = "Target Support Files/Pods-TaskPayBackApp/Pods-TaskPayBackApp.releasestaging.xcconfig"; sourceTree = "<group>"; };
-		726BEB194D4500BF3192C61F /* Pods-TaskPayBackApp-TaskPayBackAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaskPayBackApp-TaskPayBackAppUITests.release.xcconfig"; path = "Target Support Files/Pods-TaskPayBackApp-TaskPayBackAppUITests/Pods-TaskPayBackApp-TaskPayBackAppUITests.release.xcconfig"; sourceTree = "<group>"; };
-		855CEA5C1382C76F14801939 /* Pods-TaskPayBackApp.debugprod.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaskPayBackApp.debugprod.xcconfig"; path = "Target Support Files/Pods-TaskPayBackApp/Pods-TaskPayBackApp.debugprod.xcconfig"; sourceTree = "<group>"; };
-		91AE789D452E7DB86C7C4E65 /* Pods-TaskPayBackApp-TaskPayBackAppUITests.releaseprod.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaskPayBackApp-TaskPayBackAppUITests.releaseprod.xcconfig"; path = "Target Support Files/Pods-TaskPayBackApp-TaskPayBackAppUITests/Pods-TaskPayBackApp-TaskPayBackAppUITests.releaseprod.xcconfig"; sourceTree = "<group>"; };
-		958F6DC4912A9596EEAF9696 /* Pods-TaskPayBackApp-TaskPayBackAppUITests.releasedev.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaskPayBackApp-TaskPayBackAppUITests.releasedev.xcconfig"; path = "Target Support Files/Pods-TaskPayBackApp-TaskPayBackAppUITests/Pods-TaskPayBackApp-TaskPayBackAppUITests.releasedev.xcconfig"; sourceTree = "<group>"; };
-		A0E74FF9AAE4F3CFC36908F9 /* Pods-TaskPayBackApp.releaseqa.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaskPayBackApp.releaseqa.xcconfig"; path = "Target Support Files/Pods-TaskPayBackApp/Pods-TaskPayBackApp.releaseqa.xcconfig"; sourceTree = "<group>"; };
-		A80F8EE11D109DA0DC474E6C /* Pods-TaskPayBackApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaskPayBackApp.release.xcconfig"; path = "Target Support Files/Pods-TaskPayBackApp/Pods-TaskPayBackApp.release.xcconfig"; sourceTree = "<group>"; };
-		B8F1FD16E0B759636803FA51 /* Pods-TaskPayBackApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaskPayBackApp.debug.xcconfig"; path = "Target Support Files/Pods-TaskPayBackApp/Pods-TaskPayBackApp.debug.xcconfig"; sourceTree = "<group>"; };
-		BF7741F5C9C8B4F35197F41B /* Pods-TaskPayBackAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaskPayBackAppTests.release.xcconfig"; path = "Target Support Files/Pods-TaskPayBackAppTests/Pods-TaskPayBackAppTests.release.xcconfig"; sourceTree = "<group>"; };
-		BF8EF181E7B50D6208CACB0E /* Pods_TaskPayBackAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TaskPayBackAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D2C5C2C62D20D8E82B7B936C /* Pods-TaskPayBackApp.debugdev.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaskPayBackApp.debugdev.xcconfig"; path = "Target Support Files/Pods-TaskPayBackApp/Pods-TaskPayBackApp.debugdev.xcconfig"; sourceTree = "<group>"; };
-		E31D24F9FA5DEDFD5973B141 /* Pods-TaskPayBackApp-TaskPayBackAppUITests.debugdev.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaskPayBackApp-TaskPayBackAppUITests.debugdev.xcconfig"; path = "Target Support Files/Pods-TaskPayBackApp-TaskPayBackAppUITests/Pods-TaskPayBackApp-TaskPayBackAppUITests.debugdev.xcconfig"; sourceTree = "<group>"; };
-		E6F08E4EA2ACC68A06E35AFA /* Pods-TaskPayBackApp-TaskPayBackAppUITests.debugstaging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaskPayBackApp-TaskPayBackAppUITests.debugstaging.xcconfig"; path = "Target Support Files/Pods-TaskPayBackApp-TaskPayBackAppUITests/Pods-TaskPayBackApp-TaskPayBackAppUITests.debugstaging.xcconfig"; sourceTree = "<group>"; };
-		E9A9E40EBB280B1EA1F41511 /* Pods-TaskPayBackApp-TaskPayBackAppUITests.debugprod.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaskPayBackApp-TaskPayBackAppUITests.debugprod.xcconfig"; path = "Target Support Files/Pods-TaskPayBackApp-TaskPayBackAppUITests/Pods-TaskPayBackApp-TaskPayBackAppUITests.debugprod.xcconfig"; sourceTree = "<group>"; };
-		EBD55075542A08031599A70A /* Pods-TaskPayBackApp-TaskPayBackAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaskPayBackApp-TaskPayBackAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-TaskPayBackApp-TaskPayBackAppUITests/Pods-TaskPayBackApp-TaskPayBackAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		ECC0DB1D2B0CB6D8B8643411 /* Pods-TaskPayBackApp.debugstaging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaskPayBackApp.debugstaging.xcconfig"; path = "Target Support Files/Pods-TaskPayBackApp/Pods-TaskPayBackApp.debugstaging.xcconfig"; sourceTree = "<group>"; };
-		FB6213BEAFDC9EB92B31692E /* Pods_TaskPayBackApp_TaskPayBackAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TaskPayBackApp_TaskPayBackAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6087172291B8A238CD0717C5 /* Pods-DemoToRecruiters.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoToRecruiters.release.xcconfig"; path = "Target Support Files/Pods-DemoToRecruiters/Pods-DemoToRecruiters.release.xcconfig"; sourceTree = "<group>"; };
+		6BE7F8B5B8CF65647C09CA5E /* Pods-DemoToRecruiters.debugdev.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoToRecruiters.debugdev.xcconfig"; path = "Target Support Files/Pods-DemoToRecruiters/Pods-DemoToRecruiters.debugdev.xcconfig"; sourceTree = "<group>"; };
+		7007FF22167AC3CD4BCA5B64 /* Pods-DemoToRecruitersTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoToRecruitersTests.debug.xcconfig"; path = "Target Support Files/Pods-DemoToRecruitersTests/Pods-DemoToRecruitersTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7053A2D4A10F12C5BEC0F463 /* Pods_DemoToRecruitersTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DemoToRecruitersTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		76FF5E7AB22A0667009A6D61 /* Pods-DemoToRecruiters-DemoToRecruitersUITests.debugprod.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoToRecruiters-DemoToRecruitersUITests.debugprod.xcconfig"; path = "Target Support Files/Pods-DemoToRecruiters-DemoToRecruitersUITests/Pods-DemoToRecruiters-DemoToRecruitersUITests.debugprod.xcconfig"; sourceTree = "<group>"; };
+		80499BB11AB6F0039A5DE479 /* Pods-DemoToRecruiters-DemoToRecruitersUITests.releasedev.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoToRecruiters-DemoToRecruitersUITests.releasedev.xcconfig"; path = "Target Support Files/Pods-DemoToRecruiters-DemoToRecruitersUITests/Pods-DemoToRecruiters-DemoToRecruitersUITests.releasedev.xcconfig"; sourceTree = "<group>"; };
+		8416157A1938D254DF6F3D64 /* Pods-DemoToRecruitersTests.releasedev.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoToRecruitersTests.releasedev.xcconfig"; path = "Target Support Files/Pods-DemoToRecruitersTests/Pods-DemoToRecruitersTests.releasedev.xcconfig"; sourceTree = "<group>"; };
+		8B462A5764D95C2635C30C8F /* Pods-DemoToRecruitersTests.releaseprod.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoToRecruitersTests.releaseprod.xcconfig"; path = "Target Support Files/Pods-DemoToRecruitersTests/Pods-DemoToRecruitersTests.releaseprod.xcconfig"; sourceTree = "<group>"; };
+		8F0329C796ACA488F854EB90 /* Pods-DemoToRecruiters.debugqa.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoToRecruiters.debugqa.xcconfig"; path = "Target Support Files/Pods-DemoToRecruiters/Pods-DemoToRecruiters.debugqa.xcconfig"; sourceTree = "<group>"; };
+		A9A7FC31FD71633B97D5F5D4 /* Pods-DemoToRecruitersTests.releasestaging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoToRecruitersTests.releasestaging.xcconfig"; path = "Target Support Files/Pods-DemoToRecruitersTests/Pods-DemoToRecruitersTests.releasestaging.xcconfig"; sourceTree = "<group>"; };
+		B74AFC4956FE08555F7FC2BA /* Pods-DemoToRecruiters-DemoToRecruitersUITests.releaseprod.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoToRecruiters-DemoToRecruitersUITests.releaseprod.xcconfig"; path = "Target Support Files/Pods-DemoToRecruiters-DemoToRecruitersUITests/Pods-DemoToRecruiters-DemoToRecruitersUITests.releaseprod.xcconfig"; sourceTree = "<group>"; };
+		C0E8CC92AA701A46B375EE68 /* Pods-DemoToRecruiters.releasedev.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoToRecruiters.releasedev.xcconfig"; path = "Target Support Files/Pods-DemoToRecruiters/Pods-DemoToRecruiters.releasedev.xcconfig"; sourceTree = "<group>"; };
+		C837EFFAD878F8EF1DC79563 /* Pods-DemoToRecruitersTests.releaseqa.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoToRecruitersTests.releaseqa.xcconfig"; path = "Target Support Files/Pods-DemoToRecruitersTests/Pods-DemoToRecruitersTests.releaseqa.xcconfig"; sourceTree = "<group>"; };
+		D7F448B20C82D8B13246B7F0 /* Pods-DemoToRecruiters-DemoToRecruitersUITests.releaseqa.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoToRecruiters-DemoToRecruitersUITests.releaseqa.xcconfig"; path = "Target Support Files/Pods-DemoToRecruiters-DemoToRecruitersUITests/Pods-DemoToRecruiters-DemoToRecruitersUITests.releaseqa.xcconfig"; sourceTree = "<group>"; };
+		D9CB72CB7EC9278724C6D75F /* Pods-DemoToRecruiters-DemoToRecruitersUITests.debugqa.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoToRecruiters-DemoToRecruitersUITests.debugqa.xcconfig"; path = "Target Support Files/Pods-DemoToRecruiters-DemoToRecruitersUITests/Pods-DemoToRecruiters-DemoToRecruitersUITests.debugqa.xcconfig"; sourceTree = "<group>"; };
+		F7575DEFD80CC6347224AE91 /* Pods-DemoToRecruiters-DemoToRecruitersUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoToRecruiters-DemoToRecruitersUITests.release.xcconfig"; path = "Target Support Files/Pods-DemoToRecruiters-DemoToRecruitersUITests/Pods-DemoToRecruiters-DemoToRecruitersUITests.release.xcconfig"; sourceTree = "<group>"; };
+		FC9BCB4853D127D7E8336189 /* Pods_DemoToRecruiters.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DemoToRecruiters.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -204,7 +204,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9675CCB8B8CBAC81EF6A2CF9 /* Pods_TaskPayBackApp.framework in Frameworks */,
+				78C4D0326D57ACE516FF8761 /* Pods_DemoToRecruiters.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,7 +212,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D51E3EB22070947CC36E7D7D /* Pods_TaskPayBackAppTests.framework in Frameworks */,
+				D267A19CB71CD57A09D57F6E /* Pods_DemoToRecruitersTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -220,7 +220,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2B7DE7ACE5373F9B9A8F2CD3 /* Pods_TaskPayBackApp_TaskPayBackAppUITests.framework in Frameworks */,
+				68FFEA856B4C97E724200C1D /* Pods_DemoToRecruiters_DemoToRecruitersUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -230,48 +230,11 @@
 		092A66D4BACE2E568C8D44E8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				43AAB1BBB9114F88133FC7D2 /* Pods_TaskPayBackApp.framework */,
-				FB6213BEAFDC9EB92B31692E /* Pods_TaskPayBackApp_TaskPayBackAppUITests.framework */,
-				BF8EF181E7B50D6208CACB0E /* Pods_TaskPayBackAppTests.framework */,
+				FC9BCB4853D127D7E8336189 /* Pods_DemoToRecruiters.framework */,
+				585AC6B6E391C8D0767BDE0D /* Pods_DemoToRecruiters_DemoToRecruitersUITests.framework */,
+				7053A2D4A10F12C5BEC0F463 /* Pods_DemoToRecruitersTests.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		36605122F7F1F3BB41734BDA /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				B8F1FD16E0B759636803FA51 /* Pods-TaskPayBackApp.debug.xcconfig */,
-				D2C5C2C62D20D8E82B7B936C /* Pods-TaskPayBackApp.debugdev.xcconfig */,
-				855CEA5C1382C76F14801939 /* Pods-TaskPayBackApp.debugprod.xcconfig */,
-				ECC0DB1D2B0CB6D8B8643411 /* Pods-TaskPayBackApp.debugstaging.xcconfig */,
-				00BB583C1627152D4FCE0714 /* Pods-TaskPayBackApp.debugqa.xcconfig */,
-				A80F8EE11D109DA0DC474E6C /* Pods-TaskPayBackApp.release.xcconfig */,
-				406D7A1499E5C9DA00EC6F04 /* Pods-TaskPayBackApp.releasedev.xcconfig */,
-				0C64C677D24D9376A7C79110 /* Pods-TaskPayBackApp.releaseprod.xcconfig */,
-				6AEF2E395F94E83DD4D77FEC /* Pods-TaskPayBackApp.releasestaging.xcconfig */,
-				A0E74FF9AAE4F3CFC36908F9 /* Pods-TaskPayBackApp.releaseqa.xcconfig */,
-				EBD55075542A08031599A70A /* Pods-TaskPayBackApp-TaskPayBackAppUITests.debug.xcconfig */,
-				E31D24F9FA5DEDFD5973B141 /* Pods-TaskPayBackApp-TaskPayBackAppUITests.debugdev.xcconfig */,
-				E9A9E40EBB280B1EA1F41511 /* Pods-TaskPayBackApp-TaskPayBackAppUITests.debugprod.xcconfig */,
-				E6F08E4EA2ACC68A06E35AFA /* Pods-TaskPayBackApp-TaskPayBackAppUITests.debugstaging.xcconfig */,
-				35351C25636AEB9B37BC431D /* Pods-TaskPayBackApp-TaskPayBackAppUITests.debugqa.xcconfig */,
-				726BEB194D4500BF3192C61F /* Pods-TaskPayBackApp-TaskPayBackAppUITests.release.xcconfig */,
-				958F6DC4912A9596EEAF9696 /* Pods-TaskPayBackApp-TaskPayBackAppUITests.releasedev.xcconfig */,
-				91AE789D452E7DB86C7C4E65 /* Pods-TaskPayBackApp-TaskPayBackAppUITests.releaseprod.xcconfig */,
-				36187EB44E2A7E7CCE1FCFF0 /* Pods-TaskPayBackApp-TaskPayBackAppUITests.releasestaging.xcconfig */,
-				199901EFB19CDA5F320CD598 /* Pods-TaskPayBackApp-TaskPayBackAppUITests.releaseqa.xcconfig */,
-				13F3D110C4BAFF31E0B7655C /* Pods-TaskPayBackAppTests.debug.xcconfig */,
-				231316B1C6DBDFD74EFD8C2F /* Pods-TaskPayBackAppTests.debugdev.xcconfig */,
-				0134F08A04042792B8DC2ACF /* Pods-TaskPayBackAppTests.debugprod.xcconfig */,
-				38E966F16336440C98D4F0C7 /* Pods-TaskPayBackAppTests.debugstaging.xcconfig */,
-				01E62A4EC1E534FBEC4BC0ED /* Pods-TaskPayBackAppTests.debugqa.xcconfig */,
-				BF7741F5C9C8B4F35197F41B /* Pods-TaskPayBackAppTests.release.xcconfig */,
-				55A435718CBCC7FDE90A1360 /* Pods-TaskPayBackAppTests.releasedev.xcconfig */,
-				43F2AE79309CCC3F6691B832 /* Pods-TaskPayBackAppTests.releaseprod.xcconfig */,
-				669D8E95864F0C8E643767E2 /* Pods-TaskPayBackAppTests.releasestaging.xcconfig */,
-				58A2C66FFA837A868EF7D5B6 /* Pods-TaskPayBackAppTests.releaseqa.xcconfig */,
-			);
-			path = Pods;
 			sourceTree = "<group>";
 		};
 		5D745CF52983DDFD00B85B23 /* TransactionCell */ = {
@@ -302,26 +265,26 @@
 		5D9A539B2982D8FF000495C8 = {
 			isa = PBXGroup;
 			children = (
-				5D9A53A62982D8FF000495C8 /* TaskPayBackApp */,
-				5D9A53BD2982D901000495C8 /* TaskPayBackAppTests */,
-				5D9A53C72982D901000495C8 /* TaskPayBackAppUITests */,
+				5D9A53A62982D8FF000495C8 /* DemoToRecruiters */,
+				5D9A53BD2982D901000495C8 /* DemoToRecruitersTests */,
+				5D9A53C72982D901000495C8 /* DemoToRecruitersUITests */,
 				5D9A53A52982D8FF000495C8 /* Products */,
-				36605122F7F1F3BB41734BDA /* Pods */,
 				092A66D4BACE2E568C8D44E8 /* Frameworks */,
+				6DABDE9E977C98E13EDFC5EA /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
 		5D9A53A52982D8FF000495C8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5D9A53A42982D8FF000495C8 /* TaskPayBackApp.app */,
-				5D9A53BA2982D901000495C8 /* TaskPayBackAppTests.xctest */,
-				5D9A53C42982D901000495C8 /* TaskPayBackAppUITests.xctest */,
+				5D9A53A42982D8FF000495C8 /* DemoToRecruiters.app */,
+				5D9A53BA2982D901000495C8 /* DemoToRecruitersTests.xctest */,
+				5D9A53C42982D901000495C8 /* DemoToRecruitersUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		5D9A53A62982D8FF000495C8 /* TaskPayBackApp */ = {
+		5D9A53A62982D8FF000495C8 /* DemoToRecruiters */ = {
 			isa = PBXGroup;
 			children = (
 				5D9A54662983A1F9000495C8 /* AppBusiness */,
@@ -334,25 +297,25 @@
 				5D9A53B22982D901000495C8 /* LaunchScreen.storyboard */,
 				5D9A53B52982D901000495C8 /* Info.plist */,
 			);
-			path = TaskPayBackApp;
+			path = DemoToRecruiters;
 			sourceTree = "<group>";
 		};
-		5D9A53BD2982D901000495C8 /* TaskPayBackAppTests */ = {
+		5D9A53BD2982D901000495C8 /* DemoToRecruitersTests */ = {
 			isa = PBXGroup;
 			children = (
 				5D9A5415298307D6000495C8 /* TransectionsListVCTest */,
-				5D9A53BE2982D901000495C8 /* TaskPayBackAppTests.swift */,
+				5D9A53BE2982D901000495C8 /* DemoToRecruitersTests.swift */,
 			);
-			path = TaskPayBackAppTests;
+			path = DemoToRecruitersTests;
 			sourceTree = "<group>";
 		};
-		5D9A53C72982D901000495C8 /* TaskPayBackAppUITests */ = {
+		5D9A53C72982D901000495C8 /* DemoToRecruitersUITests */ = {
 			isa = PBXGroup;
 			children = (
-				5D9A53C82982D901000495C8 /* TaskPayBackAppUITests.swift */,
-				5D9A53CA2982D901000495C8 /* TaskPayBackAppUITestsLaunchTests.swift */,
+				5D9A53C82982D901000495C8 /* DemoToRecruitersUITests.swift */,
+				5D9A53CA2982D901000495C8 /* DemoToRecruitersUITestsLaunchTests.swift */,
 			);
-			path = TaskPayBackAppUITests;
+			path = DemoToRecruitersUITests;
 			sourceTree = "<group>";
 		};
 		5D9A54012983039B000495C8 /* SupportingFiles */ = {
@@ -583,31 +546,68 @@
 			path = ViewModel;
 			sourceTree = "<group>";
 		};
+		6DABDE9E977C98E13EDFC5EA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2FAD5B5D7F0008324AC465B8 /* Pods-DemoToRecruiters.debug.xcconfig */,
+				6BE7F8B5B8CF65647C09CA5E /* Pods-DemoToRecruiters.debugdev.xcconfig */,
+				3F3B3B86935450D0404BD1BF /* Pods-DemoToRecruiters.debugprod.xcconfig */,
+				29161A7FAF7CAB70DC89F7FC /* Pods-DemoToRecruiters.debugstaging.xcconfig */,
+				8F0329C796ACA488F854EB90 /* Pods-DemoToRecruiters.debugqa.xcconfig */,
+				6087172291B8A238CD0717C5 /* Pods-DemoToRecruiters.release.xcconfig */,
+				C0E8CC92AA701A46B375EE68 /* Pods-DemoToRecruiters.releasedev.xcconfig */,
+				1E0CCDCE5091EAD41FA005CB /* Pods-DemoToRecruiters.releaseprod.xcconfig */,
+				0C7ADB63EF305E85902C48A1 /* Pods-DemoToRecruiters.releasestaging.xcconfig */,
+				1BC7A723633CA98727CF68B0 /* Pods-DemoToRecruiters.releaseqa.xcconfig */,
+				12905CACDA506E970CFAE337 /* Pods-DemoToRecruiters-DemoToRecruitersUITests.debug.xcconfig */,
+				1D490B5C6A7C44590C02E271 /* Pods-DemoToRecruiters-DemoToRecruitersUITests.debugdev.xcconfig */,
+				76FF5E7AB22A0667009A6D61 /* Pods-DemoToRecruiters-DemoToRecruitersUITests.debugprod.xcconfig */,
+				0C68CB84CF3056CDB047496D /* Pods-DemoToRecruiters-DemoToRecruitersUITests.debugstaging.xcconfig */,
+				D9CB72CB7EC9278724C6D75F /* Pods-DemoToRecruiters-DemoToRecruitersUITests.debugqa.xcconfig */,
+				F7575DEFD80CC6347224AE91 /* Pods-DemoToRecruiters-DemoToRecruitersUITests.release.xcconfig */,
+				80499BB11AB6F0039A5DE479 /* Pods-DemoToRecruiters-DemoToRecruitersUITests.releasedev.xcconfig */,
+				B74AFC4956FE08555F7FC2BA /* Pods-DemoToRecruiters-DemoToRecruitersUITests.releaseprod.xcconfig */,
+				15FBC10942DAF0A708D8767C /* Pods-DemoToRecruiters-DemoToRecruitersUITests.releasestaging.xcconfig */,
+				D7F448B20C82D8B13246B7F0 /* Pods-DemoToRecruiters-DemoToRecruitersUITests.releaseqa.xcconfig */,
+				7007FF22167AC3CD4BCA5B64 /* Pods-DemoToRecruitersTests.debug.xcconfig */,
+				37F97181454405FFC4CA1AFC /* Pods-DemoToRecruitersTests.debugdev.xcconfig */,
+				2C9B3113257A8648425FFF2B /* Pods-DemoToRecruitersTests.debugprod.xcconfig */,
+				082F5BC6ABFB3C69A2EFC830 /* Pods-DemoToRecruitersTests.debugstaging.xcconfig */,
+				0A1CD41EF57817B308C3EBF8 /* Pods-DemoToRecruitersTests.debugqa.xcconfig */,
+				553FF9E61A204BEF6F920D53 /* Pods-DemoToRecruitersTests.release.xcconfig */,
+				8416157A1938D254DF6F3D64 /* Pods-DemoToRecruitersTests.releasedev.xcconfig */,
+				8B462A5764D95C2635C30C8F /* Pods-DemoToRecruitersTests.releaseprod.xcconfig */,
+				A9A7FC31FD71633B97D5F5D4 /* Pods-DemoToRecruitersTests.releasestaging.xcconfig */,
+				C837EFFAD878F8EF1DC79563 /* Pods-DemoToRecruitersTests.releaseqa.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5D9A53A32982D8FF000495C8 /* TaskPayBackApp */ = {
+		5D9A53A32982D8FF000495C8 /* DemoToRecruiters */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5D9A53CE2982D901000495C8 /* Build configuration list for PBXNativeTarget "TaskPayBackApp" */;
+			buildConfigurationList = 5D9A53CE2982D901000495C8 /* Build configuration list for PBXNativeTarget "DemoToRecruiters" */;
 			buildPhases = (
 				4B2E43BAD49E6062903C42CC /* [CP] Check Pods Manifest.lock */,
 				5D9A53A02982D8FF000495C8 /* Sources */,
 				5D9A53A12982D8FF000495C8 /* Frameworks */,
 				5D9A53A22982D8FF000495C8 /* Resources */,
-				A79D1A907F4A0B8D5D806544 /* [CP] Embed Pods Frameworks */,
+				76383B7BBE3989445E8FF09E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = TaskPayBackApp;
+			name = DemoToRecruiters;
 			productName = TaskPayBackApp;
-			productReference = 5D9A53A42982D8FF000495C8 /* TaskPayBackApp.app */;
+			productReference = 5D9A53A42982D8FF000495C8 /* DemoToRecruiters.app */;
 			productType = "com.apple.product-type.application";
 		};
-		5D9A53B92982D901000495C8 /* TaskPayBackAppTests */ = {
+		5D9A53B92982D901000495C8 /* DemoToRecruitersTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5D9A53D12982D901000495C8 /* Build configuration list for PBXNativeTarget "TaskPayBackAppTests" */;
+			buildConfigurationList = 5D9A53D12982D901000495C8 /* Build configuration list for PBXNativeTarget "DemoToRecruitersTests" */;
 			buildPhases = (
 				3F64B7EB51B6F7816EFE5135 /* [CP] Check Pods Manifest.lock */,
 				5D9A53B62982D901000495C8 /* Sources */,
@@ -619,29 +619,29 @@
 			dependencies = (
 				5D9A53BC2982D901000495C8 /* PBXTargetDependency */,
 			);
-			name = TaskPayBackAppTests;
+			name = DemoToRecruitersTests;
 			productName = TaskPayBackAppTests;
-			productReference = 5D9A53BA2982D901000495C8 /* TaskPayBackAppTests.xctest */;
+			productReference = 5D9A53BA2982D901000495C8 /* DemoToRecruitersTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		5D9A53C32982D901000495C8 /* TaskPayBackAppUITests */ = {
+		5D9A53C32982D901000495C8 /* DemoToRecruitersUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5D9A53D42982D901000495C8 /* Build configuration list for PBXNativeTarget "TaskPayBackAppUITests" */;
+			buildConfigurationList = 5D9A53D42982D901000495C8 /* Build configuration list for PBXNativeTarget "DemoToRecruitersUITests" */;
 			buildPhases = (
 				709320F7B0F67E1033438742 /* [CP] Check Pods Manifest.lock */,
 				5D9A53C02982D901000495C8 /* Sources */,
 				5D9A53C12982D901000495C8 /* Frameworks */,
 				5D9A53C22982D901000495C8 /* Resources */,
-				F60C0D05118D2D2E6FAFC195 /* [CP] Embed Pods Frameworks */,
+				E7BF05B0F8ABA3F1CDE1A4FF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 				5D9A53C62982D901000495C8 /* PBXTargetDependency */,
 			);
-			name = TaskPayBackAppUITests;
+			name = DemoToRecruitersUITests;
 			productName = TaskPayBackAppUITests;
-			productReference = 5D9A53C42982D901000495C8 /* TaskPayBackAppUITests.xctest */;
+			productReference = 5D9A53C42982D901000495C8 /* DemoToRecruitersUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -667,7 +667,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 5D9A539F2982D8FF000495C8 /* Build configuration list for PBXProject "TaskPayBackApp" */;
+			buildConfigurationList = 5D9A539F2982D8FF000495C8 /* Build configuration list for PBXProject "DemoToRecruiters" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -680,9 +680,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5D9A53A32982D8FF000495C8 /* TaskPayBackApp */,
-				5D9A53B92982D901000495C8 /* TaskPayBackAppTests */,
-				5D9A53C32982D901000495C8 /* TaskPayBackAppUITests */,
+				5D9A53A32982D8FF000495C8 /* DemoToRecruiters */,
+				5D9A53B92982D901000495C8 /* DemoToRecruitersTests */,
+				5D9A53C32982D901000495C8 /* DemoToRecruitersUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -735,7 +735,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-TaskPayBackAppTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-DemoToRecruitersTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -757,7 +757,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-TaskPayBackApp-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-DemoToRecruiters-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -779,45 +779,45 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-TaskPayBackApp-TaskPayBackAppUITests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-DemoToRecruiters-DemoToRecruitersUITests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		A79D1A907F4A0B8D5D806544 /* [CP] Embed Pods Frameworks */ = {
+		76383B7BBE3989445E8FF09E /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-TaskPayBackApp/Pods-TaskPayBackApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-DemoToRecruiters/Pods-DemoToRecruiters-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			name = "[CP] Embed Pods Frameworks";
+			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-TaskPayBackApp/Pods-TaskPayBackApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-DemoToRecruiters/Pods-DemoToRecruiters-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TaskPayBackApp/Pods-TaskPayBackApp-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DemoToRecruiters/Pods-DemoToRecruiters-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		F60C0D05118D2D2E6FAFC195 /* [CP] Embed Pods Frameworks */ = {
+		E7BF05B0F8ABA3F1CDE1A4FF /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-TaskPayBackApp-TaskPayBackAppUITests/Pods-TaskPayBackApp-TaskPayBackAppUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-DemoToRecruiters-DemoToRecruitersUITests/Pods-DemoToRecruiters-DemoToRecruitersUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			name = "[CP] Embed Pods Frameworks";
+			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-TaskPayBackApp-TaskPayBackAppUITests/Pods-TaskPayBackApp-TaskPayBackAppUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-DemoToRecruiters-DemoToRecruitersUITests/Pods-DemoToRecruiters-DemoToRecruitersUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TaskPayBackApp-TaskPayBackAppUITests/Pods-TaskPayBackApp-TaskPayBackAppUITests-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DemoToRecruiters-DemoToRecruitersUITests/Pods-DemoToRecruiters-DemoToRecruitersUITests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -886,7 +886,7 @@
 			files = (
 				5D9A543129830A47000495C8 /* TransactionListPresenterTests.swift in Sources */,
 				5D9A543029830A47000495C8 /* TransactionListWorkerTests.swift in Sources */,
-				5D9A53BF2982D901000495C8 /* TaskPayBackAppTests.swift in Sources */,
+				5D9A53BF2982D901000495C8 /* DemoToRecruitersTests.swift in Sources */,
 				5D9A542F29830A47000495C8 /* TransactionListInteractorTests.swift in Sources */,
 				5D9A542E29830A47000495C8 /* TransactionListViewControllerTests.swift in Sources */,
 			);
@@ -896,8 +896,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5D9A53C92982D901000495C8 /* TaskPayBackAppUITests.swift in Sources */,
-				5D9A53CB2982D901000495C8 /* TaskPayBackAppUITestsLaunchTests.swift in Sources */,
+				5D9A53C92982D901000495C8 /* DemoToRecruitersUITests.swift in Sources */,
+				5D9A53CB2982D901000495C8 /* DemoToRecruitersUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -906,12 +906,12 @@
 /* Begin PBXTargetDependency section */
 		5D9A53BC2982D901000495C8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 5D9A53A32982D8FF000495C8 /* TaskPayBackApp */;
+			target = 5D9A53A32982D8FF000495C8 /* DemoToRecruiters */;
 			targetProxy = 5D9A53BB2982D901000495C8 /* PBXContainerItemProxy */;
 		};
 		5D9A53C62982D901000495C8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 5D9A53A32982D8FF000495C8 /* TaskPayBackApp */;
+			target = 5D9A53A32982D8FF000495C8 /* DemoToRecruiters */;
 			targetProxy = 5D9A53C52982D901000495C8 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -1045,7 +1045,7 @@
 		};
 		5D9A53CF2982D901000495C8 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B8F1FD16E0B759636803FA51 /* Pods-TaskPayBackApp.debug.xcconfig */;
+			baseConfigurationReference = 2FAD5B5D7F0008324AC465B8 /* Pods-DemoToRecruiters.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -1063,7 +1063,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = kamsque.TaskPayBackApp;
+				PRODUCT_BUNDLE_IDENTIFIER = kamsque.DemoToRecruiters;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -1073,7 +1073,7 @@
 		};
 		5D9A53D02982D901000495C8 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A80F8EE11D109DA0DC474E6C /* Pods-TaskPayBackApp.release.xcconfig */;
+			baseConfigurationReference = 6087172291B8A238CD0717C5 /* Pods-DemoToRecruiters.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -1091,7 +1091,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = kamsque.TaskPayBackApp;
+				PRODUCT_BUNDLE_IDENTIFIER = kamsque.DemoToRecruiters;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -1101,7 +1101,7 @@
 		};
 		5D9A53D22982D901000495C8 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 13F3D110C4BAFF31E0B7655C /* Pods-TaskPayBackAppTests.debug.xcconfig */;
+			baseConfigurationReference = 7007FF22167AC3CD4BCA5B64 /* Pods-DemoToRecruitersTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -1116,13 +1116,13 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TaskPayBackApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TaskPayBackApp";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DemoToRecruiters.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DemoToRecruiters";
 			};
 			name = Debug;
 		};
 		5D9A53D32982D901000495C8 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BF7741F5C9C8B4F35197F41B /* Pods-TaskPayBackAppTests.release.xcconfig */;
+			baseConfigurationReference = 553FF9E61A204BEF6F920D53 /* Pods-DemoToRecruitersTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -1137,13 +1137,13 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TaskPayBackApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TaskPayBackApp";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DemoToRecruiters.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DemoToRecruiters";
 			};
 			name = Release;
 		};
 		5D9A53D52982D901000495C8 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EBD55075542A08031599A70A /* Pods-TaskPayBackApp-TaskPayBackAppUITests.debug.xcconfig */;
+			baseConfigurationReference = 12905CACDA506E970CFAE337 /* Pods-DemoToRecruiters-DemoToRecruitersUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -1162,7 +1162,7 @@
 		};
 		5D9A53D62982D901000495C8 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 726BEB194D4500BF3192C61F /* Pods-TaskPayBackApp-TaskPayBackAppUITests.release.xcconfig */;
+			baseConfigurationReference = F7575DEFD80CC6347224AE91 /* Pods-DemoToRecruiters-DemoToRecruitersUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -1241,7 +1241,7 @@
 		};
 		5D9A53D82982DEFA000495C8 /* DebugQA */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 00BB583C1627152D4FCE0714 /* Pods-TaskPayBackApp.debugqa.xcconfig */;
+			baseConfigurationReference = 8F0329C796ACA488F854EB90 /* Pods-DemoToRecruiters.debugqa.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -1259,7 +1259,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = kamsque.TaskPayBackApp;
+				PRODUCT_BUNDLE_IDENTIFIER = kamsque.DemoToRecruiters;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "Debug Qa";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -1270,7 +1270,7 @@
 		};
 		5D9A53D92982DEFA000495C8 /* DebugQA */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 01E62A4EC1E534FBEC4BC0ED /* Pods-TaskPayBackAppTests.debugqa.xcconfig */;
+			baseConfigurationReference = 0A1CD41EF57817B308C3EBF8 /* Pods-DemoToRecruitersTests.debugqa.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -1285,13 +1285,13 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TaskPayBackApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TaskPayBackApp";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DemoToRecruiters.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DemoToRecruiters";
 			};
 			name = DebugQA;
 		};
 		5D9A53DA2982DEFA000495C8 /* DebugQA */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 35351C25636AEB9B37BC431D /* Pods-TaskPayBackApp-TaskPayBackAppUITests.debugqa.xcconfig */;
+			baseConfigurationReference = D9CB72CB7EC9278724C6D75F /* Pods-DemoToRecruiters-DemoToRecruitersUITests.debugqa.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -1365,7 +1365,7 @@
 		};
 		5D9A53DC2982DF0E000495C8 /* ReleaseQA */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A0E74FF9AAE4F3CFC36908F9 /* Pods-TaskPayBackApp.releaseqa.xcconfig */;
+			baseConfigurationReference = 1BC7A723633CA98727CF68B0 /* Pods-DemoToRecruiters.releaseqa.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -1383,7 +1383,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = kamsque.TaskPayBackApp;
+				PRODUCT_BUNDLE_IDENTIFIER = kamsque.DemoToRecruiters;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = Qa;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -1394,7 +1394,7 @@
 		};
 		5D9A53DD2982DF0E000495C8 /* ReleaseQA */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 58A2C66FFA837A868EF7D5B6 /* Pods-TaskPayBackAppTests.releaseqa.xcconfig */;
+			baseConfigurationReference = C837EFFAD878F8EF1DC79563 /* Pods-DemoToRecruitersTests.releaseqa.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -1409,13 +1409,13 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TaskPayBackApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TaskPayBackApp";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DemoToRecruiters.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DemoToRecruiters";
 			};
 			name = ReleaseQA;
 		};
 		5D9A53DE2982DF0E000495C8 /* ReleaseQA */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 199901EFB19CDA5F320CD598 /* Pods-TaskPayBackApp-TaskPayBackAppUITests.releaseqa.xcconfig */;
+			baseConfigurationReference = D7F448B20C82D8B13246B7F0 /* Pods-DemoToRecruiters-DemoToRecruitersUITests.releaseqa.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -1494,7 +1494,7 @@
 		};
 		5D9A53E02982DF2E000495C8 /* DebugStaging */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = ECC0DB1D2B0CB6D8B8643411 /* Pods-TaskPayBackApp.debugstaging.xcconfig */;
+			baseConfigurationReference = 29161A7FAF7CAB70DC89F7FC /* Pods-DemoToRecruiters.debugstaging.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -1512,7 +1512,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = kamsque.TaskPayBackApp;
+				PRODUCT_BUNDLE_IDENTIFIER = kamsque.DemoToRecruiters;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "Debug Staging";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -1523,7 +1523,7 @@
 		};
 		5D9A53E12982DF2E000495C8 /* DebugStaging */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 38E966F16336440C98D4F0C7 /* Pods-TaskPayBackAppTests.debugstaging.xcconfig */;
+			baseConfigurationReference = 082F5BC6ABFB3C69A2EFC830 /* Pods-DemoToRecruitersTests.debugstaging.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -1538,13 +1538,13 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TaskPayBackApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TaskPayBackApp";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DemoToRecruiters.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DemoToRecruiters";
 			};
 			name = DebugStaging;
 		};
 		5D9A53E22982DF2E000495C8 /* DebugStaging */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E6F08E4EA2ACC68A06E35AFA /* Pods-TaskPayBackApp-TaskPayBackAppUITests.debugstaging.xcconfig */;
+			baseConfigurationReference = 0C68CB84CF3056CDB047496D /* Pods-DemoToRecruiters-DemoToRecruitersUITests.debugstaging.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -1618,7 +1618,7 @@
 		};
 		5D9A53E42982DF3B000495C8 /* ReleaseStaging */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6AEF2E395F94E83DD4D77FEC /* Pods-TaskPayBackApp.releasestaging.xcconfig */;
+			baseConfigurationReference = 0C7ADB63EF305E85902C48A1 /* Pods-DemoToRecruiters.releasestaging.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -1636,7 +1636,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = kamsque.TaskPayBackApp;
+				PRODUCT_BUNDLE_IDENTIFIER = kamsque.DemoToRecruiters;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = Staging;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -1647,7 +1647,7 @@
 		};
 		5D9A53E52982DF3B000495C8 /* ReleaseStaging */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 669D8E95864F0C8E643767E2 /* Pods-TaskPayBackAppTests.releasestaging.xcconfig */;
+			baseConfigurationReference = A9A7FC31FD71633B97D5F5D4 /* Pods-DemoToRecruitersTests.releasestaging.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -1662,13 +1662,13 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TaskPayBackApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TaskPayBackApp";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DemoToRecruiters.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DemoToRecruiters";
 			};
 			name = ReleaseStaging;
 		};
 		5D9A53E62982DF3B000495C8 /* ReleaseStaging */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 36187EB44E2A7E7CCE1FCFF0 /* Pods-TaskPayBackApp-TaskPayBackAppUITests.releasestaging.xcconfig */;
+			baseConfigurationReference = 15FBC10942DAF0A708D8767C /* Pods-DemoToRecruiters-DemoToRecruitersUITests.releasestaging.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -1742,7 +1742,7 @@
 		};
 		5D9A53E82982DF5A000495C8 /* ReleaseProd */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0C64C677D24D9376A7C79110 /* Pods-TaskPayBackApp.releaseprod.xcconfig */;
+			baseConfigurationReference = 1E0CCDCE5091EAD41FA005CB /* Pods-DemoToRecruiters.releaseprod.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -1760,7 +1760,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = kamsque.TaskPayBackApp;
+				PRODUCT_BUNDLE_IDENTIFIER = kamsque.DemoToRecruiters;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = Prod;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -1771,7 +1771,7 @@
 		};
 		5D9A53E92982DF5A000495C8 /* ReleaseProd */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 43F2AE79309CCC3F6691B832 /* Pods-TaskPayBackAppTests.releaseprod.xcconfig */;
+			baseConfigurationReference = 8B462A5764D95C2635C30C8F /* Pods-DemoToRecruitersTests.releaseprod.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -1786,13 +1786,13 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TaskPayBackApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TaskPayBackApp";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DemoToRecruiters.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DemoToRecruiters";
 			};
 			name = ReleaseProd;
 		};
 		5D9A53EA2982DF5A000495C8 /* ReleaseProd */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 91AE789D452E7DB86C7C4E65 /* Pods-TaskPayBackApp-TaskPayBackAppUITests.releaseprod.xcconfig */;
+			baseConfigurationReference = B74AFC4956FE08555F7FC2BA /* Pods-DemoToRecruiters-DemoToRecruitersUITests.releaseprod.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -1871,7 +1871,7 @@
 		};
 		5D9A53EC2982DF74000495C8 /* DebugProd */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 855CEA5C1382C76F14801939 /* Pods-TaskPayBackApp.debugprod.xcconfig */;
+			baseConfigurationReference = 3F3B3B86935450D0404BD1BF /* Pods-DemoToRecruiters.debugprod.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -1889,7 +1889,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = kamsque.TaskPayBackApp;
+				PRODUCT_BUNDLE_IDENTIFIER = kamsque.DemoToRecruiters;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "Debug Prod";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -1900,7 +1900,7 @@
 		};
 		5D9A53ED2982DF74000495C8 /* DebugProd */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0134F08A04042792B8DC2ACF /* Pods-TaskPayBackAppTests.debugprod.xcconfig */;
+			baseConfigurationReference = 2C9B3113257A8648425FFF2B /* Pods-DemoToRecruitersTests.debugprod.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -1915,13 +1915,13 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TaskPayBackApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TaskPayBackApp";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DemoToRecruiters.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DemoToRecruiters";
 			};
 			name = DebugProd;
 		};
 		5D9A53EE2982DF74000495C8 /* DebugProd */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E9A9E40EBB280B1EA1F41511 /* Pods-TaskPayBackApp-TaskPayBackAppUITests.debugprod.xcconfig */;
+			baseConfigurationReference = 76FF5E7AB22A0667009A6D61 /* Pods-DemoToRecruiters-DemoToRecruitersUITests.debugprod.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -2000,7 +2000,7 @@
 		};
 		5D9A53F02982DF94000495C8 /* DebugDev */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D2C5C2C62D20D8E82B7B936C /* Pods-TaskPayBackApp.debugdev.xcconfig */;
+			baseConfigurationReference = 6BE7F8B5B8CF65647C09CA5E /* Pods-DemoToRecruiters.debugdev.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -2018,7 +2018,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = kamsque.TaskPayBackApp;
+				PRODUCT_BUNDLE_IDENTIFIER = kamsque.DemoToRecruiters;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "Debug Dev";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -2029,7 +2029,7 @@
 		};
 		5D9A53F12982DF94000495C8 /* DebugDev */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 231316B1C6DBDFD74EFD8C2F /* Pods-TaskPayBackAppTests.debugdev.xcconfig */;
+			baseConfigurationReference = 37F97181454405FFC4CA1AFC /* Pods-DemoToRecruitersTests.debugdev.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -2044,13 +2044,13 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TaskPayBackApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TaskPayBackApp";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DemoToRecruiters.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DemoToRecruiters";
 			};
 			name = DebugDev;
 		};
 		5D9A53F22982DF94000495C8 /* DebugDev */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E31D24F9FA5DEDFD5973B141 /* Pods-TaskPayBackApp-TaskPayBackAppUITests.debugdev.xcconfig */;
+			baseConfigurationReference = 1D490B5C6A7C44590C02E271 /* Pods-DemoToRecruiters-DemoToRecruitersUITests.debugdev.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -2124,7 +2124,7 @@
 		};
 		5D9A53F42982DFA0000495C8 /* ReleaseDev */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 406D7A1499E5C9DA00EC6F04 /* Pods-TaskPayBackApp.releasedev.xcconfig */;
+			baseConfigurationReference = C0E8CC92AA701A46B375EE68 /* Pods-DemoToRecruiters.releasedev.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -2142,7 +2142,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = kamsque.TaskPayBackApp;
+				PRODUCT_BUNDLE_IDENTIFIER = kamsque.DemoToRecruiters;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = Dev;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -2153,7 +2153,7 @@
 		};
 		5D9A53F52982DFA0000495C8 /* ReleaseDev */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 55A435718CBCC7FDE90A1360 /* Pods-TaskPayBackAppTests.releasedev.xcconfig */;
+			baseConfigurationReference = 8416157A1938D254DF6F3D64 /* Pods-DemoToRecruitersTests.releasedev.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -2168,13 +2168,13 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TaskPayBackApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TaskPayBackApp";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DemoToRecruiters.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DemoToRecruiters";
 			};
 			name = ReleaseDev;
 		};
 		5D9A53F62982DFA0000495C8 /* ReleaseDev */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 958F6DC4912A9596EEAF9696 /* Pods-TaskPayBackApp-TaskPayBackAppUITests.releasedev.xcconfig */;
+			baseConfigurationReference = 80499BB11AB6F0039A5DE479 /* Pods-DemoToRecruiters-DemoToRecruitersUITests.releasedev.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -2194,7 +2194,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5D9A539F2982D8FF000495C8 /* Build configuration list for PBXProject "TaskPayBackApp" */ = {
+		5D9A539F2982D8FF000495C8 /* Build configuration list for PBXProject "DemoToRecruiters" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5D9A53CC2982D901000495C8 /* Debug */,
@@ -2211,7 +2211,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5D9A53CE2982D901000495C8 /* Build configuration list for PBXNativeTarget "TaskPayBackApp" */ = {
+		5D9A53CE2982D901000495C8 /* Build configuration list for PBXNativeTarget "DemoToRecruiters" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5D9A53CF2982D901000495C8 /* Debug */,
@@ -2228,7 +2228,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5D9A53D12982D901000495C8 /* Build configuration list for PBXNativeTarget "TaskPayBackAppTests" */ = {
+		5D9A53D12982D901000495C8 /* Build configuration list for PBXNativeTarget "DemoToRecruitersTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5D9A53D22982D901000495C8 /* Debug */,
@@ -2245,7 +2245,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5D9A53D42982D901000495C8 /* Build configuration list for PBXNativeTarget "TaskPayBackAppUITests" */ = {
+		5D9A53D42982D901000495C8 /* Build configuration list for PBXNativeTarget "DemoToRecruitersUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5D9A53D52982D901000495C8 /* Debug */,

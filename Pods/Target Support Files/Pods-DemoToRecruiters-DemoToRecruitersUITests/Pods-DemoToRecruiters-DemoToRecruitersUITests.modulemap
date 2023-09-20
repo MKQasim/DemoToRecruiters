@@ -1,0 +1,6 @@
+framework module Pods_DemoToRecruiters_DemoToRecruitersUITests {
+  umbrella header "Pods-DemoToRecruiters-DemoToRecruitersUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

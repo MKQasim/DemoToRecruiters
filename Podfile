@@ -2,19 +2,19 @@
 source = "https://github.com/CocoaPods/Specs.git"
 platform :ios, '13.0'
 
-target 'TaskPayBackApp' do
+target 'DemoToRecruiters' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
 
   pod 'KQTaskNetworkManager'
 #  , :path => '/Users/pse/Documents/KamQasim/Development/KQTaskNetworkManager/KQTaskNetworkManager'
   
-  target 'TaskPayBackAppTests' do
+  target 'DemoToRecruitersTests' do
     inherit! :search_paths
     # Pods for testing
   end
 
-  target 'TaskPayBackAppUITests' do
+  target 'DemoToRecruitersUITests' do
     # Pods for testing
   end
 
