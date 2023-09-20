@@ -1,13 +1,13 @@
 //
-//  TaskPayBackAppUITestsLaunchTests.swift
-//  TaskPayBackAppUITests
+//  DemoToRecruitersUITestsLaunchTests.swift
+//  DemoToRecruitersUITests
 //
 //  Created by KamsQue on 26/01/2023.
 //
 
 import XCTest
 
-final class TaskPayBackAppUITestsLaunchTests: XCTestCase {
+final class DemoToRecruitersUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true

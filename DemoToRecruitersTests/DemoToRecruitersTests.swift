@@ -1,14 +1,14 @@
 //
-//  TaskPayBackAppTests.swift
-//  TaskPayBackAppTests
+//  DemoToRecruitersTests.swift
+//  DemoToRecruitersTests
 //
 //  Created by KamsQue on 26/01/2023.
 //
 
 import XCTest
-@testable import TaskPayBackApp
+@testable import DemoToRecruiters
 
-final class TaskPayBackAppTests: XCTestCase {
+final class DemoToRecruitersTests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.

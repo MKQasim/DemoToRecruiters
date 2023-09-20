@@ -1,11 +1,11 @@
 //
 //  TransactionListInteractorTests.swift
-//  TaskPayBackApp
+//  DemoToRecruiters
 //
 //  Created by KamsQue on 26/01/2023.
 //
 
-@testable import TaskPayBackApp
+@testable import DemoToRecruiters
 import XCTest
 
 class TransactionListInteractorTests: XCTestCase
@@ -51,7 +51,7 @@ class TransactionListInteractorTests: XCTestCase
     var presenApiNetworkError = false
     var presentNoIterneConnection = false
     
-    func presentFetchedTransactions(response: TaskPayBackApp.TransactionList.Transactions.Response) {
+    func presentFetchedTransactions(response: DemoToRecruiters.TransactionList.Transactions.Response) {
       presentFetchedtransactionsCalled = true
       transactions = response.transactionsList?.items
       XCTAssertNotNil(response.transactionsList)
@@ -81,7 +81,7 @@ class TransactionListInteractorTests: XCTestCase
     var fetchedtransactionsCalled = false
     var checkUrlSessionisCalled = false
     
-    func fetchTransactions(request: TaskPayBackApp.TransactionList.Transactions.Request) {
+    func fetchTransactions(request: DemoToRecruiters.TransactionList.Transactions.Request) {
      fetchedtransactionsCalled = true
     }
   

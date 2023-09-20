@@ -1,11 +1,11 @@
 //
 //  TransactionListViewControllerTests.swift
-//  TaskPayBackApp
+//  DemoToRecruiters
 //
 //  Created by KamsQue on 26/01/2023.
 //
 
-@testable import TaskPayBackApp
+@testable import DemoToRecruiters
 import XCTest
 
 class TransactionListViewControllerTests: XCTestCase
@@ -56,7 +56,7 @@ class TransactionListViewControllerTests: XCTestCase
     var checkUrlSession = false
       // MARK: Spied methods
     
-    func fetchTransactions(request: TaskPayBackApp.TransactionList.Transactions.Request) {
+    func fetchTransactions(request: DemoToRecruiters.TransactionList.Transactions.Request) {
       fetchTransactionsCalled = true
     }
     

@@ -1,11 +1,11 @@
 //
 //  TransactionListPresenterTests.swift
-//  TaskPayBackApp
+//  DemoToRecruiters
 //
 //  Created by KamsQue on 26/01/2023.
 //
 
-@testable import TaskPayBackApp
+@testable import DemoToRecruiters
 import XCTest
 
 class TransactionListPresenterTests: XCTestCase
@@ -52,7 +52,7 @@ class TransactionListPresenterTests: XCTestCase
       // MARK: Spied methods
     
     var displayFetchedTransactionsCalled = false
-    func displayFetchedTransactions(viewModel: TaskPayBackApp.TransactionList.Transactions.ViewModel) {
+    func displayFetchedTransactions(viewModel: DemoToRecruiters.TransactionList.Transactions.ViewModel) {
       displayFetchedTransactionsCalled = true
       self.viewModel = viewModel
     }
