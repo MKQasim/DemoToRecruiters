@@ -7,7 +7,6 @@ target 'DemoToRecruiters' do
   use_frameworks!
   
   pod 'KQTaskNetworkManager'
-#  , :path => '/Users/pse/Documents/Documents - Muhammad MacBook Pro/KamQasim/Development/Interview_Preperation/KQTaskNetworkManager/'
   # Ensure you specify the correct path to your local KQTaskNetworkManager pod.
   
   target 'DemoToRecruitersTests' do
