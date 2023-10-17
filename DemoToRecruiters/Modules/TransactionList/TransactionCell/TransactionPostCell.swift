@@ -45,9 +45,11 @@ class TransactionPostCell: UITableViewCell  {
     transactionItem = transaction
     guard let transaction = transaction else { return  }
     guard let name = transaction.partnerDisplayName else { return  }
-    lblName.text = name + "      Category : \(transaction.category ?? 0)"
+      guard let date = transaction.transactionDetail?.bookingDate?.formatted() else { return  }
+      
+    lblName.text = name + " #\(transaction.category ?? 0)"
     lblReferance.text = transaction.alias?.reference
-    lblCategory.text = "\(transaction.transactionDetail?.bookingDate ?? Date())"
+      lblCategory.text = "\(date)"
     lblAmount.text = transaction.transactionDetail?.description?.rawValue
     lblCurrency.text = "\(String(describing: transaction.transactionDetail?.value?.amount ?? 0))  : \(transaction.transactionDetail?.value?.currency?.rawValue ?? "")"
   }

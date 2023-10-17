@@ -7,6 +7,7 @@
 
 import UIKit
 import SwiftUI
+import KQTaskNetworkManager
 
 protocol TransactionListDisplayLogic: AnyObject
 {
@@ -96,6 +97,12 @@ class TransactionListVC: AppSuperVC, TransactionListDisplayLogic , NibInstantiat
   {
     super.viewDidAppear(animated)
     setGradientBackground()
+    
+    let image = Services.getResources()
+    if let image = Services.getResources() {
+//      TaskImageView.image = image
+    }
+    print(image)
   }
 }
 

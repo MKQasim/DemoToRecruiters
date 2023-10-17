@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		426004DE37BB1B625511EC56 /* Pods_DemoToRecruiters_DemoToRecruitersUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A127206A9C2DEB4510F4482D /* Pods_DemoToRecruiters_DemoToRecruitersUITests.framework */; };
 		5D2146FC298A1AD500AC5267 /* Enviroment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D2146FB298A1AD500AC5267 /* Enviroment.swift */; };
 		5D745CF82983DDFD00B85B23 /* TransactionPostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D745CF62983DDFD00B85B23 /* TransactionPostCell.swift */; };
 		5D745CF92983DDFD00B85B23 /* TransactionPostCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D745CF72983DDFD00B85B23 /* TransactionPostCell.xib */; };
@@ -72,9 +73,8 @@
 		5DF4ABF32983E90000B58896 /* TypeAlias.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF4ABF22983E90000B58896 /* TypeAlias.swift */; };
 		5DF4ABF52983F47D00B58896 /* TableViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF4ABF42983F47D00B58896 /* TableViewExtension.swift */; };
 		5DF4ABF72983F4D000B58896 /* NibExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF4ABF62983F4D000B58896 /* NibExtension.swift */; };
-		68FFEA856B4C97E724200C1D /* Pods_DemoToRecruiters_DemoToRecruitersUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 585AC6B6E391C8D0767BDE0D /* Pods_DemoToRecruiters_DemoToRecruitersUITests.framework */; };
-		78C4D0326D57ACE516FF8761 /* Pods_DemoToRecruiters.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC9BCB4853D127D7E8336189 /* Pods_DemoToRecruiters.framework */; };
-		D267A19CB71CD57A09D57F6E /* Pods_DemoToRecruitersTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7053A2D4A10F12C5BEC0F463 /* Pods_DemoToRecruitersTests.framework */; };
+		751BC1FE0F67D207D91DD309 /* Pods_DemoToRecruitersTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F43695893AB689739A013B32 /* Pods_DemoToRecruitersTests.framework */; };
+		C2231819C861D1B50A31DA62 /* Pods_DemoToRecruiters.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2151B6B571396A266271966 /* Pods_DemoToRecruiters.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -95,22 +95,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		082F5BC6ABFB3C69A2EFC830 /* Pods-DemoToRecruitersTests.debugstaging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoToRecruitersTests.debugstaging.xcconfig"; path = "Target Support Files/Pods-DemoToRecruitersTests/Pods-DemoToRecruitersTests.debugstaging.xcconfig"; sourceTree = "<group>"; };
-		0A1CD41EF57817B308C3EBF8 /* Pods-DemoToRecruitersTests.debugqa.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoToRecruitersTests.debugqa.xcconfig"; path = "Target Support Files/Pods-DemoToRecruitersTests/Pods-DemoToRecruitersTests.debugqa.xcconfig"; sourceTree = "<group>"; };
-		0C68CB84CF3056CDB047496D /* Pods-DemoToRecruiters-DemoToRecruitersUITests.debugstaging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoToRecruiters-DemoToRecruitersUITests.debugstaging.xcconfig"; path = "Target Support Files/Pods-DemoToRecruiters-DemoToRecruitersUITests/Pods-DemoToRecruiters-DemoToRecruitersUITests.debugstaging.xcconfig"; sourceTree = "<group>"; };
-		0C7ADB63EF305E85902C48A1 /* Pods-DemoToRecruiters.releasestaging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoToRecruiters.releasestaging.xcconfig"; path = "Target Support Files/Pods-DemoToRecruiters/Pods-DemoToRecruiters.releasestaging.xcconfig"; sourceTree = "<group>"; };
-		12905CACDA506E970CFAE337 /* Pods-DemoToRecruiters-DemoToRecruitersUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoToRecruiters-DemoToRecruitersUITests.debug.xcconfig"; path = "Target Support Files/Pods-DemoToRecruiters-DemoToRecruitersUITests/Pods-DemoToRecruiters-DemoToRecruitersUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		15FBC10942DAF0A708D8767C /* Pods-DemoToRecruiters-DemoToRecruitersUITests.releasestaging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoToRecruiters-DemoToRecruitersUITests.releasestaging.xcconfig"; path = "Target Support Files/Pods-DemoToRecruiters-DemoToRecruitersUITests/Pods-DemoToRecruiters-DemoToRecruitersUITests.releasestaging.xcconfig"; sourceTree = "<group>"; };
-		1BC7A723633CA98727CF68B0 /* Pods-DemoToRecruiters.releaseqa.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoToRecruiters.releaseqa.xcconfig"; path = "Target Support Files/Pods-DemoToRecruiters/Pods-DemoToRecruiters.releaseqa.xcconfig"; sourceTree = "<group>"; };
-		1D490B5C6A7C44590C02E271 /* Pods-DemoToRecruiters-DemoToRecruitersUITests.debugdev.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoToRecruiters-DemoToRecruitersUITests.debugdev.xcconfig"; path = "Target Support Files/Pods-DemoToRecruiters-DemoToRecruitersUITests/Pods-DemoToRecruiters-DemoToRecruitersUITests.debugdev.xcconfig"; sourceTree = "<group>"; };
-		1E0CCDCE5091EAD41FA005CB /* Pods-DemoToRecruiters.releaseprod.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoToRecruiters.releaseprod.xcconfig"; path = "Target Support Files/Pods-DemoToRecruiters/Pods-DemoToRecruiters.releaseprod.xcconfig"; sourceTree = "<group>"; };
-		29161A7FAF7CAB70DC89F7FC /* Pods-DemoToRecruiters.debugstaging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoToRecruiters.debugstaging.xcconfig"; path = "Target Support Files/Pods-DemoToRecruiters/Pods-DemoToRecruiters.debugstaging.xcconfig"; sourceTree = "<group>"; };
-		2C9B3113257A8648425FFF2B /* Pods-DemoToRecruitersTests.debugprod.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoToRecruitersTests.debugprod.xcconfig"; path = "Target Support Files/Pods-DemoToRecruitersTests/Pods-DemoToRecruitersTests.debugprod.xcconfig"; sourceTree = "<group>"; };
-		2FAD5B5D7F0008324AC465B8 /* Pods-DemoToRecruiters.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoToRecruiters.debug.xcconfig"; path = "Target Support Files/Pods-DemoToRecruiters/Pods-DemoToRecruiters.debug.xcconfig"; sourceTree = "<group>"; };
-		37F97181454405FFC4CA1AFC /* Pods-DemoToRecruitersTests.debugdev.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoToRecruitersTests.debugdev.xcconfig"; path = "Target Support Files/Pods-DemoToRecruitersTests/Pods-DemoToRecruitersTests.debugdev.xcconfig"; sourceTree = "<group>"; };
-		3F3B3B86935450D0404BD1BF /* Pods-DemoToRecruiters.debugprod.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoToRecruiters.debugprod.xcconfig"; path = "Target Support Files/Pods-DemoToRecruiters/Pods-DemoToRecruiters.debugprod.xcconfig"; sourceTree = "<group>"; };
-		553FF9E61A204BEF6F920D53 /* Pods-DemoToRecruitersTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoToRecruitersTests.release.xcconfig"; path = "Target Support Files/Pods-DemoToRecruitersTests/Pods-DemoToRecruitersTests.release.xcconfig"; sourceTree = "<group>"; };
-		585AC6B6E391C8D0767BDE0D /* Pods_DemoToRecruiters_DemoToRecruitersUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DemoToRecruiters_DemoToRecruitersUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0131A466E407E7BB23B8DDF9 /* Pods-DemoToRecruiters-DemoToRecruitersUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoToRecruiters-DemoToRecruitersUITests.release.xcconfig"; path = "Target Support Files/Pods-DemoToRecruiters-DemoToRecruitersUITests/Pods-DemoToRecruiters-DemoToRecruitersUITests.release.xcconfig"; sourceTree = "<group>"; };
+		04833F3F35A826D308818DEB /* Pods-DemoToRecruiters.releasestaging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoToRecruiters.releasestaging.xcconfig"; path = "Target Support Files/Pods-DemoToRecruiters/Pods-DemoToRecruiters.releasestaging.xcconfig"; sourceTree = "<group>"; };
+		04E2522569A5A7400517C8BF /* Pods-DemoToRecruitersTests.debugstaging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoToRecruitersTests.debugstaging.xcconfig"; path = "Target Support Files/Pods-DemoToRecruitersTests/Pods-DemoToRecruitersTests.debugstaging.xcconfig"; sourceTree = "<group>"; };
+		3DB9C5CA2E860294FFF76E64 /* Pods-DemoToRecruitersTests.debugqa.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoToRecruitersTests.debugqa.xcconfig"; path = "Target Support Files/Pods-DemoToRecruitersTests/Pods-DemoToRecruitersTests.debugqa.xcconfig"; sourceTree = "<group>"; };
+		422F484F7E004F655C30ADAA /* Pods-DemoToRecruiters-DemoToRecruitersUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoToRecruiters-DemoToRecruitersUITests.debug.xcconfig"; path = "Target Support Files/Pods-DemoToRecruiters-DemoToRecruitersUITests/Pods-DemoToRecruiters-DemoToRecruitersUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4D9571AC14BFABD2650AD316 /* Pods-DemoToRecruiters-DemoToRecruitersUITests.releaseprod.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoToRecruiters-DemoToRecruitersUITests.releaseprod.xcconfig"; path = "Target Support Files/Pods-DemoToRecruiters-DemoToRecruitersUITests/Pods-DemoToRecruiters-DemoToRecruitersUITests.releaseprod.xcconfig"; sourceTree = "<group>"; };
+		4F08A6647C20C00F66DDE4A6 /* Pods-DemoToRecruitersTests.releaseqa.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoToRecruitersTests.releaseqa.xcconfig"; path = "Target Support Files/Pods-DemoToRecruitersTests/Pods-DemoToRecruitersTests.releaseqa.xcconfig"; sourceTree = "<group>"; };
 		5D2146FB298A1AD500AC5267 /* Enviroment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Enviroment.swift; sourceTree = "<group>"; };
 		5D745CF62983DDFD00B85B23 /* TransactionPostCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransactionPostCell.swift; sourceTree = "<group>"; };
 		5D745CF72983DDFD00B85B23 /* TransactionPostCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TransactionPostCell.xib; sourceTree = "<group>"; };
@@ -180,23 +171,32 @@
 		5DF4ABF22983E90000B58896 /* TypeAlias.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeAlias.swift; sourceTree = "<group>"; };
 		5DF4ABF42983F47D00B58896 /* TableViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewExtension.swift; sourceTree = "<group>"; };
 		5DF4ABF62983F4D000B58896 /* NibExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NibExtension.swift; sourceTree = "<group>"; };
-		6087172291B8A238CD0717C5 /* Pods-DemoToRecruiters.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoToRecruiters.release.xcconfig"; path = "Target Support Files/Pods-DemoToRecruiters/Pods-DemoToRecruiters.release.xcconfig"; sourceTree = "<group>"; };
-		6BE7F8B5B8CF65647C09CA5E /* Pods-DemoToRecruiters.debugdev.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoToRecruiters.debugdev.xcconfig"; path = "Target Support Files/Pods-DemoToRecruiters/Pods-DemoToRecruiters.debugdev.xcconfig"; sourceTree = "<group>"; };
-		7007FF22167AC3CD4BCA5B64 /* Pods-DemoToRecruitersTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoToRecruitersTests.debug.xcconfig"; path = "Target Support Files/Pods-DemoToRecruitersTests/Pods-DemoToRecruitersTests.debug.xcconfig"; sourceTree = "<group>"; };
-		7053A2D4A10F12C5BEC0F463 /* Pods_DemoToRecruitersTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DemoToRecruitersTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		76FF5E7AB22A0667009A6D61 /* Pods-DemoToRecruiters-DemoToRecruitersUITests.debugprod.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoToRecruiters-DemoToRecruitersUITests.debugprod.xcconfig"; path = "Target Support Files/Pods-DemoToRecruiters-DemoToRecruitersUITests/Pods-DemoToRecruiters-DemoToRecruitersUITests.debugprod.xcconfig"; sourceTree = "<group>"; };
-		80499BB11AB6F0039A5DE479 /* Pods-DemoToRecruiters-DemoToRecruitersUITests.releasedev.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoToRecruiters-DemoToRecruitersUITests.releasedev.xcconfig"; path = "Target Support Files/Pods-DemoToRecruiters-DemoToRecruitersUITests/Pods-DemoToRecruiters-DemoToRecruitersUITests.releasedev.xcconfig"; sourceTree = "<group>"; };
-		8416157A1938D254DF6F3D64 /* Pods-DemoToRecruitersTests.releasedev.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoToRecruitersTests.releasedev.xcconfig"; path = "Target Support Files/Pods-DemoToRecruitersTests/Pods-DemoToRecruitersTests.releasedev.xcconfig"; sourceTree = "<group>"; };
-		8B462A5764D95C2635C30C8F /* Pods-DemoToRecruitersTests.releaseprod.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoToRecruitersTests.releaseprod.xcconfig"; path = "Target Support Files/Pods-DemoToRecruitersTests/Pods-DemoToRecruitersTests.releaseprod.xcconfig"; sourceTree = "<group>"; };
-		8F0329C796ACA488F854EB90 /* Pods-DemoToRecruiters.debugqa.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoToRecruiters.debugqa.xcconfig"; path = "Target Support Files/Pods-DemoToRecruiters/Pods-DemoToRecruiters.debugqa.xcconfig"; sourceTree = "<group>"; };
-		A9A7FC31FD71633B97D5F5D4 /* Pods-DemoToRecruitersTests.releasestaging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoToRecruitersTests.releasestaging.xcconfig"; path = "Target Support Files/Pods-DemoToRecruitersTests/Pods-DemoToRecruitersTests.releasestaging.xcconfig"; sourceTree = "<group>"; };
-		B74AFC4956FE08555F7FC2BA /* Pods-DemoToRecruiters-DemoToRecruitersUITests.releaseprod.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoToRecruiters-DemoToRecruitersUITests.releaseprod.xcconfig"; path = "Target Support Files/Pods-DemoToRecruiters-DemoToRecruitersUITests/Pods-DemoToRecruiters-DemoToRecruitersUITests.releaseprod.xcconfig"; sourceTree = "<group>"; };
-		C0E8CC92AA701A46B375EE68 /* Pods-DemoToRecruiters.releasedev.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoToRecruiters.releasedev.xcconfig"; path = "Target Support Files/Pods-DemoToRecruiters/Pods-DemoToRecruiters.releasedev.xcconfig"; sourceTree = "<group>"; };
-		C837EFFAD878F8EF1DC79563 /* Pods-DemoToRecruitersTests.releaseqa.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoToRecruitersTests.releaseqa.xcconfig"; path = "Target Support Files/Pods-DemoToRecruitersTests/Pods-DemoToRecruitersTests.releaseqa.xcconfig"; sourceTree = "<group>"; };
-		D7F448B20C82D8B13246B7F0 /* Pods-DemoToRecruiters-DemoToRecruitersUITests.releaseqa.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoToRecruiters-DemoToRecruitersUITests.releaseqa.xcconfig"; path = "Target Support Files/Pods-DemoToRecruiters-DemoToRecruitersUITests/Pods-DemoToRecruiters-DemoToRecruitersUITests.releaseqa.xcconfig"; sourceTree = "<group>"; };
-		D9CB72CB7EC9278724C6D75F /* Pods-DemoToRecruiters-DemoToRecruitersUITests.debugqa.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoToRecruiters-DemoToRecruitersUITests.debugqa.xcconfig"; path = "Target Support Files/Pods-DemoToRecruiters-DemoToRecruitersUITests/Pods-DemoToRecruiters-DemoToRecruitersUITests.debugqa.xcconfig"; sourceTree = "<group>"; };
-		F7575DEFD80CC6347224AE91 /* Pods-DemoToRecruiters-DemoToRecruitersUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoToRecruiters-DemoToRecruitersUITests.release.xcconfig"; path = "Target Support Files/Pods-DemoToRecruiters-DemoToRecruitersUITests/Pods-DemoToRecruiters-DemoToRecruitersUITests.release.xcconfig"; sourceTree = "<group>"; };
-		FC9BCB4853D127D7E8336189 /* Pods_DemoToRecruiters.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DemoToRecruiters.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		64C1B6E9D794CCA155957DBB /* Pods-DemoToRecruitersTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoToRecruitersTests.debug.xcconfig"; path = "Target Support Files/Pods-DemoToRecruitersTests/Pods-DemoToRecruitersTests.debug.xcconfig"; sourceTree = "<group>"; };
+		684CF0151C46AB0A144B7E42 /* Pods-DemoToRecruiters-DemoToRecruitersUITests.debugstaging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoToRecruiters-DemoToRecruitersUITests.debugstaging.xcconfig"; path = "Target Support Files/Pods-DemoToRecruiters-DemoToRecruitersUITests/Pods-DemoToRecruiters-DemoToRecruitersUITests.debugstaging.xcconfig"; sourceTree = "<group>"; };
+		708C9323121BF88089CE6CCC /* Pods-DemoToRecruiters.debugstaging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoToRecruiters.debugstaging.xcconfig"; path = "Target Support Files/Pods-DemoToRecruiters/Pods-DemoToRecruiters.debugstaging.xcconfig"; sourceTree = "<group>"; };
+		734990C6DE3A1200AF76B6EF /* Pods-DemoToRecruiters.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoToRecruiters.release.xcconfig"; path = "Target Support Files/Pods-DemoToRecruiters/Pods-DemoToRecruiters.release.xcconfig"; sourceTree = "<group>"; };
+		7679A8CEAA25DF971B4803F6 /* Pods-DemoToRecruiters.debugqa.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoToRecruiters.debugqa.xcconfig"; path = "Target Support Files/Pods-DemoToRecruiters/Pods-DemoToRecruiters.debugqa.xcconfig"; sourceTree = "<group>"; };
+		7CADB1552C12C0AF36A2753A /* Pods-DemoToRecruiters-DemoToRecruitersUITests.debugdev.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoToRecruiters-DemoToRecruitersUITests.debugdev.xcconfig"; path = "Target Support Files/Pods-DemoToRecruiters-DemoToRecruitersUITests/Pods-DemoToRecruiters-DemoToRecruitersUITests.debugdev.xcconfig"; sourceTree = "<group>"; };
+		8372E6793326408D21C05E27 /* Pods-DemoToRecruiters.releaseprod.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoToRecruiters.releaseprod.xcconfig"; path = "Target Support Files/Pods-DemoToRecruiters/Pods-DemoToRecruiters.releaseprod.xcconfig"; sourceTree = "<group>"; };
+		9D39CDC716018ADC704292DC /* Pods-DemoToRecruiters.releaseqa.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoToRecruiters.releaseqa.xcconfig"; path = "Target Support Files/Pods-DemoToRecruiters/Pods-DemoToRecruiters.releaseqa.xcconfig"; sourceTree = "<group>"; };
+		A127206A9C2DEB4510F4482D /* Pods_DemoToRecruiters_DemoToRecruitersUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DemoToRecruiters_DemoToRecruitersUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8CE3C3F3D73A27F621A3755 /* Pods-DemoToRecruitersTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoToRecruitersTests.release.xcconfig"; path = "Target Support Files/Pods-DemoToRecruitersTests/Pods-DemoToRecruitersTests.release.xcconfig"; sourceTree = "<group>"; };
+		AE9276BB7C4F76BA2B38ADFB /* Pods-DemoToRecruiters-DemoToRecruitersUITests.releaseqa.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoToRecruiters-DemoToRecruitersUITests.releaseqa.xcconfig"; path = "Target Support Files/Pods-DemoToRecruiters-DemoToRecruitersUITests/Pods-DemoToRecruiters-DemoToRecruitersUITests.releaseqa.xcconfig"; sourceTree = "<group>"; };
+		BECC3E3D1E3DC60FEEDB1915 /* Pods-DemoToRecruitersTests.debugdev.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoToRecruitersTests.debugdev.xcconfig"; path = "Target Support Files/Pods-DemoToRecruitersTests/Pods-DemoToRecruitersTests.debugdev.xcconfig"; sourceTree = "<group>"; };
+		C167C759ACD589C7033062C3 /* Pods-DemoToRecruiters.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoToRecruiters.debug.xcconfig"; path = "Target Support Files/Pods-DemoToRecruiters/Pods-DemoToRecruiters.debug.xcconfig"; sourceTree = "<group>"; };
+		C3A4E827E8597D3DDEBF2B96 /* Pods-DemoToRecruitersTests.releasedev.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoToRecruitersTests.releasedev.xcconfig"; path = "Target Support Files/Pods-DemoToRecruitersTests/Pods-DemoToRecruitersTests.releasedev.xcconfig"; sourceTree = "<group>"; };
+		D080FE3ADE3B5E8AF43FF4F3 /* Pods-DemoToRecruiters-DemoToRecruitersUITests.releasedev.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoToRecruiters-DemoToRecruitersUITests.releasedev.xcconfig"; path = "Target Support Files/Pods-DemoToRecruiters-DemoToRecruitersUITests/Pods-DemoToRecruiters-DemoToRecruitersUITests.releasedev.xcconfig"; sourceTree = "<group>"; };
+		D64E103630B9BBECC174FE09 /* Pods-DemoToRecruiters-DemoToRecruitersUITests.debugprod.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoToRecruiters-DemoToRecruitersUITests.debugprod.xcconfig"; path = "Target Support Files/Pods-DemoToRecruiters-DemoToRecruitersUITests/Pods-DemoToRecruiters-DemoToRecruitersUITests.debugprod.xcconfig"; sourceTree = "<group>"; };
+		D804C7D18471566F6C2DF05D /* Pods-DemoToRecruitersTests.releasestaging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoToRecruitersTests.releasestaging.xcconfig"; path = "Target Support Files/Pods-DemoToRecruitersTests/Pods-DemoToRecruitersTests.releasestaging.xcconfig"; sourceTree = "<group>"; };
+		DAE99B5F7EDF2E2BDF3562A4 /* Pods-DemoToRecruiters.debugdev.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoToRecruiters.debugdev.xcconfig"; path = "Target Support Files/Pods-DemoToRecruiters/Pods-DemoToRecruiters.debugdev.xcconfig"; sourceTree = "<group>"; };
+		DB8C7D642447E640798AB6D0 /* Pods-DemoToRecruiters-DemoToRecruitersUITests.releasestaging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoToRecruiters-DemoToRecruitersUITests.releasestaging.xcconfig"; path = "Target Support Files/Pods-DemoToRecruiters-DemoToRecruitersUITests/Pods-DemoToRecruiters-DemoToRecruitersUITests.releasestaging.xcconfig"; sourceTree = "<group>"; };
+		DD61ED4C3A2F46D8ACF0A854 /* Pods-DemoToRecruitersTests.debugprod.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoToRecruitersTests.debugprod.xcconfig"; path = "Target Support Files/Pods-DemoToRecruitersTests/Pods-DemoToRecruitersTests.debugprod.xcconfig"; sourceTree = "<group>"; };
+		DD71FC1DE987125690E9680C /* Pods-DemoToRecruitersTests.releaseprod.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoToRecruitersTests.releaseprod.xcconfig"; path = "Target Support Files/Pods-DemoToRecruitersTests/Pods-DemoToRecruitersTests.releaseprod.xcconfig"; sourceTree = "<group>"; };
+		E2151B6B571396A266271966 /* Pods_DemoToRecruiters.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DemoToRecruiters.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E749C0F9A61D4A6141971C19 /* Pods-DemoToRecruiters.debugprod.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoToRecruiters.debugprod.xcconfig"; path = "Target Support Files/Pods-DemoToRecruiters/Pods-DemoToRecruiters.debugprod.xcconfig"; sourceTree = "<group>"; };
+		F43695893AB689739A013B32 /* Pods_DemoToRecruitersTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DemoToRecruitersTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4DE16C2A7D62614BD7B750F /* Pods-DemoToRecruiters.releasedev.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoToRecruiters.releasedev.xcconfig"; path = "Target Support Files/Pods-DemoToRecruiters/Pods-DemoToRecruiters.releasedev.xcconfig"; sourceTree = "<group>"; };
+		F94F0BAB86A30D8AC3076377 /* Pods-DemoToRecruiters-DemoToRecruitersUITests.debugqa.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoToRecruiters-DemoToRecruitersUITests.debugqa.xcconfig"; path = "Target Support Files/Pods-DemoToRecruiters-DemoToRecruitersUITests/Pods-DemoToRecruiters-DemoToRecruitersUITests.debugqa.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -204,7 +204,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				78C4D0326D57ACE516FF8761 /* Pods_DemoToRecruiters.framework in Frameworks */,
+				C2231819C861D1B50A31DA62 /* Pods_DemoToRecruiters.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,7 +212,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D267A19CB71CD57A09D57F6E /* Pods_DemoToRecruitersTests.framework in Frameworks */,
+				751BC1FE0F67D207D91DD309 /* Pods_DemoToRecruitersTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -220,23 +220,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				68FFEA856B4C97E724200C1D /* Pods_DemoToRecruiters_DemoToRecruitersUITests.framework in Frameworks */,
+				426004DE37BB1B625511EC56 /* Pods_DemoToRecruiters_DemoToRecruitersUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		092A66D4BACE2E568C8D44E8 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				FC9BCB4853D127D7E8336189 /* Pods_DemoToRecruiters.framework */,
-				585AC6B6E391C8D0767BDE0D /* Pods_DemoToRecruiters_DemoToRecruitersUITests.framework */,
-				7053A2D4A10F12C5BEC0F463 /* Pods_DemoToRecruitersTests.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		5D745CF52983DDFD00B85B23 /* TransactionCell */ = {
 			isa = PBXGroup;
 			children = (
@@ -269,8 +259,8 @@
 				5D9A53BD2982D901000495C8 /* DemoToRecruitersTests */,
 				5D9A53C72982D901000495C8 /* DemoToRecruitersUITests */,
 				5D9A53A52982D8FF000495C8 /* Products */,
-				092A66D4BACE2E568C8D44E8 /* Frameworks */,
 				6DABDE9E977C98E13EDFC5EA /* Pods */,
+				B84E99AA0A8F433E290B9CAB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -549,38 +539,48 @@
 		6DABDE9E977C98E13EDFC5EA /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				2FAD5B5D7F0008324AC465B8 /* Pods-DemoToRecruiters.debug.xcconfig */,
-				6BE7F8B5B8CF65647C09CA5E /* Pods-DemoToRecruiters.debugdev.xcconfig */,
-				3F3B3B86935450D0404BD1BF /* Pods-DemoToRecruiters.debugprod.xcconfig */,
-				29161A7FAF7CAB70DC89F7FC /* Pods-DemoToRecruiters.debugstaging.xcconfig */,
-				8F0329C796ACA488F854EB90 /* Pods-DemoToRecruiters.debugqa.xcconfig */,
-				6087172291B8A238CD0717C5 /* Pods-DemoToRecruiters.release.xcconfig */,
-				C0E8CC92AA701A46B375EE68 /* Pods-DemoToRecruiters.releasedev.xcconfig */,
-				1E0CCDCE5091EAD41FA005CB /* Pods-DemoToRecruiters.releaseprod.xcconfig */,
-				0C7ADB63EF305E85902C48A1 /* Pods-DemoToRecruiters.releasestaging.xcconfig */,
-				1BC7A723633CA98727CF68B0 /* Pods-DemoToRecruiters.releaseqa.xcconfig */,
-				12905CACDA506E970CFAE337 /* Pods-DemoToRecruiters-DemoToRecruitersUITests.debug.xcconfig */,
-				1D490B5C6A7C44590C02E271 /* Pods-DemoToRecruiters-DemoToRecruitersUITests.debugdev.xcconfig */,
-				76FF5E7AB22A0667009A6D61 /* Pods-DemoToRecruiters-DemoToRecruitersUITests.debugprod.xcconfig */,
-				0C68CB84CF3056CDB047496D /* Pods-DemoToRecruiters-DemoToRecruitersUITests.debugstaging.xcconfig */,
-				D9CB72CB7EC9278724C6D75F /* Pods-DemoToRecruiters-DemoToRecruitersUITests.debugqa.xcconfig */,
-				F7575DEFD80CC6347224AE91 /* Pods-DemoToRecruiters-DemoToRecruitersUITests.release.xcconfig */,
-				80499BB11AB6F0039A5DE479 /* Pods-DemoToRecruiters-DemoToRecruitersUITests.releasedev.xcconfig */,
-				B74AFC4956FE08555F7FC2BA /* Pods-DemoToRecruiters-DemoToRecruitersUITests.releaseprod.xcconfig */,
-				15FBC10942DAF0A708D8767C /* Pods-DemoToRecruiters-DemoToRecruitersUITests.releasestaging.xcconfig */,
-				D7F448B20C82D8B13246B7F0 /* Pods-DemoToRecruiters-DemoToRecruitersUITests.releaseqa.xcconfig */,
-				7007FF22167AC3CD4BCA5B64 /* Pods-DemoToRecruitersTests.debug.xcconfig */,
-				37F97181454405FFC4CA1AFC /* Pods-DemoToRecruitersTests.debugdev.xcconfig */,
-				2C9B3113257A8648425FFF2B /* Pods-DemoToRecruitersTests.debugprod.xcconfig */,
-				082F5BC6ABFB3C69A2EFC830 /* Pods-DemoToRecruitersTests.debugstaging.xcconfig */,
-				0A1CD41EF57817B308C3EBF8 /* Pods-DemoToRecruitersTests.debugqa.xcconfig */,
-				553FF9E61A204BEF6F920D53 /* Pods-DemoToRecruitersTests.release.xcconfig */,
-				8416157A1938D254DF6F3D64 /* Pods-DemoToRecruitersTests.releasedev.xcconfig */,
-				8B462A5764D95C2635C30C8F /* Pods-DemoToRecruitersTests.releaseprod.xcconfig */,
-				A9A7FC31FD71633B97D5F5D4 /* Pods-DemoToRecruitersTests.releasestaging.xcconfig */,
-				C837EFFAD878F8EF1DC79563 /* Pods-DemoToRecruitersTests.releaseqa.xcconfig */,
+				C167C759ACD589C7033062C3 /* Pods-DemoToRecruiters.debug.xcconfig */,
+				DAE99B5F7EDF2E2BDF3562A4 /* Pods-DemoToRecruiters.debugdev.xcconfig */,
+				E749C0F9A61D4A6141971C19 /* Pods-DemoToRecruiters.debugprod.xcconfig */,
+				708C9323121BF88089CE6CCC /* Pods-DemoToRecruiters.debugstaging.xcconfig */,
+				7679A8CEAA25DF971B4803F6 /* Pods-DemoToRecruiters.debugqa.xcconfig */,
+				734990C6DE3A1200AF76B6EF /* Pods-DemoToRecruiters.release.xcconfig */,
+				F4DE16C2A7D62614BD7B750F /* Pods-DemoToRecruiters.releasedev.xcconfig */,
+				8372E6793326408D21C05E27 /* Pods-DemoToRecruiters.releaseprod.xcconfig */,
+				04833F3F35A826D308818DEB /* Pods-DemoToRecruiters.releasestaging.xcconfig */,
+				9D39CDC716018ADC704292DC /* Pods-DemoToRecruiters.releaseqa.xcconfig */,
+				422F484F7E004F655C30ADAA /* Pods-DemoToRecruiters-DemoToRecruitersUITests.debug.xcconfig */,
+				7CADB1552C12C0AF36A2753A /* Pods-DemoToRecruiters-DemoToRecruitersUITests.debugdev.xcconfig */,
+				D64E103630B9BBECC174FE09 /* Pods-DemoToRecruiters-DemoToRecruitersUITests.debugprod.xcconfig */,
+				684CF0151C46AB0A144B7E42 /* Pods-DemoToRecruiters-DemoToRecruitersUITests.debugstaging.xcconfig */,
+				F94F0BAB86A30D8AC3076377 /* Pods-DemoToRecruiters-DemoToRecruitersUITests.debugqa.xcconfig */,
+				0131A466E407E7BB23B8DDF9 /* Pods-DemoToRecruiters-DemoToRecruitersUITests.release.xcconfig */,
+				D080FE3ADE3B5E8AF43FF4F3 /* Pods-DemoToRecruiters-DemoToRecruitersUITests.releasedev.xcconfig */,
+				4D9571AC14BFABD2650AD316 /* Pods-DemoToRecruiters-DemoToRecruitersUITests.releaseprod.xcconfig */,
+				DB8C7D642447E640798AB6D0 /* Pods-DemoToRecruiters-DemoToRecruitersUITests.releasestaging.xcconfig */,
+				AE9276BB7C4F76BA2B38ADFB /* Pods-DemoToRecruiters-DemoToRecruitersUITests.releaseqa.xcconfig */,
+				64C1B6E9D794CCA155957DBB /* Pods-DemoToRecruitersTests.debug.xcconfig */,
+				BECC3E3D1E3DC60FEEDB1915 /* Pods-DemoToRecruitersTests.debugdev.xcconfig */,
+				DD61ED4C3A2F46D8ACF0A854 /* Pods-DemoToRecruitersTests.debugprod.xcconfig */,
+				04E2522569A5A7400517C8BF /* Pods-DemoToRecruitersTests.debugstaging.xcconfig */,
+				3DB9C5CA2E860294FFF76E64 /* Pods-DemoToRecruitersTests.debugqa.xcconfig */,
+				A8CE3C3F3D73A27F621A3755 /* Pods-DemoToRecruitersTests.release.xcconfig */,
+				C3A4E827E8597D3DDEBF2B96 /* Pods-DemoToRecruitersTests.releasedev.xcconfig */,
+				DD71FC1DE987125690E9680C /* Pods-DemoToRecruitersTests.releaseprod.xcconfig */,
+				D804C7D18471566F6C2DF05D /* Pods-DemoToRecruitersTests.releasestaging.xcconfig */,
+				4F08A6647C20C00F66DDE4A6 /* Pods-DemoToRecruitersTests.releaseqa.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		B84E99AA0A8F433E290B9CAB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E2151B6B571396A266271966 /* Pods_DemoToRecruiters.framework */,
+				A127206A9C2DEB4510F4482D /* Pods_DemoToRecruiters_DemoToRecruitersUITests.framework */,
+				F43695893AB689739A013B32 /* Pods_DemoToRecruitersTests.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -590,11 +590,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5D9A53CE2982D901000495C8 /* Build configuration list for PBXNativeTarget "DemoToRecruiters" */;
 			buildPhases = (
-				4B2E43BAD49E6062903C42CC /* [CP] Check Pods Manifest.lock */,
+				CF01D9B40EF69C3FDACF1ABD /* [CP] Check Pods Manifest.lock */,
 				5D9A53A02982D8FF000495C8 /* Sources */,
 				5D9A53A12982D8FF000495C8 /* Frameworks */,
 				5D9A53A22982D8FF000495C8 /* Resources */,
-				76383B7BBE3989445E8FF09E /* [CP] Copy Pods Resources */,
+				D46AC263B91B570410490E25 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -609,7 +609,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5D9A53D12982D901000495C8 /* Build configuration list for PBXNativeTarget "DemoToRecruitersTests" */;
 			buildPhases = (
-				3F64B7EB51B6F7816EFE5135 /* [CP] Check Pods Manifest.lock */,
+				2EC8EF6A6EC18C24206D26E7 /* [CP] Check Pods Manifest.lock */,
 				5D9A53B62982D901000495C8 /* Sources */,
 				5D9A53B72982D901000495C8 /* Frameworks */,
 				5D9A53B82982D901000495C8 /* Resources */,
@@ -628,11 +628,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5D9A53D42982D901000495C8 /* Build configuration list for PBXNativeTarget "DemoToRecruitersUITests" */;
 			buildPhases = (
-				709320F7B0F67E1033438742 /* [CP] Check Pods Manifest.lock */,
+				7BC123D1808840E0B37F42D5 /* [CP] Check Pods Manifest.lock */,
 				5D9A53C02982D901000495C8 /* Sources */,
 				5D9A53C12982D901000495C8 /* Frameworks */,
 				5D9A53C22982D901000495C8 /* Resources */,
-				E7BF05B0F8ABA3F1CDE1A4FF /* [CP] Copy Pods Resources */,
+				DC9BBFE799E51A3B1AEB3A62 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -652,7 +652,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1420;
-				LastUpgradeCheck = 1420;
+				LastUpgradeCheck = 1500;
 				TargetAttributes = {
 					5D9A53A32982D8FF000495C8 = {
 						CreatedOnToolsVersion = 14.2;
@@ -720,7 +720,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		3F64B7EB51B6F7816EFE5135 /* [CP] Check Pods Manifest.lock */ = {
+		2EC8EF6A6EC18C24206D26E7 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -742,29 +742,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		4B2E43BAD49E6062903C42CC /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-DemoToRecruiters-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		709320F7B0F67E1033438742 /* [CP] Check Pods Manifest.lock */ = {
+		7BC123D1808840E0B37F42D5 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -786,38 +764,60 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		76383B7BBE3989445E8FF09E /* [CP] Copy Pods Resources */ = {
+		CF01D9B40EF69C3FDACF1ABD /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-DemoToRecruiters/Pods-DemoToRecruiters-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			name = "[CP] Copy Pods Resources";
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-DemoToRecruiters/Pods-DemoToRecruiters-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DemoToRecruiters-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DemoToRecruiters/Pods-DemoToRecruiters-resources.sh\"\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		E7BF05B0F8ABA3F1CDE1A4FF /* [CP] Copy Pods Resources */ = {
+		D46AC263B91B570410490E25 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-DemoToRecruiters-DemoToRecruitersUITests/Pods-DemoToRecruiters-DemoToRecruitersUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-DemoToRecruiters/Pods-DemoToRecruiters-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			name = "[CP] Copy Pods Resources";
+			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-DemoToRecruiters-DemoToRecruitersUITests/Pods-DemoToRecruiters-DemoToRecruitersUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-DemoToRecruiters/Pods-DemoToRecruiters-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DemoToRecruiters-DemoToRecruitersUITests/Pods-DemoToRecruiters-DemoToRecruitersUITests-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DemoToRecruiters/Pods-DemoToRecruiters-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DC9BBFE799E51A3B1AEB3A62 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DemoToRecruiters-DemoToRecruitersUITests/Pods-DemoToRecruiters-DemoToRecruitersUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DemoToRecruiters-DemoToRecruitersUITests/Pods-DemoToRecruiters-DemoToRecruitersUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DemoToRecruiters-DemoToRecruitersUITests/Pods-DemoToRecruiters-DemoToRecruitersUITests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -932,6 +932,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -964,6 +965,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -992,6 +994,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -1024,6 +1027,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -1045,7 +1049,7 @@
 		};
 		5D9A53CF2982D901000495C8 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2FAD5B5D7F0008324AC465B8 /* Pods-DemoToRecruiters.debug.xcconfig */;
+			baseConfigurationReference = C167C759ACD589C7033062C3 /* Pods-DemoToRecruiters.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -1053,7 +1057,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = CT7H96YF74;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = TaskPayBackApp/Info.plist;
+				INFOPLIST_FILE = DemoToRecruiters/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
@@ -1073,7 +1077,7 @@
 		};
 		5D9A53D02982D901000495C8 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6087172291B8A238CD0717C5 /* Pods-DemoToRecruiters.release.xcconfig */;
+			baseConfigurationReference = 734990C6DE3A1200AF76B6EF /* Pods-DemoToRecruiters.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -1081,7 +1085,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = CT7H96YF74;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = TaskPayBackApp/Info.plist;
+				INFOPLIST_FILE = DemoToRecruiters/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
@@ -1101,7 +1105,7 @@
 		};
 		5D9A53D22982D901000495C8 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7007FF22167AC3CD4BCA5B64 /* Pods-DemoToRecruitersTests.debug.xcconfig */;
+			baseConfigurationReference = 64C1B6E9D794CCA155957DBB /* Pods-DemoToRecruitersTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -1109,7 +1113,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = K8BTGQVAR5;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = kamsque.TaskPayBackAppTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1122,7 +1126,7 @@
 		};
 		5D9A53D32982D901000495C8 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 553FF9E61A204BEF6F920D53 /* Pods-DemoToRecruitersTests.release.xcconfig */;
+			baseConfigurationReference = A8CE3C3F3D73A27F621A3755 /* Pods-DemoToRecruitersTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -1130,7 +1134,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = K8BTGQVAR5;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = kamsque.TaskPayBackAppTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1143,39 +1147,41 @@
 		};
 		5D9A53D52982D901000495C8 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 12905CACDA506E970CFAE337 /* Pods-DemoToRecruiters-DemoToRecruitersUITests.debug.xcconfig */;
+			baseConfigurationReference = 422F484F7E004F655C30ADAA /* Pods-DemoToRecruiters-DemoToRecruitersUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = CT7H96YF74;
 				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = kamsque.TaskPayBackAppUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = kamsque.DemoToRecruitersUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = TaskPayBackApp;
+				TEST_TARGET_NAME = DemoToRecruiters;
 			};
 			name = Debug;
 		};
 		5D9A53D62982D901000495C8 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F7575DEFD80CC6347224AE91 /* Pods-DemoToRecruiters-DemoToRecruitersUITests.release.xcconfig */;
+			baseConfigurationReference = 0131A466E407E7BB23B8DDF9 /* Pods-DemoToRecruiters-DemoToRecruitersUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = CT7H96YF74;
 				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = kamsque.TaskPayBackAppUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = kamsque.DemoToRecruitersUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = TaskPayBackApp;
+				TEST_TARGET_NAME = DemoToRecruiters;
 			};
 			name = Release;
 		};
@@ -1183,6 +1189,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -1215,6 +1222,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -1241,7 +1249,7 @@
 		};
 		5D9A53D82982DEFA000495C8 /* DebugQA */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8F0329C796ACA488F854EB90 /* Pods-DemoToRecruiters.debugqa.xcconfig */;
+			baseConfigurationReference = 7679A8CEAA25DF971B4803F6 /* Pods-DemoToRecruiters.debugqa.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -1249,7 +1257,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = CT7H96YF74;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = TaskPayBackApp/Info.plist;
+				INFOPLIST_FILE = DemoToRecruiters/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
@@ -1270,7 +1278,7 @@
 		};
 		5D9A53D92982DEFA000495C8 /* DebugQA */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0A1CD41EF57817B308C3EBF8 /* Pods-DemoToRecruitersTests.debugqa.xcconfig */;
+			baseConfigurationReference = 3DB9C5CA2E860294FFF76E64 /* Pods-DemoToRecruitersTests.debugqa.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -1278,7 +1286,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = K8BTGQVAR5;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = kamsque.TaskPayBackAppTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1291,20 +1299,21 @@
 		};
 		5D9A53DA2982DEFA000495C8 /* DebugQA */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D9CB72CB7EC9278724C6D75F /* Pods-DemoToRecruiters-DemoToRecruitersUITests.debugqa.xcconfig */;
+			baseConfigurationReference = F94F0BAB86A30D8AC3076377 /* Pods-DemoToRecruiters-DemoToRecruitersUITests.debugqa.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = CT7H96YF74;
 				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = kamsque.TaskPayBackAppUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = kamsque.DemoToRecruitersUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = TaskPayBackApp;
+				TEST_TARGET_NAME = DemoToRecruiters;
 			};
 			name = DebugQA;
 		};
@@ -1312,6 +1321,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -1344,6 +1354,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -1365,7 +1376,7 @@
 		};
 		5D9A53DC2982DF0E000495C8 /* ReleaseQA */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1BC7A723633CA98727CF68B0 /* Pods-DemoToRecruiters.releaseqa.xcconfig */;
+			baseConfigurationReference = 9D39CDC716018ADC704292DC /* Pods-DemoToRecruiters.releaseqa.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -1373,7 +1384,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = CT7H96YF74;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = TaskPayBackApp/Info.plist;
+				INFOPLIST_FILE = DemoToRecruiters/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
@@ -1394,7 +1405,7 @@
 		};
 		5D9A53DD2982DF0E000495C8 /* ReleaseQA */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C837EFFAD878F8EF1DC79563 /* Pods-DemoToRecruitersTests.releaseqa.xcconfig */;
+			baseConfigurationReference = 4F08A6647C20C00F66DDE4A6 /* Pods-DemoToRecruitersTests.releaseqa.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -1402,7 +1413,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = K8BTGQVAR5;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = kamsque.TaskPayBackAppTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1415,20 +1426,21 @@
 		};
 		5D9A53DE2982DF0E000495C8 /* ReleaseQA */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D7F448B20C82D8B13246B7F0 /* Pods-DemoToRecruiters-DemoToRecruitersUITests.releaseqa.xcconfig */;
+			baseConfigurationReference = AE9276BB7C4F76BA2B38ADFB /* Pods-DemoToRecruiters-DemoToRecruitersUITests.releaseqa.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = CT7H96YF74;
 				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = kamsque.TaskPayBackAppUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = kamsque.DemoToRecruitersUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = TaskPayBackApp;
+				TEST_TARGET_NAME = DemoToRecruiters;
 			};
 			name = ReleaseQA;
 		};
@@ -1436,6 +1448,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -1468,6 +1481,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -1494,7 +1508,7 @@
 		};
 		5D9A53E02982DF2E000495C8 /* DebugStaging */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 29161A7FAF7CAB70DC89F7FC /* Pods-DemoToRecruiters.debugstaging.xcconfig */;
+			baseConfigurationReference = 708C9323121BF88089CE6CCC /* Pods-DemoToRecruiters.debugstaging.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -1502,7 +1516,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = CT7H96YF74;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = TaskPayBackApp/Info.plist;
+				INFOPLIST_FILE = DemoToRecruiters/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
@@ -1523,7 +1537,7 @@
 		};
 		5D9A53E12982DF2E000495C8 /* DebugStaging */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 082F5BC6ABFB3C69A2EFC830 /* Pods-DemoToRecruitersTests.debugstaging.xcconfig */;
+			baseConfigurationReference = 04E2522569A5A7400517C8BF /* Pods-DemoToRecruitersTests.debugstaging.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -1531,7 +1545,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = K8BTGQVAR5;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = kamsque.TaskPayBackAppTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1544,20 +1558,21 @@
 		};
 		5D9A53E22982DF2E000495C8 /* DebugStaging */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0C68CB84CF3056CDB047496D /* Pods-DemoToRecruiters-DemoToRecruitersUITests.debugstaging.xcconfig */;
+			baseConfigurationReference = 684CF0151C46AB0A144B7E42 /* Pods-DemoToRecruiters-DemoToRecruitersUITests.debugstaging.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = CT7H96YF74;
 				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = kamsque.TaskPayBackAppUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = kamsque.DemoToRecruitersUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = TaskPayBackApp;
+				TEST_TARGET_NAME = DemoToRecruiters;
 			};
 			name = DebugStaging;
 		};
@@ -1565,6 +1580,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -1597,6 +1613,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -1618,7 +1635,7 @@
 		};
 		5D9A53E42982DF3B000495C8 /* ReleaseStaging */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0C7ADB63EF305E85902C48A1 /* Pods-DemoToRecruiters.releasestaging.xcconfig */;
+			baseConfigurationReference = 04833F3F35A826D308818DEB /* Pods-DemoToRecruiters.releasestaging.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -1626,7 +1643,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = CT7H96YF74;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = TaskPayBackApp/Info.plist;
+				INFOPLIST_FILE = DemoToRecruiters/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
@@ -1647,7 +1664,7 @@
 		};
 		5D9A53E52982DF3B000495C8 /* ReleaseStaging */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A9A7FC31FD71633B97D5F5D4 /* Pods-DemoToRecruitersTests.releasestaging.xcconfig */;
+			baseConfigurationReference = D804C7D18471566F6C2DF05D /* Pods-DemoToRecruitersTests.releasestaging.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -1655,7 +1672,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = K8BTGQVAR5;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = kamsque.TaskPayBackAppTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1668,20 +1685,21 @@
 		};
 		5D9A53E62982DF3B000495C8 /* ReleaseStaging */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 15FBC10942DAF0A708D8767C /* Pods-DemoToRecruiters-DemoToRecruitersUITests.releasestaging.xcconfig */;
+			baseConfigurationReference = DB8C7D642447E640798AB6D0 /* Pods-DemoToRecruiters-DemoToRecruitersUITests.releasestaging.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = CT7H96YF74;
 				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = kamsque.TaskPayBackAppUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = kamsque.DemoToRecruitersUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = TaskPayBackApp;
+				TEST_TARGET_NAME = DemoToRecruiters;
 			};
 			name = ReleaseStaging;
 		};
@@ -1689,6 +1707,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -1721,6 +1740,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -1742,7 +1762,7 @@
 		};
 		5D9A53E82982DF5A000495C8 /* ReleaseProd */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1E0CCDCE5091EAD41FA005CB /* Pods-DemoToRecruiters.releaseprod.xcconfig */;
+			baseConfigurationReference = 8372E6793326408D21C05E27 /* Pods-DemoToRecruiters.releaseprod.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -1750,7 +1770,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = CT7H96YF74;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = TaskPayBackApp/Info.plist;
+				INFOPLIST_FILE = DemoToRecruiters/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
@@ -1771,7 +1791,7 @@
 		};
 		5D9A53E92982DF5A000495C8 /* ReleaseProd */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8B462A5764D95C2635C30C8F /* Pods-DemoToRecruitersTests.releaseprod.xcconfig */;
+			baseConfigurationReference = DD71FC1DE987125690E9680C /* Pods-DemoToRecruitersTests.releaseprod.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -1779,7 +1799,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = K8BTGQVAR5;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = kamsque.TaskPayBackAppTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1792,20 +1812,21 @@
 		};
 		5D9A53EA2982DF5A000495C8 /* ReleaseProd */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B74AFC4956FE08555F7FC2BA /* Pods-DemoToRecruiters-DemoToRecruitersUITests.releaseprod.xcconfig */;
+			baseConfigurationReference = 4D9571AC14BFABD2650AD316 /* Pods-DemoToRecruiters-DemoToRecruitersUITests.releaseprod.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = CT7H96YF74;
 				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = kamsque.TaskPayBackAppUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = kamsque.DemoToRecruitersUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = TaskPayBackApp;
+				TEST_TARGET_NAME = DemoToRecruiters;
 			};
 			name = ReleaseProd;
 		};
@@ -1813,6 +1834,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -1845,6 +1867,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -1871,7 +1894,7 @@
 		};
 		5D9A53EC2982DF74000495C8 /* DebugProd */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3F3B3B86935450D0404BD1BF /* Pods-DemoToRecruiters.debugprod.xcconfig */;
+			baseConfigurationReference = E749C0F9A61D4A6141971C19 /* Pods-DemoToRecruiters.debugprod.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -1879,7 +1902,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = CT7H96YF74;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = TaskPayBackApp/Info.plist;
+				INFOPLIST_FILE = DemoToRecruiters/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
@@ -1900,7 +1923,7 @@
 		};
 		5D9A53ED2982DF74000495C8 /* DebugProd */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2C9B3113257A8648425FFF2B /* Pods-DemoToRecruitersTests.debugprod.xcconfig */;
+			baseConfigurationReference = DD61ED4C3A2F46D8ACF0A854 /* Pods-DemoToRecruitersTests.debugprod.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -1908,7 +1931,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = K8BTGQVAR5;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = kamsque.TaskPayBackAppTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1921,20 +1944,21 @@
 		};
 		5D9A53EE2982DF74000495C8 /* DebugProd */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 76FF5E7AB22A0667009A6D61 /* Pods-DemoToRecruiters-DemoToRecruitersUITests.debugprod.xcconfig */;
+			baseConfigurationReference = D64E103630B9BBECC174FE09 /* Pods-DemoToRecruiters-DemoToRecruitersUITests.debugprod.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = CT7H96YF74;
 				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = kamsque.TaskPayBackAppUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = kamsque.DemoToRecruitersUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = TaskPayBackApp;
+				TEST_TARGET_NAME = DemoToRecruiters;
 			};
 			name = DebugProd;
 		};
@@ -1942,6 +1966,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -1974,6 +1999,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -2000,7 +2026,7 @@
 		};
 		5D9A53F02982DF94000495C8 /* DebugDev */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6BE7F8B5B8CF65647C09CA5E /* Pods-DemoToRecruiters.debugdev.xcconfig */;
+			baseConfigurationReference = DAE99B5F7EDF2E2BDF3562A4 /* Pods-DemoToRecruiters.debugdev.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -2008,7 +2034,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = CT7H96YF74;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = TaskPayBackApp/Info.plist;
+				INFOPLIST_FILE = DemoToRecruiters/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
@@ -2029,7 +2055,7 @@
 		};
 		5D9A53F12982DF94000495C8 /* DebugDev */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 37F97181454405FFC4CA1AFC /* Pods-DemoToRecruitersTests.debugdev.xcconfig */;
+			baseConfigurationReference = BECC3E3D1E3DC60FEEDB1915 /* Pods-DemoToRecruitersTests.debugdev.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -2037,7 +2063,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = K8BTGQVAR5;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = kamsque.TaskPayBackAppTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -2050,20 +2076,21 @@
 		};
 		5D9A53F22982DF94000495C8 /* DebugDev */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1D490B5C6A7C44590C02E271 /* Pods-DemoToRecruiters-DemoToRecruitersUITests.debugdev.xcconfig */;
+			baseConfigurationReference = 7CADB1552C12C0AF36A2753A /* Pods-DemoToRecruiters-DemoToRecruitersUITests.debugdev.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = CT7H96YF74;
 				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = kamsque.TaskPayBackAppUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = kamsque.DemoToRecruitersUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = TaskPayBackApp;
+				TEST_TARGET_NAME = DemoToRecruiters;
 			};
 			name = DebugDev;
 		};
@@ -2071,6 +2098,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -2103,6 +2131,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -2124,7 +2153,7 @@
 		};
 		5D9A53F42982DFA0000495C8 /* ReleaseDev */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C0E8CC92AA701A46B375EE68 /* Pods-DemoToRecruiters.releasedev.xcconfig */;
+			baseConfigurationReference = F4DE16C2A7D62614BD7B750F /* Pods-DemoToRecruiters.releasedev.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -2132,7 +2161,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = CT7H96YF74;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = TaskPayBackApp/Info.plist;
+				INFOPLIST_FILE = DemoToRecruiters/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
@@ -2153,7 +2182,7 @@
 		};
 		5D9A53F52982DFA0000495C8 /* ReleaseDev */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8416157A1938D254DF6F3D64 /* Pods-DemoToRecruitersTests.releasedev.xcconfig */;
+			baseConfigurationReference = C3A4E827E8597D3DDEBF2B96 /* Pods-DemoToRecruitersTests.releasedev.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -2161,7 +2190,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = K8BTGQVAR5;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = kamsque.TaskPayBackAppTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -2174,20 +2203,21 @@
 		};
 		5D9A53F62982DFA0000495C8 /* ReleaseDev */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 80499BB11AB6F0039A5DE479 /* Pods-DemoToRecruiters-DemoToRecruitersUITests.releasedev.xcconfig */;
+			baseConfigurationReference = D080FE3ADE3B5E8AF43FF4F3 /* Pods-DemoToRecruiters-DemoToRecruitersUITests.releasedev.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = CT7H96YF74;
 				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = kamsque.TaskPayBackAppUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = kamsque.DemoToRecruitersUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = TaskPayBackApp;
+				TEST_TARGET_NAME = DemoToRecruiters;
 			};
 			name = ReleaseDev;
 		};

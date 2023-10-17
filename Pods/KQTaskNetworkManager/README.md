@@ -1,2 +1,0 @@
-# KQTaskNetworkManager
-KQTaskNetworkManager
