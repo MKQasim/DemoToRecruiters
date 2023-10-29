@@ -44,7 +44,7 @@ class TransactionListInteractorTests: XCTestCase
   
   class TransactionListPresentationLogicSpy: TransactionListPresentationLogic {
     
-    var transactions : [Items]?
+    var transactions : [User]?
     var presentFetchedtransactionsCalled = false
     var urlSessionisValid = false
     var urlSessionInvalidated = false
@@ -53,7 +53,7 @@ class TransactionListInteractorTests: XCTestCase
     
     func presentFetchedTransactions(response: DemoToRecruiters.TransactionList.Transactions.Response) {
       presentFetchedtransactionsCalled = true
-      transactions = response.transactionsList?.items
+      transactions = response.transactionsList?.User
       XCTAssertNotNil(response.transactionsList)
     }
     
@@ -77,7 +77,7 @@ class TransactionListInteractorTests: XCTestCase
   
   class TransactionListBusinessLogicSpy: TransactionListBusinessLogic {
     
-    var transactions : [Items]?
+    var transactions : [User]?
     var fetchedtransactionsCalled = false
     var checkUrlSessionisCalled = false
     
@@ -118,7 +118,7 @@ class TransactionListInteractorTests: XCTestCase
   {
       // Given
     sut.presenter = presentationSpy
-    let transactionsList = AppTransactionsList(items: [Items(partnerDisplayName: "qasim",category: 9000)])
+    let transactionsList = AppTransactionsList(User: [User(partnerDisplayName: "qasim",category: 9000)])
     let response = TransactionList.Transactions.Response(transactionsList: transactionsList)
       // When
     sut.presenter?.presentFetchedTransactions(response: response)

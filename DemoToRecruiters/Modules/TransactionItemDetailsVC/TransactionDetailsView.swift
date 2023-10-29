@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import SwiftUIManager
 
 struct TransactionDetailsView: View {
   
@@ -40,28 +41,28 @@ struct TransactionDetailsView: View {
           },image:ImageFactory.NavBar.arrowLeft)
           Spacer()
           CircleButton(action: {},image: ImageFactory.NavBar.ellipsis)
-        }
+        }.centeredHorizental()
         .padding(EdgeInsets(top: 0, leading: 20, bottom: 0, trailing: 20))
         Text("PayBack Test App")
           .font(.title)
           .foregroundColor(.white)
           .fontWeight(.bold )
-        Text("\(viewModel.transactionDetailsModel?.partnerDisplayName ?? "")")
+          Text("\(viewModel.transactionDetailsModel?.name ?? "")")
           .frame(maxWidth: 240)
           .font(.headline)
           .foregroundColor(.white)
           .multilineTextAlignment(.center)
-        Text("\(Description(rawValue: viewModel.transactionDetailsModel?.transactionDetail?.description?.rawValue ?? "")?.rawValue ?? "")")
+        Text("\(Description(rawValue: viewModel.transactionDetailsModel?.name ?? "")?.rawValue ?? "")")
           .frame(maxWidth: 240)
           .font(.subheadline)
           .foregroundColor(.white)
           .multilineTextAlignment(.center)
-        Text("\(viewModel.transactionDetailsModel?.transactionDetail?.bookingDate ?? Date())")
+          Text("\(viewModel.transactionDetailsModel?.company?.name ?? "" )")
           .frame(maxWidth: 240)
           .font(.body)
           .foregroundColor(.white)
           .multilineTextAlignment(.center)
-        Text("\(viewModel.transactionDetailsModel?.transactionDetail?.value?.amount ?? 0)  \("\(viewModel.transactionDetailsModel?.transactionDetail?.value?.currency?.rawValue ?? "")")")
+          Text("\(viewModel.transactionDetailsModel?.name ?? "")  \("\(viewModel.transactionDetailsModel?.email ?? "")")")
           .frame(maxWidth: 240)
           .font(.body)
           .foregroundColor(.white)
@@ -79,7 +80,7 @@ struct TransactionDetailsView: View {
 
 struct TransactionDetailsView_Previews: PreviewProvider {
     static var previews: some View {
-      let vm = DefaultTransactionDetailsViewModel(transactionDetailsModel: Items(partnerDisplayName: "",category: 1))
+        let vm = DefaultTransactionDetailsViewModel(transactionDetailsModel: User(id: 1, name: ""))
       TransactionDetailsView(viewModel: vm, navigationController: UINavigationController())
     }
 }

@@ -16,15 +16,15 @@ protocol TransactionListBusinessLogic
 
 protocol TransactionListDataStore
 {
-  var item: Items? {
+  var item: User? {
     get set
   }
   
-  var itemList: [Items]? {
+  var itemList: [User]? {
     get set
   }
   
-  var filteredList: [Items]? {
+  var filteredList: [User]? {
     get
     set
   }
@@ -36,9 +36,9 @@ extension TransactionListDataStore {
 
 class TransactionListInteractor: TransactionListBusinessLogic, TransactionListDataStore
 {
-  var filteredList: [Items]?
-  var itemList: [Items]?
-  var item: Items?
+  var filteredList: [User]?
+  var itemList: [User]?
+  var item: User?
   var presenter: TransactionListPresentationLogic?
   var worker: TransactionListWorker?
   var transactionBusiness: TransactionBusinessProtocol?

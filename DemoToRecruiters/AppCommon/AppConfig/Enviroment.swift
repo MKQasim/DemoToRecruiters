@@ -21,7 +21,7 @@ public enum Environment
 //Local   https://run.mocky.io/v3/488740b2-66ed-464b-bce9-f8c70185054b
 //Prod    https://api.payback.com/transactions
 //QA      https://api-test.payback.com/transactions
-  
+//https://jsonplaceholder.typicode.com/users
   func baseURL() -> String
   {
     return "\(urlProtocol())://\(subdomain()).\(domain())\(route())"
@@ -34,13 +34,14 @@ public enum Environment
       return "https"
     }
   }
+    
 
   func subdomain() -> String
   {
     switch self
     {
     case .Local, .Dev, .Stag:
-      return "run.mocky"
+      return "jsonplaceholder.typicode"
     case  .Qa :
       return "api-test.payback"
     case .Prod  :
@@ -53,7 +54,7 @@ public enum Environment
     switch self
     {
     case .Local, .Dev, .Stag  :
-      return "io/"
+      return "com/"
     case  .Qa :
       return "com/"
     case .Prod  :
@@ -66,7 +67,7 @@ public enum Environment
     switch self
     {
     case .Local, .Dev, .Stag  :
-      return "v3/488740b2-66ed-464b-bce9-f8c70185054b"
+      return "users"
     case  .Qa :
       return "transactions"
     case .Prod  :

@@ -79,7 +79,7 @@ class TransactionListPresenterTests: XCTestCase
     // Given
     let spy = TransactionListDisplayLogicSpy()
     sut.viewController = spy
-    let transactionsList = AppTransactionsList(items: [Items(partnerDisplayName: "qasim",category: 9000)])
+    let transactionsList = AppTransactionsList(User: [User(partnerDisplayName: "qasim",category: 9000)])
     let response = TransactionList.Transactions.Response(transactionsList: transactionsList)
     
     // When
@@ -96,7 +96,7 @@ class TransactionListPresenterTests: XCTestCase
     sut.viewController = transactionsListDisplayLogicSpy
     
       // When
-    let transactionsList = AppTransactionsList(items: [Items(partnerDisplayName: "qasim",category: 9000)])
+    let transactionsList = AppTransactionsList(User: [User(partnerDisplayName: "qasim",category: 9000)])
     let response = TransactionList.Transactions.Response(transactionsList: transactionsList)
     
     sut.presentFetchedTransactions(response: response)

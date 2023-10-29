@@ -18,11 +18,11 @@ enum CategorFilter
     }
     struct Response
     {
-      let itemList : [Items]
+      let itemList : [User]
     }
     struct ViewModel
     {
-      let itemList : [Items]
+      let itemList : [User]
     }
   }
 }

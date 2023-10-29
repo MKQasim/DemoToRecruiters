@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "swiftuimanager",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/MKQasim/SwiftUIManager.git",
+      "state" : {
+        "revision" : "df73e8cc4e5922e240d540e6a0ff11bd589a4aaf",
+        "version" : "1.0.0"
+      }
+    }
+  ],
+  "version" : 2
+}

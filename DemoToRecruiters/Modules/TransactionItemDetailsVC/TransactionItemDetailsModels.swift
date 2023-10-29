@@ -18,11 +18,11 @@ enum TransactionItemDetails
     }
     struct Response
     {
-      var item: Items
+      var item: User
     }
     struct ViewModel
     {
-      var item: Items
+      var item: User
     }
   }
 }

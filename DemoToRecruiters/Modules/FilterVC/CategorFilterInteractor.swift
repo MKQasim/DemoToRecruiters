@@ -14,15 +14,15 @@ protocol CategorFilterBusinessLogic
 
 protocol CategorFilterDataStore
 {
-  var item: Items? {
+  var item: User? {
     get set
   }
   
-  var itemList: [Items]? {
+  var itemList: [User]? {
     get set
   }
   
-  var filterdItemList: [Items]? {
+  var filterdItemList: [User]? {
     get set
   }
   
@@ -34,9 +34,9 @@ protocol CategorFilterDataStore
 class CategorFilterInteractor: CategorFilterBusinessLogic, CategorFilterDataStore
 {
   var selectedCategory: String?
-  var filterdItemList: [Items]?
-  var itemList: [Items]?
-  var item: Items?
+  var filterdItemList: [User]?
+  var itemList: [User]?
+  var item: User?
   var presenter: CategorFilterPresentationLogic?
   var worker: CategorFilterWorker?
   //var name: String = ""

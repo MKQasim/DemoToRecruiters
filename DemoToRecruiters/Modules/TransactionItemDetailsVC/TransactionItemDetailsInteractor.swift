@@ -14,14 +14,14 @@ protocol TransactionItemDetailsBusinessLogic
 
 protocol TransactionItemDetailsDataStore
 {
-  var item: Items? { get set }
+  var item: User? { get set }
   var navigation : UINavigationController? {get set}
 }
 
 class TransactionItemDetailsInteractor: TransactionItemDetailsBusinessLogic, TransactionItemDetailsDataStore
 {
   var navigation: UINavigationController?
-  var item: Items?
+  var item: User?
   var presenter: TransactionItemDetailsPresentationLogic?
   var worker: TransactionItemDetailsWorker?
 
@@ -32,8 +32,8 @@ class TransactionItemDetailsInteractor: TransactionItemDetailsBusinessLogic, Tra
   {
     worker = TransactionItemDetailsWorker()
     worker?.doSomeWork()
-    item = Items(partnerDisplayName: "")
-    let response = TransactionItemDetails.TransactionDetails.Response(item: item ?? Items())
+    item = User(id: 00, name: "")
+    let response = TransactionItemDetails.TransactionDetails.Response(item: item ?? User())
     presenter?.presentSomething(response: response)
   }
 }

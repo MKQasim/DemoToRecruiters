@@ -66,6 +66,7 @@
 		5DAB4B9F298654CF0081B502 /* ScenesFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4B9E298654CF0081B502 /* ScenesFactory.swift */; };
 		5DAB4BA32986555D0081B502 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4BA22986555D0081B502 /* ViewModel.swift */; };
 		5DAB4BAB29865D840081B502 /* TransactionDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4BAA29865D840081B502 /* TransactionDetailsView.swift */; };
+		5DC0F2E42AED9B9A00EA9546 /* SwiftUIManager in Frameworks */ = {isa = PBXBuildFile; productRef = 5DC0F2E32AED9B9A00EA9546 /* SwiftUIManager */; };
 		5DC5568D298945CB00A7D17B /* AlertHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC5568C298945CB00A7D17B /* AlertHelper.swift */; };
 		5DC5568F2989466F00A7D17B /* DispatchQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC5568E2989466F00A7D17B /* DispatchQueue.swift */; };
 		5DC55691298947B100A7D17B /* ProgressLoaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC55690298947B000A7D17B /* ProgressLoaderView.swift */; };
@@ -204,6 +205,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5DC0F2E42AED9B9A00EA9546 /* SwiftUIManager in Frameworks */,
 				C2231819C861D1B50A31DA62 /* Pods_DemoToRecruiters.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -601,6 +603,9 @@
 			dependencies = (
 			);
 			name = DemoToRecruiters;
+			packageProductDependencies = (
+				5DC0F2E32AED9B9A00EA9546 /* SwiftUIManager */,
+			);
 			productName = TaskPayBackApp;
 			productReference = 5D9A53A42982D8FF000495C8 /* DemoToRecruiters.app */;
 			productType = "com.apple.product-type.application";
@@ -676,6 +681,9 @@
 				Base,
 			);
 			mainGroup = 5D9A539B2982D8FF000495C8;
+			packageReferences = (
+				5DC0F2E22AED9B9A00EA9546 /* XCRemoteSwiftPackageReference "SwiftUIManager" */,
+			);
 			productRefGroup = 5D9A53A52982D8FF000495C8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -980,7 +988,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -1036,7 +1044,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -1237,7 +1245,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -1363,7 +1371,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -1496,7 +1504,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -1622,7 +1630,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -1749,7 +1757,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -1882,7 +1890,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -2014,7 +2022,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -2140,7 +2148,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -2293,6 +2301,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		5DC0F2E22AED9B9A00EA9546 /* XCRemoteSwiftPackageReference "SwiftUIManager" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/MKQasim/SwiftUIManager.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5DC0F2E32AED9B9A00EA9546 /* SwiftUIManager */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5DC0F2E22AED9B9A00EA9546 /* XCRemoteSwiftPackageReference "SwiftUIManager" */;
+			productName = SwiftUIManager;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 5D9A539C2982D8FF000495C8 /* Project object */;
 }

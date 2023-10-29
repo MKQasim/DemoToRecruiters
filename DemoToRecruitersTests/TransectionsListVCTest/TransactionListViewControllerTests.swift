@@ -101,7 +101,7 @@ class TransactionListViewControllerTests: XCTestCase
     let tableViewSpy = TableViewSpy()
     sut.tableView = tableViewSpy
       // When
-    let transactionsList = AppTransactionsList(items: [Items(partnerDisplayName: "qasim",category: 9000)])
+    let transactionsList = AppTransactionsList(User: [User(partnerDisplayName: "qasim",category: 9000)])
     let viewModel = TransactionList.Transactions.ViewModel(transactionsList: transactionsList)
     sut.displayFetchedTransactions(viewModel: viewModel)
     
@@ -135,17 +135,17 @@ class TransactionListViewControllerTests: XCTestCase
   {
       // Given
     let tableView = sut.tableView
-    let transactionList = AppTransactionsList(items: [Items(partnerDisplayName: "qasim",category: 9000)])
+    let transactionList = AppTransactionsList(User: [User(partnerDisplayName: "qasim",category: 9000)])
     let viewModel = TransactionList.Transactions.ViewModel(transactionsList: transactionList)
 
     
-    sut.transactionList = transactionList.items
+    sut.transactionList = transactionList.User
     
       // When
     let numberOfRows = sut.tableView(tableView ?? UITableView(), numberOfRowsInSection: 0)
     
       // Then
-    XCTAssertEqual(numberOfRows, transactionList.items.count, "The number of table view rows should equal the number of Transactions to display")
+    XCTAssertEqual(numberOfRows, transactionList.User.count, "The number of table view rows should equal the number of Transactions to display")
   }
 
 }

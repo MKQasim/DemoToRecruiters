@@ -7,50 +7,50 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		004B901EA8F8533A9D8E889F7A179657 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E8C369728422359430C08822CF72F09 /* Request.swift */; };
+		094E5A3DE4CDE2CC54D9309BD49ED297 /* DefaultRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E4C8B1B7D26FC1782219CA8B76E13B2 /* DefaultRequest.swift */; };
 		09E52CC8A6DEFFABB52AAE4E4A1227FF /* Pods-DemoToRecruitersTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2952882075473C5E872572C74A83126C /* Pods-DemoToRecruitersTests-dummy.m */; };
 		1DC0604257747726C8FCD3C449AD52FB /* Pods-DemoToRecruiters-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F0C53FF58334400B9BCC7CBEEEDD367 /* Pods-DemoToRecruiters-dummy.m */; };
-		21E85DBA9D560A64165C56DCAE1E13C3 /* AuthRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834B15C3E75CD98455FEBBAE5A312679 /* AuthRequest.swift */; };
+		207671B730B17EFCB42B9CE0DF498A59 /* ServiceError.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48CA7AB662C23115E280FE294466EA8 /* ServiceError.swift */; };
 		291851A104A6EF25DA347B86894BAF89 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		3753BBF13E85AF34E0622876F0D0D7F6 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BEA6DD892D4C8DB8B46516DDE85873C /* Media.xcassets */; };
+		35A4A68AADE6197CDCF59420EFF8D8A5 /* ApiLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0FF66851710AFEBCEA3D91AB60786BD /* ApiLoader.swift */; };
+		3753BBF13E85AF34E0622876F0D0D7F6 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8FEE11DE7423D2ABEC7997F97F6EB297 /* Media.xcassets */; };
+		529AE5A2D8C6DAC3F775905EBA765E96 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = A612AF7BDA8225A4A4E1E6A7B01A70B9 /* Reachability.swift */; };
 		5EDCAD02E57916821907CA31C189BF1A /* Pods-DemoToRecruitersTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F83CE905C8FEB1CEB383F693E7CDEC6D /* Pods-DemoToRecruitersTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6ED7535C4480FF4280784E92B7305133 /* KQTaskNetworkManager-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 97D91B2AC473E1F2D8102489F479AED7 /* KQTaskNetworkManager-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6847A88237F43AC34F794D6191B4B716 /* KQTaskNetworkManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 95A2020001BDB8C9A86C975920A54CD9 /* KQTaskNetworkManager-dummy.m */; };
+		6ED7535C4480FF4280784E92B7305133 /* KQTaskNetworkManager-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C37625B4B6BD5A6AB66647089116AFB /* KQTaskNetworkManager-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7612D41F60A6B9B72D37DB534F879E07 /* Pods-DemoToRecruiters-DemoToRecruitersUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8246F1156A4CEA9F62B3859874F0A5E0 /* Pods-DemoToRecruiters-DemoToRecruitersUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7D03062ECE8F6E612042CA96B224C771 /* Enviroment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 208B23BF3C9CF43DE0B7A591679657B2 /* Enviroment.swift */; };
-		87B5DBA64118FFDF89C1847ECD4140B5 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D14FD5C47D9C390D4B6A62D0EFCA5D /* Reachability.swift */; };
-		89E8D0C0AAC9E490C318574AEB1F5951 /* DefaultRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484E2070D17F4C00B777DB40AAD52436 /* DefaultRequest.swift */; };
-		9046350D960A73C96EAB1D102355F15C /* ApiHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADEDF21DE44F5E34FBCCB20880110E06 /* ApiHandler.swift */; };
-		92D6FB5CFFC18A3C7F125884BC01B45C /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3457E411FE1BC6905A623F81DDCFD677 /* Request.swift */; };
-		A03EC813647901819E915988FB60E2B7 /* ApiLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85229149CC12B38C9B953DE07C3AB233 /* ApiLoader.swift */; };
+		7B542430BE9C7F70F53F0412ED510116 /* ApiRequestHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48831AAEBD000447CE53B88E2AC0F49D /* ApiRequestHandler.swift */; };
+		9FDD6ED04F2961B53910C2A7F2B7FEED /* Enviroment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39DB86DF2E6FB764CF4562962FA078E9 /* Enviroment.swift */; };
 		A18096269482072A2F0521EB9437C6FB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		AC5B7B8C6758E8F914EF1E11F653B9F4 /* ApiRequestHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85AAF51208D25B50FA29C2CD049DFC37 /* ApiRequestHandler.swift */; };
-		C8FD028EEB748539C2758C1B612E85EA /* DefaultResponseParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED25EC85A019E74D195E93372BB2C4AE /* DefaultResponseParser.swift */; };
+		A8D940DF96097EF422AC9CB083D0FBA1 /* RequestBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E23F40553C093464B4DCA94957008F /* RequestBuilder.swift */; };
+		B2BF2D1F521569BD20AD4268F2CE226B /* AuthRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8099509ACEF416FC7E85647B4BC7406B /* AuthRequest.swift */; };
+		B6DAE03DC6C29C22B2F5EFA47D81D6A6 /* ApiResponseHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25B446323FDE1EEE4F3EE0FE39FE353 /* ApiResponseHandler.swift */; };
+		BB734F606997CF1022BC8C85229E7213 /* ApiHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = B842F36E77F7CEA044BE656F11830291 /* ApiHandler.swift */; };
 		C9FE2DC44534BE6BB23C46C7938EA815 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		D138F8DA28F958F30AEE63FD8ED6C742 /* Pods-DemoToRecruiters-DemoToRecruitersUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F2D90808FF1E31EF5EB468545BE50A63 /* Pods-DemoToRecruiters-DemoToRecruitersUITests-dummy.m */; };
-		D7C4392818CDB6783C248D58AE45A72F /* KQTaskNetworkManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA6B617ADC7B6558BC40B3D7A815DF9 /* KQTaskNetworkManager-dummy.m */; };
 		D925EBF5142F6FC63926DCB36FB0D655 /* Pods-DemoToRecruiters-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 61A6D37242CFA72D56B6DA745E1AE8A2 /* Pods-DemoToRecruiters-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DC870AADD8A5B4C27B5334D9DA284A62 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = C13E13895DA44DC784037E31CF2A5D58 /* ReplaceMe.swift */; };
-		DF3C50F45F775EA23CA65D2B8D290524 /* RequestBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70BCB1ECBF66BCCC875C79C70A78DBEF /* RequestBuilder.swift */; };
 		E5375AD9A61199A193A1B769A61CFC45 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		F2CFC98D658E2C046ACED1A59071D67A /* ServiceError.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8A7C5A963B90712A0844921DCA014E1 /* ServiceError.swift */; };
-		F62593FFEB0DA4795680E79B68009D48 /* ApiResponseHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = C534BAADAF2C6AA6BC83160A961F618D /* ApiResponseHandler.swift */; };
+		E7BE8F89724F0570A3A5F4787ED0AC0C /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF0047A787F0C32F1696F292EA6DB96B /* ReplaceMe.swift */; };
+		E845172BE89F0C63AD3A1BF72DFEA505 /* DefaultResponseParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = D446734AC012B5D2342638995AF950E5 /* DefaultResponseParser.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		856B314ABC4EB73056A62C3A8B269963 /* PBXContainerItemProxy */ = {
+		65A996FFC2D274F99C0430D6766B3D2F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = EA6B2FD90CEE509C82B893BE87CA757C;
 			remoteInfo = KQTaskNetworkManager;
 		};
-		B5924C94F102FF2F3CBB71B5DE62EBF9 /* PBXContainerItemProxy */ = {
+		67210030386A1EA05F1A6FEA9463A8CE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = B12A6D7C66811D4723CD20853C03D748;
 			remoteInfo = "Pods-DemoToRecruiters";
 		};
-		CC954BB3F480492E5030EF1C4FDBFBC6 /* PBXContainerItemProxy */ = {
+		7B851E4739BDA2672D0D5EF8C56B01FE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -62,84 +62,81 @@
 /* Begin PBXFileReference section */
 		026907E34303CEB58609B47B9E8054E0 /* Pods-DemoToRecruiters.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DemoToRecruiters.debug.xcconfig"; sourceTree = "<group>"; };
 		034AEFA6B5D90E755D1C9D153DE86CE1 /* Pods-DemoToRecruitersTests.releasestaging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DemoToRecruitersTests.releasestaging.xcconfig"; sourceTree = "<group>"; };
+		0C37625B4B6BD5A6AB66647089116AFB /* KQTaskNetworkManager-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KQTaskNetworkManager-umbrella.h"; sourceTree = "<group>"; };
 		15662BB96053B8136EA4A485CF869D08 /* Pods-DemoToRecruitersTests.releaseprod.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DemoToRecruitersTests.releaseprod.xcconfig"; sourceTree = "<group>"; };
+		19E23F40553C093464B4DCA94957008F /* RequestBuilder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RequestBuilder.swift; path = KQTaskNetworkManager/Recources/Classes/AppNetworkManager/ApiHandler/CreateRequests/RequestBuilder.swift; sourceTree = "<group>"; };
 		1E0A8A4DC24AD8689DD2109480E60CAD /* Pods-DemoToRecruiters.releasedev.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DemoToRecruiters.releasedev.xcconfig"; sourceTree = "<group>"; };
-		208B23BF3C9CF43DE0B7A591679657B2 /* Enviroment.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Enviroment.swift; sourceTree = "<group>"; };
-		267BBA04D6179194D56ADA7C40DF6733 /* KQTaskNetworkManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KQTaskNetworkManager.release.xcconfig; sourceTree = "<group>"; };
 		2952882075473C5E872572C74A83126C /* Pods-DemoToRecruitersTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DemoToRecruitersTests-dummy.m"; sourceTree = "<group>"; };
-		3457E411FE1BC6905A623F81DDCFD677 /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
 		35875A5A8882570C7490D5B7A99B9109 /* Pods-DemoToRecruiters-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DemoToRecruiters-frameworks.sh"; sourceTree = "<group>"; };
 		36EDE5F6C14839A9DCA7A6EAF6F75149 /* Pods-DemoToRecruiters-DemoToRecruitersUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DemoToRecruiters-DemoToRecruitersUITests-frameworks.sh"; sourceTree = "<group>"; };
 		38213761AA249480EBAFBA1ABB39E374 /* Pods-DemoToRecruiters-DemoToRecruitersUITests.releaseqa.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DemoToRecruiters-DemoToRecruitersUITests.releaseqa.xcconfig"; sourceTree = "<group>"; };
 		390BEB041D0AA9344BCE56D3F1A1BF83 /* Pods-DemoToRecruitersTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DemoToRecruitersTests.release.xcconfig"; sourceTree = "<group>"; };
 		394A022867C1BBBDBB42FD8FA6FD4CEA /* Pods-DemoToRecruitersTests.debugstaging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DemoToRecruitersTests.debugstaging.xcconfig"; sourceTree = "<group>"; };
-		40946E4682116D8CA7390B5B8F307993 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		43999449F49C1C0648D67EB69E19BDFE /* KQTaskNetworkManager-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "KQTaskNetworkManager-Info.plist"; sourceTree = "<group>"; };
+		39DB86DF2E6FB764CF4562962FA078E9 /* Enviroment.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Enviroment.swift; path = KQTaskNetworkManager/Recources/Classes/AppNetworkManager/Enviroment/Enviroment.swift; sourceTree = "<group>"; };
+		421E40292396FAA9CBC1A32EEB59E46A /* KQTaskNetworkManager-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "KQTaskNetworkManager-Info.plist"; sourceTree = "<group>"; };
 		4659EBC604E1C38E0B43D1DE4F5D5783 /* Pods-DemoToRecruitersTests.debugdev.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DemoToRecruitersTests.debugdev.xcconfig"; sourceTree = "<group>"; };
-		484E2070D17F4C00B777DB40AAD52436 /* DefaultRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DefaultRequest.swift; sourceTree = "<group>"; };
+		48831AAEBD000447CE53B88E2AC0F49D /* ApiRequestHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ApiRequestHandler.swift; path = KQTaskNetworkManager/Recources/Classes/AppNetworkManager/ApiHandler/ApiRequestHandler/ApiRequestHandler.swift; sourceTree = "<group>"; };
 		4CD1DF771189287CB1883BC34000699A /* Pods-DemoToRecruiters-DemoToRecruitersUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DemoToRecruiters-DemoToRecruitersUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		4F0086BDB5F3A91E8DB4734DFF4AC6E6 /* Pods-DemoToRecruiters-DemoToRecruitersUITests.releaseprod.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DemoToRecruiters-DemoToRecruitersUITests.releaseprod.xcconfig"; sourceTree = "<group>"; };
 		4F0C53FF58334400B9BCC7CBEEEDD367 /* Pods-DemoToRecruiters-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DemoToRecruiters-dummy.m"; sourceTree = "<group>"; };
 		4F6505F5F94DA6288EC91DA85CCACFA6 /* Pods-DemoToRecruiters-DemoToRecruitersUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-DemoToRecruiters-DemoToRecruitersUITests"; path = Pods_DemoToRecruiters_DemoToRecruitersUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FC33796F493E729065ECCA3286080D9 /* KQTaskNetworkManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KQTaskNetworkManager-prefix.pch"; sourceTree = "<group>"; };
 		523262D5DDC47001C0F4177DA917C107 /* KQTaskNetworkManager */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KQTaskNetworkManager; path = KQTaskNetworkManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5889DCC311DE6078F780368042F90DE0 /* Pods-DemoToRecruiters-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DemoToRecruiters-acknowledgements.markdown"; sourceTree = "<group>"; };
 		59839E0F5D569BE7112A8E3891AA1956 /* Pods-DemoToRecruiters-DemoToRecruitersUITests.releasestaging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DemoToRecruiters-DemoToRecruitersUITests.releasestaging.xcconfig"; sourceTree = "<group>"; };
-		5BA6B617ADC7B6558BC40B3D7A815DF9 /* KQTaskNetworkManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KQTaskNetworkManager-dummy.m"; sourceTree = "<group>"; };
 		5C11463958D72326F052E99FBF7E91C2 /* Pods-DemoToRecruitersTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DemoToRecruitersTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		5E8C369728422359430C08822CF72F09 /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = KQTaskNetworkManager/Recources/Classes/AppNetworkManager/ApiHandler/CreateRequests/Request.swift; sourceTree = "<group>"; };
+		5F6D9FFCA8A3B9BEE6B9E0CCF645C72B /* KQTaskNetworkManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KQTaskNetworkManager.release.xcconfig; sourceTree = "<group>"; };
 		61A6D37242CFA72D56B6DA745E1AE8A2 /* Pods-DemoToRecruiters-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DemoToRecruiters-umbrella.h"; sourceTree = "<group>"; };
 		62925DD821077CB03E7078A602EC17EB /* Pods-DemoToRecruitersTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DemoToRecruitersTests-Info.plist"; sourceTree = "<group>"; };
 		6292ED2124B3228F409691FBD8B8CCC0 /* Pods-DemoToRecruiters-DemoToRecruitersUITests.releasedev.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DemoToRecruiters-DemoToRecruitersUITests.releasedev.xcconfig"; sourceTree = "<group>"; };
 		6A8D278DCF2E0B6670EAFD5F736402B4 /* Pods-DemoToRecruitersTests.debugprod.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DemoToRecruitersTests.debugprod.xcconfig"; sourceTree = "<group>"; };
 		6F41C3A966F9AC582160FEF4B4E85F98 /* Pods-DemoToRecruitersTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DemoToRecruitersTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		708484344DB823BF1283A60FC945F63D /* Pods-DemoToRecruitersTests.debugqa.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DemoToRecruitersTests.debugqa.xcconfig"; sourceTree = "<group>"; };
-		70BCB1ECBF66BCCC875C79C70A78DBEF /* RequestBuilder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RequestBuilder.swift; sourceTree = "<group>"; };
 		72862F22A004B87E356C3FB627AB52D5 /* Pods-DemoToRecruitersTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DemoToRecruitersTests.modulemap"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		7675F73EAE6663AACCE416B7E7E19797 /* Pods-DemoToRecruitersTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-DemoToRecruitersTests"; path = Pods_DemoToRecruitersTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		79A23B91DB6DFF229A98E1BB78A6DB8F /* KQTaskNetworkManager.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = KQTaskNetworkManager.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		7E4C8B1B7D26FC1782219CA8B76E13B2 /* DefaultRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DefaultRequest.swift; path = KQTaskNetworkManager/Recources/Classes/AppNetworkManager/ApiHandler/CreateRequests/DefaultRequest.swift; sourceTree = "<group>"; };
+		8099509ACEF416FC7E85647B4BC7406B /* AuthRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AuthRequest.swift; path = KQTaskNetworkManager/Recources/Classes/AppNetworkManager/ApiHandler/CreateRequests/AuthRequest.swift; sourceTree = "<group>"; };
 		81F7DB77A176258120E82408C199B940 /* Pods-DemoToRecruiters-DemoToRecruitersUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DemoToRecruiters-DemoToRecruitersUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		8246F1156A4CEA9F62B3859874F0A5E0 /* Pods-DemoToRecruiters-DemoToRecruitersUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DemoToRecruiters-DemoToRecruitersUITests-umbrella.h"; sourceTree = "<group>"; };
-		834B15C3E75CD98455FEBBAE5A312679 /* AuthRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AuthRequest.swift; sourceTree = "<group>"; };
 		8489918D6115339D75A1FD5067C4DB1B /* Pods-DemoToRecruiters-DemoToRecruitersUITests.debugprod.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DemoToRecruiters-DemoToRecruitersUITests.debugprod.xcconfig"; sourceTree = "<group>"; };
-		85229149CC12B38C9B953DE07C3AB233 /* ApiLoader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ApiLoader.swift; sourceTree = "<group>"; };
-		85AAF51208D25B50FA29C2CD049DFC37 /* ApiRequestHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ApiRequestHandler.swift; sourceTree = "<group>"; };
 		8801B66CE585EF2988F16459AE0C4E78 /* Pods-DemoToRecruiters-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DemoToRecruiters-Info.plist"; sourceTree = "<group>"; };
 		8AD4A086CA69B3ED06AA023692DC1198 /* Pods-DemoToRecruiters.debugdev.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DemoToRecruiters.debugdev.xcconfig"; sourceTree = "<group>"; };
+		8FEE11DE7423D2ABEC7997F97F6EB297 /* Media.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Media.xcassets; path = KQTaskNetworkManager/Recources/Classes/AppNetworkManager/Assets/Media.xcassets; sourceTree = "<group>"; };
 		90AFADB886C745122AEC2BED4DF5CE3B /* Pods-DemoToRecruiters.debugstaging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DemoToRecruiters.debugstaging.xcconfig"; sourceTree = "<group>"; };
-		90EC6B1621DE00397CFEB206238ACF1A /* KQTaskNetworkManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KQTaskNetworkManager-prefix.pch"; sourceTree = "<group>"; };
 		9176571E2C4C5969A41DBEAED8894C20 /* Pods-DemoToRecruiters.debugqa.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DemoToRecruiters.debugqa.xcconfig"; sourceTree = "<group>"; };
-		97D91B2AC473E1F2D8102489F479AED7 /* KQTaskNetworkManager-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KQTaskNetworkManager-umbrella.h"; sourceTree = "<group>"; };
-		9BEA6DD892D4C8DB8B46516DDE85873C /* Media.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Media.xcassets; path = KQTaskNetworkManager/Recources/Classes/AppNetworkManager/Assets/Media.xcassets; sourceTree = "<group>"; };
+		95A2020001BDB8C9A86C975920A54CD9 /* KQTaskNetworkManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KQTaskNetworkManager-dummy.m"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A2B17195F879D4614924D55B1341B4D6 /* Pods-DemoToRecruiters-DemoToRecruitersUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DemoToRecruiters-DemoToRecruitersUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		A612AF7BDA8225A4A4E1E6A7B01A70B9 /* Reachability.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Reachability.swift; path = KQTaskNetworkManager/Recources/Classes/AppNetworkManager/Reachability/Reachability.swift; sourceTree = "<group>"; };
 		A84B87CA299E8BDDF30E4DEA5C38E953 /* Pods-DemoToRecruiters.releasestaging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DemoToRecruiters.releasestaging.xcconfig"; sourceTree = "<group>"; };
 		A9FBC4B353144043504C617C127179BC /* Pods-DemoToRecruitersTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DemoToRecruitersTests.debug.xcconfig"; sourceTree = "<group>"; };
 		AC49A75D388D3FCAFF091CE85F28501B /* Pods-DemoToRecruiters */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-DemoToRecruiters"; path = Pods_DemoToRecruiters.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		ADEDF21DE44F5E34FBCCB20880110E06 /* ApiHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ApiHandler.swift; sourceTree = "<group>"; };
-		C13E13895DA44DC784037E31CF2A5D58 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = KQTaskNetworkManager/Recources/Classes/AppNetworkManager/ReplaceMe.swift; sourceTree = "<group>"; };
-		C2712122145AA2F08EECDC7B409ED739 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		C534BAADAF2C6AA6BC83160A961F618D /* ApiResponseHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ApiResponseHandler.swift; sourceTree = "<group>"; };
+		AE9FF7001C3EC1E7B525A525B5EAE31B /* KQTaskNetworkManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KQTaskNetworkManager.debug.xcconfig; sourceTree = "<group>"; };
+		B842F36E77F7CEA044BE656F11830291 /* ApiHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ApiHandler.swift; path = KQTaskNetworkManager/Recources/Classes/AppNetworkManager/ApiHandler/ApiHandler.swift; sourceTree = "<group>"; };
+		C0FF66851710AFEBCEA3D91AB60786BD /* ApiLoader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ApiLoader.swift; path = KQTaskNetworkManager/Recources/Classes/AppNetworkManager/ApiHandler/ApiLoader/ApiLoader.swift; sourceTree = "<group>"; };
+		C25B446323FDE1EEE4F3EE0FE39FE353 /* ApiResponseHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ApiResponseHandler.swift; path = KQTaskNetworkManager/Recources/Classes/AppNetworkManager/ApiHandler/ApiResponseHandler/ApiResponseHandler.swift; sourceTree = "<group>"; };
+		C7163E8535E201E56202DFC21A46BE21 /* KQTaskNetworkManager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = KQTaskNetworkManager.modulemap; sourceTree = "<group>"; };
 		C79A13F3871D8B3BE4432DE01E9F8D6C /* Pods-DemoToRecruiters-DemoToRecruitersUITests.debugstaging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DemoToRecruiters-DemoToRecruitersUITests.debugstaging.xcconfig"; sourceTree = "<group>"; };
 		CD6299E86DD09E987EE739F8E52A7DA3 /* Pods-DemoToRecruiters.releaseprod.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DemoToRecruiters.releaseprod.xcconfig"; sourceTree = "<group>"; };
 		CD97AD5DD842A594DD7F9EE70BB95723 /* Pods-DemoToRecruiters.debugprod.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DemoToRecruiters.debugprod.xcconfig"; sourceTree = "<group>"; };
-		CE9DD03124BFB0B9875E00006FE8FDFF /* KQTaskNetworkManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KQTaskNetworkManager.debug.xcconfig; sourceTree = "<group>"; };
 		D28CA8C162C3AA35077AF60D5083636D /* Pods-DemoToRecruitersTests.releasedev.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DemoToRecruitersTests.releasedev.xcconfig"; sourceTree = "<group>"; };
+		D446734AC012B5D2342638995AF950E5 /* DefaultResponseParser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DefaultResponseParser.swift; path = KQTaskNetworkManager/Recources/Classes/AppNetworkManager/ApiHandler/ApiResponseHandler/DefaultResponseParser.swift; sourceTree = "<group>"; };
 		D4AAFF1D2C4B14062E845B0EC1D3A6AB /* Pods-DemoToRecruiters-DemoToRecruitersUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DemoToRecruiters-DemoToRecruitersUITests.release.xcconfig"; sourceTree = "<group>"; };
 		D70248C3470ACB5105CEE68566C19A5F /* Pods-DemoToRecruitersTests.releaseqa.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DemoToRecruitersTests.releaseqa.xcconfig"; sourceTree = "<group>"; };
 		E0A42A18E7A530EBEE9B386CE3366C0F /* Pods-DemoToRecruiters.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DemoToRecruiters.modulemap"; sourceTree = "<group>"; };
+		E48CA7AB662C23115E280FE294466EA8 /* ServiceError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServiceError.swift; path = KQTaskNetworkManager/Recources/Classes/AppNetworkManager/ServiceError/ServiceError.swift; sourceTree = "<group>"; };
 		E6DF2354027E727EA5D0FC3D8157EDCB /* Pods-DemoToRecruiters-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DemoToRecruiters-acknowledgements.plist"; sourceTree = "<group>"; };
 		E6F3240BFAA69E5B8292716249102E0D /* Pods-DemoToRecruiters.releaseqa.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DemoToRecruiters.releaseqa.xcconfig"; sourceTree = "<group>"; };
-		E7D14FD5C47D9C390D4B6A62D0EFCA5D /* Reachability.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
 		E7EA908402A5C6D195A1033F1B7D72AD /* Pods-DemoToRecruiters-DemoToRecruitersUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DemoToRecruiters-DemoToRecruitersUITests.modulemap"; sourceTree = "<group>"; };
-		ED25EC85A019E74D195E93372BB2C4AE /* DefaultResponseParser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DefaultResponseParser.swift; sourceTree = "<group>"; };
 		F172F0CB6F5B2C513CAD31B852229AAA /* Pods-DemoToRecruiters.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DemoToRecruiters.release.xcconfig"; sourceTree = "<group>"; };
 		F2D90808FF1E31EF5EB468545BE50A63 /* Pods-DemoToRecruiters-DemoToRecruitersUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DemoToRecruiters-DemoToRecruitersUITests-dummy.m"; sourceTree = "<group>"; };
 		F2F4073EA43B5586674D126BD836DE6D /* Pods-DemoToRecruiters-DemoToRecruitersUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DemoToRecruiters-DemoToRecruitersUITests-Info.plist"; sourceTree = "<group>"; };
 		F3D9BC3A7A24B19979DA8CD4D2AF4E3A /* Pods-DemoToRecruiters-DemoToRecruitersUITests.debugdev.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DemoToRecruiters-DemoToRecruitersUITests.debugdev.xcconfig"; sourceTree = "<group>"; };
-		F6249C03493FAA8A3863E93A1A502EBA /* KQTaskNetworkManager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = KQTaskNetworkManager.modulemap; sourceTree = "<group>"; };
 		F83CE905C8FEB1CEB383F693E7CDEC6D /* Pods-DemoToRecruitersTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DemoToRecruitersTests-umbrella.h"; sourceTree = "<group>"; };
-		F8A7C5A963B90712A0844921DCA014E1 /* ServiceError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ServiceError.swift; sourceTree = "<group>"; };
 		FE2E0792F11A474BA6A2AD20A05F9FC3 /* Pods-DemoToRecruiters-DemoToRecruitersUITests.debugqa.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DemoToRecruiters-DemoToRecruitersUITests.debugqa.xcconfig"; sourceTree = "<group>"; };
+		FF0047A787F0C32F1696F292EA6DB96B /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = KQTaskNetworkManager/Recources/Classes/AppNetworkManager/ReplaceMe.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -178,35 +175,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		16782A750A27ADB07783C2F7C46B88D8 /* Reachability */ = {
+		15968EB30419CCD23F6D4BAE26C8B172 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				E7D14FD5C47D9C390D4B6A62D0EFCA5D /* Reachability.swift */,
+				8FEE11DE7423D2ABEC7997F97F6EB297 /* Media.xcassets */,
 			);
-			name = Reachability;
-			path = KQTaskNetworkManager/Recources/Classes/AppNetworkManager/Reachability;
+			name = Resources;
 			sourceTree = "<group>";
 		};
-		1CED4EA66D45D0A067F7C9C88248E7B3 /* Pod */ = {
+		2F50888BADCE327253770EF6D4DB98F3 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				79A23B91DB6DFF229A98E1BB78A6DB8F /* KQTaskNetworkManager.podspec */,
-				C2712122145AA2F08EECDC7B409ED739 /* LICENSE */,
-				40946E4682116D8CA7390B5B8F307993 /* README.md */,
+				6C5982D127F7482F91CCB6EE437EAA95 /* KQTaskNetworkManager */,
 			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		349D2983978C240782644FD26C89CBB6 /* CreateRequests */ = {
-			isa = PBXGroup;
-			children = (
-				834B15C3E75CD98455FEBBAE5A312679 /* AuthRequest.swift */,
-				484E2070D17F4C00B777DB40AAD52436 /* DefaultRequest.swift */,
-				3457E411FE1BC6905A623F81DDCFD677 /* Request.swift */,
-				70BCB1ECBF66BCCC875C79C70A78DBEF /* RequestBuilder.swift */,
-			);
-			name = CreateRequests;
-			path = CreateRequests;
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		36D6AB6A349791B416131F977DD61166 /* Pods-DemoToRecruiters-DemoToRecruitersUITests */ = {
@@ -234,32 +216,6 @@
 			path = "Target Support Files/Pods-DemoToRecruiters-DemoToRecruitersUITests";
 			sourceTree = "<group>";
 		};
-		4D8DB7582FA0EC95FA76BD4CC1D50D7A /* Enviroment */ = {
-			isa = PBXGroup;
-			children = (
-				208B23BF3C9CF43DE0B7A591679657B2 /* Enviroment.swift */,
-			);
-			name = Enviroment;
-			path = KQTaskNetworkManager/Recources/Classes/AppNetworkManager/Enviroment;
-			sourceTree = "<group>";
-		};
-		4EFC6E5AF58E34BCDAB39636AA66F950 /* ApiRequestHandler */ = {
-			isa = PBXGroup;
-			children = (
-				85AAF51208D25B50FA29C2CD049DFC37 /* ApiRequestHandler.swift */,
-			);
-			name = ApiRequestHandler;
-			path = ApiRequestHandler;
-			sourceTree = "<group>";
-		};
-		56C3336DF204B4DFA36B190DA4594A7B /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				9E451184C786790E702A47BF3C8D3436 /* KQTaskNetworkManager */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -268,58 +224,43 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		63616BB46B98F870ED5083D3C219AB63 /* ApiHandler */ = {
+		5B25F853DA0F479CA386D353EE42E370 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				ADEDF21DE44F5E34FBCCB20880110E06 /* ApiHandler.swift */,
-				8DB3580EA3D21C13125D3B4178DBBDA1 /* ApiLoader */,
-				4EFC6E5AF58E34BCDAB39636AA66F950 /* ApiRequestHandler */,
-				C5998E699C88B210CEB626697F16A3A8 /* ApiResponseHandler */,
-				349D2983978C240782644FD26C89CBB6 /* CreateRequests */,
-			);
-			name = ApiHandler;
-			path = KQTaskNetworkManager/Recources/Classes/AppNetworkManager/ApiHandler;
-			sourceTree = "<group>";
-		};
-		8DB3580EA3D21C13125D3B4178DBBDA1 /* ApiLoader */ = {
-			isa = PBXGroup;
-			children = (
-				85229149CC12B38C9B953DE07C3AB233 /* ApiLoader.swift */,
-			);
-			name = ApiLoader;
-			path = ApiLoader;
-			sourceTree = "<group>";
-		};
-		9188122718D0B0CBF25BEC4FB048E17A /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				F6249C03493FAA8A3863E93A1A502EBA /* KQTaskNetworkManager.modulemap */,
-				5BA6B617ADC7B6558BC40B3D7A815DF9 /* KQTaskNetworkManager-dummy.m */,
-				43999449F49C1C0648D67EB69E19BDFE /* KQTaskNetworkManager-Info.plist */,
-				90EC6B1621DE00397CFEB206238ACF1A /* KQTaskNetworkManager-prefix.pch */,
-				97D91B2AC473E1F2D8102489F479AED7 /* KQTaskNetworkManager-umbrella.h */,
-				CE9DD03124BFB0B9875E00006FE8FDFF /* KQTaskNetworkManager.debug.xcconfig */,
-				267BBA04D6179194D56ADA7C40DF6733 /* KQTaskNetworkManager.release.xcconfig */,
+				C7163E8535E201E56202DFC21A46BE21 /* KQTaskNetworkManager.modulemap */,
+				95A2020001BDB8C9A86C975920A54CD9 /* KQTaskNetworkManager-dummy.m */,
+				421E40292396FAA9CBC1A32EEB59E46A /* KQTaskNetworkManager-Info.plist */,
+				4FC33796F493E729065ECCA3286080D9 /* KQTaskNetworkManager-prefix.pch */,
+				0C37625B4B6BD5A6AB66647089116AFB /* KQTaskNetworkManager-umbrella.h */,
+				AE9FF7001C3EC1E7B525A525B5EAE31B /* KQTaskNetworkManager.debug.xcconfig */,
+				5F6D9FFCA8A3B9BEE6B9E0CCF645C72B /* KQTaskNetworkManager.release.xcconfig */,
 			);
 			name = "Support Files";
-			path = "../DemoToRecruiters/Pods/Target Support Files/KQTaskNetworkManager";
+			path = "../Target Support Files/KQTaskNetworkManager";
 			sourceTree = "<group>";
 		};
-		9E451184C786790E702A47BF3C8D3436 /* KQTaskNetworkManager */ = {
+		6C5982D127F7482F91CCB6EE437EAA95 /* KQTaskNetworkManager */ = {
 			isa = PBXGroup;
 			children = (
-				9BEA6DD892D4C8DB8B46516DDE85873C /* Media.xcassets */,
-				C13E13895DA44DC784037E31CF2A5D58 /* ReplaceMe.swift */,
-				63616BB46B98F870ED5083D3C219AB63 /* ApiHandler */,
-				4D8DB7582FA0EC95FA76BD4CC1D50D7A /* Enviroment */,
-				1CED4EA66D45D0A067F7C9C88248E7B3 /* Pod */,
-				16782A750A27ADB07783C2F7C46B88D8 /* Reachability */,
-				C76A3D9AAF4B3305E61D8E23A4ABED58 /* ServiceError */,
-				9188122718D0B0CBF25BEC4FB048E17A /* Support Files */,
+				B842F36E77F7CEA044BE656F11830291 /* ApiHandler.swift */,
+				C0FF66851710AFEBCEA3D91AB60786BD /* ApiLoader.swift */,
+				48831AAEBD000447CE53B88E2AC0F49D /* ApiRequestHandler.swift */,
+				C25B446323FDE1EEE4F3EE0FE39FE353 /* ApiResponseHandler.swift */,
+				8099509ACEF416FC7E85647B4BC7406B /* AuthRequest.swift */,
+				7E4C8B1B7D26FC1782219CA8B76E13B2 /* DefaultRequest.swift */,
+				D446734AC012B5D2342638995AF950E5 /* DefaultResponseParser.swift */,
+				39DB86DF2E6FB764CF4562962FA078E9 /* Enviroment.swift */,
+				A612AF7BDA8225A4A4E1E6A7B01A70B9 /* Reachability.swift */,
+				FF0047A787F0C32F1696F292EA6DB96B /* ReplaceMe.swift */,
+				5E8C369728422359430C08822CF72F09 /* Request.swift */,
+				19E23F40553C093464B4DCA94957008F /* RequestBuilder.swift */,
+				E48CA7AB662C23115E280FE294466EA8 /* ServiceError.swift */,
+				15968EB30419CCD23F6D4BAE26C8B172 /* Resources */,
+				5B25F853DA0F479CA386D353EE42E370 /* Support Files */,
 			);
 			name = KQTaskNetworkManager;
-			path = "/Users/pse/Documents/Documents - Muhammad MacBook Pro/KamQasim/Development/Interview_Preperation/KQTaskNetworkManager";
-			sourceTree = "<absolute>";
+			path = KQTaskNetworkManager;
+			sourceTree = "<group>";
 		};
 		BB3C4704DEB244B2FBD104A4FBA02EE2 /* Pods-DemoToRecruiters */ = {
 			isa = PBXGroup;
@@ -381,31 +322,12 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C5998E699C88B210CEB626697F16A3A8 /* ApiResponseHandler */ = {
-			isa = PBXGroup;
-			children = (
-				C534BAADAF2C6AA6BC83160A961F618D /* ApiResponseHandler.swift */,
-				ED25EC85A019E74D195E93372BB2C4AE /* DefaultResponseParser.swift */,
-			);
-			name = ApiResponseHandler;
-			path = ApiResponseHandler;
-			sourceTree = "<group>";
-		};
-		C76A3D9AAF4B3305E61D8E23A4ABED58 /* ServiceError */ = {
-			isa = PBXGroup;
-			children = (
-				F8A7C5A963B90712A0844921DCA014E1 /* ServiceError.swift */,
-			);
-			name = ServiceError;
-			path = KQTaskNetworkManager/Recources/Classes/AppNetworkManager/ServiceError;
-			sourceTree = "<group>";
-		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				56C3336DF204B4DFA36B190DA4594A7B /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				2F50888BADCE327253770EF6D4DB98F3 /* Pods */,
 				C142708A58B4AE2300A773EEDC8DC010 /* Products */,
 				F743F091902AB5D71315BDE6E5E5E040 /* Targets Support Files */,
 			);
@@ -479,7 +401,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				D3244F4D4EB984185CF6551B2D7B1FD7 /* PBXTargetDependency */,
+				8AC154B99658444ABC68C6BEB4B6DF5F /* PBXTargetDependency */,
 			);
 			name = "Pods-DemoToRecruiters-DemoToRecruitersUITests";
 			productName = Pods_DemoToRecruiters_DemoToRecruitersUITests;
@@ -498,7 +420,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				DE0B8EF029A951052EFF90F07DAA8D3A /* PBXTargetDependency */,
+				4DD7C62819630E17578E42D080C58C58 /* PBXTargetDependency */,
 			);
 			name = "Pods-DemoToRecruitersTests";
 			productName = Pods_DemoToRecruitersTests;
@@ -517,7 +439,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				64CE75F0F0DEE116A8BC1897B891731B /* PBXTargetDependency */,
+				7016A379653DEBE69B71FBF97D81C65F /* PBXTargetDependency */,
 			);
 			name = "Pods-DemoToRecruiters";
 			productName = Pods_DemoToRecruiters;
@@ -529,7 +451,7 @@
 			buildConfigurationList = 07574D5F68371661434222C6409E5D08 /* Build configuration list for PBXNativeTarget "KQTaskNetworkManager" */;
 			buildPhases = (
 				CA58BA8F941527169792483FA39CAAF1 /* Headers */,
-				76139EF9B1EF810DB597ABBA81382F14 /* Sources */,
+				1EAA435813A9B837A10894A089557263 /* Sources */,
 				1D5E618D0DBBFBBE7F7981D3AFF03715 /* Frameworks */,
 				6F2F0CDA9911F2794FB0C80DFCAE1B88 /* Resources */,
 			);
@@ -605,32 +527,32 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		1EAA435813A9B837A10894A089557263 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB734F606997CF1022BC8C85229E7213 /* ApiHandler.swift in Sources */,
+				35A4A68AADE6197CDCF59420EFF8D8A5 /* ApiLoader.swift in Sources */,
+				7B542430BE9C7F70F53F0412ED510116 /* ApiRequestHandler.swift in Sources */,
+				B6DAE03DC6C29C22B2F5EFA47D81D6A6 /* ApiResponseHandler.swift in Sources */,
+				B2BF2D1F521569BD20AD4268F2CE226B /* AuthRequest.swift in Sources */,
+				094E5A3DE4CDE2CC54D9309BD49ED297 /* DefaultRequest.swift in Sources */,
+				E845172BE89F0C63AD3A1BF72DFEA505 /* DefaultResponseParser.swift in Sources */,
+				9FDD6ED04F2961B53910C2A7F2B7FEED /* Enviroment.swift in Sources */,
+				6847A88237F43AC34F794D6191B4B716 /* KQTaskNetworkManager-dummy.m in Sources */,
+				529AE5A2D8C6DAC3F775905EBA765E96 /* Reachability.swift in Sources */,
+				E7BE8F89724F0570A3A5F4787ED0AC0C /* ReplaceMe.swift in Sources */,
+				004B901EA8F8533A9D8E889F7A179657 /* Request.swift in Sources */,
+				A8D940DF96097EF422AC9CB083D0FBA1 /* RequestBuilder.swift in Sources */,
+				207671B730B17EFCB42B9CE0DF498A59 /* ServiceError.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2B16EA548DBB91A39CE638A564122DCC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				09E52CC8A6DEFFABB52AAE4E4A1227FF /* Pods-DemoToRecruitersTests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		76139EF9B1EF810DB597ABBA81382F14 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9046350D960A73C96EAB1D102355F15C /* ApiHandler.swift in Sources */,
-				A03EC813647901819E915988FB60E2B7 /* ApiLoader.swift in Sources */,
-				AC5B7B8C6758E8F914EF1E11F653B9F4 /* ApiRequestHandler.swift in Sources */,
-				F62593FFEB0DA4795680E79B68009D48 /* ApiResponseHandler.swift in Sources */,
-				21E85DBA9D560A64165C56DCAE1E13C3 /* AuthRequest.swift in Sources */,
-				89E8D0C0AAC9E490C318574AEB1F5951 /* DefaultRequest.swift in Sources */,
-				C8FD028EEB748539C2758C1B612E85EA /* DefaultResponseParser.swift in Sources */,
-				7D03062ECE8F6E612042CA96B224C771 /* Enviroment.swift in Sources */,
-				D7C4392818CDB6783C248D58AE45A72F /* KQTaskNetworkManager-dummy.m in Sources */,
-				87B5DBA64118FFDF89C1847ECD4140B5 /* Reachability.swift in Sources */,
-				DC870AADD8A5B4C27B5334D9DA284A62 /* ReplaceMe.swift in Sources */,
-				92D6FB5CFFC18A3C7F125884BC01B45C /* Request.swift in Sources */,
-				DF3C50F45F775EA23CA65D2B8D290524 /* RequestBuilder.swift in Sources */,
-				F2CFC98D658E2C046ACED1A59071D67A /* ServiceError.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -653,30 +575,30 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		64CE75F0F0DEE116A8BC1897B891731B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = KQTaskNetworkManager;
-			target = EA6B2FD90CEE509C82B893BE87CA757C /* KQTaskNetworkManager */;
-			targetProxy = CC954BB3F480492E5030EF1C4FDBFBC6 /* PBXContainerItemProxy */;
-		};
-		D3244F4D4EB984185CF6551B2D7B1FD7 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = KQTaskNetworkManager;
-			target = EA6B2FD90CEE509C82B893BE87CA757C /* KQTaskNetworkManager */;
-			targetProxy = 856B314ABC4EB73056A62C3A8B269963 /* PBXContainerItemProxy */;
-		};
-		DE0B8EF029A951052EFF90F07DAA8D3A /* PBXTargetDependency */ = {
+		4DD7C62819630E17578E42D080C58C58 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-DemoToRecruiters";
 			target = B12A6D7C66811D4723CD20853C03D748 /* Pods-DemoToRecruiters */;
-			targetProxy = B5924C94F102FF2F3CBB71B5DE62EBF9 /* PBXContainerItemProxy */;
+			targetProxy = 67210030386A1EA05F1A6FEA9463A8CE /* PBXContainerItemProxy */;
+		};
+		7016A379653DEBE69B71FBF97D81C65F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KQTaskNetworkManager;
+			target = EA6B2FD90CEE509C82B893BE87CA757C /* KQTaskNetworkManager */;
+			targetProxy = 7B851E4739BDA2672D0D5EF8C56B01FE /* PBXContainerItemProxy */;
+		};
+		8AC154B99658444ABC68C6BEB4B6DF5F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KQTaskNetworkManager;
+			target = EA6B2FD90CEE509C82B893BE87CA757C /* KQTaskNetworkManager */;
+			targetProxy = 65A996FFC2D274F99C0430D6766B3D2F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		044D22CBBB7673B694CB77248A30F5B5 /* ReleaseDev */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 267BBA04D6179194D56ADA7C40DF6733 /* KQTaskNetworkManager.release.xcconfig */;
+			baseConfigurationReference = 5F6D9FFCA8A3B9BEE6B9E0CCF645C72B /* KQTaskNetworkManager.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1351,7 +1273,7 @@
 		};
 		5172364585980016A61431EC4F5C822B /* DebugStaging */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 267BBA04D6179194D56ADA7C40DF6733 /* KQTaskNetworkManager.release.xcconfig */;
+			baseConfigurationReference = 5F6D9FFCA8A3B9BEE6B9E0CCF645C72B /* KQTaskNetworkManager.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1715,7 +1637,7 @@
 		};
 		780DF2372AB71540F1A19629860A94A8 /* DebugProd */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 267BBA04D6179194D56ADA7C40DF6733 /* KQTaskNetworkManager.release.xcconfig */;
+			baseConfigurationReference = 5F6D9FFCA8A3B9BEE6B9E0CCF645C72B /* KQTaskNetworkManager.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1813,7 +1735,7 @@
 		};
 		8F808AE85CEF8FFCEFF470609994F110 /* ReleaseProd */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 267BBA04D6179194D56ADA7C40DF6733 /* KQTaskNetworkManager.release.xcconfig */;
+			baseConfigurationReference = 5F6D9FFCA8A3B9BEE6B9E0CCF645C72B /* KQTaskNetworkManager.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -2025,7 +1947,7 @@
 		};
 		A66F8FF3BD90B3C94CAE969AA275EB37 /* DebugDev */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 267BBA04D6179194D56ADA7C40DF6733 /* KQTaskNetworkManager.release.xcconfig */;
+			baseConfigurationReference = 5F6D9FFCA8A3B9BEE6B9E0CCF645C72B /* KQTaskNetworkManager.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -2375,7 +2297,7 @@
 		};
 		CFE151C3110789E61ABCEBE0BDB05CBF /* ReleaseQA */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 267BBA04D6179194D56ADA7C40DF6733 /* KQTaskNetworkManager.release.xcconfig */;
+			baseConfigurationReference = 5F6D9FFCA8A3B9BEE6B9E0CCF645C72B /* KQTaskNetworkManager.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -2411,7 +2333,7 @@
 		};
 		D18ADE991D23BC2E95F635926F73CA88 /* ReleaseStaging */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 267BBA04D6179194D56ADA7C40DF6733 /* KQTaskNetworkManager.release.xcconfig */;
+			baseConfigurationReference = 5F6D9FFCA8A3B9BEE6B9E0CCF645C72B /* KQTaskNetworkManager.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -2447,7 +2369,7 @@
 		};
 		D1D411ACEC86AE3D77D58C81460D369B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 267BBA04D6179194D56ADA7C40DF6733 /* KQTaskNetworkManager.release.xcconfig */;
+			baseConfigurationReference = 5F6D9FFCA8A3B9BEE6B9E0CCF645C72B /* KQTaskNetworkManager.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -2725,7 +2647,7 @@
 		};
 		F61CB80644478714F6FB6153718729D5 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CE9DD03124BFB0B9875E00006FE8FDFF /* KQTaskNetworkManager.debug.xcconfig */;
+			baseConfigurationReference = AE9FF7001C3EC1E7B525A525B5EAE31B /* KQTaskNetworkManager.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -2760,7 +2682,7 @@
 		};
 		FAE51F1F06572CBB88D7DB6BEEF3ADAC /* DebugQA */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 267BBA04D6179194D56ADA7C40DF6733 /* KQTaskNetworkManager.release.xcconfig */;
+			baseConfigurationReference = 5F6D9FFCA8A3B9BEE6B9E0CCF645C72B /* KQTaskNetworkManager.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";

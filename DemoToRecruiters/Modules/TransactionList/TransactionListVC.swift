@@ -28,7 +28,7 @@ class TransactionListVC: AppSuperVC, TransactionListDisplayLogic , NibInstantiat
   let transparentView = UIView()
   var selectedButton = UIButton()
   var dataSource = [String]()
-  var transactionList : [Items]?
+  var transactionList : [User]?
     // MARK: Object lifecycle
   
   override init(nibName nibNameOrNil: String?, bundle nibBundleOrNil: Bundle?)
@@ -121,10 +121,10 @@ extension TransactionListVC{
   
   func displayFetchedTransactions(viewModel: TransactionList.Transactions.ViewModel)
   {
-    transactionList = viewModel.transactionsList?.items
+    transactionList = viewModel.transactionsList?.User
     setCalculateSum(selectedCategory: "All Categories")
     if var route = self.router as? TransactionListRouter{
-      route.dataStore?.itemList = viewModel.transactionsList?.items
+      route.dataStore?.itemList = viewModel.transactionsList?.User
       route.didTap = { [weak self] ( selectedCategory,filteredList, isTap) in
         if isTap {
           self?.transactionList = filteredList
@@ -139,7 +139,7 @@ extension TransactionListVC{
   func setCalculateSum(selectedCategory: String)
   {
     DispatchQueue.main.asyncAfter(deadline: .now()){
-      let totalAmount = self.transactionList?.reduce(0.0) { $0 + Double(($1.transactionDetail?.value?.amount  ?? 0)) }
+      let totalAmount = self.transactionList?.reduce(0.0) { $0 + Double(($1.id  ?? 0)) }
       print(totalAmount)
       self.tableView.reloadData()
       self.navbarView?.setNavDoneButtonTitle(title: "\(totalAmount ?? 0)")
@@ -212,7 +212,7 @@ extension TransactionListVC : UITableViewDelegate{
 
 extension TransactionListVC
 {
-  func moveToItemDetails(item:Items?)
+  func moveToItemDetails(item:User?)
   {
     checkApiUrlSerssion()
     DispatchQueue.main.asyncAfter(deadline: .now())

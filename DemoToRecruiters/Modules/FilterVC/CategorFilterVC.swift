@@ -70,7 +70,7 @@ class CategorFilterVC: AppSuperVC, CategorFilterDisplayLogic , NibInstantiatable
     super.viewDidLoad()
     if let route = self.router , let itemList = route.dataStore?.itemList
     {
-      dataSource = Set(itemList.map { $0.category ?? 0}).sorted()
+        dataSource = Set(itemList.map { $0.id ?? 0}).sorted()
     }
     tableViewinit()
   }
@@ -86,7 +86,7 @@ class CategorFilterVC: AppSuperVC, CategorFilterDisplayLogic , NibInstantiatable
   
   func displaySomething(viewModel: CategorFilter.Category.ViewModel)
   {
-    dataSource = Set(viewModel.itemList.map { $0.category ?? 0}).sorted()
+    dataSource = Set(viewModel.itemList.map { $0.id ?? 0}).sorted()
     print(viewModel.itemList)
   }
 }
@@ -127,7 +127,7 @@ extension CategorFilterVC: UITableViewDelegate, UITableViewDataSource
     {
       route.dataStore?.filterdItemList = itemList.filter(
         {
-          $0.category == dataSource[indexPath.row];
+          $0.id == dataSource[indexPath.row];
         })
       isTap = true
       route.dataStore?.selectedCategory = "Category   \(dataSource[indexPath.row] ?? 0)"

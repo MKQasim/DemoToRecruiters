@@ -23,7 +23,7 @@ class TransactionPostCell: UITableViewCell  {
   @IBOutlet weak var callBtn: UIButton!
   @IBOutlet weak var profileBtn: UIButton!
   
-  var transactionItem : Items?
+  var transactionItem : User?
   var didTap : ((_ success: Bool) -> ())?
   var didTapOpen: TransactionCallback = {_ in }
   
@@ -40,18 +40,18 @@ class TransactionPostCell: UITableViewCell  {
       // Configure the view for the selected state
   }
   
-  func configureCell(transaction:Items?)
+  func configureCell(transaction:User?)
   {
     transactionItem = transaction
     guard let transaction = transaction else { return  }
-    guard let name = transaction.partnerDisplayName else { return  }
-      guard let date = transaction.transactionDetail?.bookingDate?.formatted() else { return  }
+    guard let name = transaction.name else { return  }
+      guard let date = transaction.address else { return  }
       
-    lblName.text = name + " #\(transaction.category ?? 0)"
-    lblReferance.text = transaction.alias?.reference
+      lblName.text = name + " #\(transaction.company)"
+      lblReferance.text = transaction.email
       lblCategory.text = "\(date)"
-    lblAmount.text = transaction.transactionDetail?.description?.rawValue
-    lblCurrency.text = "\(String(describing: transaction.transactionDetail?.value?.amount ?? 0))  : \(transaction.transactionDetail?.value?.currency?.rawValue ?? "")"
+      lblAmount.text = transaction.phone
+      lblCurrency.text = "\(String(describing: transaction.username))  : \(transaction.id)"
   }
   
   

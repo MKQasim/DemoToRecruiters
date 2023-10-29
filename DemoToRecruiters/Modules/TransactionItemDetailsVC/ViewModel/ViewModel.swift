@@ -13,17 +13,17 @@ protocol TransactionItemDetailsViewDelegate: AnyObject {
 
 protocol TransactionItemDetailsViewModel {
   var delegate: TransactionItemDetailsViewDelegate? { get set }
-  var transactionDetailsModel : Items? { get set}
+  var transactionDetailsModel : User? { get set}
 }
 
 final class DefaultTransactionDetailsViewModel : TransactionItemDetailsViewModel {
   
   var delegate: TransactionItemDetailsViewDelegate?
-  var transactionDetailsModel: Items?
+  var transactionDetailsModel: User?
   var text: String?
   var buttonText: String?
   
-  internal init(delegate: TransactionItemDetailsViewDelegate? = nil, transactionDetailsModel: Items? = nil, text: String? = nil, buttonText: String? = nil) {
+  internal init(delegate: TransactionItemDetailsViewDelegate? = nil, transactionDetailsModel: User? = nil, text: String? = nil, buttonText: String? = nil) {
     self.delegate = delegate
     self.transactionDetailsModel = transactionDetailsModel
     self.text = text
