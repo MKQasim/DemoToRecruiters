@@ -9,15 +9,15 @@
 /* Begin PBXBuildFile section */
 		426004DE37BB1B625511EC56 /* Pods_DemoToRecruiters_DemoToRecruitersUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A127206A9C2DEB4510F4482D /* Pods_DemoToRecruiters_DemoToRecruitersUITests.framework */; };
 		5D2146FC298A1AD500AC5267 /* Enviroment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D2146FB298A1AD500AC5267 /* Enviroment.swift */; };
-		5D745CF82983DDFD00B85B23 /* TransactionPostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D745CF62983DDFD00B85B23 /* TransactionPostCell.swift */; };
-		5D745CF92983DDFD00B85B23 /* TransactionPostCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D745CF72983DDFD00B85B23 /* TransactionPostCell.xib */; };
-		5D858E9F2986763D00913B32 /* TransactionItemDetailsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D858E992986763D00913B32 /* TransactionItemDetailsPresenter.swift */; };
-		5D858EA02986763D00913B32 /* TransactionItemDetailsWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D858E9A2986763D00913B32 /* TransactionItemDetailsWorker.swift */; };
-		5D858EA12986763D00913B32 /* TransactionItemDetailsRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D858E9B2986763D00913B32 /* TransactionItemDetailsRouter.swift */; };
-		5D858EA22986763D00913B32 /* TransactionItemDetailsModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D858E9C2986763D00913B32 /* TransactionItemDetailsModels.swift */; };
-		5D858EA32986763D00913B32 /* TransactionItemDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D858E9D2986763D00913B32 /* TransactionItemDetailsVC.swift */; };
-		5D858EA42986763D00913B32 /* TransactionItemDetailsInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D858E9E2986763D00913B32 /* TransactionItemDetailsInteractor.swift */; };
-		5D858EA62986769D00913B32 /* TransactionItemDetailsConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D858EA52986769D00913B32 /* TransactionItemDetailsConfigurator.swift */; };
+		5D745CF82983DDFD00B85B23 /* UserPostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D745CF62983DDFD00B85B23 /* UserPostCell.swift */; };
+		5D745CF92983DDFD00B85B23 /* UserPostCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D745CF72983DDFD00B85B23 /* UserPostCell.xib */; };
+		5D858E9F2986763D00913B32 /* UserItemDetailsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D858E992986763D00913B32 /* UserItemDetailsPresenter.swift */; };
+		5D858EA02986763D00913B32 /* UserItemDetailsWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D858E9A2986763D00913B32 /* UserItemDetailsWorker.swift */; };
+		5D858EA12986763D00913B32 /* UserItemDetailsRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D858E9B2986763D00913B32 /* UserItemDetailsRouter.swift */; };
+		5D858EA22986763D00913B32 /* UserItemDetailsModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D858E9C2986763D00913B32 /* UserItemDetailsModels.swift */; };
+		5D858EA32986763D00913B32 /* UserItemDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D858E9D2986763D00913B32 /* UserItemDetailsVC.swift */; };
+		5D858EA42986763D00913B32 /* UserItemDetailsInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D858E9E2986763D00913B32 /* UserItemDetailsInteractor.swift */; };
+		5D858EA62986769D00913B32 /* UserItemDetailsConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D858EA52986769D00913B32 /* UserItemDetailsConfigurator.swift */; };
 		5D9A53A82982D8FF000495C8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9A53A72982D8FF000495C8 /* AppDelegate.swift */; };
 		5D9A53AA2982D8FF000495C8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9A53A92982D8FF000495C8 /* SceneDelegate.swift */; };
 		5D9A53B12982D901000495C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D9A53B02982D901000495C8 /* Assets.xcassets */; };
@@ -26,12 +26,12 @@
 		5D9A53C92982D901000495C8 /* DemoToRecruitersUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9A53C82982D901000495C8 /* DemoToRecruitersUITests.swift */; };
 		5D9A53CB2982D901000495C8 /* DemoToRecruitersUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9A53CA2982D901000495C8 /* DemoToRecruitersUITestsLaunchTests.swift */; };
 		5D9A53FF29830315000495C8 /* AppSuperVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9A53FD29830315000495C8 /* AppSuperVC.swift */; };
-		5D9A542429830896000495C8 /* TransactionListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9A541E29830896000495C8 /* TransactionListPresenter.swift */; };
-		5D9A542529830896000495C8 /* TransactionListWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9A541F29830896000495C8 /* TransactionListWorker.swift */; };
-		5D9A542629830896000495C8 /* TransactionListRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9A542029830896000495C8 /* TransactionListRouter.swift */; };
-		5D9A542729830896000495C8 /* TransactionListModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9A542129830896000495C8 /* TransactionListModels.swift */; };
-		5D9A542829830896000495C8 /* TransactionListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9A542229830896000495C8 /* TransactionListVC.swift */; };
-		5D9A542929830896000495C8 /* TransactionListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9A542329830896000495C8 /* TransactionListInteractor.swift */; };
+		5D9A542429830896000495C8 /* UserListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9A541E29830896000495C8 /* UserListPresenter.swift */; };
+		5D9A542529830896000495C8 /* UserListWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9A541F29830896000495C8 /* UserListWorker.swift */; };
+		5D9A542629830896000495C8 /* UserListRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9A542029830896000495C8 /* UserListRouter.swift */; };
+		5D9A542729830896000495C8 /* UserListModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9A542129830896000495C8 /* UserListModels.swift */; };
+		5D9A542829830896000495C8 /* UsersListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9A542229830896000495C8 /* UsersListVC.swift */; };
+		5D9A542929830896000495C8 /* UserListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9A542329830896000495C8 /* UserListInteractor.swift */; };
 		5D9A542E29830A47000495C8 /* TransactionListViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9A542A29830A47000495C8 /* TransactionListViewControllerTests.swift */; };
 		5D9A542F29830A47000495C8 /* TransactionListInteractorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9A542B29830A47000495C8 /* TransactionListInteractorTests.swift */; };
 		5D9A543029830A47000495C8 /* TransactionListWorkerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9A542C29830A47000495C8 /* TransactionListWorkerTests.swift */; };
@@ -39,18 +39,18 @@
 		5D9A543329830E3B000495C8 /* AppTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9A543229830E3B000495C8 /* AppTheme.swift */; };
 		5D9A5435298310F7000495C8 /* AppColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9A5434298310F7000495C8 /* AppColor.swift */; };
 		5D9A543829831581000495C8 /* UIExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9A543729831581000495C8 /* UIExtensions.swift */; };
-		5D9A543C29832411000495C8 /* TransactionListVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D9A543A29832411000495C8 /* TransactionListVC.xib */; };
+		5D9A543C29832411000495C8 /* UsersListVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D9A543A29832411000495C8 /* UsersListVC.xib */; };
 		5D9A544029832528000495C8 /* NavBar.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D9A543E29832528000495C8 /* NavBar.xib */; };
 		5D9A544129832528000495C8 /* NavBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9A543F29832528000495C8 /* NavBar.swift */; };
 		5D9A544329832E03000495C8 /* ImageFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9A544229832E03000495C8 /* ImageFactory.swift */; };
-		5D9A544929835E10000495C8 /* PBTransactions.json in Resources */ = {isa = PBXBuildFile; fileRef = 5D9A544829835E10000495C8 /* PBTransactions.json */; };
-		5D9A544C29836083000495C8 /* TransactionsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9A544B29836082000495C8 /* TransactionsList.swift */; };
-		5D9A544E298360D2000495C8 /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9A544D298360D2000495C8 /* Transaction.swift */; };
-		5D9A545029836178000495C8 /* Alias.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9A544F29836178000495C8 /* Alias.swift */; };
-		5D9A54522983619F000495C8 /* TransactionDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9A54512983619F000495C8 /* TransactionDetails.swift */; };
-		5D9A545629836228000495C8 /* Value.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9A545529836228000495C8 /* Value.swift */; };
-		5D9A545929837190000495C8 /* TransactionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9A545829837190000495C8 /* TransactionService.swift */; };
-		5D9A54632983978D000495C8 /* TransactionServicesHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9A54622983978D000495C8 /* TransactionServicesHandler.swift */; };
+		5D9A544929835E10000495C8 /* Users.json in Resources */ = {isa = PBXBuildFile; fileRef = 5D9A544829835E10000495C8 /* Users.json */; };
+		5D9A544C29836083000495C8 /* AppUsersList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9A544B29836082000495C8 /* AppUsersList.swift */; };
+		5D9A544E298360D2000495C8 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9A544D298360D2000495C8 /* User.swift */; };
+		5D9A545029836178000495C8 /* Company.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9A544F29836178000495C8 /* Company.swift */; };
+		5D9A54522983619F000495C8 /* Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9A54512983619F000495C8 /* Address.swift */; };
+		5D9A545629836228000495C8 /* Geo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9A545529836228000495C8 /* Geo.swift */; };
+		5D9A545929837190000495C8 /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9A545829837190000495C8 /* UserService.swift */; };
+		5D9A54632983978D000495C8 /* UserServicesHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9A54622983978D000495C8 /* UserServicesHandler.swift */; };
 		5D9A54682983A21C000495C8 /* TransactionBusiness.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9A54672983A21C000495C8 /* TransactionBusiness.swift */; };
 		5D9E3C232988643F00662EBE /* CircleBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9E3C222988643E00662EBE /* CircleBackground.swift */; };
 		5D9E3C2529886B6D00662EBE /* CircleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9E3C2429886B6D00662EBE /* CircleButton.swift */; };
@@ -65,8 +65,7 @@
 		5D9E3C3D2988C88300662EBE /* SeclectFilterCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D9E3C3B2988C88300662EBE /* SeclectFilterCell.xib */; };
 		5DAB4B9F298654CF0081B502 /* ScenesFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4B9E298654CF0081B502 /* ScenesFactory.swift */; };
 		5DAB4BA32986555D0081B502 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4BA22986555D0081B502 /* ViewModel.swift */; };
-		5DAB4BAB29865D840081B502 /* TransactionDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4BAA29865D840081B502 /* TransactionDetailsView.swift */; };
-		5DC0F2E42AED9B9A00EA9546 /* SwiftUIManager in Frameworks */ = {isa = PBXBuildFile; productRef = 5DC0F2E32AED9B9A00EA9546 /* SwiftUIManager */; };
+		5DAB4BAB29865D840081B502 /* UserDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB4BAA29865D840081B502 /* UserDetailsView.swift */; };
 		5DC5568D298945CB00A7D17B /* AlertHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC5568C298945CB00A7D17B /* AlertHelper.swift */; };
 		5DC5568F2989466F00A7D17B /* DispatchQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC5568E2989466F00A7D17B /* DispatchQueue.swift */; };
 		5DC55691298947B100A7D17B /* ProgressLoaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC55690298947B000A7D17B /* ProgressLoaderView.swift */; };
@@ -104,15 +103,15 @@
 		4D9571AC14BFABD2650AD316 /* Pods-DemoToRecruiters-DemoToRecruitersUITests.releaseprod.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoToRecruiters-DemoToRecruitersUITests.releaseprod.xcconfig"; path = "Target Support Files/Pods-DemoToRecruiters-DemoToRecruitersUITests/Pods-DemoToRecruiters-DemoToRecruitersUITests.releaseprod.xcconfig"; sourceTree = "<group>"; };
 		4F08A6647C20C00F66DDE4A6 /* Pods-DemoToRecruitersTests.releaseqa.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoToRecruitersTests.releaseqa.xcconfig"; path = "Target Support Files/Pods-DemoToRecruitersTests/Pods-DemoToRecruitersTests.releaseqa.xcconfig"; sourceTree = "<group>"; };
 		5D2146FB298A1AD500AC5267 /* Enviroment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Enviroment.swift; sourceTree = "<group>"; };
-		5D745CF62983DDFD00B85B23 /* TransactionPostCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransactionPostCell.swift; sourceTree = "<group>"; };
-		5D745CF72983DDFD00B85B23 /* TransactionPostCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TransactionPostCell.xib; sourceTree = "<group>"; };
-		5D858E992986763D00913B32 /* TransactionItemDetailsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionItemDetailsPresenter.swift; sourceTree = "<group>"; };
-		5D858E9A2986763D00913B32 /* TransactionItemDetailsWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionItemDetailsWorker.swift; sourceTree = "<group>"; };
-		5D858E9B2986763D00913B32 /* TransactionItemDetailsRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionItemDetailsRouter.swift; sourceTree = "<group>"; };
-		5D858E9C2986763D00913B32 /* TransactionItemDetailsModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionItemDetailsModels.swift; sourceTree = "<group>"; };
-		5D858E9D2986763D00913B32 /* TransactionItemDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionItemDetailsVC.swift; sourceTree = "<group>"; };
-		5D858E9E2986763D00913B32 /* TransactionItemDetailsInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionItemDetailsInteractor.swift; sourceTree = "<group>"; };
-		5D858EA52986769D00913B32 /* TransactionItemDetailsConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionItemDetailsConfigurator.swift; sourceTree = "<group>"; };
+		5D745CF62983DDFD00B85B23 /* UserPostCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserPostCell.swift; sourceTree = "<group>"; };
+		5D745CF72983DDFD00B85B23 /* UserPostCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UserPostCell.xib; sourceTree = "<group>"; };
+		5D858E992986763D00913B32 /* UserItemDetailsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserItemDetailsPresenter.swift; sourceTree = "<group>"; };
+		5D858E9A2986763D00913B32 /* UserItemDetailsWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserItemDetailsWorker.swift; sourceTree = "<group>"; };
+		5D858E9B2986763D00913B32 /* UserItemDetailsRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserItemDetailsRouter.swift; sourceTree = "<group>"; };
+		5D858E9C2986763D00913B32 /* UserItemDetailsModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserItemDetailsModels.swift; sourceTree = "<group>"; };
+		5D858E9D2986763D00913B32 /* UserItemDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserItemDetailsVC.swift; sourceTree = "<group>"; };
+		5D858E9E2986763D00913B32 /* UserItemDetailsInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserItemDetailsInteractor.swift; sourceTree = "<group>"; };
+		5D858EA52986769D00913B32 /* UserItemDetailsConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserItemDetailsConfigurator.swift; sourceTree = "<group>"; };
 		5D9A53A42982D8FF000495C8 /* DemoToRecruiters.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoToRecruiters.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D9A53A72982D8FF000495C8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5D9A53A92982D8FF000495C8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -125,12 +124,12 @@
 		5D9A53C82982D901000495C8 /* DemoToRecruitersUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoToRecruitersUITests.swift; sourceTree = "<group>"; };
 		5D9A53CA2982D901000495C8 /* DemoToRecruitersUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoToRecruitersUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		5D9A53FD29830315000495C8 /* AppSuperVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSuperVC.swift; sourceTree = "<group>"; };
-		5D9A541E29830896000495C8 /* TransactionListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionListPresenter.swift; sourceTree = "<group>"; };
-		5D9A541F29830896000495C8 /* TransactionListWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionListWorker.swift; sourceTree = "<group>"; };
-		5D9A542029830896000495C8 /* TransactionListRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionListRouter.swift; sourceTree = "<group>"; };
-		5D9A542129830896000495C8 /* TransactionListModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionListModels.swift; sourceTree = "<group>"; };
-		5D9A542229830896000495C8 /* TransactionListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionListVC.swift; sourceTree = "<group>"; };
-		5D9A542329830896000495C8 /* TransactionListInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionListInteractor.swift; sourceTree = "<group>"; };
+		5D9A541E29830896000495C8 /* UserListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListPresenter.swift; sourceTree = "<group>"; };
+		5D9A541F29830896000495C8 /* UserListWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListWorker.swift; sourceTree = "<group>"; };
+		5D9A542029830896000495C8 /* UserListRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListRouter.swift; sourceTree = "<group>"; };
+		5D9A542129830896000495C8 /* UserListModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListModels.swift; sourceTree = "<group>"; };
+		5D9A542229830896000495C8 /* UsersListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersListVC.swift; sourceTree = "<group>"; };
+		5D9A542329830896000495C8 /* UserListInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListInteractor.swift; sourceTree = "<group>"; };
 		5D9A542A29830A47000495C8 /* TransactionListViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionListViewControllerTests.swift; sourceTree = "<group>"; };
 		5D9A542B29830A47000495C8 /* TransactionListInteractorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionListInteractorTests.swift; sourceTree = "<group>"; };
 		5D9A542C29830A47000495C8 /* TransactionListWorkerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionListWorkerTests.swift; sourceTree = "<group>"; };
@@ -138,18 +137,18 @@
 		5D9A543229830E3B000495C8 /* AppTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTheme.swift; sourceTree = "<group>"; };
 		5D9A5434298310F7000495C8 /* AppColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColor.swift; sourceTree = "<group>"; };
 		5D9A543729831581000495C8 /* UIExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIExtensions.swift; sourceTree = "<group>"; };
-		5D9A543A29832411000495C8 /* TransactionListVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TransactionListVC.xib; sourceTree = "<group>"; };
+		5D9A543A29832411000495C8 /* UsersListVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UsersListVC.xib; sourceTree = "<group>"; };
 		5D9A543E29832528000495C8 /* NavBar.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NavBar.xib; sourceTree = "<group>"; };
 		5D9A543F29832528000495C8 /* NavBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavBar.swift; sourceTree = "<group>"; };
 		5D9A544229832E03000495C8 /* ImageFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageFactory.swift; sourceTree = "<group>"; };
-		5D9A544829835E10000495C8 /* PBTransactions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = PBTransactions.json; sourceTree = "<group>"; };
-		5D9A544B29836082000495C8 /* TransactionsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionsList.swift; sourceTree = "<group>"; };
-		5D9A544D298360D2000495C8 /* Transaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
-		5D9A544F29836178000495C8 /* Alias.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alias.swift; sourceTree = "<group>"; };
-		5D9A54512983619F000495C8 /* TransactionDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionDetails.swift; sourceTree = "<group>"; };
-		5D9A545529836228000495C8 /* Value.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Value.swift; sourceTree = "<group>"; };
-		5D9A545829837190000495C8 /* TransactionService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionService.swift; sourceTree = "<group>"; };
-		5D9A54622983978D000495C8 /* TransactionServicesHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionServicesHandler.swift; sourceTree = "<group>"; };
+		5D9A544829835E10000495C8 /* Users.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Users.json; sourceTree = "<group>"; };
+		5D9A544B29836082000495C8 /* AppUsersList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppUsersList.swift; sourceTree = "<group>"; };
+		5D9A544D298360D2000495C8 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		5D9A544F29836178000495C8 /* Company.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Company.swift; sourceTree = "<group>"; };
+		5D9A54512983619F000495C8 /* Address.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Address.swift; sourceTree = "<group>"; };
+		5D9A545529836228000495C8 /* Geo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Geo.swift; sourceTree = "<group>"; };
+		5D9A545829837190000495C8 /* UserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
+		5D9A54622983978D000495C8 /* UserServicesHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserServicesHandler.swift; sourceTree = "<group>"; };
 		5D9A54672983A21C000495C8 /* TransactionBusiness.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionBusiness.swift; sourceTree = "<group>"; };
 		5D9E3C222988643E00662EBE /* CircleBackground.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleBackground.swift; sourceTree = "<group>"; };
 		5D9E3C2429886B6D00662EBE /* CircleButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleButton.swift; sourceTree = "<group>"; };
@@ -164,7 +163,7 @@
 		5D9E3C3B2988C88300662EBE /* SeclectFilterCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SeclectFilterCell.xib; sourceTree = "<group>"; };
 		5DAB4B9E298654CF0081B502 /* ScenesFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScenesFactory.swift; sourceTree = "<group>"; };
 		5DAB4BA22986555D0081B502 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
-		5DAB4BAA29865D840081B502 /* TransactionDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionDetailsView.swift; sourceTree = "<group>"; };
+		5DAB4BAA29865D840081B502 /* UserDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailsView.swift; sourceTree = "<group>"; };
 		5DC5568C298945CB00A7D17B /* AlertHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertHelper.swift; sourceTree = "<group>"; };
 		5DC5568E2989466F00A7D17B /* DispatchQueue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DispatchQueue.swift; sourceTree = "<group>"; };
 		5DC55690298947B000A7D17B /* ProgressLoaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressLoaderView.swift; sourceTree = "<group>"; };
@@ -205,7 +204,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5DC0F2E42AED9B9A00EA9546 /* SwiftUIManager in Frameworks */,
 				C2231819C861D1B50A31DA62 /* Pods_DemoToRecruiters.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -229,29 +227,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		5D745CF52983DDFD00B85B23 /* TransactionCell */ = {
+		5D745CF52983DDFD00B85B23 /* UserPostCell */ = {
 			isa = PBXGroup;
 			children = (
-				5D745CF62983DDFD00B85B23 /* TransactionPostCell.swift */,
-				5D745CF72983DDFD00B85B23 /* TransactionPostCell.xib */,
+				5D745CF62983DDFD00B85B23 /* UserPostCell.swift */,
+				5D745CF72983DDFD00B85B23 /* UserPostCell.xib */,
 			);
-			path = TransactionCell;
+			path = UserPostCell;
 			sourceTree = "<group>";
 		};
-		5D858E98298675DC00913B32 /* TransactionItemDetailsVC */ = {
+		5D858E98298675DC00913B32 /* SwiftUI_UserItemDetailsVC */ = {
 			isa = PBXGroup;
 			children = (
 				5DAB4BA1298655450081B502 /* ViewModel */,
-				5DAB4BAA29865D840081B502 /* TransactionDetailsView.swift */,
-				5D858E992986763D00913B32 /* TransactionItemDetailsPresenter.swift */,
-				5D858E9A2986763D00913B32 /* TransactionItemDetailsWorker.swift */,
-				5D858E9B2986763D00913B32 /* TransactionItemDetailsRouter.swift */,
-				5D858E9C2986763D00913B32 /* TransactionItemDetailsModels.swift */,
-				5D858E9D2986763D00913B32 /* TransactionItemDetailsVC.swift */,
-				5D858E9E2986763D00913B32 /* TransactionItemDetailsInteractor.swift */,
-				5D858EA52986769D00913B32 /* TransactionItemDetailsConfigurator.swift */,
+				5DAB4BAA29865D840081B502 /* UserDetailsView.swift */,
+				5D858E992986763D00913B32 /* UserItemDetailsPresenter.swift */,
+				5D858E9A2986763D00913B32 /* UserItemDetailsWorker.swift */,
+				5D858E9B2986763D00913B32 /* UserItemDetailsRouter.swift */,
+				5D858E9C2986763D00913B32 /* UserItemDetailsModels.swift */,
+				5D858E9D2986763D00913B32 /* UserItemDetailsVC.swift */,
+				5D858E9E2986763D00913B32 /* UserItemDetailsInteractor.swift */,
+				5D858EA52986769D00913B32 /* UserItemDetailsConfigurator.swift */,
 			);
-			path = TransactionItemDetailsVC;
+			path = SwiftUI_UserItemDetailsVC;
 			sourceTree = "<group>";
 		};
 		5D9A539B2982D8FF000495C8 = {
@@ -313,7 +311,7 @@
 		5D9A54012983039B000495C8 /* SupportingFiles */ = {
 			isa = PBXGroup;
 			children = (
-				5D9A544829835E10000495C8 /* PBTransactions.json */,
+				5D9A544829835E10000495C8 /* Users.json */,
 				5D9A53A72982D8FF000495C8 /* AppDelegate.swift */,
 				5D9A53A92982D8FF000495C8 /* SceneDelegate.swift */,
 			);
@@ -333,7 +331,7 @@
 			children = (
 				5D9E3C2729886E3C00662EBE /* SwiftUi_UI */,
 				5D9E3C2629886DFA00662EBE /* SwiftUI_Buttons */,
-				5D9A543D298324DF000495C8 /* NavBar */,
+				5D9A543D298324DF000495C8 /* UIKit_NavBar */,
 				5D9A54362983154F000495C8 /* Extensions */,
 				5D9A544429835275000495C8 /* AppConfig */,
 				5D9A544529835286000495C8 /* AppTheme */,
@@ -355,28 +353,28 @@
 		5D9A540529830546000495C8 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
-				5DAB4B9E298654CF0081B502 /* ScenesFactory.swift */,
-				5D9E3C282988B26D00662EBE /* FilterVC */,
-				5D858E98298675DC00913B32 /* TransactionItemDetailsVC */,
+				5DC3CF232AF0A19600CE8A49 /* UIKitToSwiftUI */,
 				5D9A5404298303F6000495C8 /* AppSuperVC */,
-				5D9A540629830560000495C8 /* TransactionList */,
+				5D9A540629830560000495C8 /* UIKit_UserList */,
+				5D9E3C282988B26D00662EBE /* UIKit_FilterVC */,
+				5D858E98298675DC00913B32 /* SwiftUI_UserItemDetailsVC */,
 			);
 			path = Modules;
 			sourceTree = "<group>";
 		};
-		5D9A540629830560000495C8 /* TransactionList */ = {
+		5D9A540629830560000495C8 /* UIKit_UserList */ = {
 			isa = PBXGroup;
 			children = (
-				5D745CF52983DDFD00B85B23 /* TransactionCell */,
-				5D9A541E29830896000495C8 /* TransactionListPresenter.swift */,
-				5D9A541F29830896000495C8 /* TransactionListWorker.swift */,
-				5D9A542029830896000495C8 /* TransactionListRouter.swift */,
-				5D9A542129830896000495C8 /* TransactionListModels.swift */,
-				5D9A542229830896000495C8 /* TransactionListVC.swift */,
-				5D9A542329830896000495C8 /* TransactionListInteractor.swift */,
-				5D9A543A29832411000495C8 /* TransactionListVC.xib */,
+				5D745CF52983DDFD00B85B23 /* UserPostCell */,
+				5D9A541E29830896000495C8 /* UserListPresenter.swift */,
+				5D9A541F29830896000495C8 /* UserListWorker.swift */,
+				5D9A542029830896000495C8 /* UserListRouter.swift */,
+				5D9A542129830896000495C8 /* UserListModels.swift */,
+				5D9A542229830896000495C8 /* UsersListVC.swift */,
+				5D9A542329830896000495C8 /* UserListInteractor.swift */,
+				5D9A543A29832411000495C8 /* UsersListVC.xib */,
 			);
-			path = TransactionList;
+			path = UIKit_UserList;
 			sourceTree = "<group>";
 		};
 		5D9A5415298307D6000495C8 /* TransectionsListVCTest */ = {
@@ -404,13 +402,13 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
-		5D9A543D298324DF000495C8 /* NavBar */ = {
+		5D9A543D298324DF000495C8 /* UIKit_NavBar */ = {
 			isa = PBXGroup;
 			children = (
 				5D9A543F29832528000495C8 /* NavBar.swift */,
 				5D9A543E29832528000495C8 /* NavBar.xib */,
 			);
-			path = NavBar;
+			path = UIKit_NavBar;
 			sourceTree = "<group>";
 		};
 		5D9A544429835275000495C8 /* AppConfig */ = {
@@ -448,11 +446,11 @@
 		5D9A544A29836065000495C8 /* AppModels */ = {
 			isa = PBXGroup;
 			children = (
-				5D9A544B29836082000495C8 /* TransactionsList.swift */,
-				5D9A544D298360D2000495C8 /* Transaction.swift */,
-				5D9A544F29836178000495C8 /* Alias.swift */,
-				5D9A54512983619F000495C8 /* TransactionDetails.swift */,
-				5D9A545529836228000495C8 /* Value.swift */,
+				5D9A544B29836082000495C8 /* AppUsersList.swift */,
+				5D9A544D298360D2000495C8 /* User.swift */,
+				5D9A544F29836178000495C8 /* Company.swift */,
+				5D9A54512983619F000495C8 /* Address.swift */,
+				5D9A545529836228000495C8 /* Geo.swift */,
 			);
 			path = AppModels;
 			sourceTree = "<group>";
@@ -460,26 +458,26 @@
 		5D9A545729837179000495C8 /* AppServices */ = {
 			isa = PBXGroup;
 			children = (
-				5D9A54652983A1D8000495C8 /* TransactionServiceHandler */,
-				5D9A54642983A1C5000495C8 /* TransactionService */,
+				5D9A54652983A1D8000495C8 /* UserServiceHandler */,
+				5D9A54642983A1C5000495C8 /* UserService */,
 			);
 			path = AppServices;
 			sourceTree = "<group>";
 		};
-		5D9A54642983A1C5000495C8 /* TransactionService */ = {
+		5D9A54642983A1C5000495C8 /* UserService */ = {
 			isa = PBXGroup;
 			children = (
-				5D9A545829837190000495C8 /* TransactionService.swift */,
+				5D9A545829837190000495C8 /* UserService.swift */,
 			);
-			path = TransactionService;
+			path = UserService;
 			sourceTree = "<group>";
 		};
-		5D9A54652983A1D8000495C8 /* TransactionServiceHandler */ = {
+		5D9A54652983A1D8000495C8 /* UserServiceHandler */ = {
 			isa = PBXGroup;
 			children = (
-				5D9A54622983978D000495C8 /* TransactionServicesHandler.swift */,
+				5D9A54622983978D000495C8 /* UserServicesHandler.swift */,
 			);
-			path = TransactionServiceHandler;
+			path = UserServiceHandler;
 			sourceTree = "<group>";
 		};
 		5D9A54662983A1F9000495C8 /* AppBusiness */ = {
@@ -506,7 +504,7 @@
 			path = SwiftUi_UI;
 			sourceTree = "<group>";
 		};
-		5D9E3C282988B26D00662EBE /* FilterVC */ = {
+		5D9E3C282988B26D00662EBE /* UIKit_FilterVC */ = {
 			isa = PBXGroup;
 			children = (
 				5D9E3C292988B27B00662EBE /* FilterCell */,
@@ -518,7 +516,7 @@
 				5D9E3C362988C6EC00662EBE /* CategorFilterVC.swift */,
 				5D9E3C372988C6EC00662EBE /* CategorFilterVC.xib */,
 			);
-			path = FilterVC;
+			path = UIKit_FilterVC;
 			sourceTree = "<group>";
 		};
 		5D9E3C292988B27B00662EBE /* FilterCell */ = {
@@ -536,6 +534,14 @@
 				5DAB4BA22986555D0081B502 /* ViewModel.swift */,
 			);
 			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		5DC3CF232AF0A19600CE8A49 /* UIKitToSwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				5DAB4B9E298654CF0081B502 /* ScenesFactory.swift */,
+			);
+			path = UIKitToSwiftUI;
 			sourceTree = "<group>";
 		};
 		6DABDE9E977C98E13EDFC5EA /* Pods */ = {
@@ -604,7 +610,6 @@
 			);
 			name = DemoToRecruiters;
 			packageProductDependencies = (
-				5DC0F2E32AED9B9A00EA9546 /* SwiftUIManager */,
 			);
 			productName = TaskPayBackApp;
 			productReference = 5D9A53A42982D8FF000495C8 /* DemoToRecruiters.app */;
@@ -682,7 +687,6 @@
 			);
 			mainGroup = 5D9A539B2982D8FF000495C8;
 			packageReferences = (
-				5DC0F2E22AED9B9A00EA9546 /* XCRemoteSwiftPackageReference "SwiftUIManager" */,
 			);
 			productRefGroup = 5D9A53A52982D8FF000495C8 /* Products */;
 			projectDirPath = "";
@@ -700,10 +704,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5D9A544929835E10000495C8 /* PBTransactions.json in Resources */,
-				5D745CF92983DDFD00B85B23 /* TransactionPostCell.xib in Resources */,
+				5D9A544929835E10000495C8 /* Users.json in Resources */,
+				5D745CF92983DDFD00B85B23 /* UserPostCell.xib in Resources */,
 				5D9A53B42982D901000495C8 /* LaunchScreen.storyboard in Resources */,
-				5D9A543C29832411000495C8 /* TransactionListVC.xib in Resources */,
+				5D9A543C29832411000495C8 /* UsersListVC.xib in Resources */,
 				5D9E3C392988C6EC00662EBE /* CategorFilterVC.xib in Resources */,
 				5D9A544029832528000495C8 /* NavBar.xib in Resources */,
 				5D9A53B12982D901000495C8 /* Assets.xcassets in Resources */,
@@ -839,50 +843,50 @@
 				5D9A543829831581000495C8 /* UIExtensions.swift in Sources */,
 				5DAB4B9F298654CF0081B502 /* ScenesFactory.swift in Sources */,
 				5D9E3C232988643F00662EBE /* CircleBackground.swift in Sources */,
-				5D9A545629836228000495C8 /* Value.swift in Sources */,
-				5DAB4BAB29865D840081B502 /* TransactionDetailsView.swift in Sources */,
+				5D9A545629836228000495C8 /* Geo.swift in Sources */,
+				5DAB4BAB29865D840081B502 /* UserDetailsView.swift in Sources */,
 				5D9A54682983A21C000495C8 /* TransactionBusiness.swift in Sources */,
-				5D9A542829830896000495C8 /* TransactionListVC.swift in Sources */,
-				5D9A542629830896000495C8 /* TransactionListRouter.swift in Sources */,
+				5D9A542829830896000495C8 /* UsersListVC.swift in Sources */,
+				5D9A542629830896000495C8 /* UserListRouter.swift in Sources */,
 				5D9A53A82982D8FF000495C8 /* AppDelegate.swift in Sources */,
 				5D9E3C3C2988C88300662EBE /* SeclectFilterCell.swift in Sources */,
 				5D9A544129832528000495C8 /* NavBar.swift in Sources */,
-				5D858E9F2986763D00913B32 /* TransactionItemDetailsPresenter.swift in Sources */,
-				5D9A54632983978D000495C8 /* TransactionServicesHandler.swift in Sources */,
+				5D858E9F2986763D00913B32 /* UserItemDetailsPresenter.swift in Sources */,
+				5D9A54632983978D000495C8 /* UserServicesHandler.swift in Sources */,
 				5DAB4BA32986555D0081B502 /* ViewModel.swift in Sources */,
 				5DF4ABF32983E90000B58896 /* TypeAlias.swift in Sources */,
-				5D9A544C29836083000495C8 /* TransactionsList.swift in Sources */,
-				5D9A542729830896000495C8 /* TransactionListModels.swift in Sources */,
+				5D9A544C29836083000495C8 /* AppUsersList.swift in Sources */,
+				5D9A542729830896000495C8 /* UserListModels.swift in Sources */,
 				5DF4ABF52983F47D00B58896 /* TableViewExtension.swift in Sources */,
 				5D9E3C302988B2D900662EBE /* CategorFilterPresenter.swift in Sources */,
-				5D9A545929837190000495C8 /* TransactionService.swift in Sources */,
+				5D9A545929837190000495C8 /* UserService.swift in Sources */,
 				5DC5568D298945CB00A7D17B /* AlertHelper.swift in Sources */,
-				5D858EA12986763D00913B32 /* TransactionItemDetailsRouter.swift in Sources */,
+				5D858EA12986763D00913B32 /* UserItemDetailsRouter.swift in Sources */,
 				5D9A5435298310F7000495C8 /* AppColor.swift in Sources */,
-				5D858EA02986763D00913B32 /* TransactionItemDetailsWorker.swift in Sources */,
-				5D9A54522983619F000495C8 /* TransactionDetails.swift in Sources */,
+				5D858EA02986763D00913B32 /* UserItemDetailsWorker.swift in Sources */,
+				5D9A54522983619F000495C8 /* Address.swift in Sources */,
 				5D9A544329832E03000495C8 /* ImageFactory.swift in Sources */,
-				5D9A542529830896000495C8 /* TransactionListWorker.swift in Sources */,
+				5D9A542529830896000495C8 /* UserListWorker.swift in Sources */,
 				5D9A53FF29830315000495C8 /* AppSuperVC.swift in Sources */,
 				5DC55691298947B100A7D17B /* ProgressLoaderView.swift in Sources */,
-				5D9A542429830896000495C8 /* TransactionListPresenter.swift in Sources */,
+				5D9A542429830896000495C8 /* UserListPresenter.swift in Sources */,
 				5D9A543329830E3B000495C8 /* AppTheme.swift in Sources */,
-				5D9A544E298360D2000495C8 /* Transaction.swift in Sources */,
+				5D9A544E298360D2000495C8 /* User.swift in Sources */,
 				5DC5569329894AD000A7D17B /* TopMostController.swift in Sources */,
 				5D2146FC298A1AD500AC5267 /* Enviroment.swift in Sources */,
-				5D858EA42986763D00913B32 /* TransactionItemDetailsInteractor.swift in Sources */,
-				5D858EA32986763D00913B32 /* TransactionItemDetailsVC.swift in Sources */,
+				5D858EA42986763D00913B32 /* UserItemDetailsInteractor.swift in Sources */,
+				5D858EA32986763D00913B32 /* UserItemDetailsVC.swift in Sources */,
 				5DC5568F2989466F00A7D17B /* DispatchQueue.swift in Sources */,
-				5D9A542929830896000495C8 /* TransactionListInteractor.swift in Sources */,
-				5D858EA62986769D00913B32 /* TransactionItemDetailsConfigurator.swift in Sources */,
+				5D9A542929830896000495C8 /* UserListInteractor.swift in Sources */,
+				5D858EA62986769D00913B32 /* UserItemDetailsConfigurator.swift in Sources */,
 				5DF4ABF72983F4D000B58896 /* NibExtension.swift in Sources */,
 				5D9E3C382988C6EC00662EBE /* CategorFilterVC.swift in Sources */,
 				5D9E3C2529886B6D00662EBE /* CircleButton.swift in Sources */,
-				5D9A545029836178000495C8 /* Alias.swift in Sources */,
+				5D9A545029836178000495C8 /* Company.swift in Sources */,
 				5D9E3C352988B2D900662EBE /* CategorFilterInteractor.swift in Sources */,
 				5D9A53AA2982D8FF000495C8 /* SceneDelegate.swift in Sources */,
-				5D745CF82983DDFD00B85B23 /* TransactionPostCell.swift in Sources */,
-				5D858EA22986763D00913B32 /* TransactionItemDetailsModels.swift in Sources */,
+				5D745CF82983DDFD00B85B23 /* UserPostCell.swift in Sources */,
+				5D858EA22986763D00913B32 /* UserItemDetailsModels.swift in Sources */,
 				5D9E3C322988B2D900662EBE /* CategorFilterRouter.swift in Sources */,
 				5D9E3C312988B2D900662EBE /* CategorFilterWorker.swift in Sources */,
 			);
@@ -2301,25 +2305,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		5DC0F2E22AED9B9A00EA9546 /* XCRemoteSwiftPackageReference "SwiftUIManager" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/MKQasim/SwiftUIManager.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 1.0.0;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		5DC0F2E32AED9B9A00EA9546 /* SwiftUIManager */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 5DC0F2E22AED9B9A00EA9546 /* XCRemoteSwiftPackageReference "SwiftUIManager" */;
-			productName = SwiftUIManager;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 5D9A539C2982D8FF000495C8 /* Project object */;
 }

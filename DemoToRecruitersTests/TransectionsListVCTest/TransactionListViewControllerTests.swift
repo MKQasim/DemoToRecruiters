@@ -1,5 +1,5 @@
 //
-//  TransactionListViewControllerTests.swift
+//  UserListViewControllerTests.swift
 //  DemoToRecruiters
 //
 //  Created by KamsQue on 26/01/2023.
@@ -8,13 +8,13 @@
 @testable import DemoToRecruiters
 import XCTest
 
-class TransactionListViewControllerTests: XCTestCase
+class UserListViewControllerTests: XCTestCase
 {
   // MARK: Subject under test
   
-  var sut: TransactionListVC!
+  var sut: UserListVC!
   var window: UIWindow!
-  var transactionListBusinessLogicSpy = TransactionListBusinessLogicSpy()
+  var UserListBusinessLogicSpy = UserListBusinessLogicSpy()
   
   // MARK: Test lifecycle
   
@@ -22,9 +22,9 @@ class TransactionListViewControllerTests: XCTestCase
   {
     super.setUp()
     window = UIWindow()
-    window.rootViewController = UINavigationController(rootViewController: TransactionListVC())
+    window.rootViewController = UINavigationController(rootViewController: UserListVC())
     window.makeKeyAndVisible()
-    setupTransactionListViewController()
+    setupUserListViewController()
   }
   
   override func tearDown()
@@ -35,9 +35,9 @@ class TransactionListViewControllerTests: XCTestCase
   
   // MARK: Test setup
   
-  func setupTransactionListViewController()
+  func setupUserListViewController()
   {
-    sut = TransactionListVC()
+    sut = UserListVC()
   }
   
   func loadView()
@@ -48,16 +48,16 @@ class TransactionListViewControllerTests: XCTestCase
   
   // MARK: Test BusinessLogic
   
-  class TransactionListBusinessLogicSpy: TransactionListBusinessLogic
+  class UserListBusinessLogicSpy: UserListBusinessLogic
   {
       // MARK: Method call expectations
     
-    var fetchTransactionsCalled = false
+    var fetchUsersCalled = false
     var checkUrlSession = false
       // MARK: Spied methods
     
-    func fetchTransactions(request: DemoToRecruiters.TransactionList.Transactions.Request) {
-      fetchTransactionsCalled = true
+    func fetchUsers(request: DemoToRecruiters.UserList.Users.Request) {
+      fetchUsersCalled = true
     }
     
     func checkApiUrlSerssion() {
@@ -82,40 +82,40 @@ class TransactionListViewControllerTests: XCTestCase
   
     // MARK: - Tests
   
-  func testShouldFetchTransactionsWhenViewWillAppear()
+  func testShouldFetchUsersWhenViewWillAppear()
   {
       // Given
-    sut.interactor = transactionListBusinessLogicSpy
+    sut.interactor = UserListBusinessLogicSpy
     loadView()
     
       // When
     sut.viewWillAppear(true)
     
       // Then
-    XCTAssert(transactionListBusinessLogicSpy.fetchTransactionsCalled, "Should fetch Transactions right after the view appears")
+    XCTAssert(UserListBusinessLogicSpy.fetchUsersCalled, "Should fetch Users right after the view appears")
   }
   
-  func testShouldDisplayFetchedTransactions()
+  func testShouldDisplayFetchedUsers()
   {
       // Given
     let tableViewSpy = TableViewSpy()
     sut.tableView = tableViewSpy
       // When
-    let transactionsList = AppTransactionsList(User: [User(partnerDisplayName: "qasim",category: 9000)])
-    let viewModel = TransactionList.Transactions.ViewModel(transactionsList: transactionsList)
-    sut.displayFetchedTransactions(viewModel: viewModel)
+    let UsersList = AppUsersList(User: [User(partnerDisplayName: "qasim",category: 9000)])
+    let viewModel = UserList.Users.ViewModel(UsersList: UsersList)
+    sut.displayFetchedUsers(viewModel: viewModel)
     
       // Then
-    XCTAssertTrue(sut.transactionList!.first!.partnerDisplayName == "qasim")
+    XCTAssertTrue(sut.UserList!.first!.partnerDisplayName == "qasim")
   }
   
   func testcheckApiUrlSerssionIfAnySessionIsThereToInvalidate()
   {
-    sut.interactor = transactionListBusinessLogicSpy
+    sut.interactor = UserListBusinessLogicSpy
       // When
-    transactionListBusinessLogicSpy.checkApiUrlSerssion()
+    UserListBusinessLogicSpy.checkApiUrlSerssion()
       // Then
-    XCTAssertTrue(transactionListBusinessLogicSpy.checkUrlSession, "checkApiUrlSerssion() should check Api UrlSerssion If AnySession Is There To Invalidate before Moving next Screen")
+    XCTAssertTrue(UserListBusinessLogicSpy.checkUrlSession, "checkApiUrlSerssion() should check Api UrlSerssion If AnySession Is There To Invalidate before Moving next Screen")
   }
   
   func testNumberOfSectionsInTableViewShouldAlwaysBeOne()
@@ -131,21 +131,21 @@ class TransactionListViewControllerTests: XCTestCase
     XCTAssertEqual(numberOfSections, 1, "The number of table view sections should always be 1")
   }
   
-  func testNumberOfRowsInAnySectionShouldEqaulNumberOfTransactionsToDisplay()
+  func testNumberOfRowsInAnySectionShouldEqaulNumberOfUsersToDisplay()
   {
       // Given
     let tableView = sut.tableView
-    let transactionList = AppTransactionsList(User: [User(partnerDisplayName: "qasim",category: 9000)])
-    let viewModel = TransactionList.Transactions.ViewModel(transactionsList: transactionList)
+    let UserList = AppUsersList(User: [User(partnerDisplayName: "qasim",category: 9000)])
+    let viewModel = UserList.Users.ViewModel(UsersList: UserList)
 
     
-    sut.transactionList = transactionList.User
+    sut.UserList = UserList.User
     
       // When
     let numberOfRows = sut.tableView(tableView ?? UITableView(), numberOfRowsInSection: 0)
     
       // Then
-    XCTAssertEqual(numberOfRows, transactionList.User.count, "The number of table view rows should equal the number of Transactions to display")
+    XCTAssertEqual(numberOfRows, UserList.User.count, "The number of table view rows should equal the number of Users to display")
   }
 
 }

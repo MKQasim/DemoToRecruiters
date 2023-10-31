@@ -41,7 +41,7 @@ public class LoadingOverlay{
   func setGradientBackground() {
     self.overlayView.layer.cornerRadius = 25
     self.overlayView.layer.masksToBounds = true
-    self.overlayView.layerGradient(startPoint: .centerRight, endPoint: .centerLeft, colorArray: [UIColor(AppColor.TransactionDetailsScreenColors.TransactionDetailsBackGroundView().backgroundGradiantColor.first!).cgColor, UIColor(AppColor.TransactionDetailsScreenColors.TransactionDetailsBackGroundView().backgroundGradiantColor.last!).cgColor], type: .axial)
+    self.overlayView.layerGradient(startPoint: .centerRight, endPoint: .centerLeft, colorArray: [UIColor(AppColor.UserDetailsScreenColors.UserDetailsBackGroundView().backgroundGradiantColor.first!).cgColor, UIColor(AppColor.UserDetailsScreenColors.UserDetailsBackGroundView().backgroundGradiantColor.last!).cgColor], type: .axial)
   }
   
   public func hideOverlayView() {

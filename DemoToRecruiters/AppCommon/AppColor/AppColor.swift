@@ -10,8 +10,8 @@ import UIKit
 import SwiftUI
 
 class AppColor {
-    // MARK: - TransactionListScreen UI
-  struct TransactionListScreen
+    // MARK: - UserListScreen UI
+  struct UserListScreen
   {
     struct NavBar
     {
@@ -101,7 +101,7 @@ class AppColor {
       }
     }
     
-    struct TransactionCell
+    struct UserCell
     {
       var textTitleColor:UIColor{
         get
@@ -127,7 +127,7 @@ class AppColor {
       }
     }
     
-    struct TransactionListBackGroundView
+    struct UserListBackGroundView
     {
       var backGroundColor:Color{
         get
@@ -146,9 +146,9 @@ class AppColor {
     }
   }
   
-  struct TransactionDetailsScreenColors {
+  struct UserDetailsScreenColors {
     
-    struct TransactionDetailsBackGroundView
+    struct UserDetailsBackGroundView
     {
       var firstCircleColor:Color{
         get

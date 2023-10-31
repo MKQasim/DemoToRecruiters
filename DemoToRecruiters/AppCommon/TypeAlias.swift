@@ -8,6 +8,6 @@
 import Foundation
 
 typealias VoidCallback = () -> Void
-typealias TransactionCallback = (User) -> Void
+typealias UserCallback = (User) -> Void
 typealias DismissCallbackWithString = (String,[User]?,Bool) -> Void
 

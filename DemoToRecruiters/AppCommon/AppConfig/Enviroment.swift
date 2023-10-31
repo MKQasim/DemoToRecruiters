@@ -19,8 +19,8 @@ public enum Environment
   case Prod
   
 //Local   https://run.mocky.io/v3/488740b2-66ed-464b-bce9-f8c70185054b
-//Prod    https://api.payback.com/transactions
-//QA      https://api-test.payback.com/transactions
+//Prod    https://api.payback.com/Users
+//QA      https://api-test.payback.com/Users
 //https://jsonplaceholder.typicode.com/users
   func baseURL() -> String
   {
@@ -69,9 +69,9 @@ public enum Environment
     case .Local, .Dev, .Stag  :
       return "users"
     case  .Qa :
-      return "transactions"
+      return "Users"
     case .Prod  :
-      return "transactions"
+      return "Users"
     }
   }
 }
@@ -95,7 +95,7 @@ public struct Path
   {
     
   }
-  public struct Transactions
+  public struct Users
   {
     var enviroment : Environment =  Environment.Local
     public init()
@@ -115,12 +115,12 @@ public struct Path
       baseUrls = enviroment.baseURL()
       print(baseUrls)
     }
-    public var getTransactionsList : (String) -> String =
+    public var getUsersList : (String) -> String =
     {
       api_Key  in
       return "\(baseUrls)"
     }
-    public var getTransactionDetails : (String) -> String =
+    public var getUserDetails : (String) -> String =
     {
       api_Key  in
       return "\(baseUrls)/\(api_Key)"

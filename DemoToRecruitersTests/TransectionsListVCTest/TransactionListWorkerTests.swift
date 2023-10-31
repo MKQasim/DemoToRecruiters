@@ -1,5 +1,5 @@
 //
-//  TransactionListWorkerTests.swift
+//  UserListWorkerTests.swift
 //  DemoToRecruiters
 //
 //  Created by KamsQue on 26/01/2023.
@@ -8,18 +8,18 @@
 @testable import DemoToRecruiters
 import XCTest
 
-class TransactionListWorkerTests: XCTestCase
+class UserListWorkerTests: XCTestCase
 {
   // MARK: Subject under test
   
-  var sut: TransactionListWorker!
+  var sut: UserListWorker!
   
   // MARK: Test lifecycle
   
   override func setUp()
   {
     super.setUp()
-    setupTransactionListWorker()
+    setupUserListWorker()
   }
   
   override func tearDown()
@@ -29,9 +29,9 @@ class TransactionListWorkerTests: XCTestCase
   
   // MARK: Test setup
   
-  func setupTransactionListWorker()
+  func setupUserListWorker()
   {
-    sut = TransactionListWorker()
+    sut = UserListWorker()
   }
   
   // MARK: Test doubles

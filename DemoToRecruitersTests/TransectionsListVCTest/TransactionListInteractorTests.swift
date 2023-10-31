@@ -1,5 +1,5 @@
 //
-//  TransactionListInteractorTests.swift
+//  UserListInteractorTests.swift
 //  DemoToRecruiters
 //
 //  Created by KamsQue on 26/01/2023.
@@ -8,23 +8,23 @@
 @testable import DemoToRecruiters
 import XCTest
 
-class TransactionListInteractorTests: XCTestCase
+class UserListInteractorTests: XCTestCase
 {
   // MARK: Subject under test
   
-  var sut: TransactionListInteractor!
+  var sut: UserListInteractor!
 
-  let presentationSpy = TransactionListPresentationLogicSpy()
-  let transactionBusiness = TransactionBusiness()
-  let worker = TransactionListWorker()
-  let transactionBussinessLogicSpy = TransactionListBusinessLogicSpy()
+  let presentationSpy = UserListPresentationLogicSpy()
+  let UserBusiness = UserBusiness()
+  let worker = UserListWorker()
+  let UserBussinessLogicSpy = UserListBusinessLogicSpy()
   
   // MARK: Test lifecycle
   
   override func setUp()
   {
     super.setUp()
-    setupTransactionListInteractor()
+    setupUserListInteractor()
   }
   
   override func tearDown()
@@ -34,27 +34,27 @@ class TransactionListInteractorTests: XCTestCase
   
   // MARK: Test setup
   
-  func setupTransactionListInteractor()
+  func setupUserListInteractor()
   {
-    sut = TransactionListInteractor(transactionBusiness: transactionBusiness)
+    sut = UserListInteractor(UserBusiness: UserBusiness)
   }
   
   
     // MARK: Test doubles
   
-  class TransactionListPresentationLogicSpy: TransactionListPresentationLogic {
+  class UserListPresentationLogicSpy: UserListPresentationLogic {
     
-    var transactions : [User]?
-    var presentFetchedtransactionsCalled = false
+    var Users : [User]?
+    var presentFetchedUsersCalled = false
     var urlSessionisValid = false
     var urlSessionInvalidated = false
     var presenApiNetworkError = false
     var presentNoIterneConnection = false
     
-    func presentFetchedTransactions(response: DemoToRecruiters.TransactionList.Transactions.Response) {
-      presentFetchedtransactionsCalled = true
-      transactions = response.transactionsList?.User
-      XCTAssertNotNil(response.transactionsList)
+    func presentFetchedUsers(response: DemoToRecruiters.UserList.Users.Response) {
+      presentFetchedUsersCalled = true
+      Users = response.UsersList?.User
+      XCTAssertNotNil(response.UsersList)
     }
     
     func presentNoIterneConnection(message: String?) {
@@ -75,14 +75,14 @@ class TransactionListInteractorTests: XCTestCase
   }
   
   
-  class TransactionListBusinessLogicSpy: TransactionListBusinessLogic {
+  class UserListBusinessLogicSpy: UserListBusinessLogic {
     
-    var transactions : [User]?
-    var fetchedtransactionsCalled = false
+    var Users : [User]?
+    var fetchedUsersCalled = false
     var checkUrlSessionisCalled = false
     
-    func fetchTransactions(request: DemoToRecruiters.TransactionList.Transactions.Request) {
-     fetchedtransactionsCalled = true
+    func fetchUsers(request: DemoToRecruiters.UserList.Users.Request) {
+     fetchedUsersCalled = true
     }
   
     func checkApiUrlSerssion() {
@@ -92,25 +92,25 @@ class TransactionListInteractorTests: XCTestCase
   }
     // MARK: Tests
   
-  func testFetchTransactionsShouldAskToFetchTransactions()
+  func testFetchUsersShouldAskToFetchUsers()
   {
       // Given
-    let request = TransactionList.Transactions.Request()
+    let request = UserList.Users.Request()
       // When
-    transactionBussinessLogicSpy.fetchTransactions(request: request)
+    UserBussinessLogicSpy.fetchUsers(request: request)
     
       // Then
-    XCTAssertTrue(transactionBussinessLogicSpy.fetchedtransactionsCalled, "FetchTransactions() should ask to fetch Transactions List")
+    XCTAssertTrue(UserBussinessLogicSpy.fetchedUsersCalled, "FetchUsers() should ask to fetch Users List")
   }
   
   func testcheckApiUrlSerssionIfAnySessionIsThereToInvalidate()
   {
     
       // When
-    transactionBussinessLogicSpy.checkApiUrlSerssion()
+    UserBussinessLogicSpy.checkApiUrlSerssion()
     
       // Then
-    XCTAssertTrue(transactionBussinessLogicSpy.checkUrlSessionisCalled, "checkApiUrlSerssion() should check Api UrlSerssion If AnySession Is There To Invalidate before Moving next Screen")
+    XCTAssertTrue(UserBussinessLogicSpy.checkUrlSessionisCalled, "checkApiUrlSerssion() should check Api UrlSerssion If AnySession Is There To Invalidate before Moving next Screen")
   }
   
   
@@ -118,14 +118,14 @@ class TransactionListInteractorTests: XCTestCase
   {
       // Given
     sut.presenter = presentationSpy
-    let transactionsList = AppTransactionsList(User: [User(partnerDisplayName: "qasim",category: 9000)])
-    let response = TransactionList.Transactions.Response(transactionsList: transactionsList)
+    let UsersList = AppUsersList(User: [User(partnerDisplayName: "qasim",category: 9000)])
+    let response = UserList.Users.Response(UsersList: UsersList)
       // When
-    sut.presenter?.presentFetchedTransactions(response: response)
+    sut.presenter?.presentFetchedUsers(response: response)
       // Then
-    XCTAssertEqual(presentationSpy.transactions?.count == 1, true)
-    XCTAssertTrue(presentationSpy.transactions?.first?.partnerDisplayName == "qasim")
-    XCTAssertTrue(presentationSpy.presentFetchedtransactionsCalled, "present Transactions should ask the presenter to format the result")
+    XCTAssertEqual(presentationSpy.Users?.count == 1, true)
+    XCTAssertTrue(presentationSpy.Users?.first?.partnerDisplayName == "qasim")
+    XCTAssertTrue(presentationSpy.presentFetchedUsersCalled, "present Users should ask the presenter to format the result")
   }
   
   func testValidateSuccessUrlSessionIfStartedBeforeMovingNextScreenDuringIfPaginationImplimented()
@@ -136,7 +136,7 @@ class TransactionListInteractorTests: XCTestCase
       // When
     sut.presenter?.checkApiUrlSerssion(isCanceled: isInvalidate)
       // Then
-    XCTAssertTrue(presentationSpy.urlSessionInvalidated, "Presenting fetched Transactions should ask view controller to check url Session Validation Success")
+    XCTAssertTrue(presentationSpy.urlSessionInvalidated, "Presenting fetched Users should ask view controller to check url Session Validation Success")
   }
   
   func testValidateErrorUrlSessionIfStartedBeforeMovingNextScreenDuringIfPaginationImplimented()
@@ -147,6 +147,6 @@ class TransactionListInteractorTests: XCTestCase
       // When
     sut.presenter?.checkApiUrlSerssion(isCanceled: isInvalidate)
       // Then
-    XCTAssertFalse(presentationSpy.urlSessionisValid, "Presenting fetched Transactions should ask view controller to check urlSession Validation Success")
+    XCTAssertFalse(presentationSpy.urlSessionisValid, "Presenting fetched Users should ask view controller to check urlSession Validation Success")
   }
 }
