@@ -6,9 +6,7 @@ target 'DemoToRecruiters' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
   
-#  pod 'KQTaskNetworkManager'
-
-pod 'KQTaskNetworkManager', :path => '/Users/pse/Documents/Documents - Muhammad MacBook Pro/KamQasim/Development/Interview_Preperation/KQTaskNetworkManager/'
+  pod 'KQTaskNetworkManager'
 
   target 'DemoToRecruitersTests' do
     inherit! :search_paths
