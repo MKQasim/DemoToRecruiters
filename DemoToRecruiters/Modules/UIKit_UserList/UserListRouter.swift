@@ -29,7 +29,7 @@ class UserListRouter: NSObject, UserListRoutingLogic, UserListDataPassing
   
   func routeToDetails()
   {
-    guard let  item = dataStore?.item else { return  }
+      guard let  item = dataStore?.selectedUser else { return  }
     guard let viewController = self.viewController , let nav = viewController.navigationController else {return}
     if let destinationVC = DefaultScenesFactory().makeUserDetailsVC(viewModel: DefaultUserDetailsViewModel(UserDetailsModel:item), navigationController: nav) as? UserItemDetailsVC {
       guard let destinationRouter = destinationVC.router else {return}
@@ -74,12 +74,12 @@ class UserListRouter: NSObject, UserListRoutingLogic, UserListDataPassing
     // MARK: Passing data
   func passDataToUserDetails(source: UserListDataStore, destination: inout UserItemDetailsDataStore)
   {
-    destination.item = source.item
+      destination.item = source.selectedUser
   }
     // MARK: Passing data
   func passDataToCategoryFilter(source: UserListDataStore, destination: inout CategorFilterDataStore)
   {
-    destination.itemList = source.itemList
+      destination.itemList = source.userList
   }
 }
 

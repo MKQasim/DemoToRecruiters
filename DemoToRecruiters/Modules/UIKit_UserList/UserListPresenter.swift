@@ -6,44 +6,33 @@
 //
 
 import UIKit
+import Foundation
+import Combine
 
-protocol UserListPresentationLogic
-{
-  func presentFetchedUsers(response: UserList.Users.Response)
-  func checkApiUrlSerssion(isCanceled: Bool)
-  func presenApiNetworkError(message: String?)
-  func presentNoIterneConnection(message: String?)
+protocol UserListPresentationLogic {
+    func presentFetchedUsers(response: UserList.Users.Response)
 }
 
-class UserListPresenter: UserListPresentationLogic
-{
-  
-  let router = UserListRouter()
-  weak var viewController: UserListDisplayLogic?
-  
-  // MARK: Do something
-  
-  func presentFetchedUsers(response: UserList.Users.Response)
-  {
-    guard let usersList = response.UsersList else { return  }
-      let viewModel = UserList.Users.ViewModel(usersList: usersList)
-      viewController?.displayFetchedUsers(viewModel: viewModel)
-  }
-  
-  func presentNoIterneConnection(message: String?) {
-    if let message = message?.components(separatedBy: "NetworkError(message: \"").last!.components(separatedBy: "\")").first {
-      viewController?.presenApiNetworkError(message: message)
-    }else{
-      viewController?.presenApiNetworkError(message: "No Internet Connection")
+class UserListPresenter: UserListPresentationLogic {
+    weak var viewController: UserListDisplayLogic?
+
+    private var cancellables = Set<AnyCancellable>()
+
+    func presentFetchedUsers(response: UserList.Users.Response) {
+        guard let usersList = response.usersList else { return }
+        let viewModel = UserList.Users.ViewModel(usersList: usersList)
+        viewController?.displayFetchedUsers(viewModel: viewModel)
     }
-  }
-  
-  func checkApiUrlSerssion(isCanceled:Bool){
-    viewController?.checkApiUrlSerssion(isCanceled: isCanceled)
-  }
-  
-  func presenApiNetworkError(message: String?) {
-    viewController?.presenApiNetworkError(message: message)
-  }
-  
+
+    func bindToViewModelPublisher(_ viewModelPublisher: AnyPublisher<UserList.Users.ViewModel, Never>) {
+        viewModelPublisher
+            .receive(on: DispatchQueue.main)
+            .sink(receiveValue: { [weak self] viewModel in
+                self?.viewController?.displayFetchedUsers(viewModel: viewModel)
+            })
+            .store(in: &cancellables)
+    }
 }
+
+
+

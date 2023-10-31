@@ -18,7 +18,7 @@ enum UserList
     }
     struct Response
     {
-      let UsersList: AppUsersList?
+      let usersList: AppUsersList?
     }
     struct ViewModel
     {

@@ -58,6 +58,6 @@ class CategorFilterRouter: NSObject, CategorFilterRoutingLogic, CategorFilterDat
   
   func passDataToUserList(source: CategorFilterDataStore, destination: inout UserListDataStore)
   {
-    destination.filteredList = source.itemList
+      destination.filteredUserList = source.itemList
   }
 }

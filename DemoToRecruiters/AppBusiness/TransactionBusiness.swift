@@ -6,30 +6,36 @@
 //
 
 import Foundation
+import Combine
+
 
 protocol UserBusinessProtocol {
-  func fetchUsers(parameters: [String : Any],completion:@escaping((_ UsersList:AppUsersList?,_ error:Error?) -> ()))
-  func userStopApiCallStart(completion:@escaping((_ isCanceled : Bool) -> ()))
+    func fetchUsers(parameters: [String: Any]) -> AnyPublisher<AppUsersList, Error>
 }
 
 class UserBusiness: UserBusinessProtocol {
-    // MARK: - User Services
-  private lazy var userServices = UserServices()
-    // MARK: - User Api Call
-  
-  func fetchUsers(parameters: [String : Any],completion:@escaping((_ UsersList:AppUsersList?,_ error:Error?) -> ())){
-    userServices.fetchUsers(parameters:parameters) { UsersList, error in
-      completion(UsersList,error)
-    }
-  }
-  
-  func userStopApiCallStart(completion:@escaping((_ isCanceled : Bool) -> ())){
+    private let userServices: UserServices
+    private var cancellables: Set<AnyCancellable> = []
     
-    if userServices.urlSession != nil{
-      userServices.urlSession?.invalidateAndCancel()
-      completion(true)
-    }else{
-      completion(false)
+    init(userServices: UserServices = UserServices()) {
+        self.userServices = userServices
     }
-  }
+
+    func fetchUsers(parameters: [String: Any]) -> AnyPublisher<AppUsersList, Error> {
+        return Future { promise in
+            self.userServices.fetchUsers(parameters: parameters)
+                .sink(
+                    receiveCompletion: { completion in
+                        if case let .failure(error) = completion {
+                            promise(.failure(error))
+                        }
+                    },
+                    receiveValue: { appUsersList in
+                        promise(.success(appUsersList))
+                    }
+                )
+                .store(in: &self.cancellables)
+        }
+        .eraseToAnyPublisher()
+    }
 }
