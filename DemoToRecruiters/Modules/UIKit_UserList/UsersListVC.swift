@@ -131,27 +131,12 @@ class UsersListVC: AppSuperVC, UserListDisplayLogic, NibInstantiatable {
         updateRouterDataStore(with: viewModel.usersList?.users)
     }
 
-    func checkApiUrlSerssion(isCanceled: Bool) {
-        if isCanceled {
-            // Handle the case when the API call was canceled
-            print("API call was canceled")
-            // Add your code to handle cancellation here
-        } else {
-            // Handle the case when the API call was not canceled
-            print("API call was not canceled")
-            // Add your code to handle the non-cancellation case here
-        }
-    }
-
     func presenApiNetworkError(message: String?) {
         if let errorMessage = message {
-            // Handle the API network error with the provided message
             print("API network error: \(errorMessage)")
-            // Add your code to handle the error here
-        } else {
-            // Handle the API network error without a specific message
-            print("API network error occurred without a specific message")
-            // Add your code to handle the error here
+            AlertHelper.showAlert("User List",message: errorMessage, style: .alert, actionTitles: ["Thanks"],autoDismiss : true ,  dismissDuration: 5 ,showCancel: false  ) { action in
+            
+            }
         }
     }
     
