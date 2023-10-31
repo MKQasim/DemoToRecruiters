@@ -286,13 +286,11 @@ extension UsersListVC {
 }
 
 extension UsersListVC {
-    func setGradientBackground() {
-        let gradientLayer = CAGradientLayer()
-        gradientLayer.frame = view.bounds
-        gradientLayer.colors = [UIColor.red.cgColor, UIColor.blue.cgColor] // Customize the gradient colors
-        gradientLayer.startPoint = CGPoint(x: 0.5, y: 0.0)
-        gradientLayer.endPoint = CGPoint(x: 0.5, y: 1.0)
-        view.layer.insertSublayer(gradientLayer, at: 0)
+    func setGradientBackground()
+    {
+      self.view.layer.cornerRadius = 25
+      self.view.layer.masksToBounds = true
+        self.view.layerGradient(startPoint: .centerRight, endPoint: .centerLeft, colorArray: [UIColor(AppColor.UserDetailsScreenColors.UserDetailsBackGroundView().backgroundGradiantColor.first!).cgColor, UIColor(AppColor.UserDetailsScreenColors.UserDetailsBackGroundView().backgroundGradiantColor.last!).cgColor], type: .axial)
     }
     
 }
